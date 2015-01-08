@@ -1,0 +1,96 @@
+
+skull.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/skull_body
+  rotate: true
+  xy: 190, 36
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+images/skull_head1
+  rotate: false
+  xy: 2, 36
+  size: 92, 90
+  orig: 92, 90
+  offset: 0, 0
+  index: -1
+images/skull_head2
+  rotate: false
+  xy: 96, 36
+  size: 92, 90
+  orig: 92, 90
+  offset: 0, 0
+  index: -1
+images/skull_l_calf
+  rotate: true
+  xy: 122, 17
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+images/skull_l_forearm
+  rotate: true
+  xy: 155, 16
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+images/skull_l_thigh
+  rotate: false
+  xy: 240, 42
+  size: 14, 29
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+images/skull_l_upperarm
+  rotate: true
+  xy: 59, 4
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1
+images/skull_r_calf
+  rotate: false
+  xy: 97, 8
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+images/skull_r_forearm
+  rotate: true
+  xy: 187, 2
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+images/skull_r_hand
+  rotate: true
+  xy: 190, 73
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1
+images/skull_r_thigh
+  rotate: true
+  xy: 187, 19
+  size: 15, 27
+  orig: 15, 27
+  offset: 0, 0
+  index: -1
+images/skull_r_upperarm
+  rotate: true
+  xy: 207, 2
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+images/skull_shadow
+  rotate: false
+  xy: 2, 17
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

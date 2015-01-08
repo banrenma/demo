@@ -1,0 +1,50 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "shield_slam_01", "bone": "root", "attachment": "shield_slam_13" }
+],
+"skins": {
+	"default": {
+		"shield_slam_01": {
+			"shield_slam_01": { "width": 300, "height": 200 },
+			"shield_slam_02": { "width": 300, "height": 200 },
+			"shield_slam_03": { "width": 300, "height": 200 },
+			"shield_slam_04": { "width": 300, "height": 200 },
+			"shield_slam_05": { "width": 300, "height": 200 },
+			"shield_slam_06": { "width": 300, "height": 200 },
+			"shield_slam_07": { "width": 300, "height": 200 },
+			"shield_slam_08": { "width": 300, "height": 200 },
+			"shield_slam_09": { "width": 300, "height": 200 },
+			"shield_slam_10": { "width": 300, "height": 200 },
+			"shield_slam_11": { "width": 300, "height": 200 },
+			"shield_slam_12": { "width": 300, "height": 200 },
+			"shield_slam_13": { "width": 300, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"shield_slam_01": {
+				"attachment": [
+					{ "time": 0, "name": "shield_slam_01" },
+					{ "time": 0.0333, "name": "shield_slam_02" },
+					{ "time": 0.0666, "name": "shield_slam_03" },
+					{ "time": 0.1, "name": "shield_slam_04" },
+					{ "time": 0.1333, "name": "shield_slam_05" },
+					{ "time": 0.1666, "name": "shield_slam_06" },
+					{ "time": 0.2, "name": "shield_slam_07" },
+					{ "time": 0.2333, "name": "shield_slam_08" },
+					{ "time": 0.2666, "name": "shield_slam_09" },
+					{ "time": 0.3, "name": "shield_slam_10" },
+					{ "time": 0.3333, "name": "shield_slam_11" },
+					{ "time": 0.3666, "name": "shield_slam_12" },
+					{ "time": 0.4, "name": "shield_slam_13" }
+				]
+			}
+		}
+	}
+}
+}

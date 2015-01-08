@@ -1,0 +1,46 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "trample_1_2", "bone": "root", "attachment": "trample_1_2" }
+],
+"skins": {
+	"default": {
+		"trample_1_2": {
+			"trample_1_2": { "scaleX": 2, "scaleY": 2, "width": 325, "height": 100 },
+			"trample_1_4": { "scaleX": 2, "scaleY": 2, "width": 325, "height": 100 },
+			"trample_1_6": { "scaleX": 2, "scaleY": 2, "width": 325, "height": 100 },
+			"trample_1_8": { "scaleX": 2, "scaleY": 2, "width": 325, "height": 100 },
+			"trample_1_10": { "scaleX": 2, "scaleY": 2, "width": 325, "height": 100 },
+			"trample_1_12": { "scaleX": 2, "scaleY": 2, "width": 325, "height": 100 },
+			"trample_1_14": { "scaleX": 2, "scaleY": 2, "width": 325, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"trample_1_2": {
+				"attachment": [
+					{ "time": 0, "name": "trample_1_2" },
+					{ "time": 0.0666, "name": "trample_1_2" },
+					{ "time": 0.1333, "name": "trample_1_4" },
+					{ "time": 0.2, "name": "trample_1_6" },
+					{ "time": 0.2666, "name": "trample_1_8" },
+					{ "time": 0.3333, "name": "trample_1_10" },
+					{ "time": 0.4, "name": "trample_1_12" },
+					{ "time": 0.4666, "name": "trample_1_14" },
+					{ "time": 0.6666, "name": "trample_1_14" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffffff" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

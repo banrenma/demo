@@ -1,0 +1,54 @@
+
+toxicant_5.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+toxicant_5_1
+  rotate: false
+  xy: 2, 20
+  size: 166, 44
+  orig: 405, 200
+  offset: 119, 43
+  index: -1
+toxicant_5_2
+  rotate: false
+  xy: 792, 2
+  size: 191, 165
+  orig: 405, 200
+  offset: 103, 22
+  index: -1
+toxicant_5_3
+  rotate: true
+  xy: 792, 169
+  size: 271, 165
+  orig: 405, 200
+  offset: 67, 22
+  index: -1
+toxicant_5_4
+  rotate: false
+  xy: 2, 66
+  size: 393, 185
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_5_5
+  rotate: false
+  xy: 397, 255
+  size: 393, 185
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_5_6
+  rotate: false
+  xy: 2, 253
+  size: 393, 187
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_5_7
+  rotate: false
+  xy: 397, 68
+  size: 393, 185
+  orig: 405, 200
+  offset: 7, 8
+  index: -1

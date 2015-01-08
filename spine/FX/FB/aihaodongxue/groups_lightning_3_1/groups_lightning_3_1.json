@@ -1,0 +1,52 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "groups_lightning_3_1_5", "bone": "root", "attachment": "groups_lightning_3_1_1" }
+],
+"skins": {
+	"default": {
+		"groups_lightning_3_1_5": {
+			"groups_lightning_3_1_1": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_2": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_3": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_4": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_5": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_6": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_7": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_8": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_9": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_10": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_11": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_12": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_13": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 },
+			"groups_lightning_3_1_14": { "y": 281.43, "scaleX": 2, "scaleY": 2, "width": 180, "height": 315 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"groups_lightning_3_1_5": {
+				"attachment": [
+					{ "time": 0, "name": "groups_lightning_3_1_1" },
+					{ "time": 0.0666, "name": "groups_lightning_3_1_2" },
+					{ "time": 0.1333, "name": "groups_lightning_3_1_3" },
+					{ "time": 0.2, "name": "groups_lightning_3_1_4" },
+					{ "time": 0.2666, "name": "groups_lightning_3_1_5" },
+					{ "time": 0.3333, "name": "groups_lightning_3_1_6" },
+					{ "time": 0.4, "name": "groups_lightning_3_1_7" },
+					{ "time": 0.4666, "name": "groups_lightning_3_1_8" },
+					{ "time": 0.5333, "name": "groups_lightning_3_1_9" },
+					{ "time": 0.6, "name": "groups_lightning_3_1_10" },
+					{ "time": 0.6666, "name": "groups_lightning_3_1_11" },
+					{ "time": 0.7333, "name": "groups_lightning_3_1_12" },
+					{ "time": 0.8, "name": "groups_lightning_3_1_13" },
+					{ "time": 0.8666, "name": "groups_lightning_3_1_14" }
+				]
+			}
+		}
+	}
+}
+}

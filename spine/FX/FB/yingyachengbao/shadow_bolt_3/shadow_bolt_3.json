@@ -1,0 +1,47 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "shadow_bolt_3_1", "bone": "root", "attachment": "shadow_bolt_3_9" }
+],
+"skins": {
+	"default": {
+		"shadow_bolt_3_1": {
+			"shadow_bolt_3_1": { "x": 26.99, "y": 2, "width": 270, "height": 200 },
+			"shadow_bolt_3_2": { "x": 26.99, "y": 2, "width": 270, "height": 200 },
+			"shadow_bolt_3_3": { "x": 26.99, "y": 2, "width": 270, "height": 200 },
+			"shadow_bolt_3_4": { "x": 26.99, "y": 2, "width": 270, "height": 200 },
+			"shadow_bolt_3_5": { "x": 26.99, "y": 2, "width": 270, "height": 200 },
+			"shadow_bolt_3_6": { "x": 26.99, "y": 2, "width": 270, "height": 200 },
+			"shadow_bolt_3_7": { "x": 26.99, "y": 2, "width": 270, "height": 200 },
+			"shadow_bolt_3_8": { "x": 26.99, "y": 2, "width": 270, "height": 200 },
+			"shadow_bolt_3_9": { "x": 26.99, "y": 2, "width": 270, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"shadow_bolt_3_1": {
+				"attachment": [
+					{ "time": 0, "name": "shadow_bolt_3_1" },
+					{ "time": 0.0666, "name": "shadow_bolt_3_2" },
+					{ "time": 0.1333, "name": "shadow_bolt_3_3" },
+					{ "time": 0.2, "name": "shadow_bolt_3_4" },
+					{ "time": 0.2666, "name": "shadow_bolt_3_5" },
+					{ "time": 0.3333, "name": "shadow_bolt_3_6" },
+					{ "time": 0.4, "name": "shadow_bolt_3_7" },
+					{ "time": 0.4666, "name": "shadow_bolt_3_8" },
+					{ "time": 0.5333, "name": "shadow_bolt_3_9" },
+					{ "time": 0.6, "name": "shadow_bolt_3_9" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

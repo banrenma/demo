@@ -1,0 +1,159 @@
+
+arcane_blast_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arcane_blast_3_1
+  rotate: false
+  xy: 150, 49
+  size: 11, 9
+  orig: 100, 100
+  offset: 46, 45
+  index: -1
+arcane_blast_3_10
+  rotate: false
+  xy: 2, 302
+  size: 96, 95
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+arcane_blast_3_11
+  rotate: false
+  xy: 2, 209
+  size: 89, 91
+  orig: 100, 100
+  offset: 4, 2
+  index: -1
+arcane_blast_3_12
+  rotate: false
+  xy: 196, 404
+  size: 89, 90
+  orig: 100, 100
+  offset: 4, 3
+  index: -1
+arcane_blast_3_13
+  rotate: false
+  xy: 2, 119
+  size: 88, 88
+  orig: 100, 100
+  offset: 5, 3
+  index: -1
+arcane_blast_3_14
+  rotate: false
+  xy: 2, 30
+  size: 85, 87
+  orig: 100, 100
+  offset: 7, 4
+  index: -1
+arcane_blast_3_15
+  rotate: true
+  xy: 93, 220
+  size: 80, 78
+  orig: 100, 100
+  offset: 12, 11
+  index: -1
+arcane_blast_3_16
+  rotate: false
+  xy: 93, 140
+  size: 80, 78
+  orig: 100, 100
+  offset: 12, 11
+  index: -1
+arcane_blast_3_17
+  rotate: false
+  xy: 92, 60
+  size: 80, 78
+  orig: 100, 100
+  offset: 12, 11
+  index: -1
+arcane_blast_3_18
+  rotate: false
+  xy: 287, 331
+  size: 80, 77
+  orig: 100, 100
+  offset: 12, 12
+  index: -1
+arcane_blast_3_19
+  rotate: false
+  xy: 369, 330
+  size: 80, 78
+  orig: 100, 100
+  offset: 12, 12
+  index: -1
+arcane_blast_3_2
+  rotate: false
+  xy: 2, 16
+  size: 13, 12
+  orig: 100, 100
+  offset: 45, 43
+  index: -1
+arcane_blast_3_20
+  rotate: false
+  xy: 101, 323
+  size: 80, 78
+  orig: 100, 100
+  offset: 12, 11
+  index: -1
+arcane_blast_3_21
+  rotate: true
+  xy: 183, 321
+  size: 80, 76
+  orig: 100, 100
+  offset: 12, 12
+  index: -1
+arcane_blast_3_22
+  rotate: false
+  xy: 173, 243
+  size: 77, 76
+  orig: 100, 100
+  offset: 13, 12
+  index: -1
+arcane_blast_3_3
+  rotate: false
+  xy: 173, 220
+  size: 23, 21
+  orig: 100, 100
+  offset: 40, 39
+  index: -1
+arcane_blast_3_4
+  rotate: false
+  xy: 467, 459
+  size: 38, 35
+  orig: 100, 100
+  offset: 32, 32
+  index: -1
+arcane_blast_3_5
+  rotate: false
+  xy: 89, 2
+  size: 59, 56
+  orig: 100, 100
+  offset: 21, 21
+  index: -1
+arcane_blast_3_6
+  rotate: false
+  xy: 378, 412
+  size: 87, 82
+  orig: 100, 100
+  offset: 7, 8
+  index: -1
+arcane_blast_3_7
+  rotate: false
+  xy: 287, 410
+  size: 89, 84
+  orig: 100, 100
+  offset: 6, 7
+  index: -1
+arcane_blast_3_8
+  rotate: false
+  xy: 101, 403
+  size: 93, 91
+  orig: 100, 100
+  offset: 3, 2
+  index: -1
+arcane_blast_3_9
+  rotate: false
+  xy: 2, 399
+  size: 97, 95
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

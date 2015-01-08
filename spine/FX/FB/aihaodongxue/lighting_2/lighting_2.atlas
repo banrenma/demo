@@ -1,0 +1,47 @@
+
+lighting_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lighting_2_1
+  rotate: false
+  xy: 157, 44
+  size: 120, 48
+  orig: 155, 50
+  offset: 34, 1
+  index: -1
+lighting_2_2
+  rotate: false
+  xy: 279, 44
+  size: 119, 48
+  orig: 155, 50
+  offset: 34, 1
+  index: -1
+lighting_2_3
+  rotate: false
+  xy: 2, 2
+  size: 151, 44
+  orig: 155, 50
+  offset: 1, 3
+  index: -1
+lighting_2_4
+  rotate: false
+  xy: 2, 48
+  size: 153, 44
+  orig: 155, 50
+  offset: 1, 3
+  index: -1
+lighting_2_5
+  rotate: false
+  xy: 400, 52
+  size: 105, 40
+  orig: 155, 50
+  offset: 48, 5
+  index: -1
+lighting_2_6
+  rotate: false
+  xy: 155, 2
+  size: 104, 40
+  orig: 155, 50
+  offset: 48, 5
+  index: -1

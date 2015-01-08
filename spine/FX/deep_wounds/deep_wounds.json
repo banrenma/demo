@@ -1,0 +1,66 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "deep_wounds_01", "bone": "root", "attachment": "deep_wounds_08" }
+],
+"skins": {
+	"default": {
+		"deep_wounds_01": {
+			"deep_wounds_01": { "width": 130, "height": 120 },
+			"deep_wounds_02": { "width": 130, "height": 120 },
+			"deep_wounds_03": { "width": 130, "height": 120 },
+			"deep_wounds_04": { "width": 130, "height": 120 },
+			"deep_wounds_05": { "width": 130, "height": 120 },
+			"deep_wounds_06": { "width": 130, "height": 120 },
+			"deep_wounds_07": { "width": 130, "height": 120 },
+			"deep_wounds_08": { "width": 130, "height": 120 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"deep_wounds_01": {
+				"attachment": [
+					{ "time": 0, "name": "deep_wounds_01" },
+					{ "time": 0.0333, "name": "deep_wounds_02" },
+					{ "time": 0.0666, "name": "deep_wounds_03" },
+					{ "time": 0.1, "name": "deep_wounds_04" },
+					{ "time": 0.1333, "name": "deep_wounds_05" },
+					{ "time": 0.1666, "name": "deep_wounds_06" },
+					{ "time": 0.2, "name": "deep_wounds_07" },
+					{ "time": 0.2333, "name": "deep_wounds_08" },
+					{ "time": 0.2666, "name": "deep_wounds_01" },
+					{ "time": 0.3, "name": "deep_wounds_02" },
+					{ "time": 0.3333, "name": "deep_wounds_03" },
+					{ "time": 0.3666, "name": "deep_wounds_04" },
+					{ "time": 0.4, "name": "deep_wounds_05" },
+					{ "time": 0.4333, "name": "deep_wounds_06" },
+					{ "time": 0.4666, "name": "deep_wounds_07" },
+					{ "time": 0.5, "name": "deep_wounds_08" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 40, "y": 40, "curve": "stepped" },
+					{ "time": 0.0333, "x": 40, "y": 40, "curve": "stepped" },
+					{ "time": 0.0666, "x": 40, "y": 40, "curve": "stepped" },
+					{ "time": 0.1, "x": 40, "y": 40, "curve": "stepped" },
+					{ "time": 0.1333, "x": 40, "y": 40, "curve": "stepped" },
+					{ "time": 0.1666, "x": 40, "y": 40, "curve": "stepped" },
+					{ "time": 0.2, "x": 40, "y": 40, "curve": "stepped" },
+					{ "time": 0.2333, "x": 40, "y": 40 },
+					{ "time": 0.2666, "x": -49.99, "y": -7 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": -1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

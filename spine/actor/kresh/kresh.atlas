@@ -1,0 +1,180 @@
+
+kresh.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kresh_acc
+  rotate: false
+  xy: 2, 121
+  size: 137, 105
+  orig: 137, 105
+  offset: 0, 0
+  index: -1
+kresh_body
+  rotate: false
+  xy: 2, 370
+  size: 192, 140
+  orig: 192, 140
+  offset: 0, 0
+  index: -1
+kresh_body2
+  rotate: false
+  xy: 2, 228
+  size: 189, 140
+  orig: 189, 140
+  offset: 0, 0
+  index: -1
+kresh_body3
+  rotate: false
+  xy: 196, 370
+  size: 189, 140
+  orig: 189, 140
+  offset: 0, 0
+  index: -1
+kresh_chin1
+  rotate: false
+  xy: 2, 30
+  size: 79, 89
+  orig: 79, 89
+  offset: 0, 0
+  index: -1
+kresh_chin2
+  rotate: false
+  xy: 387, 372
+  size: 71, 46
+  orig: 71, 46
+  offset: 0, 0
+  index: -1
+kresh_chin3
+  rotate: false
+  xy: 193, 230
+  size: 71, 46
+  orig: 71, 46
+  offset: 0, 0
+  index: -1
+kresh_chin4
+  rotate: true
+  xy: 212, 157
+  size: 71, 46
+  orig: 71, 46
+  offset: 0, 0
+  index: -1
+kresh_chin5
+  rotate: true
+  xy: 156, 69
+  size: 71, 46
+  orig: 71, 46
+  offset: 0, 0
+  index: -1
+kresh_head1
+  rotate: false
+  xy: 279, 297
+  size: 84, 71
+  orig: 84, 71
+  offset: 0, 0
+  index: -1
+kresh_head2
+  rotate: true
+  xy: 83, 35
+  size: 84, 71
+  orig: 84, 71
+  offset: 0, 0
+  index: -1
+kresh_head3
+  rotate: false
+  xy: 193, 278
+  size: 84, 90
+  orig: 84, 90
+  offset: 0, 0
+  index: -1
+kresh_head4
+  rotate: true
+  xy: 141, 142
+  size: 84, 69
+  orig: 84, 69
+  offset: 0, 0
+  index: -1
+kresh_head5
+  rotate: false
+  xy: 387, 420
+  size: 84, 90
+  orig: 84, 90
+  offset: 0, 0
+  index: -1
+kresh_l_calf1
+  rotate: false
+  xy: 156, 22
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+kresh_l_calf2
+  rotate: false
+  xy: 266, 238
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+kresh_l_thigh1
+  rotate: false
+  xy: 301, 243
+  size: 30, 33
+  orig: 30, 33
+  offset: 0, 0
+  index: -1
+kresh_l_thigh2
+  rotate: false
+  xy: 365, 338
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+kresh_r_calf1
+  rotate: false
+  xy: 83, 2
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1
+kresh_r_calf2
+  rotate: false
+  xy: 47, 3
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1
+kresh_r_thigh1
+  rotate: true
+  xy: 473, 480
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+kresh_r_thigh2
+  rotate: false
+  xy: 365, 306
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+kresh_shadow
+  rotate: false
+  xy: 279, 278
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1
+kresh_tail
+  rotate: false
+  xy: 2, 2
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+kresh_tongue
+  rotate: true
+  xy: 473, 435
+  size: 43, 33
+  orig: 43, 33
+  offset: 0, 0
+  index: -1

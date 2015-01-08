@@ -1,0 +1,215 @@
+
+enchant_slay.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+enchant_slay_0001
+  rotate: true
+  xy: 284, 670
+  size: 53, 163
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0003
+  rotate: false
+  xy: 228, 398
+  size: 53, 153
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0005
+  rotate: false
+  xy: 114, 56
+  size: 55, 156
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0007
+  rotate: false
+  xy: 114, 373
+  size: 55, 159
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0009
+  rotate: false
+  xy: 57, 192
+  size: 55, 161
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0011
+  rotate: true
+  xy: 283, 613
+  size: 55, 163
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0013
+  rotate: false
+  xy: 225, 553
+  size: 56, 166
+  orig: 80, 180
+  offset: 10, 3
+  index: -1
+enchant_slay_0015
+  rotate: false
+  xy: 225, 721
+  size: 57, 169
+  orig: 80, 180
+  offset: 9, 3
+  index: -1
+enchant_slay_0017
+  rotate: true
+  xy: 284, 835
+  size: 55, 170
+  orig: 80, 180
+  offset: 11, 3
+  index: -1
+enchant_slay_0019
+  rotate: false
+  xy: 2, 2
+  size: 53, 173
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0021
+  rotate: false
+  xy: 115, 538
+  size: 53, 174
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0023
+  rotate: false
+  xy: 115, 714
+  size: 53, 176
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0025
+  rotate: false
+  xy: 59, 713
+  size: 54, 177
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0027
+  rotate: false
+  xy: 2, 713
+  size: 55, 177
+  orig: 80, 180
+  offset: 11, 3
+  index: -1
+enchant_slay_0029
+  rotate: false
+  xy: 58, 358
+  size: 54, 174
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0031
+  rotate: false
+  xy: 171, 234
+  size: 54, 151
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0033
+  rotate: false
+  xy: 171, 387
+  size: 55, 154
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0035
+  rotate: false
+  xy: 114, 214
+  size: 55, 157
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0037
+  rotate: false
+  xy: 57, 30
+  size: 55, 160
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0039
+  rotate: true
+  xy: 283, 556
+  size: 55, 162
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0041
+  rotate: false
+  xy: 456, 725
+  size: 54, 165
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0043
+  rotate: true
+  xy: 284, 725
+  size: 53, 167
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0045
+  rotate: true
+  xy: 284, 780
+  size: 53, 170
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0047
+  rotate: false
+  xy: 170, 543
+  size: 53, 171
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0049
+  rotate: false
+  xy: 170, 716
+  size: 53, 174
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0051
+  rotate: false
+  xy: 2, 177
+  size: 53, 176
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0053
+  rotate: false
+  xy: 2, 355
+  size: 54, 177
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0055
+  rotate: false
+  xy: 59, 534
+  size: 54, 177
+  orig: 80, 180
+  offset: 13, 3
+  index: -1
+enchant_slay_0057
+  rotate: false
+  xy: 2, 534
+  size: 55, 177
+  orig: 80, 180
+  offset: 12, 3
+  index: -1
+enchant_slay_0059
+  rotate: true
+  xy: 283, 501
+  size: 53, 163
+  orig: 80, 180
+  offset: 13, 3
+  index: -1

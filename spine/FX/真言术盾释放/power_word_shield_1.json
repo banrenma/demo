@@ -1,0 +1,48 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "power_word_shield_1", "bone": "root", "attachment": "power_word_shield_1_12" }
+],
+"skins": {
+	"default": {
+		"power_word_shield_1": {
+			"power_word_shield_1_01": { "width": 230, "height": 290 },
+			"power_word_shield_1_02": { "width": 230, "height": 290 },
+			"power_word_shield_1_03": { "width": 230, "height": 290 },
+			"power_word_shield_1_04": { "width": 230, "height": 290 },
+			"power_word_shield_1_05": { "width": 230, "height": 290 },
+			"power_word_shield_1_06": { "width": 230, "height": 290 },
+			"power_word_shield_1_07": { "width": 230, "height": 290 },
+			"power_word_shield_1_08": { "width": 230, "height": 290 },
+			"power_word_shield_1_09": { "width": 230, "height": 290 },
+			"power_word_shield_1_10": { "width": 230, "height": 290 },
+			"power_word_shield_1_11": { "width": 230, "height": 290 },
+			"power_word_shield_1_12": { "width": 230, "height": 290 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"power_word_shield_1": {
+				"attachment": [
+					{ "time": 0, "name": "power_word_shield_1_01" },
+					{ "time": 0.0666, "name": "power_word_shield_1_02" },
+					{ "time": 0.1333, "name": "power_word_shield_1_03" },
+					{ "time": 0.2, "name": "power_word_shield_1_04" },
+					{ "time": 0.2666, "name": "power_word_shield_1_05" },
+					{ "time": 0.3333, "name": "power_word_shield_1_06" },
+					{ "time": 0.4, "name": "power_word_shield_1_07" },
+					{ "time": 0.4666, "name": "power_word_shield_1_08" },
+					{ "time": 0.5333, "name": "power_word_shield_1_09" },
+					{ "time": 0.6, "name": "power_word_shield_1_10" },
+					{ "time": 0.6666, "name": "power_word_shield_1_11" },
+					{ "time": 0.7333, "name": "power_word_shield_1_12" }
+				]
+			}
+		}
+	}
+}
+}

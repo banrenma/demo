@@ -1,0 +1,32 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bloodlust_4_1", "bone": "root", "attachment": "bloodlust_4_4" }
+],
+"skins": {
+	"default": {
+		"bloodlust_4_1": {
+			"bloodlust_4_1": { "y": 24, "width": 120, "height": 150 },
+			"bloodlust_4_2": { "y": 24, "width": 120, "height": 150 },
+			"bloodlust_4_3": { "y": 24, "width": 120, "height": 150 },
+			"bloodlust_4_4": { "y": 24, "width": 120, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"bloodlust_4_1": {
+				"attachment": [
+					{ "time": 0, "name": "bloodlust_4_1" },
+					{ "time": 0.0666, "name": "bloodlust_4_2" },
+					{ "time": 0.1333, "name": "bloodlust_4_3" },
+					{ "time": 0.2, "name": "bloodlust_4_4" }
+				]
+			}
+		}
+	}
+}
+}

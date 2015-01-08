@@ -1,0 +1,45 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "daoguang_01", "bone": "root", "attachment": "daoguang_03" }
+],
+"skins": {
+	"default": {
+		"daoguang_01": {
+			"daoguang_01": { "width": 380, "height": 500 },
+			"daoguang_02": { "width": 380, "height": 500 },
+			"daoguang_03": { "width": 380, "height": 500 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"daoguang_01": {
+				"attachment": [
+					{ "time": 0, "name": "daoguang_01" },
+					{ "time": 0.0666, "name": "daoguang_02" },
+					{ "time": 0.1333, "name": "daoguang_03" },
+					{ "time": 0.3333, "name": "daoguang_03" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 30.42 }
+				],
+				"translate": [
+					{ "time": 0, "x": -94.69, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,166 @@
+
+garona.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+garona_body
+  rotate: false
+  xy: 471, 209
+  size: 35, 41
+  orig: 35, 41
+  offset: 0, 0
+  index: -1
+garona_brest
+  rotate: false
+  xy: 351, 151
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1
+garona_hair1
+  rotate: false
+  xy: 2, 2
+  size: 42, 51
+  orig: 42, 51
+  offset: 0, 0
+  index: -1
+garona_hair2
+  rotate: true
+  xy: 242, 141
+  size: 29, 50
+  orig: 29, 50
+  offset: 0, 0
+  index: -1
+garona_hair3
+  rotate: false
+  xy: 2, 55
+  size: 40, 86
+  orig: 40, 86
+  offset: 0, 0
+  index: -1
+garona_hair4
+  rotate: false
+  xy: 2, 143
+  size: 52, 107
+  orig: 52, 107
+  offset: 0, 0
+  index: -1
+garona_head1
+  rotate: false
+  xy: 56, 172
+  size: 72, 78
+  orig: 72, 78
+  offset: 0, 0
+  index: -1
+garona_head2
+  rotate: false
+  xy: 130, 172
+  size: 72, 78
+  orig: 72, 78
+  offset: 0, 0
+  index: -1
+garona_head3
+  rotate: false
+  xy: 204, 172
+  size: 72, 78
+  orig: 72, 78
+  offset: 0, 0
+  index: -1
+garona_head4
+  rotate: false
+  xy: 278, 172
+  size: 72, 78
+  orig: 72, 78
+  offset: 0, 0
+  index: -1
+garona_head5
+  rotate: false
+  xy: 352, 172
+  size: 72, 78
+  orig: 72, 78
+  offset: 0, 0
+  index: -1
+garona_l_axe
+  rotate: true
+  xy: 56, 135
+  size: 35, 91
+  orig: 35, 91
+  offset: 0, 0
+  index: -1
+garona_l_calf
+  rotate: true
+  xy: 294, 136
+  size: 15, 28
+  orig: 15, 28
+  offset: 0, 0
+  index: -1
+garona_l_forearm
+  rotate: true
+  xy: 471, 187
+  size: 20, 35
+  orig: 20, 35
+  offset: 0, 0
+  index: -1
+garona_l_thigh
+  rotate: true
+  xy: 426, 171
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+garona_l_upperarm
+  rotate: false
+  xy: 426, 188
+  size: 43, 62
+  orig: 43, 62
+  offset: 0, 0
+  index: -1
+garona_pelvis
+  rotate: false
+  xy: 324, 134
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+garona_r_axe
+  rotate: true
+  xy: 149, 135
+  size: 35, 91
+  orig: 35, 91
+  offset: 0, 0
+  index: -1
+garona_r_calf
+  rotate: true
+  xy: 350, 131
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+garona_r_forearm
+  rotate: true
+  xy: 386, 148
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+garona_r_thigh
+  rotate: true
+  xy: 418, 149
+  size: 20, 29
+  orig: 20, 29
+  offset: 0, 0
+  index: -1
+garona_r_upperarm
+  rotate: false
+  xy: 44, 110
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+garona_shadow
+  rotate: false
+  xy: 294, 153
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

@@ -1,0 +1,152 @@
+
+valeera_sanguinar.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+valeera_sanguinar_body
+  rotate: true
+  xy: 158, 124
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_brest
+  rotate: true
+  xy: 140, 102
+  size: 26, 15
+  orig: 26, 15
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_hair
+  rotate: false
+  xy: 382, 171
+  size: 63, 83
+  orig: 63, 83
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_head1
+  rotate: false
+  xy: 2, 158
+  size: 98, 96
+  orig: 98, 96
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_head2
+  rotate: false
+  xy: 196, 163
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_head3
+  rotate: false
+  xy: 289, 163
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_head4
+  rotate: false
+  xy: 102, 163
+  size: 92, 91
+  orig: 92, 91
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_head5
+  rotate: false
+  xy: 2, 61
+  size: 96, 95
+  orig: 96, 95
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_l_calf
+  rotate: true
+  xy: 100, 61
+  size: 14, 31
+  orig: 14, 31
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_l_ear
+  rotate: false
+  xy: 100, 77
+  size: 38, 51
+  orig: 38, 51
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_l_forearm
+  rotate: false
+  xy: 205, 125
+  size: 19, 36
+  orig: 19, 36
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_l_sword
+  rotate: true
+  xy: 2, 16
+  size: 43, 86
+  orig: 43, 86
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_l_thgih
+  rotate: false
+  xy: 90, 2
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_l_upperarm
+  rotate: false
+  xy: 382, 123
+  size: 61, 46
+  orig: 61, 46
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_r_calf
+  rotate: false
+  xy: 226, 129
+  size: 17, 32
+  orig: 17, 32
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_r_ear
+  rotate: true
+  xy: 102, 130
+  size: 31, 54
+  orig: 31, 54
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_r_forearm
+  rotate: false
+  xy: 90, 33
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_r_sword
+  rotate: false
+  xy: 447, 167
+  size: 40, 87
+  orig: 40, 87
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_r_thigh
+  rotate: false
+  xy: 489, 229
+  size: 21, 25
+  orig: 21, 25
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_r_upperarm
+  rotate: false
+  xy: 445, 122
+  size: 40, 43
+  orig: 40, 43
+  offset: 0, 0
+  index: -1
+valeera_sanguinar_shadow
+  rotate: true
+  xy: 489, 172
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

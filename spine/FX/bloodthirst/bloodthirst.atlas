@@ -1,0 +1,61 @@
+
+bloodthirst.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloodthirst_01
+  rotate: false
+  xy: 264, 97
+  size: 42, 29
+  orig: 140, 150
+  offset: 21, 98
+  index: -1
+bloodthirst_02
+  rotate: false
+  xy: 2, 2
+  size: 122, 107
+  orig: 140, 150
+  offset: 14, 22
+  index: -1
+bloodthirst_03
+  rotate: false
+  xy: 2, 111
+  size: 123, 134
+  orig: 140, 150
+  offset: 13, 10
+  index: -1
+bloodthirst_04
+  rotate: true
+  xy: 127, 27
+  size: 99, 135
+  orig: 140, 150
+  offset: 37, 9
+  index: -1
+bloodthirst_05
+  rotate: true
+  xy: 127, 128
+  size: 117, 135
+  orig: 140, 150
+  offset: 18, 9
+  index: -1
+bloodthirst_06
+  rotate: true
+  xy: 264, 128
+  size: 117, 124
+  orig: 140, 150
+  offset: 11, 10
+  index: -1
+bloodthirst_07
+  rotate: false
+  xy: 390, 164
+  size: 120, 81
+  orig: 140, 150
+  offset: 8, 33
+  index: -1
+bloodthirst_08
+  rotate: false
+  xy: 390, 136
+  size: 65, 26
+  orig: 140, 150
+  offset: 11, 34
+  index: -1

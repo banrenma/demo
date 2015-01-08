@@ -1,0 +1,12 @@
+
+blizzard_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blizzard_2_01
+  rotate: false
+  xy: 2, 2
+  size: 43, 180
+  orig: 50, 180
+  offset: 7, 0
+  index: -1

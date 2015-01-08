@@ -1,0 +1,93 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "monster_born_3_0001", "bone": "root", "attachment": "monster_born_3_0033", "additive": true }
+],
+"skins": {
+	"default": {
+		"monster_born_3_0001": {
+			"monster_born_3_0001": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0002": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0003": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0004": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0005": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0006": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0007": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0008": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0009": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0010": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0011": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0012": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0013": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0014": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0015": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0016": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0017": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0018": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0019": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0020": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0021": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0022": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0023": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0024": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0025": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0026": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0027": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0028": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0029": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0030": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0031": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0032": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 },
+			"monster_born_3_0033": { "y": 273.54, "scaleX": 4, "scaleY": 4, "width": 105, "height": 174 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"monster_born_3_0001": {
+				"attachment": [
+					{ "time": 0, "name": "monster_born_3_0001" },
+					{ "time": 0.0333, "name": "monster_born_3_0002" },
+					{ "time": 0.0666, "name": "monster_born_3_0003" },
+					{ "time": 0.1, "name": "monster_born_3_0004" },
+					{ "time": 0.1333, "name": "monster_born_3_0005" },
+					{ "time": 0.1666, "name": "monster_born_3_0006" },
+					{ "time": 0.2, "name": "monster_born_3_0007" },
+					{ "time": 0.2333, "name": "monster_born_3_0008" },
+					{ "time": 0.2666, "name": "monster_born_3_0009" },
+					{ "time": 0.3, "name": "monster_born_3_0010" },
+					{ "time": 0.3333, "name": "monster_born_3_0011" },
+					{ "time": 0.3666, "name": "monster_born_3_0012" },
+					{ "time": 0.4, "name": "monster_born_3_0013" },
+					{ "time": 0.4333, "name": "monster_born_3_0014" },
+					{ "time": 0.4666, "name": "monster_born_3_0015" },
+					{ "time": 0.5, "name": "monster_born_3_0016" },
+					{ "time": 0.5333, "name": "monster_born_3_0017" },
+					{ "time": 0.5666, "name": "monster_born_3_0018" },
+					{ "time": 0.6, "name": "monster_born_3_0019" },
+					{ "time": 0.6333, "name": "monster_born_3_0020" },
+					{ "time": 0.6666, "name": "monster_born_3_0021" },
+					{ "time": 0.7, "name": "monster_born_3_0022" },
+					{ "time": 0.7333, "name": "monster_born_3_0023" },
+					{ "time": 0.7666, "name": "monster_born_3_0024" },
+					{ "time": 0.8, "name": "monster_born_3_0025" },
+					{ "time": 0.8333, "name": "monster_born_3_0026" },
+					{ "time": 0.8666, "name": "monster_born_3_0027" },
+					{ "time": 0.9, "name": "monster_born_3_0028" },
+					{ "time": 0.9333, "name": "monster_born_3_0029" },
+					{ "time": 0.9666, "name": "monster_born_3_0030" },
+					{ "time": 1, "name": "monster_born_3_0031" },
+					{ "time": 1.0333, "name": "monster_born_3_0032" },
+					{ "time": 1.0666, "name": "monster_born_3_0033" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

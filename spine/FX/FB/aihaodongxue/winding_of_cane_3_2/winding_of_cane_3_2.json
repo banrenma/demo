@@ -1,0 +1,44 @@
+{
+"bones": [
+	{ "name": "root", "y": 1.99 }
+],
+"slots": [
+	{ "name": "winding_of_cane_2", "bone": "root", "attachment": "winding_of_cane_2_4" }
+],
+"skins": {
+	"default": {
+		"winding_of_cane_2": {
+			"winding_of_cane_2_1": { "y": 70.99, "width": 180, "height": 160 },
+			"winding_of_cane_2_2": { "y": 70.99, "width": 180, "height": 160 },
+			"winding_of_cane_2_3": { "y": 70.99, "width": 180, "height": 160 },
+			"winding_of_cane_2_4": { "y": 70.99, "width": 180, "height": 160 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"winding_of_cane_2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "winding_of_cane_2_1" },
+					{ "time": 0.2, "name": "winding_of_cane_2_2" },
+					{ "time": 0.2666, "name": "winding_of_cane_2_3" },
+					{ "time": 0.3333, "name": "winding_of_cane_2_4" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,131 @@
+
+everliving.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+everliving_body
+  rotate: false
+  xy: 87, 50
+  size: 66, 68
+  orig: 66, 68
+  offset: 0, 0
+  index: -1
+everliving_hair
+  rotate: false
+  xy: 2, 120
+  size: 128, 118
+  orig: 128, 118
+  offset: 0, 0
+  index: -1
+everliving_head1
+  rotate: false
+  xy: 2, 16
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+everliving_head2
+  rotate: false
+  xy: 132, 136
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+everliving_head3
+  rotate: false
+  xy: 217, 136
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+everliving_head4
+  rotate: false
+  xy: 302, 136
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+everliving_head5
+  rotate: false
+  xy: 387, 136
+  size: 83, 102
+  orig: 83, 102
+  offset: 0, 0
+  index: -1
+everliving_l_calf
+  rotate: true
+  xy: 472, 191
+  size: 47, 36
+  orig: 47, 36
+  offset: 0, 0
+  index: -1
+everliving_l_forearm
+  rotate: true
+  xy: 353, 81
+  size: 53, 63
+  orig: 53, 63
+  offset: 0, 0
+  index: -1
+everliving_l_hand
+  rotate: false
+  xy: 290, 78
+  size: 61, 56
+  orig: 61, 56
+  offset: 0, 0
+  index: -1
+everliving_l_thigh
+  rotate: false
+  xy: 472, 149
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
+everliving_l_upperarm
+  rotate: true
+  xy: 225, 75
+  size: 59, 63
+  orig: 59, 63
+  offset: 0, 0
+  index: -1
+everliving_r_calf
+  rotate: false
+  xy: 474, 89
+  size: 34, 29
+  orig: 34, 29
+  offset: 0, 0
+  index: -1
+everliving_r_forearm
+  rotate: false
+  xy: 418, 79
+  size: 54, 55
+  orig: 54, 55
+  offset: 0, 0
+  index: -1
+everliving_r_hand
+  rotate: false
+  xy: 155, 79
+  size: 68, 55
+  orig: 68, 55
+  offset: 0, 0
+  index: -1
+everliving_r_thigh
+  rotate: true
+  xy: 474, 120
+  size: 27, 36
+  orig: 27, 36
+  offset: 0, 0
+  index: -1
+everliving_r_upperarm
+  rotate: true
+  xy: 87, 2
+  size: 46, 61
+  orig: 46, 61
+  offset: 0, 0
+  index: -1
+everliving_shadow
+  rotate: false
+  xy: 155, 60
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

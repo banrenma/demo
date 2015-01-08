@@ -1,0 +1,84 @@
+{
+"bones": [
+	{ "name": "root", "rotation": -4.91 }
+],
+"slots": [
+	{ "name": "plague_smog_4_1", "bone": "root", "attachment": "plague_smog_4_9" }
+],
+"skins": {
+	"default": {
+		"plague_smog_4_1": {
+			"plague_smog_4_1": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_2": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_3": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_4": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_5": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_6": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_7": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_8": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_9": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_10": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_11": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_12": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_13": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_14": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_15": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_16": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_17": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_18": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_19": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_20": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_21": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_22": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_23": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_24": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_25": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_26": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_27": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_28": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_29": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 },
+			"plague_smog_4_30": { "x": -4.85, "y": 56.81, "rotation": 4.91, "width": 90, "height": 140 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"plague_smog_4_1": {
+				"attachment": [
+					{ "time": 0, "name": "plague_smog_4_1" },
+					{ "time": 0.0666, "name": "plague_smog_4_2" },
+					{ "time": 0.1333, "name": "plague_smog_4_3" },
+					{ "time": 0.2, "name": "plague_smog_4_4" },
+					{ "time": 0.2666, "name": "plague_smog_4_5" },
+					{ "time": 0.3333, "name": "plague_smog_4_6" },
+					{ "time": 0.4, "name": "plague_smog_4_7" },
+					{ "time": 0.4666, "name": "plague_smog_4_8" },
+					{ "time": 0.5333, "name": "plague_smog_4_9" },
+					{ "time": 0.6, "name": "plague_smog_4_10" },
+					{ "time": 0.6666, "name": "plague_smog_4_11" },
+					{ "time": 0.7333, "name": "plague_smog_4_12" },
+					{ "time": 0.8, "name": "plague_smog_4_13" },
+					{ "time": 0.8666, "name": "plague_smog_4_14" },
+					{ "time": 0.9333, "name": "plague_smog_4_15" },
+					{ "time": 1, "name": "plague_smog_4_16" },
+					{ "time": 1.0666, "name": "plague_smog_4_17" },
+					{ "time": 1.1333, "name": "plague_smog_4_18" },
+					{ "time": 1.2, "name": "plague_smog_4_19" },
+					{ "time": 1.2666, "name": "plague_smog_4_20" },
+					{ "time": 1.3333, "name": "plague_smog_4_21" },
+					{ "time": 1.4, "name": "plague_smog_4_22" },
+					{ "time": 1.4666, "name": "plague_smog_4_23" },
+					{ "time": 1.5333, "name": "plague_smog_4_24" },
+					{ "time": 1.6, "name": "plague_smog_4_25" },
+					{ "time": 1.6666, "name": "plague_smog_4_26" },
+					{ "time": 1.7333, "name": "plague_smog_4_27" },
+					{ "time": 1.8, "name": "plague_smog_4_28" },
+					{ "time": 1.8666, "name": "plague_smog_4_29" },
+					{ "time": 1.9333, "name": "plague_smog_4_30" }
+				]
+			}
+		}
+	}
+}
+}

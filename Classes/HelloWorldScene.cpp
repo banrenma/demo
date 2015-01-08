@@ -1,5 +1,6 @@
 #include "HelloWorldScene.h"
-
+#include "Util.h"
+#include "NSpineExt.h"
 USING_NS_CC;
 
 Scene* HelloWorld::createScene()
@@ -37,7 +38,14 @@ bool HelloWorld::init()
 	drawNode->drawLine(Vec2(0,150),Vec2(1280,150),Color4F::GREEN);
 	this->addChild(drawNode);
 
+	NSkeletonDataCache * pCache = NSkeletonDataCache::getInstance();
+
+	pCache->AddSkeletonDataCache("1001.json","1001.atlas",1001);
     
+	NSpineExt* node = NSpineExt::create(1001);
+	this->addChild(node);
+	node->setPosition(200,200);
+	Rect rt = node->getSkeletonBoundingBox("UtilBoundingBxo");
     return true;
 }
 

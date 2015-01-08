@@ -1,0 +1,54 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "lighting_1_1", "bone": "root", "attachment": "lighting_1_9" }
+],
+"skins": {
+	"default": {
+		"lighting_1_1": {
+			"lighting_1_1": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_2": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_3": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_4": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_5": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_6": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_7": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_8": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_9": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_10": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_11": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_12": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_13": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_14": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 },
+			"lighting_1_15": { "scaleX": 2, "scaleY": 2, "width": 75, "height": 75 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"lighting_1_1": {
+				"attachment": [
+					{ "time": 0, "name": "lighting_1_1" },
+					{ "time": 0.0333, "name": "lighting_1_2" },
+					{ "time": 0.0666, "name": "lighting_1_3" },
+					{ "time": 0.1, "name": "lighting_1_4" },
+					{ "time": 0.1333, "name": "lighting_1_5" },
+					{ "time": 0.1666, "name": "lighting_1_6" },
+					{ "time": 0.2, "name": "lighting_1_7" },
+					{ "time": 0.2333, "name": "lighting_1_8" },
+					{ "time": 0.2666, "name": "lighting_1_9" },
+					{ "time": 0.3, "name": "lighting_1_10" },
+					{ "time": 0.3333, "name": "lighting_1_11" },
+					{ "time": 0.3666, "name": "lighting_1_12" },
+					{ "time": 0.4333, "name": "lighting_1_13" },
+					{ "time": 0.5, "name": "lighting_1_14" },
+					{ "time": 0.5666, "name": "lighting_1_15" }
+				]
+			}
+		}
+	}
+}
+}

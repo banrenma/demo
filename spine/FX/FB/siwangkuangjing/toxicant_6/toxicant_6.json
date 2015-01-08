@@ -1,0 +1,104 @@
+{
+"bones": [
+	{ "name": "root", "rotation": -0.39 }
+],
+"slots": [
+	{ "name": "toxicant_6_0001", "bone": "root", "attachment": "toxicant_6_0079" }
+],
+"skins": {
+	"default": {
+		"toxicant_6_0001": {
+			"toxicant_6_0001": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0003": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0005": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0007": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0009": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0011": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0013": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0015": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0017": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0019": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0021": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0023": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0025": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0027": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0029": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0031": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0033": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0035": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0037": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0039": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0041": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0043": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0045": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0047": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0049": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0051": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0053": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0055": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0057": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0059": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0061": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0063": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0065": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0067": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0069": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0071": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0073": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0075": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0077": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_6_0079": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"toxicant_6_0001": {
+				"attachment": [
+					{ "time": 0, "name": "toxicant_6_0001" },
+					{ "time": 0.0666, "name": "toxicant_6_0003" },
+					{ "time": 0.1333, "name": "toxicant_6_0005" },
+					{ "time": 0.2, "name": "toxicant_6_0007" },
+					{ "time": 0.2666, "name": "toxicant_6_0009" },
+					{ "time": 0.3333, "name": "toxicant_6_0011" },
+					{ "time": 0.4, "name": "toxicant_6_0013" },
+					{ "time": 0.4666, "name": "toxicant_6_0015" },
+					{ "time": 0.5333, "name": "toxicant_6_0017" },
+					{ "time": 0.6, "name": "toxicant_6_0019" },
+					{ "time": 0.6666, "name": "toxicant_6_0021" },
+					{ "time": 0.7333, "name": "toxicant_6_0023" },
+					{ "time": 0.8, "name": "toxicant_6_0025" },
+					{ "time": 0.8666, "name": "toxicant_6_0027" },
+					{ "time": 0.9333, "name": "toxicant_6_0029" },
+					{ "time": 1, "name": "toxicant_6_0031" },
+					{ "time": 1.0666, "name": "toxicant_6_0033" },
+					{ "time": 1.1333, "name": "toxicant_6_0035" },
+					{ "time": 1.2, "name": "toxicant_6_0037" },
+					{ "time": 1.2666, "name": "toxicant_6_0039" },
+					{ "time": 1.3333, "name": "toxicant_6_0041" },
+					{ "time": 1.4, "name": "toxicant_6_0043" },
+					{ "time": 1.4666, "name": "toxicant_6_0045" },
+					{ "time": 1.5333, "name": "toxicant_6_0047" },
+					{ "time": 1.6, "name": "toxicant_6_0049" },
+					{ "time": 1.6666, "name": "toxicant_6_0051" },
+					{ "time": 1.7333, "name": "toxicant_6_0053" },
+					{ "time": 1.8, "name": "toxicant_6_0055" },
+					{ "time": 1.8666, "name": "toxicant_6_0057" },
+					{ "time": 1.9333, "name": "toxicant_6_0059" },
+					{ "time": 2, "name": "toxicant_6_0061" },
+					{ "time": 2.0666, "name": "toxicant_6_0063" },
+					{ "time": 2.1333, "name": "toxicant_6_0065" },
+					{ "time": 2.2, "name": "toxicant_6_0067" },
+					{ "time": 2.2666, "name": "toxicant_6_0069" },
+					{ "time": 2.3333, "name": "toxicant_6_0071" },
+					{ "time": 2.4, "name": "toxicant_6_0073" },
+					{ "time": 2.4666, "name": "toxicant_6_0075" },
+					{ "time": 2.5333, "name": "toxicant_6_0077" },
+					{ "time": 2.6, "name": "toxicant_6_0079" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,89 @@
+
+lighting_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lighting_3_0001
+  rotate: false
+  xy: 2, 338
+  size: 250, 87
+  orig: 260, 150
+  offset: 6, 27
+  index: -1
+lighting_3_0002
+  rotate: false
+  xy: 2, 247
+  size: 243, 89
+  orig: 260, 150
+  offset: 9, 27
+  index: -1
+lighting_3_0003
+  rotate: false
+  xy: 2, 154
+  size: 182, 91
+  orig: 260, 150
+  offset: 37, 23
+  index: -1
+lighting_3_0004
+  rotate: true
+  xy: 186, 121
+  size: 124, 89
+  orig: 260, 150
+  offset: 66, 23
+  index: -1
+lighting_3_0005
+  rotate: false
+  xy: 406, 293
+  size: 94, 132
+  orig: 260, 150
+  offset: 31, 12
+  index: -1
+lighting_3_0006
+  rotate: false
+  xy: 406, 293
+  size: 94, 132
+  orig: 260, 150
+  offset: 31, 12
+  index: -1
+lighting_3_0007
+  rotate: false
+  xy: 92, 6
+  size: 89, 146
+  orig: 260, 150
+  offset: 14, 4
+  index: -1
+lighting_3_0008
+  rotate: false
+  xy: 92, 6
+  size: 89, 146
+  orig: 260, 150
+  offset: 14, 4
+  index: -1
+lighting_3_0009
+  rotate: false
+  xy: 2, 2
+  size: 88, 150
+  orig: 260, 150
+  offset: 1, 0
+  index: -1
+lighting_3_0010
+  rotate: false
+  xy: 2, 2
+  size: 88, 150
+  orig: 260, 150
+  offset: 1, 0
+  index: -1
+lighting_3_0011
+  rotate: true
+  xy: 254, 345
+  size: 80, 150
+  orig: 260, 150
+  offset: 0, 0
+  index: -1
+lighting_3_0012
+  rotate: true
+  xy: 254, 345
+  size: 80, 150
+  orig: 260, 150
+  offset: 0, 0
+  index: -1

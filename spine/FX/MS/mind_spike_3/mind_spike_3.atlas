@@ -1,0 +1,75 @@
+
+mind_spike_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mind_spike_3_1
+  rotate: false
+  xy: 2, 90
+  size: 60, 163
+  orig: 80, 200
+  offset: 9, 30
+  index: -1
+mind_spike_3_10
+  rotate: false
+  xy: 83, 21
+  size: 37, 92
+  orig: 80, 200
+  offset: 21, 50
+  index: -1
+mind_spike_3_2
+  rotate: true
+  xy: 289, 191
+  size: 62, 138
+  orig: 80, 200
+  offset: 8, 9
+  index: -1
+mind_spike_3_3
+  rotate: true
+  xy: 289, 71
+  size: 53, 134
+  orig: 80, 200
+  offset: 12, 6
+  index: -1
+mind_spike_3_4
+  rotate: false
+  xy: 2, 2
+  size: 79, 86
+  orig: 80, 200
+  offset: 0, 10
+  index: -1
+mind_spike_3_5
+  rotate: false
+  xy: 214, 121
+  size: 73, 132
+  orig: 80, 200
+  offset: 2, 11
+  index: -1
+mind_spike_3_6
+  rotate: false
+  xy: 64, 115
+  size: 74, 138
+  orig: 80, 200
+  offset: 2, 10
+  index: -1
+mind_spike_3_7
+  rotate: false
+  xy: 140, 118
+  size: 72, 135
+  orig: 80, 200
+  offset: 4, 13
+  index: -1
+mind_spike_3_8
+  rotate: true
+  xy: 289, 126
+  size: 63, 126
+  orig: 80, 200
+  offset: 12, 18
+  index: -1
+mind_spike_3_9
+  rotate: false
+  xy: 429, 137
+  size: 45, 116
+  orig: 80, 200
+  offset: 20, 25
+  index: -1

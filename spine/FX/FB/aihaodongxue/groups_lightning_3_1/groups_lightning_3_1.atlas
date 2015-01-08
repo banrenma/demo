@@ -1,0 +1,103 @@
+
+groups_lightning_3_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+groups_lightning_3_1_1
+  rotate: false
+  xy: 338, 233
+  size: 24, 46
+  orig: 180, 315
+  offset: 73, 269
+  index: -1
+groups_lightning_3_1_10
+  rotate: true
+  xy: 2, 2
+  size: 44, 302
+  orig: 180, 315
+  offset: 67, 13
+  index: -1
+groups_lightning_3_1_11
+  rotate: false
+  xy: 345, 354
+  size: 37, 302
+  orig: 180, 315
+  offset: 67, 13
+  index: -1
+groups_lightning_3_1_12
+  rotate: false
+  xy: 384, 418
+  size: 13, 238
+  orig: 180, 315
+  offset: 82, 59
+  index: -1
+groups_lightning_3_1_13
+  rotate: false
+  xy: 307, 165
+  size: 14, 189
+  orig: 180, 315
+  offset: 81, 118
+  index: -1
+groups_lightning_3_1_14
+  rotate: false
+  xy: 323, 169
+  size: 13, 185
+  orig: 180, 315
+  offset: 82, 120
+  index: -1
+groups_lightning_3_1_2
+  rotate: true
+  xy: 338, 281
+  size: 71, 56
+  orig: 180, 315
+  offset: 49, 259
+  index: -1
+groups_lightning_3_1_3
+  rotate: true
+  xy: 307, 10
+  size: 153, 77
+  orig: 180, 315
+  offset: 10, 238
+  index: -1
+groups_lightning_3_1_4
+  rotate: false
+  xy: 2, 352
+  size: 165, 304
+  orig: 180, 315
+  offset: 5, 11
+  index: -1
+groups_lightning_3_1_5
+  rotate: false
+  xy: 2, 48
+  size: 164, 302
+  orig: 180, 315
+  offset: 5, 13
+  index: -1
+groups_lightning_3_1_6
+  rotate: false
+  xy: 169, 353
+  size: 86, 303
+  orig: 180, 315
+  offset: 44, 12
+  index: -1
+groups_lightning_3_1_7
+  rotate: false
+  xy: 257, 356
+  size: 86, 300
+  orig: 180, 315
+  offset: 44, 15
+  index: -1
+groups_lightning_3_1_8
+  rotate: false
+  xy: 168, 48
+  size: 68, 302
+  orig: 180, 315
+  offset: 56, 13
+  index: -1
+groups_lightning_3_1_9
+  rotate: false
+  xy: 238, 50
+  size: 67, 301
+  orig: 180, 315
+  offset: 56, 14
+  index: -1

@@ -1,0 +1,215 @@
+
+whitemane.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+whitemane_body
+  rotate: true
+  xy: 777, 39
+  size: 23, 36
+  orig: 23, 36
+  offset: 0, 0
+  index: -1
+whitemane_brest
+  rotate: false
+  xy: 856, 47
+  size: 25, 15
+  orig: 25, 15
+  offset: 0, 0
+  index: -1
+whitemane_hair1
+  rotate: true
+  xy: 685, 32
+  size: 30, 49
+  orig: 30, 49
+  offset: 0, 0
+  index: -1
+whitemane_hair2
+  rotate: true
+  xy: 203, 18
+  size: 44, 67
+  orig: 44, 67
+  offset: 0, 0
+  index: -1
+whitemane_hair3
+  rotate: true
+  xy: 622, 39
+  size: 23, 61
+  orig: 28, 61
+  offset: 3, 0
+  index: -1
+whitemane_hair4
+  rotate: true
+  xy: 568, 20
+  size: 42, 52
+  orig: 42, 52
+  offset: 0, 0
+  index: -1
+whitemane_head1
+  rotate: true
+  xy: 332, 12
+  size: 50, 57
+  orig: 53, 58
+  offset: 0, 1
+  index: -1
+whitemane_head2
+  rotate: true
+  xy: 272, 12
+  size: 50, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+whitemane_head3
+  rotate: true
+  xy: 391, 12
+  size: 50, 57
+  orig: 53, 58
+  offset: 0, 1
+  index: -1
+whitemane_head4
+  rotate: true
+  xy: 450, 12
+  size: 50, 57
+  orig: 53, 58
+  offset: 0, 1
+  index: -1
+whitemane_head5
+  rotate: true
+  xy: 509, 12
+  size: 50, 57
+  orig: 53, 58
+  offset: 0, 1
+  index: -1
+whitemane_headdress
+  rotate: false
+  xy: 122, 14
+  size: 79, 48
+  orig: 79, 53
+  offset: 0, 2
+  index: -1
+whitemane_l_calf
+  rotate: true
+  xy: 203, 2
+  size: 14, 26
+  orig: 14, 26
+  offset: 0, 0
+  index: -1
+whitemane_l_foot
+  rotate: false
+  xy: 2, 2
+  size: 11, 6
+  orig: 11, 6
+  offset: 0, 0
+  index: -1
+whitemane_l_forearm
+  rotate: true
+  xy: 231, 2
+  size: 14, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+whitemane_l_hand
+  rotate: false
+  xy: 122, 2
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+whitemane_l_shoudler
+  rotate: false
+  xy: 736, 28
+  size: 39, 34
+  orig: 39, 37
+  offset: 0, 3
+  index: -1
+whitemane_l_thgih
+  rotate: false
+  xy: 734, 2
+  size: 14, 24
+  orig: 14, 24
+  offset: 0, 0
+  index: -1
+whitemane_l_upperarm
+  rotate: false
+  xy: 750, 3
+  size: 17, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+whitemane_m_down
+  rotate: true
+  xy: 815, 44
+  size: 18, 39
+  orig: 18, 44
+  offset: 0, 2
+  index: -1
+whitemane_pelvis
+  rotate: false
+  xy: 705, 11
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+whitemane_polearm
+  rotate: true
+  xy: 2, 10
+  size: 52, 118
+  orig: 54, 126
+  offset: 0, 3
+  index: -1
+whitemane_r_calf
+  rotate: true
+  xy: 777, 28
+  size: 9, 25
+  orig: 12, 25
+  offset: 3, 0
+  index: -1
+whitemane_r_foot
+  rotate: false
+  xy: 705, 2
+  size: 12, 7
+  orig: 12, 7
+  offset: 0, 0
+  index: -1
+whitemane_r_forearm
+  rotate: false
+  xy: 568, 2
+  size: 16, 16
+  orig: 20, 16
+  offset: 2, 0
+  index: -1
+whitemane_r_hand
+  rotate: false
+  xy: 586, 5
+  size: 13, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+whitemane_r_shoudler
+  rotate: true
+  xy: 679, 2
+  size: 28, 24
+  orig: 28, 27
+  offset: 0, 3
+  index: -1
+whitemane_r_thigh
+  rotate: false
+  xy: 769, 5
+  size: 12, 21
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+whitemane_r_upperarm
+  rotate: true
+  xy: 883, 50
+  size: 12, 23
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+whitemane_shadow
+  rotate: false
+  xy: 622, 20
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

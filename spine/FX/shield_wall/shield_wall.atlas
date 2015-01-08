@@ -1,0 +1,131 @@
+
+shield_wall.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shield_wall_01
+  rotate: false
+  xy: 271, 144
+  size: 88, 46
+  orig: 100, 60
+  offset: 6, 4
+  index: -1
+shield_wall_02
+  rotate: false
+  xy: 91, 143
+  size: 88, 48
+  orig: 100, 60
+  offset: 6, 4
+  index: -1
+shield_wall_03
+  rotate: false
+  xy: 2, 193
+  size: 88, 49
+  orig: 100, 60
+  offset: 6, 4
+  index: -1
+shield_wall_04
+  rotate: false
+  xy: 182, 193
+  size: 87, 49
+  orig: 100, 60
+  offset: 7, 4
+  index: -1
+shield_wall_05
+  rotate: false
+  xy: 271, 192
+  size: 86, 50
+  orig: 100, 60
+  offset: 7, 4
+  index: -1
+shield_wall_06
+  rotate: false
+  xy: 361, 142
+  size: 84, 49
+  orig: 100, 60
+  offset: 8, 5
+  index: -1
+shield_wall_07
+  rotate: true
+  xy: 53, 57
+  size: 82, 49
+  orig: 100, 60
+  offset: 9, 5
+  index: -1
+shield_wall_08
+  rotate: false
+  xy: 188, 92
+  size: 80, 49
+  orig: 100, 60
+  offset: 10, 5
+  index: -1
+shield_wall_09
+  rotate: false
+  xy: 186, 43
+  size: 77, 47
+  orig: 100, 60
+  offset: 11, 6
+  index: -1
+shield_wall_10
+  rotate: false
+  xy: 2, 2
+  size: 77, 47
+  orig: 100, 60
+  offset: 12, 6
+  index: -1
+shield_wall_11
+  rotate: false
+  xy: 104, 42
+  size: 80, 48
+  orig: 100, 60
+  offset: 10, 6
+  index: -1
+shield_wall_12
+  rotate: false
+  xy: 104, 92
+  size: 82, 49
+  orig: 100, 60
+  offset: 9, 5
+  index: -1
+shield_wall_13
+  rotate: true
+  xy: 447, 159
+  size: 83, 49
+  orig: 100, 60
+  offset: 9, 5
+  index: -1
+shield_wall_14
+  rotate: false
+  xy: 359, 193
+  size: 86, 49
+  orig: 100, 60
+  offset: 7, 5
+  index: -1
+shield_wall_15
+  rotate: false
+  xy: 2, 141
+  size: 87, 50
+  orig: 100, 60
+  offset: 7, 4
+  index: -1
+shield_wall_16
+  rotate: false
+  xy: 92, 193
+  size: 88, 49
+  orig: 100, 60
+  offset: 6, 4
+  index: -1
+shield_wall_17
+  rotate: true
+  xy: 2, 51
+  size: 88, 49
+  orig: 100, 60
+  offset: 6, 4
+  index: -1
+shield_wall_18
+  rotate: false
+  xy: 181, 143
+  size: 88, 48
+  orig: 100, 60
+  offset: 6, 4
+  index: -1

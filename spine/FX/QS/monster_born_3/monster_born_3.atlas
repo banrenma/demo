@@ -1,0 +1,236 @@
+
+monster_born_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monster_born_3_0001
+  rotate: true
+  xy: 325, 99
+  size: 77, 115
+  orig: 105, 174
+  offset: 14, 10
+  index: -1
+monster_born_3_0002
+  rotate: false
+  xy: 245, 63
+  size: 78, 116
+  orig: 105, 174
+  offset: 14, 10
+  index: -1
+monster_born_3_0003
+  rotate: false
+  xy: 542, 359
+  size: 79, 151
+  orig: 105, 174
+  offset: 13, 10
+  index: -1
+monster_born_3_0004
+  rotate: false
+  xy: 460, 356
+  size: 80, 154
+  orig: 105, 174
+  offset: 14, 7
+  index: -1
+monster_born_3_0005
+  rotate: false
+  xy: 375, 356
+  size: 83, 154
+  orig: 105, 174
+  offset: 13, 7
+  index: -1
+monster_born_3_0006
+  rotate: false
+  xy: 288, 356
+  size: 85, 154
+  orig: 105, 174
+  offset: 12, 7
+  index: -1
+monster_born_3_0007
+  rotate: false
+  xy: 98, 184
+  size: 88, 155
+  orig: 105, 174
+  offset: 10, 6
+  index: -1
+monster_born_3_0008
+  rotate: false
+  xy: 195, 355
+  size: 91, 155
+  orig: 105, 174
+  offset: 9, 6
+  index: -1
+monster_born_3_0009
+  rotate: false
+  xy: 2, 171
+  size: 94, 168
+  orig: 105, 174
+  offset: 7, 6
+  index: -1
+monster_born_3_0010
+  rotate: false
+  xy: 2, 341
+  size: 96, 169
+  orig: 105, 174
+  offset: 6, 5
+  index: -1
+monster_born_3_0011
+  rotate: false
+  xy: 100, 341
+  size: 93, 169
+  orig: 105, 174
+  offset: 7, 5
+  index: -1
+monster_born_3_0012
+  rotate: false
+  xy: 2, 2
+  size: 79, 167
+  orig: 105, 174
+  offset: 13, 7
+  index: -1
+monster_born_3_0013
+  rotate: false
+  xy: 83, 2
+  size: 79, 167
+  orig: 105, 174
+  offset: 13, 7
+  index: -1
+monster_born_3_0014
+  rotate: true
+  xy: 720, 336
+  size: 79, 120
+  orig: 105, 174
+  offset: 13, 7
+  index: -1
+monster_born_3_0015
+  rotate: false
+  xy: 164, 63
+  size: 79, 119
+  orig: 105, 174
+  offset: 13, 7
+  index: -1
+monster_born_3_0016
+  rotate: true
+  xy: 842, 336
+  size: 81, 119
+  orig: 105, 174
+  offset: 12, 7
+  index: -1
+monster_born_3_0017
+  rotate: false
+  xy: 188, 221
+  size: 83, 118
+  orig: 105, 174
+  offset: 11, 7
+  index: -1
+monster_born_3_0018
+  rotate: true
+  xy: 288, 270
+  size: 84, 118
+  orig: 105, 174
+  offset: 10, 7
+  index: -1
+monster_born_3_0019
+  rotate: true
+  xy: 408, 269
+  size: 85, 118
+  orig: 105, 174
+  offset: 10, 7
+  index: -1
+monster_born_3_0020
+  rotate: true
+  xy: 273, 181
+  size: 87, 117
+  orig: 105, 174
+  offset: 9, 7
+  index: -1
+monster_born_3_0021
+  rotate: true
+  xy: 392, 178
+  size: 89, 117
+  orig: 105, 174
+  offset: 8, 7
+  index: -1
+monster_born_3_0022
+  rotate: true
+  xy: 839, 419
+  size: 91, 117
+  orig: 105, 174
+  offset: 7, 6
+  index: -1
+monster_born_3_0023
+  rotate: true
+  xy: 720, 417
+  size: 93, 117
+  orig: 105, 174
+  offset: 7, 6
+  index: -1
+monster_born_3_0024
+  rotate: false
+  xy: 623, 394
+  size: 95, 116
+  orig: 105, 174
+  offset: 6, 6
+  index: -1
+monster_born_3_0025
+  rotate: false
+  xy: 164, 14
+  size: 96, 47
+  orig: 105, 174
+  offset: 6, 5
+  index: -1
+monster_born_3_0026
+  rotate: false
+  xy: 623, 345
+  size: 93, 47
+  orig: 105, 174
+  offset: 7, 5
+  index: -1
+monster_born_3_0027
+  rotate: false
+  xy: 958, 475
+  size: 26, 35
+  orig: 105, 174
+  offset: 38, 17
+  index: -1
+monster_born_3_0028
+  rotate: false
+  xy: 188, 184
+  size: 27, 35
+  orig: 105, 174
+  offset: 38, 17
+  index: -1
+monster_born_3_0029
+  rotate: false
+  xy: 217, 184
+  size: 27, 35
+  orig: 105, 174
+  offset: 38, 17
+  index: -1
+monster_born_3_0030
+  rotate: false
+  xy: 262, 27
+  size: 27, 34
+  orig: 105, 174
+  offset: 38, 18
+  index: -1
+monster_born_3_0031
+  rotate: false
+  xy: 325, 63
+  size: 26, 34
+  orig: 105, 174
+  offset: 39, 18
+  index: -1
+monster_born_3_0032
+  rotate: false
+  xy: 442, 142
+  size: 26, 34
+  orig: 105, 174
+  offset: 39, 18
+  index: -1
+monster_born_3_0033
+  rotate: false
+  xy: 246, 184
+  size: 24, 35
+  orig: 105, 174
+  offset: 40, 17
+  index: -1

@@ -1,0 +1,64 @@
+{
+"bones": [
+	{ "name": "root", "x": 3.85, "y": 116.53 }
+],
+"slots": [
+	{ "name": "Ultrakill", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"Ultrakill": {
+			"Ultrakill_01": { "width": 260, "height": 400 },
+			"Ultrakill_02": { "width": 260, "height": 400 },
+			"Ultrakill_03": { "width": 260, "height": 400 },
+			"Ultrakill_04": { "width": 260, "height": 400 },
+			"Ultrakill_05": { "width": 260, "height": 400 },
+			"Ultrakill_06": { "width": 260, "height": 400 },
+			"Ultrakill_07": { "width": 260, "height": 400 },
+			"Ultrakill_08": { "width": 260, "height": 400 },
+			"Ultrakill_09": { "width": 260, "height": 400 },
+			"Ultrakill_10": { "width": 260, "height": 400 },
+			"Ultrakill_11": { "width": 260, "height": 400 },
+			"Ultrakill_12": { "width": 260, "height": 400 },
+			"Ultrakill_13": { "width": 260, "height": 400 },
+			"Ultrakill_14": { "width": 260, "height": 400 },
+			"Ultrakill_15": { "width": 260, "height": 400 },
+			"Ultrakill_16": { "width": 260, "height": 400 },
+			"Ultrakill_17": { "width": 260, "height": 400 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"Ultrakill": {
+				"attachment": [
+					{ "time": 0, "name": "Ultrakill_01" },
+					{ "time": 0.0333, "name": "Ultrakill_02" },
+					{ "time": 0.0666, "name": "Ultrakill_03" },
+					{ "time": 0.1, "name": "Ultrakill_04" },
+					{ "time": 0.1333, "name": "Ultrakill_05" },
+					{ "time": 0.1666, "name": "Ultrakill_06" },
+					{ "time": 0.2, "name": "Ultrakill_07" },
+					{ "time": 0.2333, "name": "Ultrakill_08" },
+					{ "time": 0.2666, "name": "Ultrakill_09" },
+					{ "time": 0.3, "name": "Ultrakill_10" },
+					{ "time": 0.3333, "name": "Ultrakill_11" },
+					{ "time": 0.3666, "name": "Ultrakill_12" },
+					{ "time": 0.4, "name": "Ultrakill_13" },
+					{ "time": 0.4333, "name": "Ultrakill_14" },
+					{ "time": 0.4666, "name": "Ultrakill_15" },
+					{ "time": 0.5, "name": "Ultrakill_16" },
+					{ "time": 0.5333, "name": "Ultrakill_17" },
+					{ "time": 0.6, "name": "Ultrakill_17" }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

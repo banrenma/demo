@@ -1,0 +1,12 @@
+
+knockback_3_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+knockback_3_2_
+  rotate: false
+  xy: 2, 2
+  size: 159, 64
+  orig: 165, 65
+  offset: 3, 0
+  index: -1

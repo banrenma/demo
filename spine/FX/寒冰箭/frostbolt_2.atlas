@@ -1,0 +1,75 @@
+
+frostbolt_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frostbolt_2_01
+  rotate: false
+  xy: 2, 2
+  size: 172, 70
+  orig: 180, 90
+  offset: 7, 11
+  index: -1
+frostbolt_2_02
+  rotate: false
+  xy: 183, 74
+  size: 157, 82
+  orig: 180, 90
+  offset: 22, 5
+  index: -1
+frostbolt_2_03
+  rotate: false
+  xy: 183, 158
+  size: 162, 90
+  orig: 180, 90
+  offset: 17, 0
+  index: -1
+frostbolt_2_04
+  rotate: false
+  xy: 347, 166
+  size: 168, 82
+  orig: 180, 90
+  offset: 12, 5
+  index: -1
+frostbolt_2_05
+  rotate: false
+  xy: 685, 178
+  size: 172, 70
+  orig: 180, 90
+  offset: 7, 11
+  index: -1
+frostbolt_2_06
+  rotate: false
+  xy: 517, 166
+  size: 166, 82
+  orig: 180, 90
+  offset: 13, 5
+  index: -1
+frostbolt_2_07
+  rotate: false
+  xy: 2, 158
+  size: 179, 90
+  orig: 180, 90
+  offset: 0, 0
+  index: -1
+frostbolt_2_08
+  rotate: false
+  xy: 2, 74
+  size: 179, 82
+  orig: 180, 90
+  offset: 0, 5
+  index: -1
+frostbolt_2_09
+  rotate: false
+  xy: 859, 175
+  size: 158, 73
+  orig: 180, 90
+  offset: 21, 9
+  index: -1
+frostbolt_2_10
+  rotate: false
+  xy: 176, 7
+  size: 175, 65
+  orig: 180, 90
+  offset: 4, 14
+  index: -1

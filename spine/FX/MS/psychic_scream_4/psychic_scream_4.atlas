@@ -1,0 +1,103 @@
+
+psychic_scream_4.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+psychic_scream_4_1
+  rotate: true
+  xy: 331, 2
+  size: 76, 83
+  orig: 100, 100
+  offset: 11, 6
+  index: -1
+psychic_scream_4_10
+  rotate: false
+  xy: 170, 75
+  size: 79, 88
+  orig: 100, 100
+  offset: 9, 3
+  index: -1
+psychic_scream_4_11
+  rotate: false
+  xy: 251, 77
+  size: 78, 87
+  orig: 100, 100
+  offset: 10, 4
+  index: -1
+psychic_scream_4_12
+  rotate: false
+  xy: 331, 80
+  size: 76, 86
+  orig: 100, 100
+  offset: 11, 4
+  index: -1
+psychic_scream_4_14
+  rotate: false
+  xy: 409, 84
+  size: 74, 84
+  orig: 100, 100
+  offset: 12, 5
+  index: -1
+psychic_scream_4_15
+  rotate: true
+  xy: 416, 7
+  size: 75, 83
+  orig: 100, 100
+  offset: 12, 6
+  index: -1
+psychic_scream_4_2
+  rotate: false
+  xy: 409, 170
+  size: 75, 84
+  orig: 100, 100
+  offset: 12, 5
+  index: -1
+psychic_scream_4_3
+  rotate: false
+  xy: 331, 168
+  size: 76, 86
+  orig: 100, 100
+  offset: 11, 4
+  index: -1
+psychic_scream_4_4
+  rotate: false
+  xy: 251, 166
+  size: 78, 88
+  orig: 100, 100
+  offset: 10, 3
+  index: -1
+psychic_scream_4_5
+  rotate: false
+  xy: 170, 165
+  size: 79, 89
+  orig: 100, 100
+  offset: 9, 2
+  index: -1
+psychic_scream_4_6
+  rotate: false
+  xy: 87, 164
+  size: 81, 90
+  orig: 100, 100
+  offset: 8, 2
+  index: -1
+psychic_scream_4_7
+  rotate: false
+  xy: 2, 163
+  size: 83, 91
+  orig: 100, 100
+  offset: 7, 1
+  index: -1
+psychic_scream_4_8
+  rotate: false
+  xy: 2, 70
+  size: 83, 91
+  orig: 100, 100
+  offset: 7, 1
+  index: -1
+psychic_scream_4_9
+  rotate: false
+  xy: 87, 72
+  size: 81, 90
+  orig: 100, 100
+  offset: 8, 2
+  index: -1

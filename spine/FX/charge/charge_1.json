@@ -1,0 +1,67 @@
+{
+"bones": [
+	{ "name": "root", "x": 171 }
+],
+"slots": [
+	{ "name": "charge_1_1", "bone": "root", "attachment": "charge_1_9", "additive": true }
+],
+"skins": {
+	"default": {
+		"charge_1_1": {
+			"charge_1_1": { "width": 380, "height": 70 },
+			"charge_1_2": { "width": 380, "height": 70 },
+			"charge_1_3": { "width": 380, "height": 70 },
+			"charge_1_4": { "width": 380, "height": 70 },
+			"charge_1_5": { "width": 380, "height": 70 },
+			"charge_1_6": { "width": 380, "height": 70 },
+			"charge_1_7": { "width": 380, "height": 70 },
+			"charge_1_8": { "width": 380, "height": 70 },
+			"charge_1_9": { "width": 380, "height": 70 },
+			"charge_1_10": { "width": 380, "height": 70 },
+			"charge_1_11": { "width": 380, "height": 70 },
+			"charge_1_12": { "width": 380, "height": 70 },
+			"charge_1_13": { "width": 380, "height": 70 },
+			"charge_1_14": { "width": 380, "height": 70 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"charge_1_1": {
+				"attachment": [
+					{ "time": 0, "name": "charge_1_1" },
+					{ "time": 0.0666, "name": "charge_1_2" },
+					{ "time": 0.1333, "name": "charge_1_3" },
+					{ "time": 0.2, "name": "charge_1_4" },
+					{ "time": 0.2666, "name": "charge_1_5" },
+					{ "time": 0.3333, "name": "charge_1_6" },
+					{ "time": 0.4, "name": "charge_1_7" },
+					{ "time": 0.4666, "name": "charge_1_8" },
+					{ "time": 0.5333, "name": "charge_1_9" },
+					{ "time": 0.6, "name": "charge_1_10" },
+					{ "time": 0.6666, "name": "charge_1_11" },
+					{ "time": 0.7333, "name": "charge_1_12" },
+					{ "time": 0.8, "name": "charge_1_13" },
+					{ "time": 0.8666, "name": "charge_1_14" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": -283.99, "y": 0 },
+					{ "time": 0.0666, "x": -226, "y": 0 },
+					{ "time": 0.1333, "x": -167.99, "y": 0 },
+					{ "time": 0.2, "x": -121, "y": 0 },
+					{ "time": 0.2666, "x": -63, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

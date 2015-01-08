@@ -1,0 +1,47 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "cricle_2_1", "bone": "root", "attachment": "cricle_1_2" }
+],
+"skins": {
+	"default": {
+		"cricle_2_1": {
+			"cricle_1_2": { "width": 60, "height": 32 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"cricle_2_1": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.2, "y": 0.2 },
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.2, "y": 1.2 }
+				]
+			}
+		}
+	}
+}
+}

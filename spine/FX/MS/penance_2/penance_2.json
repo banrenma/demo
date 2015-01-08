@@ -1,0 +1,42 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "penance_2_0001", "bone": "root", "attachment": "penance_2_0009" }
+],
+"skins": {
+	"default": {
+		"penance_2_0001": {
+			"penance_2_0001": { "scaleX": 2, "scaleY": 2, "width": 250, "height": 90 },
+			"penance_2_0002": { "scaleX": 2, "scaleY": 2, "width": 250, "height": 90 },
+			"penance_2_0003": { "scaleX": 2, "scaleY": 2, "width": 250, "height": 90 },
+			"penance_2_0004": { "scaleX": 2, "scaleY": 2, "width": 250, "height": 90 },
+			"penance_2_0005": { "scaleX": 2, "scaleY": 2, "width": 250, "height": 90 },
+			"penance_2_0006": { "scaleX": 2, "scaleY": 2, "width": 250, "height": 90 },
+			"penance_2_0007": { "scaleX": 2, "scaleY": 2, "width": 250, "height": 90 },
+			"penance_2_0008": { "scaleX": 2, "scaleY": 2, "width": 250, "height": 90 },
+			"penance_2_0009": { "scaleX": 2, "scaleY": 2, "width": 250, "height": 90 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"penance_2_0001": {
+				"attachment": [
+					{ "time": 0, "name": "penance_2_0001" },
+					{ "time": 0.0333, "name": "penance_2_0002" },
+					{ "time": 0.0666, "name": "penance_2_0003" },
+					{ "time": 0.1, "name": "penance_2_0004" },
+					{ "time": 0.1333, "name": "penance_2_0005" },
+					{ "time": 0.1666, "name": "penance_2_0006" },
+					{ "time": 0.2, "name": "penance_2_0007" },
+					{ "time": 0.2333, "name": "penance_2_0008" },
+					{ "time": 0.2666, "name": "penance_2_0009" }
+				]
+			}
+		}
+	}
+}
+}

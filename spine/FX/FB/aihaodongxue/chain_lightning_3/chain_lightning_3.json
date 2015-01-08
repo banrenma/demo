@@ -1,0 +1,44 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "chain_lightning_3_1", "bone": "root", "attachment": "chain_lightning_3_9" }
+],
+"skins": {
+	"default": {
+		"chain_lightning_3_1": {
+			"chain_lightning_3_1": { "x": 45.99, "width": 260, "height": 150 },
+			"chain_lightning_3_2": { "x": 45.99, "width": 260, "height": 150 },
+			"chain_lightning_3_3": { "x": 45.99, "width": 260, "height": 150 },
+			"chain_lightning_3_4": { "x": 45.99, "width": 260, "height": 150 },
+			"chain_lightning_3_5": { "x": 45.99, "width": 260, "height": 150 },
+			"chain_lightning_3_6": { "x": 45.99, "width": 260, "height": 150 },
+			"chain_lightning_3_7": { "x": 45.99, "width": 260, "height": 150 },
+			"chain_lightning_3_8": { "x": 45.99, "width": 260, "height": 150 },
+			"chain_lightning_3_9": { "x": 45.99, "width": 260, "height": 150 },
+			"chain_lightning_3_10": { "x": 45.99, "width": 260, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"chain_lightning_3_1": {
+				"attachment": [
+					{ "time": 0, "name": "chain_lightning_3_1" },
+					{ "time": 0.0333, "name": "chain_lightning_3_2" },
+					{ "time": 0.0666, "name": "chain_lightning_3_3" },
+					{ "time": 0.1, "name": "chain_lightning_3_4" },
+					{ "time": 0.1333, "name": "chain_lightning_3_5" },
+					{ "time": 0.1666, "name": "chain_lightning_3_6" },
+					{ "time": 0.2, "name": "chain_lightning_3_7" },
+					{ "time": 0.2333, "name": "chain_lightning_3_8" },
+					{ "time": 0.2666, "name": "chain_lightning_3_9" },
+					{ "time": 0.3, "name": "chain_lightning_3_10" }
+				]
+			}
+		}
+	}
+}
+}

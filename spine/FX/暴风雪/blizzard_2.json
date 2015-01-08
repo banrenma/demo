@@ -1,0 +1,35 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "blizzard_2", "bone": "root", "attachment": "blizzard_2_01" }
+],
+"skins": {
+	"default": {
+		"blizzard_2": {
+			"blizzard_2_01": { "width": 50, "height": 180 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"blizzard_2": {
+				"attachment": [
+					{ "time": 0, "name": "blizzard_2_01" },
+					{ "time": 0.7333, "name": "blizzard_2_01" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 79.74, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 79.74 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,3975 @@
+{
+"bones": [
+	{ "name": "duchess_of_maland" },
+	{ "name": "duchess_of_maland_", "parent": "duchess_of_maland", "x": 0.75, "y": 47.69 },
+	{ "name": "duchess_of_maland_body", "parent": "duchess_of_maland_", "length": 37.39, "x": -2.57, "y": -9.98, "rotation": 94.5 },
+	{ "name": "duchess_of_maland_shadow", "parent": "duchess_of_maland_", "x": -0.12, "y": -46.86 },
+	{ "name": "duchess_of_maland_brest", "parent": "duchess_of_maland_body", "x": 19.73, "y": 4.68, "rotation": -94.5 },
+	{ "name": "duchess_of_maland_head", "parent": "duchess_of_maland_body", "length": 61.19, "x": 34.74, "y": -3.53, "rotation": 9.21 },
+	{
+		"name": "duchess_of_maland_l_foot",
+		"parent": "duchess_of_maland_body",
+		"length": 12.11,
+		"x": -39.54,
+		"y": -4.42,
+		"rotation": -62.17
+	},
+	{
+		"name": "duchess_of_maland_l_upperarm",
+		"parent": "duchess_of_maland_body",
+		"length": 31.97,
+		"x": 38.7,
+		"y": -19.28,
+		"rotation": -169.93
+	},
+	{
+		"name": "duchess_of_maland_m_down1",
+		"parent": "duchess_of_maland_body",
+		"length": 35.21,
+		"x": 5.23,
+		"y": 0.64,
+		"rotation": 176.17
+	},
+	{
+		"name": "duchess_of_maland_r_foot",
+		"parent": "duchess_of_maland_body",
+		"length": 13.11,
+		"x": -37.07,
+		"y": 15.73,
+		"rotation": -67.57
+	},
+	{
+		"name": "duchess_of_maland_r_upperarm",
+		"parent": "duchess_of_maland_body",
+		"length": 26.55,
+		"x": 37.25,
+		"y": 11.5,
+		"rotation": 175.49
+	},
+	{ "name": "dummy_body", "parent": "duchess_of_maland_body", "x": 16.63, "y": 4.78, "rotation": -94.5 },
+	{ "name": "dummy_foot", "parent": "duchess_of_maland_shadow", "x": -0.69, "y": 0.27 },
+	{
+		"name": "duchess_of_maland_ r_down",
+		"parent": "duchess_of_maland_m_down1",
+		"length": 20.2,
+		"x": -1.06,
+		"y": -5.87,
+		"rotation": -15.4
+	},
+	{
+		"name": "duchess_of_maland_l_down",
+		"parent": "duchess_of_maland_m_down1",
+		"length": 24.83,
+		"x": -1.93,
+		"y": 8.27,
+		"rotation": 27.48
+	},
+	{
+		"name": "duchess_of_maland_l_forearm",
+		"parent": "duchess_of_maland_l_upperarm",
+		"length": 19.19,
+		"x": 47.61,
+		"y": -1.74,
+		"rotation": 173.05
+	},
+	{
+		"name": "duchess_of_maland_m_down2",
+		"parent": "duchess_of_maland_m_down1",
+		"length": 22.68,
+		"x": 42.86,
+		"y": 2.86,
+		"rotation": -177.67
+	},
+	{
+		"name": "duchess_of_maland_r_forearm",
+		"parent": "duchess_of_maland_r_upperarm",
+		"length": 20.25,
+		"x": 39.06,
+		"y": -11.05,
+		"rotation": 144.37
+	},
+	{ "name": "dummy_head", "parent": "duchess_of_maland_head", "x": 57.07, "y": -14.92, "rotation": -103.71 },
+	{
+		"name": "duchess_of_maland_polearm",
+		"parent": "duchess_of_maland_r_forearm",
+		"length": 96.59,
+		"x": 2.66,
+		"y": -1.56,
+		"rotation": 90
+	},
+	{ "name": "dummy_weapon", "parent": "duchess_of_maland_polearm", "x": 87.48, "y": 1.11, "rotation": -144.37 }
+],
+"slots": [
+	{ "name": "duchess_of_maland_shadow", "bone": "duchess_of_maland_shadow", "attachment": "duchess_of_maland_shadow" },
+	{ "name": "duchess_of_maland_polearm", "bone": "duchess_of_maland_polearm", "attachment": "duchess_of_maland_polearm" },
+	{ "name": "duchess_of_maland_r_upperarm", "bone": "duchess_of_maland_r_upperarm", "attachment": "duchess_of_maland_r_upperarm" },
+	{ "name": "duchess_of_maland_r_forearm", "bone": "duchess_of_maland_r_forearm", "attachment": "duchess_of_maland_r_forearm" },
+	{ "name": "duchess_of_maland_r_foot", "bone": "duchess_of_maland_r_foot", "attachment": "duchess_of_maland_r_foot" },
+	{ "name": "duchess_of_maland_l_foot", "bone": "duchess_of_maland_l_foot", "attachment": "duchess_of_maland_l_foot" },
+	{ "name": "duchess_of_maland_m_down2", "bone": "duchess_of_maland_m_down2", "attachment": "duchess_of_maland_m_down2" },
+	{ "name": "duchess_of_maland_m_down1", "bone": "duchess_of_maland_m_down1", "attachment": "duchess_of_maland_m_down1" },
+	{ "name": "duchess_of_maland_ r_down", "bone": "duchess_of_maland_ r_down", "attachment": "duchess_of_maland_ r_down" },
+	{ "name": "duchess_of_maland_l_down", "bone": "duchess_of_maland_l_down", "attachment": "duchess_of_maland_l_down" },
+	{ "name": "duchess_of_maland_body", "bone": "duchess_of_maland_body", "attachment": "duchess_of_maland_body" },
+	{ "name": "duchess_of_maland_brest", "bone": "duchess_of_maland_brest", "attachment": "duchess_of_maland_brest" },
+	{ "name": "duchess_of_maland_head", "bone": "duchess_of_maland_head", "attachment": "duchess_of_maland_head1" },
+	{ "name": "duchess_of_maland_l_upperarm", "bone": "duchess_of_maland_l_upperarm", "attachment": "duchess_of_maland_l_upperarm" },
+	{ "name": "duchess_of_maland_l_forearm", "bone": "duchess_of_maland_l_forearm", "attachment": "duchess_of_maland_l_forearm" }
+],
+"skins": {
+	"default": {
+		"duchess_of_maland_ r_down": {
+			"duchess_of_maland_ r_down": { "x": 11.32, "y": 3.22, "rotation": 104.73, "width": 14, "height": 24 }
+		},
+		"duchess_of_maland_body": {
+			"duchess_of_maland_body": { "x": 15.14, "y": -0.68, "rotation": -94.5, "width": 30, "height": 37 }
+		},
+		"duchess_of_maland_brest": {
+			"duchess_of_maland_brest": { "x": 5.01, "y": 0.14, "width": 29, "height": 16 }
+		},
+		"duchess_of_maland_head": {
+			"duchess_of_maland_head1": { "x": 23.51, "y": -16.27, "rotation": -103.71, "width": 112, "height": 93 },
+			"duchess_of_maland_head2": { "x": 23.51, "y": -16.27, "rotation": -103.71, "width": 112, "height": 93 },
+			"duchess_of_maland_head3": { "x": 23.51, "y": -16.27, "rotation": -103.71, "width": 112, "height": 93 },
+			"duchess_of_maland_head4": { "x": 23.51, "y": -16.27, "rotation": -103.71, "width": 112, "height": 93 }
+		},
+		"duchess_of_maland_l_down": {
+			"duchess_of_maland_l_down": { "x": 10.73, "y": -3.52, "rotation": 61.83, "width": 24, "height": 31 }
+		},
+		"duchess_of_maland_l_foot": {
+			"duchess_of_maland_l_foot": { "x": 4.77, "y": 0.54, "rotation": -32.32, "width": 15, "height": 10 }
+		},
+		"duchess_of_maland_l_forearm": {
+			"duchess_of_maland_l_forearm": { "x": 8.9, "y": -0.86, "rotation": -97.62, "width": 14, "height": 22 }
+		},
+		"duchess_of_maland_l_upperarm": {
+			"duchess_of_maland_l_upperarm": { "x": 17.18, "y": 3.3, "rotation": 75.43, "width": 38, "height": 43 }
+		},
+		"duchess_of_maland_m_down1": {
+			"duchess_of_maland_m_down1": { "x": 15.8, "y": 3.91, "rotation": 89.32, "width": 36, "height": 43 }
+		},
+		"duchess_of_maland_m_down2": {
+			"duchess_of_maland_m_down2": { "x": 10.49, "y": -2.61, "rotation": -93, "width": 41, "height": 28 }
+		},
+		"duchess_of_maland_polearm": {
+			"duchess_of_maland_polearm": { "x": 23.75, "y": 2.15, "rotation": -116.84, "width": 84, "height": 136 }
+		},
+		"duchess_of_maland_r_foot": {
+			"duchess_of_maland_r_foot": { "x": 5.81, "y": -0.66, "rotation": -26.92, "width": 15, "height": 10 }
+		},
+		"duchess_of_maland_r_forearm": {
+			"duchess_of_maland_r_forearm": { "x": 9.3, "y": -0.62, "rotation": -54.37, "width": 19, "height": 21 }
+		},
+		"duchess_of_maland_r_upperarm": {
+			"duchess_of_maland_r_upperarm": { "x": 13.63, "y": -6.02, "rotation": 90, "width": 30, "height": 36 }
+		},
+		"duchess_of_maland_shadow": {
+			"duchess_of_maland_shadow": { "x": -1.57, "y": 1.17, "scaleX": 3.22, "scaleY": 1.211, "width": 55, "height": 26 }
+		}
+	}
+},
+"animations": {
+	"attack11": {
+		"slots": {
+			"duchess_of_maland_head": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_head1" },
+					{ "time": 0.2666, "name": "duchess_of_maland_head4" },
+					{ "time": 0.8666, "name": "duchess_of_maland_head1" },
+					{ "time": 1, "name": "duchess_of_maland_head1" }
+				]
+			}
+		},
+		"bones": {
+			"duchess_of_maland_body": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 10 },
+					{ "time": 0.3333, "angle": -3.91, "curve": "stepped" },
+					{ "time": 0.6666, "angle": -3.91 },
+					{
+						"time": 0.8333,
+						"angle": -4.5,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": -5,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -6, "y": -5 },
+					{ "time": 0.3333, "x": 4.5, "y": -0.5 },
+					{ "time": 0.6666, "x": 4.5, "y": -1.5 },
+					{
+						"time": 0.8333,
+						"x": 0,
+						"y": -4,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": -5 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_head": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 6.24 },
+					{ "time": 0.3333, "angle": -9.38 },
+					{ "time": 0.6666, "angle": -6.22 },
+					{
+						"time": 0.8333,
+						"angle": 2.69,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 },
+					{
+						"time": 0.8333,
+						"x": 0,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.3333, "angle": 10.7, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 10.7 },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 4.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.79, "y": -4.73 },
+					{ "time": 0.3333, "x": 0.14, "y": -3.5 },
+					{ "time": 0.6666, "x": 1.14, "y": -3.51 },
+					{
+						"time": 0.8333,
+						"x": 5.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 4.98, "y": -0.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down1": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -7.06 },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -0.25, "y": -0.96 },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0.99, "y": -0.01 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.935,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 0.935, "y": 1.048 },
+					{ "time": 0.3333, "x": 0.967, "y": 1.04, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0.967, "y": 1.04 },
+					{ "time": 0.8333, "x": 0.935, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 0.935, "y": 1 }
+				]
+			},
+			"duchess_of_maland_polearm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 27.18 },
+					{ "time": 0.3333, "angle": 70.39 },
+					{ "time": 0.6666, "angle": 64.47 },
+					{
+						"time": 0.8333,
+						"angle": 8.02,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 12.62 },
+					{ "time": 0.3333, "angle": -8.9 },
+					{ "time": 0.6666, "angle": 2.52 },
+					{
+						"time": 0.8333,
+						"angle": 4.35,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": -2.1, "y": 0.02 },
+					{
+						"time": 0.8333,
+						"x": 0,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -1.93 },
+					{ "time": 0.3333, "angle": 0.22, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0.22 },
+					{
+						"time": 0.8333,
+						"angle": 5.82,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": -1.79,
+						"y": 0.02,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -3.82, "y": 0.68 },
+					{ "time": 0.3333, "x": -0.99, "y": -0.47, "curve": "stepped" },
+					{ "time": 0.6666, "x": -0.99, "y": -0.47 },
+					{
+						"time": 0.8333,
+						"x": -1.93,
+						"y": 2.01,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": -1.79, "y": 0.02 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.007, "y": 1.031 },
+					{ "time": 0.3333, "x": 1.003, "y": 1.016, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1.003, "y": 1.016 },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -37.58 },
+					{ "time": 0.3333, "angle": -130.07 },
+					{ "time": 0.6666, "angle": -116.38 },
+					{
+						"time": 0.8333,
+						"angle": -4.48,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -1.21, "y": -1.87 },
+					{ "time": 0.3333, "x": -1.34, "y": -2.57, "curve": "stepped" },
+					{ "time": 0.6666, "x": -1.34, "y": -2.57 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_forearm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -8.75 },
+					{ "time": 0.3333, "angle": -7.89, "curve": "stepped" },
+					{ "time": 0.6666, "angle": -7.89 },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -1.01, "y": -2.99 },
+					{ "time": 0.3333, "x": -0.95, "y": -2.05, "curve": "stepped" },
+					{ "time": 0.6666, "x": -0.95, "y": -2.05 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 5.52,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 14.9 },
+					{ "time": 0.3333, "angle": 8.24, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 8.24 },
+					{ "time": 0.8333, "angle": 5.52, "curve": "stepped" },
+					{ "time": 1, "angle": 5.52 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.52, "y": -0.58 },
+					{ "time": 0.3333, "x": 1.05, "y": -0.17, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1.05, "y": -0.17 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1, "y": 0.991 },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_brest": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 },
+					{
+						"time": 0.8333,
+						"angle": -0.33,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0.96, "y": -0.25, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0.96, "y": -0.25 },
+					{
+						"time": 0.8333,
+						"x": 1,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_ r_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -5.32,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -4.93 },
+					{ "time": 0.3333, "angle": -15.17, "curve": "stepped" },
+					{ "time": 0.6666, "angle": -15.17 },
+					{ "time": 0.8333, "angle": -5.32, "curve": "stepped" },
+					{ "time": 1, "angle": -5.32 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.87, "y": -0.06 },
+					{ "time": 0.3333, "x": 1.47, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1.47, "y": 0.89 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1, "y": 0.991 },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 1, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 0 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.1, "y": 1 },
+					{ "time": 0.3333, "x": 0.89, "y": 1 },
+					{ "time": 0.6666, "x": 0.955, "y": 1 },
+					{
+						"time": 0.8333,
+						"x": 1.007,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.3333, "angle": 14.38, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 14.38 },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 4.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 6.45, "y": 1.29 },
+					{ "time": 0.3333, "x": -0.7, "y": -0.07 },
+					{ "time": 0.6666, "x": 0.29, "y": -0.08 },
+					{
+						"time": 0.8333,
+						"x": 3.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 4.98, "y": -0.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"attack012": {
+		"slots": {
+			"duchess_of_maland_head": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_head1" },
+					{ "time": 0.3666, "name": "duchess_of_maland_head3" },
+					{ "time": 0.9, "name": "duchess_of_maland_head1" },
+					{ "time": 1, "name": "duchess_of_maland_head1" }
+				]
+			}
+		},
+		"bones": {
+			"duchess_of_maland_body": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": -13.93 },
+					{ "time": 0.3, "angle": -17.82 },
+					{ "time": 0.4333, "angle": 10, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 10 },
+					{
+						"time": 0.8333,
+						"angle": -4.5,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": -5,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "x": 13, "y": 4 },
+					{ "time": 0.3, "x": 15, "y": 4 },
+					{ "time": 0.4333, "x": -6, "y": -5, "curve": "stepped" },
+					{ "time": 0.6666, "x": -6, "y": -5 },
+					{
+						"time": 0.8333,
+						"x": 0,
+						"y": -4,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": -5 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_head": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": -12.57 },
+					{ "time": 0.3, "angle": -18.77 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6666, "angle": 13.94 },
+					{
+						"time": 0.8333,
+						"angle": 11.65,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0.25, "y": 0.96 },
+					{
+						"time": 0.8333,
+						"x": -1,
+						"y": 0.99,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_foot": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": 21.4, "curve": "stepped" },
+					{ "time": 0.3, "angle": 21.4 },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 4.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "x": -1.97, "y": -0.32 },
+					{ "time": 0.3, "x": -1.51, "y": -2.27 },
+					{ "time": 0.4333, "x": 1.79, "y": -4.73, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1.79, "y": -4.73 },
+					{
+						"time": 0.8333,
+						"x": 5.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 4.98, "y": -0.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down1": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": -1.79 },
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6666, "angle": -7.06 },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": -0.25, "y": -0.96 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.935,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "x": 1, "y": 1.036 },
+					{ "time": 0.3, "x": 1, "y": 1.045 },
+					{ "time": 0.4333, "x": 0.935, "y": 1.035 },
+					{ "time": 0.6666, "x": 0.935, "y": 1.048 },
+					{ "time": 0.8333, "x": 0.935, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 0.935, "y": 1 }
+				]
+			},
+			"duchess_of_maland_polearm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": -12.97, "curve": "stepped" },
+					{ "time": 0.3, "angle": -12.97 },
+					{ "time": 0.4333, "angle": 37.59 },
+					{ "time": 0.6666, "angle": 28.45 },
+					{
+						"time": 0.8333,
+						"angle": 8.02,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": -6.74 },
+					{ "time": 0.3, "angle": 349.45 },
+					{ "time": 0.4333, "angle": 8.08 },
+					{ "time": 0.6666, "angle": 12.62 },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.4333, "angle": 0.44 },
+					{ "time": 0.6666, "angle": -1.93 },
+					{
+						"time": 0.8333,
+						"angle": 5.82,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": -1.79,
+						"y": 0.02,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": -1.99, "y": -0.95 },
+					{ "time": 0.6666, "x": -3.82, "y": 0.68 },
+					{
+						"time": 0.8333,
+						"x": -1.93,
+						"y": 2.01,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": -1.79, "y": 0.02 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1 },
+					{ "time": 0.4333, "x": 1.007, "y": 1.032 },
+					{ "time": 0.6666, "x": 1.007, "y": 1.031 },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": -141.22 },
+					{ "time": 0.3, "angle": -156.96 },
+					{ "time": 0.4333, "angle": -26.92 },
+					{ "time": 0.6666, "angle": -16.53 },
+					{
+						"time": 0.8333,
+						"angle": -4.48,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "x": 0.46, "y": -4.93, "curve": "stepped" },
+					{ "time": 0.3, "x": 0.46, "y": -4.93 },
+					{ "time": 0.4333, "x": -3.15, "y": -0.21 },
+					{ "time": 0.6666, "x": -1.21, "y": -1.87 },
+					{
+						"time": 0.8333,
+						"x": -2,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0 },
+					{ "time": 0.3, "angle": -15.79 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6666, "angle": -8.75 },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0 },
+					{ "time": 0.3, "x": -1.9, "y": -4.1 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": -1.01, "y": -2.99 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 5.52,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.4333, "angle": 16.49 },
+					{ "time": 0.6666, "angle": 14.9 },
+					{ "time": 0.8333, "angle": 5.52, "curve": "stepped" },
+					{ "time": 1, "angle": 5.52 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 2.1, "y": -0.35 },
+					{ "time": 0.6666, "x": 1.52, "y": -0.58 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1, "y": 0.991 },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_brest": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 },
+					{
+						"time": 0.8333,
+						"angle": 3.63,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 1.93, "y": -0.5 },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_ r_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -5.32,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": -17.36 },
+					{ "time": 0.3, "angle": -15.72 },
+					{ "time": 0.4333, "angle": -14.63 },
+					{ "time": 0.6666, "angle": -4.93 },
+					{ "time": 0.8333, "angle": -5.32, "curve": "stepped" },
+					{ "time": 1, "angle": -5.32 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "x": 1.67, "y": 1.42 },
+					{ "time": 0.3, "x": 0.66, "y": 1.19 },
+					{ "time": 0.4333, "x": 2.29, "y": 0.59 },
+					{ "time": 0.6666, "x": 1.87, "y": -0.06 },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1, "y": 0.991 },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "x": 2, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 2, "y": 0 },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "x": 0.911, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 0.911, "y": 1 },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 },
+					{
+						"time": 0.8333,
+						"x": 0.971,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_foot": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "angle": 28.76, "curve": "stepped" },
+					{ "time": 0.3, "angle": 28.76 },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 4.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.1333, "x": -6.9, "y": -1.14 },
+					{ "time": 0.3, "x": -7.86, "y": -1.44 },
+					{ "time": 0.4333, "x": 6.45, "y": 1.29, "curve": "stepped" },
+					{ "time": 0.6666, "x": 6.45, "y": 1.29 },
+					{
+						"time": 0.8333,
+						"x": 3.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 1, "x": 4.98, "y": -0.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"dead": {
+		"slots": {
+			"duchess_of_maland_head": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_head1" },
+					{ "time": 0.1333, "name": "duchess_of_maland_head4" },
+					{ "time": 0.8, "name": "duchess_of_maland_head4" }
+				]
+			}
+		},
+		"bones": {
+			"duchess_of_maland_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": -28.8 },
+					{ "time": 0.4, "angle": -86.32 },
+					{ "time": 0.5333, "angle": -91.22 },
+					{ "time": 0.6666, "angle": -86.32 },
+					{ "time": 0.8, "angle": -88.77 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": 25, "y": 7 },
+					{ "time": 0.4, "x": 48, "y": -27 },
+					{ "time": 0.5333, "x": 48, "y": -14 },
+					{ "time": 0.6666, "x": 48, "y": -26 },
+					{ "time": 0.8, "x": 48, "y": -25 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 22.74 },
+					{ "time": 0.4, "angle": 18.86 },
+					{ "time": 0.5333, "angle": -13.9 },
+					{ "time": 0.6666, "angle": 3.09 },
+					{ "time": 0.8, "angle": -5.4 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 35.79, "curve": "stepped" },
+					{ "time": 0.4, "angle": 35.79 },
+					{ "time": 0.5333, "angle": 65.23 },
+					{ "time": 0.6666, "angle": 35.79 },
+					{ "time": 0.8, "angle": 50.51 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -5.69, "y": -2.83, "curve": "stepped" },
+					{ "time": 0.4, "x": -5.69, "y": -2.83 },
+					{ "time": 0.5333, "x": -6.36, "y": -11.81 },
+					{ "time": 0.6666, "x": -5.69, "y": -2.83 },
+					{ "time": 0.8, "x": -6.02, "y": -7.32 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": -1.76, "curve": "stepped" },
+					{ "time": 0.4, "angle": -1.76 },
+					{ "time": 0.5333, "angle": -345.23 },
+					{ "time": 0.6666, "angle": -1.76 },
+					{ "time": 0.8, "angle": 6.5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 },
+					{ "time": 0.5333, "x": 1, "y": 0.892 },
+					{ "time": 0.6666, "x": 1, "y": 0.894 },
+					{ "time": 0.8, "x": 1, "y": 0.893 }
+				]
+			},
+			"duchess_of_maland_polearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 23.1 },
+					{ "time": 0.3333, "angle": 88.17 },
+					{ "time": 0.3666, "angle": -254.67 },
+					{ "time": 0.4, "angle": -242.48 },
+					{ "time": 0.5333, "angle": -265.97 },
+					{ "time": 0.6666, "angle": -259.59 },
+					{ "time": 0.8, "angle": 97.21 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -16.41, "y": 10.66 },
+					{ "time": 0.3333, "x": -47.89, "y": -43.13 },
+					{ "time": 0.3666, "x": -51.79, "y": -66.87 },
+					{ "time": 0.4, "x": -50.09, "y": -83.89 },
+					{ "time": 0.4666, "x": -76.61, "y": -58.82 },
+					{ "time": 0.5333, "x": -93.98, "y": -29.71 },
+					{ "time": 0.6666, "x": -87.38, "y": -45.2 },
+					{ "time": 0.8, "x": -91.48, "y": -32.52 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 324.64 },
+					{ "time": 0.4, "angle": 338.6 },
+					{ "time": 0.5333, "angle": 4.24 },
+					{ "time": 0.6666, "angle": 346.03 },
+					{ "time": 0.8, "angle": -4.86 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 352.76, "curve": "stepped" },
+					{ "time": 0.4, "angle": 352.76, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 352.76, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 352.76 },
+					{ "time": 0.8, "angle": -7.23 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -1.6, "y": -3.22, "curve": "stepped" },
+					{ "time": 0.4, "x": -1.6, "y": -3.22, "curve": "stepped" },
+					{ "time": 0.5333, "x": -1.6, "y": -3.22 },
+					{ "time": 0.6666, "x": -1.6, "y": -3.25 },
+					{ "time": 0.8, "x": -1.6, "y": -3.24 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1, "y": 1.068 },
+					{ "time": 0.8, "x": 1, "y": 0.934 }
+				]
+			},
+			"duchess_of_maland_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": -21.07 },
+					{ "time": 0.4, "angle": -12.28 },
+					{ "time": 0.5333, "angle": -323.61 },
+					{ "time": 0.6666, "angle": -353.44 },
+					{ "time": 0.8, "angle": 21.46 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": -11.84, "curve": "stepped" },
+					{ "time": 0.4, "angle": -11.84, "curve": "stepped" },
+					{ "time": 0.5333, "angle": -11.84 },
+					{ "time": 0.6666, "angle": 2.59 },
+					{ "time": 0.8, "angle": -4.62 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": 0.48, "y": -5.17, "curve": "stepped" },
+					{ "time": 0.4, "x": 0.48, "y": -5.17, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0.48, "y": -5.17 },
+					{ "time": 0.6666, "x": 1.97, "y": -0.27 },
+					{ "time": 0.8, "x": 1.23, "y": -2.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 1.87, "curve": "stepped" },
+					{ "time": 0.4, "angle": 1.87 },
+					{ "time": 0.5333, "angle": 5.34 },
+					{ "time": 0.6666, "angle": 1.87 },
+					{ "time": 0.8, "angle": 3.61 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": 0.56 },
+					{ "time": 0.8, "x": 0, "y": 0.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1, "y": 1.068 },
+					{ "time": 0.8, "x": 1, "y": 1.034 }
+				]
+			},
+			"duchess_of_maland_brest": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_ r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": -26.3, "curve": "stepped" },
+					{ "time": 0.4, "angle": -26.3 },
+					{ "time": 0.5333, "angle": -7.88 },
+					{ "time": 0.6666, "angle": -17.45 },
+					{ "time": 0.8, "angle": -12.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": 1.23, "y": 1.86, "curve": "stepped" },
+					{ "time": 0.4, "x": 1.23, "y": 1.86, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1.23, "y": 1.86 },
+					{ "time": 0.6666, "x": 1.23, "y": 1.58 },
+					{ "time": 0.8, "x": 1.23, "y": 1.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1, "y": 1.068 },
+					{ "time": 0.8, "x": 1, "y": 1.034 }
+				]
+			},
+			"duchess_of_maland_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": 11, "y": 0 },
+					{ "time": 0.4, "x": 25, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.516, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 },
+					{ "time": 0.5333, "angle": -2.85 },
+					{ "time": 0.6666, "angle": 10.34 },
+					{ "time": 0.8, "angle": 3.74 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.5333, "x": -1.2, "y": -4.46 },
+					{ "time": 0.6666, "x": -2.2, "y": 4.4 },
+					{ "time": 0.8, "x": -1.7, "y": -0.02 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 },
+					{ "time": 0.5333, "angle": 71.79 },
+					{ "time": 0.6666, "angle": 13.52 },
+					{ "time": 0.8, "angle": 35.89 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -0.84, "y": 8.24, "curve": "stepped" },
+					{ "time": 0.4, "x": -0.84, "y": 8.24 },
+					{ "time": 0.5333, "x": -6.81, "y": -15.54 },
+					{ "time": 0.6666, "x": -2.96, "y": 0.47 },
+					{ "time": 0.8, "x": -6.56, "y": -8.89 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"duchess_of_maland_head": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_head2" },
+					{ "time": 0.5666, "name": "duchess_of_maland_head1" }
+				]
+			}
+		},
+		"bones": {
+			"duchess_of_maland_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -28.8 },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 25, "y": 7 },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 27.66 },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -1.23, "y": 2.73 },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 35.79 },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -5.69, "y": -2.83 },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -1.76 },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 324.64 },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 352.76 },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -1.6, "y": -3.22 },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -11.84 },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 0.48, "y": -5.17 },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 1.87 },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_brest": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_ r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -26.3 },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 1.23, "y": 1.86 },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 11, "y": 0 },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -0.84, "y": 8.24 },
+					{ "time": 0.5666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"reverse-walk": {
+		"slots": {
+			"duchess_of_maland_head": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_head1" },
+					{ "time": 0.8, "name": "duchess_of_maland_head1" }
+				]
+			}
+		},
+		"bones": {
+			"duchess_of_maland_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 0, "y": 4 },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.6, "x": 0, "y": 4 },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.4, "angle": -2.09 },
+					{ "time": 0.6, "angle": 34.77 },
+					{ "time": 0.8, "angle": 25.06 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -3.51, "y": 6.29 },
+					{ "time": 0.4, "x": 0.48, "y": -6.62 },
+					{ "time": 0.6, "x": -1.83, "y": 5.75 },
+					{ "time": 0.8, "x": -0.53, "y": -6.86 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1.111 },
+					{ "time": 0.2, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1, "y": 1.111 },
+					{ "time": 0.6, "x": 1, "y": 1 },
+					{ "time": 0.8, "x": 1, "y": 1.111 }
+				]
+			},
+			"duchess_of_maland_polearm": {
+				"rotate": [
+					{ "time": 0, "angle": -11.6 },
+					{ "time": 0.2, "angle": -5.39 },
+					{ "time": 0.4, "angle": 0.89 },
+					{ "time": 0.6, "angle": -3.07 },
+					{ "time": 0.8, "angle": -11.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": -25.8 },
+					{ "time": 0.2, "angle": 347.98 },
+					{ "time": 0.4, "angle": 1.43 },
+					{ "time": 0.6, "angle": 347.92 },
+					{ "time": 0.8, "angle": -25.8 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": -343.43 },
+					{ "time": 0.2, "angle": 3.62 },
+					{ "time": 0.4, "angle": 0 },
+					{ "time": 0.6, "angle": -350.09 },
+					{ "time": 0.8, "angle": -343.43 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": -15.72 },
+					{ "time": 0.2, "angle": -18.59 },
+					{ "time": 0.4, "angle": -44.36 },
+					{ "time": 0.6, "angle": -33.12 },
+					{ "time": 0.8, "angle": -15.72 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.18, "y": -6.07 },
+					{ "time": 0.2, "x": -1.12, "y": -5.26 },
+					{ "time": 0.4, "x": -5.65, "y": -9.52 },
+					{ "time": 0.6, "x": -3.35, "y": -7.79 },
+					{ "time": 0.8, "x": 0.18, "y": -6.07 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 8.87 },
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.4, "angle": 8.87 },
+					{ "time": 0.6, "angle": 0 },
+					{ "time": 0.8, "angle": 8.87 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_brest": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.99, "y": -0.07 },
+					{ "time": 0.2, "x": -0.99, "y": 0.07 },
+					{ "time": 0.4, "x": 0.99, "y": -0.07 },
+					{ "time": 0.6, "x": -0.99, "y": 0.07 },
+					{ "time": 0.8, "x": 0.99, "y": -0.07 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.962 },
+					{ "time": 0.2, "x": 1, "y": 1.103 },
+					{ "time": 0.4, "x": 1, "y": 0.962 },
+					{ "time": 0.6, "x": 1, "y": 1.103 },
+					{ "time": 0.8, "x": 1, "y": 0.962 }
+				]
+			},
+			"duchess_of_maland_ r_down": {
+				"rotate": [
+					{ "time": 0, "angle": -10.42 },
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.4, "angle": -10.42 },
+					{ "time": 0.6, "angle": 0 },
+					{ "time": 0.8, "angle": -10.42 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 0.934, "y": 1 },
+					{ "time": 0.4, "x": 1, "y": 1 },
+					{ "time": 0.6, "x": 0.934, "y": 1 },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 35.56 },
+					{ "time": 0.4, "angle": 10.85 },
+					{ "time": 0.6, "angle": 0 },
+					{ "time": 0.8, "angle": -10.12 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -2.32, "y": -6.83 },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.6, "x": -4.63, "y": -7.9 },
+					{ "time": 0.8, "x": 2.1, "y": 1.31 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"selected": {
+		"slots": {
+			"duchess_of_maland_head": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_head1" },
+					{ "time": 0.6666, "name": "duchess_of_maland_head1" }
+				]
+			}
+		},
+		"bones": {
+			"duchess_of_maland_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": 20 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 14.67 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": -3.14, "y": -1.75 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_polearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -3.08 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 1.83 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_brest": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_ r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.883, "y": 1 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 18.75 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": -2.99, "y": 0.23 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"stand": {
+		"slots": {
+			"duchess_of_maland_head": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_head4" },
+					{ "time": 0.8333, "name": "duchess_of_maland_head4" }
+				]
+			}
+		},
+		"bones": {
+			"duchess_of_maland_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": -5,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.4333, "x": 0, "y": -3 },
+					{ "time": 0.8333, "x": 0, "y": -5 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 4.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.4333, "x": 2.99, "y": -0.23 },
+					{ "time": 0.8333, "x": 4.98, "y": -0.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.5666, "x": 0.99, "y": -0.07 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.935,
+						"y": 1,
+						"curve": [ 0.499, 0, 0.653, 0.68 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0.993,
+						"y": 0.957,
+						"curve": [ 0.273, 0.6, 0.593, 1 ]
+					},
+					{ "time": 0.5666, "x": 1, "y": 0.957 },
+					{ "time": 0.8333, "x": 0.935, "y": 1 }
+				]
+			},
+			"duchess_of_maland_polearm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.3666, "angle": 0.44 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.5, "angle": 6.36 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": -1.79,
+						"y": 0.02,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.4333, "x": -2.99, "y": 0.03 },
+					{ "time": 0.8333, "x": -1.79, "y": 0.02 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2666, "angle": -6.61 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0 },
+					{ "time": 0.6666, "angle": 6.72 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0.3, "y": 0.95 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 5.52,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.3666, "angle": 4.99 },
+					{ "time": 0.8333, "angle": 5.52 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_brest": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.5333, "x": 0.99, "y": -0.07 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.5333, "x": 1.056, "y": 0.886 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_ r_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -5.32,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.3333, "angle": -5.53 },
+					{ "time": 0.8333, "angle": -5.32 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 4.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.4333, "x": 2.99, "y": -0.23 },
+					{ "time": 0.8333, "x": 4.98, "y": -0.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"victory": {
+		"slots": {
+			"duchess_of_maland_head": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_head4" },
+					{ "time": 0.4666, "name": "duchess_of_maland_head4" },
+					{ "time": 1, "name": "duchess_of_maland_head1" },
+					{ "time": 1.1666, "name": "duchess_of_maland_head1" }
+				]
+			}
+		},
+		"bones": {
+			"duchess_of_maland_body": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 10 },
+					{ "time": 0.3333, "angle": -3.91 },
+					{ "time": 0.4666, "angle": 3.04 },
+					{ "time": 0.6333, "angle": -3.91, "curve": "stepped" },
+					{ "time": 0.8333, "angle": -3.91 },
+					{ "time": 1, "angle": -4.5 },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": -5,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -6, "y": -5 },
+					{ "time": 0.3333, "x": 4.5, "y": -0.5 },
+					{ "time": 0.4666, "x": -0.74, "y": -2.75 },
+					{ "time": 0.6333, "x": 4.5, "y": -0.5 },
+					{ "time": 0.8333, "x": 4.5, "y": -1.5 },
+					{ "time": 1, "x": 0, "y": -4 },
+					{ "time": 1.1666, "x": 0, "y": -5 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_head": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 6.24 },
+					{ "time": 0.3333, "angle": -9.38 },
+					{ "time": 0.4666, "angle": -1.56 },
+					{ "time": 0.6333, "angle": -9.38 },
+					{ "time": 0.8333, "angle": -6.22 },
+					{ "time": 1, "angle": 8.43 },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 },
+					{ "time": 1, "x": 0, "y": 1 },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.3333, "angle": 10.7 },
+					{ "time": 0.4666, "angle": 5.35 },
+					{ "time": 0.6333, "angle": 10.7, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 10.7 },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 4.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.79, "y": -4.73 },
+					{ "time": 0.3333, "x": 0.14, "y": -3.5 },
+					{ "time": 0.4666, "x": 0.96, "y": -4.11 },
+					{ "time": 0.6333, "x": 0.14, "y": -3.5 },
+					{ "time": 0.8333, "x": 1.14, "y": -3.51 },
+					{ "time": 1, "x": 5.98, "y": -0.39 },
+					{ "time": 1.1666, "x": 4.98, "y": -0.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down1": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -7.06 },
+					{ "time": 0.3333, "angle": 0 },
+					{ "time": 0.4666, "angle": -3.53 },
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -0.25, "y": -0.96 },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": -0.12, "y": -0.48 },
+					{ "time": 0.6333, "x": 0, "y": 0 },
+					{ "time": 0.8333, "x": 0.99, "y": -0.01 },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.935,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 0.935, "y": 1.048 },
+					{ "time": 0.3333, "x": 0.967, "y": 1.04 },
+					{ "time": 0.4666, "x": 0.951, "y": 1.044 },
+					{ "time": 0.6333, "x": 0.967, "y": 1.04, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0.967, "y": 1.04 },
+					{ "time": 1, "x": 0.935, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0.935, "y": 1 }
+				]
+			},
+			"duchess_of_maland_polearm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 27.18 },
+					{ "time": 0.3333, "angle": 57.42 },
+					{ "time": 0.4666, "angle": 16.61 },
+					{ "time": 0.6333, "angle": 57.28 },
+					{ "time": 0.8333, "angle": 26.21 },
+					{ "time": 1, "angle": 0.66 },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 12.62 },
+					{ "time": 0.3333, "angle": -8.9 },
+					{ "time": 0.4666, "angle": 1.86 },
+					{ "time": 0.6333, "angle": -8.9 },
+					{ "time": 0.8333, "angle": 2.52 },
+					{ "time": 1, "angle": 4.35 },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0 },
+					{ "time": 0.8333, "x": -2.1, "y": 0.02 },
+					{ "time": 1, "x": 0, "y": 1 },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -1.93 },
+					{ "time": 0.3333, "angle": 0.22 },
+					{ "time": 0.4666, "angle": -0.85 },
+					{ "time": 0.6333, "angle": 0.22, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0.22 },
+					{ "time": 1, "angle": 5.82 },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": -1.79,
+						"y": 0.02,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -3.82, "y": 0.68 },
+					{ "time": 0.3333, "x": -0.99, "y": -0.47 },
+					{ "time": 0.4666, "x": -2.41, "y": 0.1 },
+					{ "time": 0.6333, "x": -0.99, "y": -0.47, "curve": "stepped" },
+					{ "time": 0.8333, "x": -0.99, "y": -0.47 },
+					{ "time": 1, "x": -1.93, "y": 2.01 },
+					{ "time": 1.1666, "x": -1.79, "y": 0.02 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.007, "y": 1.031 },
+					{ "time": 0.3333, "x": 1.003, "y": 1.016 },
+					{ "time": 0.4666, "x": 1.005, "y": 1.023 },
+					{ "time": 0.6333, "x": 1.003, "y": 1.016, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1.003, "y": 1.016 },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -37.58 },
+					{ "time": 0.3333, "angle": -130.07 },
+					{ "time": 0.4666, "angle": -83.83 },
+					{ "time": 0.6333, "angle": -130.07 },
+					{ "time": 0.8333, "angle": -77.65 },
+					{ "time": 1, "angle": -4.48 },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -1.21, "y": -1.87 },
+					{ "time": 0.3333, "x": -1.34, "y": -2.57 },
+					{ "time": 0.4666, "x": -1.28, "y": -2.22 },
+					{ "time": 0.6333, "x": -1.34, "y": -2.57, "curve": "stepped" },
+					{ "time": 0.8333, "x": -1.34, "y": -2.57 },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_forearm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -8.75 },
+					{ "time": 0.3333, "angle": -7.89 },
+					{ "time": 0.4666, "angle": -8.32 },
+					{ "time": 0.6333, "angle": -7.89, "curve": "stepped" },
+					{ "time": 0.8333, "angle": -7.89 },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": -1.01, "y": -2.99 },
+					{ "time": 0.3333, "x": -0.95, "y": -2.05 },
+					{ "time": 0.4666, "x": -0.98, "y": -2.52 },
+					{ "time": 0.6333, "x": -0.95, "y": -2.05, "curve": "stepped" },
+					{ "time": 0.8333, "x": -0.95, "y": -2.05 },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 5.52,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": 14.9 },
+					{ "time": 0.3333, "angle": 8.24 },
+					{ "time": 0.4666, "angle": 11.57 },
+					{ "time": 0.6333, "angle": 8.24, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 8.24 },
+					{ "time": 1, "angle": 5.52, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 5.52 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.52, "y": -0.58 },
+					{ "time": 0.3333, "x": 1.05, "y": -0.17 },
+					{ "time": 0.4666, "x": 1.28, "y": -0.37 },
+					{ "time": 0.6333, "x": 1.05, "y": -0.17, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1.05, "y": -0.17 },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1, "y": 0.991 },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.4666, "x": 1, "y": 0.995 },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_brest": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 },
+					{ "time": 1, "angle": 0.54 },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0.96, "y": -0.25 },
+					{ "time": 0.4666, "x": 0.48, "y": -0.12 },
+					{ "time": 0.6333, "x": 0.96, "y": -0.25, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0.96, "y": -0.25 },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_ r_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -5.32,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "angle": -4.93 },
+					{ "time": 0.3333, "angle": -15.17 },
+					{ "time": 0.4666, "angle": -10.05 },
+					{ "time": 0.6333, "angle": -15.17, "curve": "stepped" },
+					{ "time": 0.8333, "angle": -15.17 },
+					{ "time": 1, "angle": -5.32, "curve": "stepped" },
+					{ "time": 1.1666, "angle": -5.32 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.87, "y": -0.06 },
+					{ "time": 0.3333, "x": 1.47, "y": 0.89 },
+					{ "time": 0.4666, "x": 1.67, "y": 0.41 },
+					{ "time": 0.6333, "x": 1.47, "y": 0.89, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1.47, "y": 0.89 },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1, "y": 0.991 },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.4666, "x": 1, "y": 0.995 },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 1, "y": 0 },
+					{ "time": 0.4666, "x": 0.5, "y": 0 },
+					{ "time": 0.6333, "x": 1, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 0 },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 1.1, "y": 1 },
+					{ "time": 0.3333, "x": 0.89, "y": 1 },
+					{ "time": 0.4666, "x": 0.995, "y": 1 },
+					{ "time": 0.6333, "x": 0.89, "y": 1 },
+					{ "time": 0.8333, "x": 0.955, "y": 1 },
+					{ "time": 1, "x": 1.007, "y": 1 },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0 },
+					{ "time": 0.8333, "angle": -11.14 },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0 },
+					{ "time": 0.8333, "x": -1.57, "y": -3.81 },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.3333, "angle": 14.38 },
+					{ "time": 0.4666, "angle": 7.19 },
+					{ "time": 0.6333, "angle": 14.38, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 14.38 },
+					{ "time": 1, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 4.98,
+						"y": -0.39,
+						"curve": [ 0.469, 0, 0.515, 1 ]
+					},
+					{ "time": 0.2, "x": 6.45, "y": 1.29 },
+					{ "time": 0.3333, "x": -0.7, "y": -0.07 },
+					{ "time": 0.4666, "x": 2.87, "y": 0.6 },
+					{ "time": 0.6333, "x": -0.7, "y": -0.07 },
+					{ "time": 0.8333, "x": 0.29, "y": -0.08 },
+					{ "time": 1, "x": 3.98, "y": -0.39 },
+					{ "time": 1.1666, "x": 4.98, "y": -0.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"walk": {
+		"slots": {
+			"duchess_of_maland_head": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_head1" },
+					{ "time": 0.7333, "name": "duchess_of_maland_head1" }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"attachment": [
+					{ "time": 0, "name": "duchess_of_maland_m_down2" },
+					{ "time": 0.7333, "name": "duchess_of_maland_m_down2" }
+				]
+			}
+		},
+		"bones": {
+			"duchess_of_maland_body": {
+				"rotate": [
+					{ "time": 0, "angle": 9.16, "curve": "stepped" },
+					{ "time": 0.1, "angle": 9.16, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 9.16, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 9.16, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 9.16, "curve": "stepped" },
+					{ "time": 0.6, "angle": 9.16, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 9.16 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1 },
+					{ "time": 0.1, "x": 0, "y": -5 },
+					{ "time": 0.2333, "x": 0, "y": 5 },
+					{ "time": 0.3666, "x": 0, "y": 1 },
+					{ "time": 0.4666, "x": 0, "y": -5 },
+					{ "time": 0.6, "x": 0, "y": 5 },
+					{ "time": 0.7333, "x": 0, "y": 1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0 },
+					{ "time": 0.2333, "angle": 1.72 },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.6, "angle": 1.72 },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.73, "y": 1.2 },
+					{ "time": 0.1, "x": 0.23, "y": 0.97 },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.3666, "x": -0.73, "y": 1.2 },
+					{ "time": 0.4666, "x": 0.23, "y": 0.97 },
+					{ "time": 0.6, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": -0.73, "y": 1.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 24.04 },
+					{ "time": 0.1, "angle": 0 },
+					{ "time": 0.2333, "angle": 59.87 },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.6, "angle": 29.92 },
+					{ "time": 0.7333, "angle": 24.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.88, "y": 19.67 },
+					{ "time": 0.1, "x": 13.23, "y": 16.33 },
+					{ "time": 0.2333, "x": -0.57, "y": -9.98 },
+					{ "time": 0.3666, "x": 1.65, "y": 6.8 },
+					{ "time": 0.4666, "x": 7.51, "y": 5.8 },
+					{ "time": 0.6, "x": 0.04, "y": 18.49 },
+					{ "time": 0.7333, "x": 3.88, "y": 19.67 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 3.88, "y": -0.94 },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": 0.97, "y": -0.23 },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 1, "y": 0.963 },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1 },
+					{ "time": 0.4666, "x": 1, "y": 1.104 },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_polearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.3666, "angle": -2.7 },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.6, "angle": 12.79 },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 22.14 },
+					{ "time": 0.1, "angle": 19.02 },
+					{ "time": 0.2333, "angle": -6.49 },
+					{ "time": 0.3666, "angle": 344.27 },
+					{ "time": 0.4666, "angle": 348.02 },
+					{ "time": 0.6, "angle": 18.66 },
+					{ "time": 0.7333, "angle": 22.14 }
+				],
+				"translate": [
+					{ "time": 0, "x": -2.67, "y": 1.68 },
+					{ "time": 0.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.6, "x": -3.46, "y": 3.33 },
+					{ "time": 0.7333, "x": -2.67, "y": 1.68 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_m_down2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": -5.26, "y": -0.84 },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": -8.22, "y": -0.64 },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 0.921, "y": 1.156 },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1 },
+					{ "time": 0.4666, "x": 0.921, "y": 1 },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": -12.62 },
+					{ "time": 0.1, "angle": -7.15 },
+					{ "time": 0.2333, "angle": -348.26 },
+					{ "time": 0.3666, "angle": -2.68 },
+					{ "time": 0.4666, "angle": -7.15 },
+					{ "time": 0.6, "angle": -8.88 },
+					{ "time": 0.7333, "angle": -12.62 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -0.7, "y": -2.91, "curve": "stepped" },
+					{ "time": 0.3666, "x": -0.7, "y": -2.91 },
+					{ "time": 0.4666, "x": -0.47, "y": -1.94 },
+					{ "time": 0.6, "x": 0.23, "y": 0.97 },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": -30.08 },
+					{ "time": 0.1, "angle": -27.46 },
+					{ "time": 0.2333, "angle": -27.36 },
+					{ "time": 0.3666, "angle": -55.44 },
+					{ "time": 0.4666, "angle": -59.53 },
+					{ "time": 0.6, "angle": -38.23 },
+					{ "time": 0.7333, "angle": -30.08 }
+				],
+				"translate": [
+					{ "time": 0, "x": -2.1, "y": -7.88 },
+					{ "time": 0.1, "x": -2.47, "y": -6.86 },
+					{ "time": 0.2333, "x": -0.77, "y": -7.7 },
+					{ "time": 0.3666, "x": -5.18, "y": -12.25 },
+					{ "time": 0.4666, "x": -7.24, "y": -12.59 },
+					{ "time": 0.6, "x": -3.53, "y": -9.24 },
+					{ "time": 0.7333, "x": -2.1, "y": -7.88 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 8.5 },
+					{ "time": 0.1333, "angle": 23.68 },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.3666, "angle": 8.5 },
+					{ "time": 0.5, "angle": 23.68 },
+					{ "time": 0.6, "angle": 0 },
+					{ "time": 0.7333, "angle": 8.5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 5.79, "y": -0.52 },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 2.83, "y": -1.11 },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 1, "y": 1.069 },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1, "y": 0.924 },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_brest": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.97, "y": -0.23 },
+					{ "time": 0.1, "x": 3.15, "y": 0.26 },
+					{ "time": 0.2333, "x": -0.97, "y": 0.23 },
+					{ "time": 0.3666, "x": 0.97, "y": -0.23 },
+					{ "time": 0.4666, "x": 3.15, "y": 0.26 },
+					{ "time": 0.6, "x": -0.97, "y": 0.23 },
+					{ "time": 0.7333, "x": 0.97, "y": -0.23 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.892 },
+					{ "time": 0.1, "x": 1, "y": 0.875 },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 0.892 },
+					{ "time": 0.4666, "x": 1, "y": 0.875 },
+					{ "time": 0.6, "x": 1, "y": 1 },
+					{ "time": 0.7333, "x": 1, "y": 0.892 }
+				]
+			},
+			"duchess_of_maland_ r_down": {
+				"rotate": [
+					{ "time": 0, "angle": -12.11 },
+					{ "time": 0.1, "angle": -27.07 },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.3666, "angle": -12.11 },
+					{ "time": 0.4666, "angle": -27.07 },
+					{ "time": 0.6, "angle": 0 },
+					{ "time": 0.7333, "angle": -12.11 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 5.59, "y": 0.34 },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": 2.63, "y": 1.55 },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 1, "y": 1.156 },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 1.077, "y": 1 },
+					{ "time": 0.2333, "x": 0.892, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 1 },
+					{ "time": 0.4666, "x": 1.077, "y": 1 },
+					{ "time": 0.6, "x": 0.892, "y": 1 },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0 },
+					{ "time": 0.2333, "angle": -17.16 },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.6, "angle": -17.16 },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -2.02, "y": -5.28 },
+					{ "time": 0.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.6, "x": -2.02, "y": -5.28 },
+					{ "time": 0.7333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			},
+			"duchess_of_maland_r_foot": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0 },
+					{ "time": 0.2333, "angle": 21.63 },
+					{ "time": 0.3666, "angle": 25.65 },
+					{ "time": 0.4666, "angle": 33.09 },
+					{ "time": 0.6, "angle": 76.2 },
+					{ "time": 0.7333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.54, "y": -14.57 },
+					{ "time": 0.1, "x": 6.87, "y": -14.02 },
+					{ "time": 0.2333, "x": -1.98, "y": 0.75 },
+					{ "time": 0.3666, "x": 3.12, "y": -1.48 },
+					{ "time": 0.4666, "x": 10.99, "y": -5.05 },
+					{ "time": 0.6, "x": -5.79, "y": -29.46 },
+					{ "time": 0.7333, "x": -3.54, "y": -14.57 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

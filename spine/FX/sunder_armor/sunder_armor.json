@@ -1,0 +1,70 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "sunder_armor_01", "bone": "root", "attachment": "sunder_armor_23" }
+],
+"skins": {
+	"default": {
+		"sunder_armor_01": {
+			"sunder_armor_01": { "width": 280, "height": 145 },
+			"sunder_armor_02": { "width": 280, "height": 145 },
+			"sunder_armor_03": { "width": 280, "height": 145 },
+			"sunder_armor_04": { "width": 280, "height": 145 },
+			"sunder_armor_05": { "width": 280, "height": 145 },
+			"sunder_armor_06": { "width": 280, "height": 145 },
+			"sunder_armor_07": { "width": 280, "height": 145 },
+			"sunder_armor_08": { "width": 280, "height": 145 },
+			"sunder_armor_09": { "width": 280, "height": 145 },
+			"sunder_armor_10": { "width": 280, "height": 145 },
+			"sunder_armor_11": { "width": 280, "height": 145 },
+			"sunder_armor_12": { "width": 280, "height": 145 },
+			"sunder_armor_13": { "width": 280, "height": 145 },
+			"sunder_armor_14": { "width": 280, "height": 145 },
+			"sunder_armor_15": { "width": 280, "height": 145 },
+			"sunder_armor_16": { "width": 280, "height": 145 },
+			"sunder_armor_17": { "width": 280, "height": 145 },
+			"sunder_armor_18": { "width": 280, "height": 145 },
+			"sunder_armor_19": { "width": 280, "height": 145 },
+			"sunder_armor_20": { "width": 280, "height": 145 },
+			"sunder_armor_21": { "width": 280, "height": 145 },
+			"sunder_armor_22": { "width": 280, "height": 145 },
+			"sunder_armor_23": { "width": 280, "height": 145 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sunder_armor_01": {
+				"attachment": [
+					{ "time": 0, "name": "sunder_armor_01" },
+					{ "time": 0.0333, "name": "sunder_armor_02" },
+					{ "time": 0.0666, "name": "sunder_armor_03" },
+					{ "time": 0.1, "name": "sunder_armor_04" },
+					{ "time": 0.1333, "name": "sunder_armor_05" },
+					{ "time": 0.1666, "name": "sunder_armor_06" },
+					{ "time": 0.2, "name": "sunder_armor_07" },
+					{ "time": 0.2333, "name": "sunder_armor_08" },
+					{ "time": 0.2666, "name": "sunder_armor_09" },
+					{ "time": 0.3, "name": "sunder_armor_10" },
+					{ "time": 0.3333, "name": "sunder_armor_11" },
+					{ "time": 0.3666, "name": "sunder_armor_12" },
+					{ "time": 0.4, "name": "sunder_armor_13" },
+					{ "time": 0.4333, "name": "sunder_armor_14" },
+					{ "time": 0.4666, "name": "sunder_armor_15" },
+					{ "time": 0.5, "name": "sunder_armor_16" },
+					{ "time": 0.5333, "name": "sunder_armor_17" },
+					{ "time": 0.5666, "name": "sunder_armor_18" },
+					{ "time": 0.6, "name": "sunder_armor_19" },
+					{ "time": 0.6333, "name": "sunder_armor_20" },
+					{ "time": 0.6666, "name": "sunder_armor_21" },
+					{ "time": 0.7, "name": "sunder_armor_22" },
+					{ "time": 0.7333, "name": "sunder_armor_23" }
+				]
+			}
+		}
+	}
+}
+}

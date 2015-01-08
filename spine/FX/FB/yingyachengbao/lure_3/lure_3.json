@@ -1,0 +1,58 @@
+{
+"bones": [
+	{ "name": "root", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "unholy_3_1", "bone": "root", "attachment": "lure_3_9" }
+],
+"skins": {
+	"default": {
+		"unholy_3_1": {
+			"lure_3_1": { "width": 140, "height": 100 },
+			"lure_3_2": { "width": 140, "height": 100 },
+			"lure_3_3": { "width": 140, "height": 100 },
+			"lure_3_4": { "width": 140, "height": 100 },
+			"lure_3_5": { "width": 140, "height": 100 },
+			"lure_3_6": { "width": 140, "height": 100 },
+			"lure_3_7": { "width": 140, "height": 100 },
+			"lure_3_8": { "width": 140, "height": 100 },
+			"lure_3_9": { "width": 140, "height": 100 },
+			"lure_3_10": { "width": 140, "height": 100 },
+			"lure_3_11": { "width": 140, "height": 100 },
+			"lure_3_12": { "width": 140, "height": 100 },
+			"lure_3_13": { "width": 140, "height": 100 },
+			"lure_3_14": { "width": 140, "height": 100 },
+			"lure_3_15": { "width": 140, "height": 100 },
+			"lure_3_16": { "width": 140, "height": 100 },
+			"lure_3_17": { "width": 140, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"unholy_3_1": {
+				"attachment": [
+					{ "time": 0, "name": "lure_3_1" },
+					{ "time": 0.0666, "name": "lure_3_2" },
+					{ "time": 0.1333, "name": "lure_3_3" },
+					{ "time": 0.2, "name": "lure_3_4" },
+					{ "time": 0.2666, "name": "lure_3_5" },
+					{ "time": 0.3333, "name": "lure_3_6" },
+					{ "time": 0.4, "name": "lure_3_7" },
+					{ "time": 0.4666, "name": "lure_3_8" },
+					{ "time": 0.5333, "name": "lure_3_9" },
+					{ "time": 0.6, "name": "lure_3_10" },
+					{ "time": 0.6666, "name": "lure_3_11" },
+					{ "time": 0.7333, "name": "lure_3_12" },
+					{ "time": 0.8, "name": "lure_3_13" },
+					{ "time": 0.8666, "name": "lure_3_14" },
+					{ "time": 0.9333, "name": "lure_3_15" },
+					{ "time": 1, "name": "lure_3_16" },
+					{ "time": 1.0666, "name": "lure_3_17" }
+				]
+			}
+		}
+	}
+}
+}

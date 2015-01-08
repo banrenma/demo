@@ -15,9 +15,9 @@ public:
 	NSkeletonData();
 	bool init(const char *jsonpath,const char *atlaspath ,int ID);
 	~NSkeletonData();
-	CC_SYNTHESIZE_READONLY(int,m_ID,HeroID)
-	CC_SYNTHESIZE_READONLY(spSkeletonData *,m_pskeletonData,SPSkeletonData)
-	CC_SYNTHESIZE_READONLY(spAtlas*,m_atlas,Atlas)
+	CC_SYNTHESIZE(int,m_ID,ID)
+	CC_SYNTHESIZE(spSkeletonData *,m_pskeletonData,SPSkeletonData)
+	CC_SYNTHESIZE(spAtlas*,m_atlas,Atlas)
 	
 
 };

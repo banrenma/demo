@@ -1,0 +1,208 @@
+
+mutanus.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mutanus_body
+  rotate: true
+  xy: 61, 4
+  size: 54, 63
+  orig: 54, 63
+  offset: 0, 0
+  index: -1
+mutanus_chin01
+  rotate: false
+  xy: 401, 84
+  size: 55, 42
+  orig: 55, 42
+  offset: 0, 0
+  index: -1
+mutanus_chin1
+  rotate: false
+  xy: 458, 47
+  size: 46, 22
+  orig: 46, 22
+  offset: 0, 0
+  index: -1
+mutanus_hair1
+  rotate: true
+  xy: 341, 48
+  size: 13, 34
+  orig: 13, 34
+  offset: 0, 0
+  index: -1
+mutanus_hair2
+  rotate: true
+  xy: 458, 71
+  size: 26, 50
+  orig: 26, 50
+  offset: 0, 0
+  index: -1
+mutanus_hair3
+  rotate: false
+  xy: 458, 99
+  size: 50, 27
+  orig: 50, 27
+  offset: 0, 0
+  index: -1
+mutanus_hair4
+  rotate: false
+  xy: 238, 30
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+mutanus_hair5
+  rotate: false
+  xy: 401, 46
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+mutanus_head1
+  rotate: false
+  xy: 129, 63
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+mutanus_head2
+  rotate: false
+  xy: 197, 63
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+mutanus_head3
+  rotate: false
+  xy: 61, 60
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+mutanus_head4
+  rotate: false
+  xy: 265, 63
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+mutanus_head5
+  rotate: false
+  xy: 333, 63
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+mutanus_l_calf
+  rotate: true
+  xy: 420, 47
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+mutanus_l_foot
+  rotate: false
+  xy: 126, 2
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+mutanus_l_forearm
+  rotate: true
+  xy: 213, 2
+  size: 26, 27
+  orig: 30, 27
+  offset: 4, 0
+  index: -1
+mutanus_l_hand
+  rotate: false
+  xy: 169, 34
+  size: 34, 27
+  orig: 34, 27
+  offset: 0, 0
+  index: -1
+mutanus_r_hand2
+  rotate: false
+  xy: 169, 34
+  size: 34, 27
+  orig: 34, 27
+  offset: 0, 0
+  index: -1
+mutanus_l_thigh
+  rotate: true
+  xy: 129, 40
+  size: 21, 38
+  orig: 21, 38
+  offset: 0, 0
+  index: -1
+mutanus_l_upperarm
+  rotate: true
+  xy: 305, 37
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+mutanus_r_calf
+  rotate: true
+  xy: 377, 46
+  size: 15, 22
+  orig: 15, 22
+  offset: 0, 0
+  index: -1
+mutanus_r_foot
+  rotate: false
+  xy: 272, 32
+  size: 31, 29
+  orig: 31, 29
+  offset: 0, 0
+  index: -1
+mutanus_r_forearm
+  rotate: false
+  xy: 242, 5
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+mutanus_r_hand
+  rotate: false
+  xy: 190, 2
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+mutanus_r_hand01
+  rotate: true
+  xy: 440, 50
+  size: 13, 16
+  orig: 14, 16
+  offset: 1, 0
+  index: -1
+mutanus_r_thigh
+  rotate: true
+  xy: 205, 34
+  size: 27, 31
+  orig: 27, 31
+  offset: 0, 0
+  index: -1
+mutanus_r_upperarm
+  rotate: false
+  xy: 165, 2
+  size: 23, 30
+  orig: 27, 30
+  offset: 4, 0
+  index: -1
+mutanus_shadow
+  rotate: false
+  xy: 401, 65
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1
+mutanus_weapon
+  rotate: false
+  xy: 2, 4
+  size: 57, 122
+  orig: 57, 122
+  offset: 0, 0
+  index: -1

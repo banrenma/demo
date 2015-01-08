@@ -1,0 +1,187 @@
+
+mograine.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mograine_body
+  rotate: true
+  xy: 422, 2
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+mograine_hair1
+  rotate: true
+  xy: 157, 26
+  size: 23, 48
+  orig: 23, 48
+  offset: 0, 0
+  index: -1
+mograine_hair2
+  rotate: true
+  xy: 57, 9
+  size: 40, 55
+  orig: 40, 55
+  offset: 0, 0
+  index: -1
+mograine_hair5
+  rotate: false
+  xy: 483, 63
+  size: 19, 63
+  orig: 19, 68
+  offset: 0, 5
+  index: -1
+mograine_head1
+  rotate: false
+  xy: 57, 51
+  size: 71, 75
+  orig: 71, 75
+  offset: 0, 0
+  index: -1
+mograine_head2
+  rotate: false
+  xy: 130, 51
+  size: 71, 75
+  orig: 71, 75
+  offset: 0, 0
+  index: -1
+mograine_head3
+  rotate: false
+  xy: 203, 51
+  size: 71, 75
+  orig: 71, 75
+  offset: 0, 0
+  index: -1
+mograine_head4
+  rotate: false
+  xy: 276, 51
+  size: 71, 75
+  orig: 71, 75
+  offset: 0, 0
+  index: -1
+mograine_head5
+  rotate: false
+  xy: 349, 51
+  size: 71, 75
+  orig: 71, 75
+  offset: 0, 0
+  index: -1
+mograine_l_calf
+  rotate: false
+  xy: 310, 22
+  size: 25, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+mograine_l_foot
+  rotate: true
+  xy: 191, 4
+  size: 20, 9
+  orig: 20, 9
+  offset: 0, 0
+  index: -1
+mograine_l_forearm
+  rotate: false
+  xy: 114, 15
+  size: 41, 34
+  orig: 46, 34
+  offset: 5, 0
+  index: -1
+mograine_l_hand
+  rotate: true
+  xy: 236, 2
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+mograine_l_shoudler
+  rotate: false
+  xy: 422, 63
+  size: 59, 63
+  orig: 59, 68
+  offset: 0, 5
+  index: -1
+mograine_l_thigh
+  rotate: false
+  xy: 259, 17
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+mograine_l_upperarm
+  rotate: false
+  xy: 259, 17
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+mograine_pelvis
+  rotate: false
+  xy: 285, 19
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+mograine_polearm
+  rotate: false
+  xy: 2, 24
+  size: 53, 102
+  orig: 53, 102
+  offset: 0, 0
+  index: -1
+mograine_r_calf
+  rotate: true
+  xy: 2, 2
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+mograine_r_foot
+  rotate: false
+  xy: 259, 7
+  size: 20, 8
+  orig: 24, 8
+  offset: 4, 0
+  index: -1
+mograine_r_forearm
+  rotate: false
+  xy: 207, 2
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+mograine_r_hand
+  rotate: false
+  xy: 337, 26
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+mograine_r_shoudler
+  rotate: true
+  xy: 207, 30
+  size: 19, 37
+  orig: 24, 37
+  offset: 0, 0
+  index: -1
+mograine_r_thgih
+  rotate: true
+  xy: 23, 5
+  size: 17, 29
+  orig: 21, 34
+  offset: 1, 4
+  index: -1
+mograine_r_upperarm
+  rotate: true
+  xy: 157, 2
+  size: 22, 32
+  orig: 22, 32
+  offset: 0, 0
+  index: -1
+mograine_shadow
+  rotate: true
+  xy: 480, 6
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

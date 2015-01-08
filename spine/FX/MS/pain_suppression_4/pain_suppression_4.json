@@ -1,0 +1,54 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "pain_suppression_4_0001", "bone": "root", "attachment": "pain_suppression_4_0001" }
+],
+"skins": {
+	"default": {
+		"pain_suppression_4_0001": {
+			"pain_suppression_4_0001": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0003": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0005": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0007": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0009": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0011": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0013": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0015": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0017": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0019": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0021": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0023": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0025": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0027": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 },
+			"pain_suppression_4_0029": { "scaleX": 2, "scaleY": 2, "width": 125, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"pain_suppression_4_0001": {
+				"attachment": [
+					{ "time": 0, "name": "pain_suppression_4_0001" },
+					{ "time": 0.0666, "name": "pain_suppression_4_0003" },
+					{ "time": 0.1333, "name": "pain_suppression_4_0005" },
+					{ "time": 0.2, "name": "pain_suppression_4_0007" },
+					{ "time": 0.2666, "name": "pain_suppression_4_0009" },
+					{ "time": 0.3333, "name": "pain_suppression_4_0011" },
+					{ "time": 0.4, "name": "pain_suppression_4_0013" },
+					{ "time": 0.4666, "name": "pain_suppression_4_0015" },
+					{ "time": 0.5333, "name": "pain_suppression_4_0017" },
+					{ "time": 0.6, "name": "pain_suppression_4_0019" },
+					{ "time": 0.6666, "name": "pain_suppression_4_0021" },
+					{ "time": 0.7333, "name": "pain_suppression_4_0023" },
+					{ "time": 0.8, "name": "pain_suppression_4_0025" },
+					{ "time": 0.8666, "name": "pain_suppression_4_0027" },
+					{ "time": 0.9333, "name": "pain_suppression_4_0029" }
+				]
+			}
+		}
+	}
+}
+}

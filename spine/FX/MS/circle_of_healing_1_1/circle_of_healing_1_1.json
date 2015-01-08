@@ -1,0 +1,58 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "circle_of_healing_1_1_0001", "bone": "root", "attachment": "circle_of_healing_1_1_0034" }
+],
+"skins": {
+	"default": {
+		"circle_of_healing_1_1_0001": {
+			"circle_of_healing_1_1_0002": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0004": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0006": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0008": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0010": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0012": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0014": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0016": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0018": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0020": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0022": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0024": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0026": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0028": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0030": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0032": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 },
+			"circle_of_healing_1_1_0034": { "y": 99.99, "scaleX": 2, "scaleY": 2, "width": 130, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"circle_of_healing_1_1_0001": {
+				"attachment": [
+					{ "time": 0, "name": "circle_of_healing_1_1_0002" },
+					{ "time": 0.0666, "name": "circle_of_healing_1_1_0004" },
+					{ "time": 0.1333, "name": "circle_of_healing_1_1_0006" },
+					{ "time": 0.2, "name": "circle_of_healing_1_1_0008" },
+					{ "time": 0.2666, "name": "circle_of_healing_1_1_0010" },
+					{ "time": 0.3333, "name": "circle_of_healing_1_1_0012" },
+					{ "time": 0.4, "name": "circle_of_healing_1_1_0014" },
+					{ "time": 0.4666, "name": "circle_of_healing_1_1_0016" },
+					{ "time": 0.5333, "name": "circle_of_healing_1_1_0018" },
+					{ "time": 0.6, "name": "circle_of_healing_1_1_0020" },
+					{ "time": 0.6666, "name": "circle_of_healing_1_1_0022" },
+					{ "time": 0.7333, "name": "circle_of_healing_1_1_0024" },
+					{ "time": 0.8, "name": "circle_of_healing_1_1_0026" },
+					{ "time": 0.8666, "name": "circle_of_healing_1_1_0028" },
+					{ "time": 0.9333, "name": "circle_of_healing_1_1_0030" },
+					{ "time": 1, "name": "circle_of_healing_1_1_0032" },
+					{ "time": 1.0666, "name": "circle_of_healing_1_1_0034" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,66 @@
+{
+"bones": [
+	{ "name": "root", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "unholy_3_1", "bone": "root", "attachment": "unholy_3_1" }
+],
+"skins": {
+	"default": {
+		"unholy_3_1": {
+			"unholy_3_1": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_2": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_3": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_4": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_5": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_6": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_7": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_8": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_9": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_10": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_11": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_12": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_13": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_14": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_15": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_16": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_17": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_18": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_19": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_20": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 },
+			"unholy_3_21": { "x": 0.33, "y": 24.4, "width": 250, "height": 122 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"unholy_3_1": {
+				"attachment": [
+					{ "time": 0, "name": "unholy_3_1" },
+					{ "time": 0.1333, "name": "unholy_3_2" },
+					{ "time": 0.2666, "name": "unholy_3_3" },
+					{ "time": 0.4, "name": "unholy_3_4" },
+					{ "time": 0.5333, "name": "unholy_3_5" },
+					{ "time": 0.6666, "name": "unholy_3_6" },
+					{ "time": 0.8, "name": "unholy_3_7" },
+					{ "time": 0.9333, "name": "unholy_3_8" },
+					{ "time": 1.0666, "name": "unholy_3_9" },
+					{ "time": 1.2, "name": "unholy_3_10" },
+					{ "time": 1.3333, "name": "unholy_3_11" },
+					{ "time": 1.4666, "name": "unholy_3_12" },
+					{ "time": 1.6, "name": "unholy_3_13" },
+					{ "time": 1.7333, "name": "unholy_3_14" },
+					{ "time": 1.8666, "name": "unholy_3_15" },
+					{ "time": 2, "name": "unholy_3_16" },
+					{ "time": 2.1333, "name": "unholy_3_17" },
+					{ "time": 2.2666, "name": "unholy_3_18" },
+					{ "time": 2.4, "name": "unholy_3_19" },
+					{ "time": 2.5333, "name": "unholy_3_20" },
+					{ "time": 2.6666, "name": "unholy_3_21" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,46 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "flash_Heal_1", "bone": "root", "attachment": "flash_Heal_1_11" }
+],
+"skins": {
+	"default": {
+		"flash_Heal_1": {
+			"flash_Heal_1_01": { "width": 100, "height": 170 },
+			"flash_Heal_1_02": { "width": 100, "height": 170 },
+			"flash_Heal_1_03": { "width": 100, "height": 170 },
+			"flash_Heal_1_04": { "width": 100, "height": 170 },
+			"flash_Heal_1_05": { "width": 100, "height": 170 },
+			"flash_Heal_1_06": { "width": 100, "height": 170 },
+			"flash_Heal_1_07": { "width": 100, "height": 170 },
+			"flash_Heal_1_08": { "width": 100, "height": 170 },
+			"flash_Heal_1_09": { "width": 100, "height": 170 },
+			"flash_Heal_1_10": { "width": 100, "height": 170 },
+			"flash_Heal_1_11": { "width": 100, "height": 170 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"flash_Heal_1": {
+				"attachment": [
+					{ "time": 0, "name": "flash_Heal_1_01" },
+					{ "time": 0.0333, "name": "flash_Heal_1_02" },
+					{ "time": 0.0666, "name": "flash_Heal_1_03" },
+					{ "time": 0.1, "name": "flash_Heal_1_04" },
+					{ "time": 0.1333, "name": "flash_Heal_1_05" },
+					{ "time": 0.1666, "name": "flash_Heal_1_06" },
+					{ "time": 0.2, "name": "flash_Heal_1_07" },
+					{ "time": 0.2333, "name": "flash_Heal_1_08" },
+					{ "time": 0.2666, "name": "flash_Heal_1_09" },
+					{ "time": 0.3, "name": "flash_Heal_1_10" },
+					{ "time": 0.3333, "name": "flash_Heal_1_11" }
+				]
+			}
+		}
+	}
+}
+}

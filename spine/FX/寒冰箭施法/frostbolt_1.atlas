@@ -1,0 +1,124 @@
+
+frostbolt_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frostbolt_1_01
+  rotate: false
+  xy: 2, 2
+  size: 114, 121
+  orig: 150, 150
+  offset: 18, 12
+  index: -1
+frostbolt_1_02
+  rotate: false
+  xy: 2, 125
+  size: 124, 118
+  orig: 150, 150
+  offset: 9, 16
+  index: -1
+frostbolt_1_03
+  rotate: false
+  xy: 128, 126
+  size: 118, 117
+  orig: 150, 150
+  offset: 12, 20
+  index: -1
+frostbolt_1_04
+  rotate: false
+  xy: 248, 132
+  size: 113, 111
+  orig: 150, 150
+  offset: 15, 23
+  index: -1
+frostbolt_1_05
+  rotate: false
+  xy: 477, 139
+  size: 107, 104
+  orig: 150, 150
+  offset: 19, 27
+  index: -1
+frostbolt_1_06
+  rotate: false
+  xy: 692, 144
+  size: 101, 99
+  orig: 150, 150
+  offset: 22, 29
+  index: -1
+frostbolt_1_07
+  rotate: false
+  xy: 900, 150
+  size: 96, 93
+  orig: 150, 150
+  offset: 25, 32
+  index: -1
+frostbolt_1_08
+  rotate: true
+  xy: 203, 33
+  size: 91, 86
+  orig: 150, 150
+  offset: 28, 36
+  index: -1
+frostbolt_1_09
+  rotate: false
+  xy: 586, 146
+  size: 104, 97
+  orig: 150, 150
+  offset: 24, 31
+  index: -1
+frostbolt_1_10
+  rotate: true
+  xy: 363, 137
+  size: 106, 112
+  orig: 150, 150
+  offset: 22, 20
+  index: -1
+frostbolt_1_11
+  rotate: true
+  xy: 795, 148
+  size: 95, 103
+  orig: 150, 150
+  offset: 27, 24
+  index: -1
+frostbolt_1_12
+  rotate: false
+  xy: 118, 31
+  size: 83, 92
+  orig: 150, 150
+  offset: 32, 30
+  index: -1
+frostbolt_1_13
+  rotate: false
+  xy: 291, 50
+  size: 72, 80
+  orig: 150, 150
+  offset: 38, 36
+  index: -1
+frostbolt_1_14
+  rotate: false
+  xy: 365, 69
+  size: 58, 66
+  orig: 150, 150
+  offset: 45, 44
+  index: -1
+frostbolt_1_16
+  rotate: false
+  xy: 365, 69
+  size: 58, 66
+  orig: 150, 150
+  offset: 45, 44
+  index: -1
+frostbolt_1_17
+  rotate: false
+  xy: 365, 69
+  size: 58, 66
+  orig: 150, 150
+  offset: 45, 44
+  index: -1
+frostbolt_1_15
+  rotate: false
+  xy: 365, 69
+  size: 58, 66
+  orig: 150, 150
+  offset: 45, 44
+  index: -1

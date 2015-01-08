@@ -1,0 +1,166 @@
+
+sunder_armor.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sunder_armor_01
+  rotate: false
+  xy: 2, 2
+  size: 151, 34
+  orig: 280, 145
+  offset: 61, 13
+  index: -1
+sunder_armor_02
+  rotate: false
+  xy: 2, 2
+  size: 151, 34
+  orig: 280, 145
+  offset: 61, 13
+  index: -1
+sunder_armor_03
+  rotate: false
+  xy: 273, 158
+  size: 233, 96
+  orig: 280, 145
+  offset: 31, 13
+  index: -1
+sunder_armor_04
+  rotate: false
+  xy: 273, 158
+  size: 233, 96
+  orig: 280, 145
+  offset: 31, 13
+  index: -1
+sunder_armor_05
+  rotate: false
+  xy: 2, 137
+  size: 269, 117
+  orig: 280, 145
+  offset: 2, 13
+  index: -1
+sunder_armor_06
+  rotate: false
+  xy: 2, 137
+  size: 269, 117
+  orig: 280, 145
+  offset: 2, 13
+  index: -1
+sunder_armor_07
+  rotate: false
+  xy: 2, 38
+  size: 268, 97
+  orig: 280, 145
+  offset: 3, 33
+  index: -1
+sunder_armor_08
+  rotate: false
+  xy: 843, 55
+  size: 78, 100
+  orig: 280, 145
+  offset: 193, 31
+  index: -1
+sunder_armor_09
+  rotate: true
+  xy: 621, 69
+  size: 86, 113
+  orig: 280, 145
+  offset: 189, 25
+  index: -1
+sunder_armor_10
+  rotate: false
+  xy: 923, 59
+  size: 78, 97
+  orig: 280, 145
+  offset: 193, 33
+  index: -1
+sunder_armor_12
+  rotate: false
+  xy: 923, 59
+  size: 78, 97
+  orig: 280, 145
+  offset: 193, 33
+  index: -1
+sunder_armor_13
+  rotate: false
+  xy: 923, 59
+  size: 78, 97
+  orig: 280, 145
+  offset: 193, 33
+  index: -1
+sunder_armor_14
+  rotate: false
+  xy: 923, 59
+  size: 78, 97
+  orig: 280, 145
+  offset: 193, 33
+  index: -1
+sunder_armor_11
+  rotate: false
+  xy: 923, 59
+  size: 78, 97
+  orig: 280, 145
+  offset: 193, 33
+  index: -1
+sunder_armor_15
+  rotate: true
+  xy: 736, 70
+  size: 85, 105
+  orig: 280, 145
+  offset: 193, 33
+  index: -1
+sunder_armor_16
+  rotate: true
+  xy: 390, 69
+  size: 87, 113
+  orig: 280, 145
+  offset: 193, 27
+  index: -1
+sunder_armor_17
+  rotate: true
+  xy: 273, 62
+  size: 94, 115
+  orig: 280, 145
+  offset: 186, 25
+  index: -1
+sunder_armor_18
+  rotate: true
+  xy: 865, 158
+  size: 96, 116
+  orig: 280, 145
+  offset: 184, 25
+  index: -1
+sunder_armor_19
+  rotate: true
+  xy: 508, 158
+  size: 96, 117
+  orig: 280, 145
+  offset: 184, 24
+  index: -1
+sunder_armor_20
+  rotate: true
+  xy: 627, 157
+  size: 97, 117
+  orig: 280, 145
+  offset: 183, 24
+  index: -1
+sunder_armor_21
+  rotate: true
+  xy: 746, 157
+  size: 97, 117
+  orig: 280, 145
+  offset: 183, 24
+  index: -1
+sunder_armor_22
+  rotate: true
+  xy: 505, 70
+  size: 86, 114
+  orig: 280, 145
+  offset: 183, 25
+  index: -1
+sunder_armor_23
+  rotate: true
+  xy: 272, 10
+  size: 50, 74
+  orig: 280, 145
+  offset: 183, 64
+  index: -1

@@ -11,14 +11,14 @@ class baseUtil
 {
 public:
 	/**/
-	static int s_iUtilID; 
-	baseUtil(){log("baseUtil constructor  s_iUtilID= %d",s_iUtilID);m_iID = s_iUtilID;s_iUtilID ++;}
+	static int s_iFightNum; 
+	baseUtil(){log("baseUtil constructor  s_iFightNum= %d",s_iFightNum);m_iFightNum = s_iFightNum;s_iFightNum ++;}
 	~baseUtil(){log("baseUtil delete");}
-	static void resetUtilID(){s_iUtilID = 0;}
-	CC_PROPERTY(int, m_iID, ID);
+	static void resetUtilID(){s_iFightNum = 0;}
+	CC_SYNTHESIZE(int, m_iFightNum, FightNum);
 
 };
-int baseUtil:: s_iUtilID = 0;
+
 
 class Util:public Node ,public baseUtil
 {

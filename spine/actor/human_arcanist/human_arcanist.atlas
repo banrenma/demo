@@ -1,0 +1,187 @@
+
+human_arcanist.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+human_arcanist_body
+  rotate: false
+  xy: 133, 81
+  size: 28, 40
+  orig: 28, 40
+  offset: 0, 0
+  index: -1
+human_arcanist_brest
+  rotate: true
+  xy: 141, 128
+  size: 26, 19
+  orig: 26, 19
+  offset: 0, 0
+  index: -1
+human_arcanist_hair1
+  rotate: false
+  xy: 58, 40
+  size: 56, 37
+  orig: 56, 37
+  offset: 0, 0
+  index: -1
+human_arcanist_hair2
+  rotate: false
+  xy: 140, 39
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1
+human_arcanist_hair3
+  rotate: true
+  xy: 2, 2
+  size: 24, 55
+  orig: 24, 55
+  offset: 0, 0
+  index: -1
+human_arcanist_hair4
+  rotate: true
+  xy: 66, 79
+  size: 42, 65
+  orig: 42, 65
+  offset: 0, 0
+  index: -1
+human_arcanist_head1
+  rotate: false
+  xy: 66, 123
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+human_arcanist_head2
+  rotate: false
+  xy: 147, 191
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+human_arcanist_head3
+  rotate: false
+  xy: 222, 191
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+human_arcanist_head4
+  rotate: false
+  xy: 297, 191
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+human_arcanist_head5
+  rotate: false
+  xy: 372, 191
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+human_arcanist_head6
+  rotate: true
+  xy: 447, 181
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+human_arcanist_headdress
+  rotate: true
+  xy: 2, 28
+  size: 79, 54
+  orig: 79, 54
+  offset: 0, 0
+  index: -1
+human_arcanist_l_calf
+  rotate: false
+  xy: 163, 164
+  size: 12, 25
+  orig: 12, 25
+  offset: 0, 0
+  index: -1
+human_arcanist_l_forearm
+  rotate: true
+  xy: 139, 2
+  size: 27, 20
+  orig: 27, 20
+  offset: 0, 0
+  index: -1
+human_arcanist_l_shoudler
+  rotate: true
+  xy: 116, 31
+  size: 46, 22
+  orig: 46, 22
+  offset: 0, 0
+  index: -1
+human_arcanist_l_thigh
+  rotate: true
+  xy: 195, 177
+  size: 12, 22
+  orig: 12, 22
+  offset: 0, 0
+  index: -1
+human_arcanist_l_upperarm
+  rotate: false
+  xy: 177, 169
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+human_arcanist_m_down
+  rotate: false
+  xy: 66, 188
+  size: 79, 66
+  orig: 79, 66
+  offset: 0, 0
+  index: -1
+human_arcanist_polearm
+  rotate: false
+  xy: 2, 109
+  size: 62, 145
+  orig: 62, 145
+  offset: 0, 0
+  index: -1
+human_arcanist_r_calf
+  rotate: true
+  xy: 82, 3
+  size: 16, 25
+  orig: 16, 25
+  offset: 0, 0
+  index: -1
+human_arcanist_r_forearm
+  rotate: true
+  xy: 116, 2
+  size: 27, 21
+  orig: 27, 21
+  offset: 0, 0
+  index: -1
+human_arcanist_r_shoudler
+  rotate: true
+  xy: 141, 156
+  size: 30, 20
+  orig: 30, 20
+  offset: 0, 0
+  index: -1
+human_arcanist_r_thigh
+  rotate: true
+  xy: 219, 176
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+human_arcanist_r_upperarm
+  rotate: true
+  xy: 59, 2
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+human_arcanist_shadow
+  rotate: false
+  xy: 59, 21
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

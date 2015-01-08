@@ -1,0 +1,166 @@
+
+arugal.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arugal_acc1
+  rotate: true
+  xy: 334, 219
+  size: 35, 111
+  orig: 35, 111
+  offset: 0, 0
+  index: -1
+arugal_acc2
+  rotate: true
+  xy: 334, 186
+  size: 31, 105
+  orig: 31, 105
+  offset: 0, 0
+  index: -1
+arugal_body1
+  rotate: true
+  xy: 334, 126
+  size: 58, 61
+  orig: 58, 61
+  offset: 0, 0
+  index: -1
+arugal_body2
+  rotate: false
+  xy: 447, 144
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+arugal_body3
+  rotate: false
+  xy: 68, 69
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+arugal_head1
+  rotate: false
+  xy: 2, 18
+  size: 64, 101
+  orig: 64, 101
+  offset: 0, 0
+  index: -1
+arugal_head2
+  rotate: false
+  xy: 70, 153
+  size: 64, 101
+  orig: 64, 101
+  offset: 0, 0
+  index: -1
+arugal_head3
+  rotate: false
+  xy: 136, 153
+  size: 64, 101
+  orig: 64, 101
+  offset: 0, 0
+  index: -1
+arugal_head4
+  rotate: false
+  xy: 202, 153
+  size: 64, 101
+  orig: 64, 101
+  offset: 0, 0
+  index: -1
+arugal_head5
+  rotate: false
+  xy: 268, 153
+  size: 64, 101
+  orig: 64, 101
+  offset: 0, 0
+  index: -1
+arugal_l_down
+  rotate: true
+  xy: 272, 118
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+arugal_l_foot
+  rotate: false
+  xy: 2, 2
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+arugal_l_forearm
+  rotate: true
+  xy: 169, 119
+  size: 32, 44
+  orig: 32, 44
+  offset: 0, 0
+  index: -1
+arugal_l_shoudler
+  rotate: true
+  xy: 447, 188
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+arugal_l_upperarm
+  rotate: false
+  xy: 68, 29
+  size: 34, 38
+  orig: 34, 38
+  offset: 0, 0
+  index: -1
+arugal_m_down
+  rotate: false
+  xy: 70, 110
+  size: 50, 41
+  orig: 50, 41
+  offset: 0, 0
+  index: -1
+arugal_polearm
+  rotate: false
+  xy: 2, 121
+  size: 66, 133
+  orig: 66, 133
+  offset: 0, 0
+  index: -1
+arugal_r_down
+  rotate: false
+  xy: 489, 109
+  size: 21, 33
+  orig: 21, 33
+  offset: 0, 0
+  index: -1
+arugal_r_foot
+  rotate: true
+  xy: 104, 87
+  size: 21, 13
+  orig: 21, 13
+  offset: 0, 0
+  index: -1
+arugal_r_forearm
+  rotate: false
+  xy: 122, 119
+  size: 45, 32
+  orig: 45, 32
+  offset: 0, 0
+  index: -1
+arugal_r_shoudler
+  rotate: false
+  xy: 397, 124
+  size: 48, 60
+  orig: 48, 60
+  offset: 0, 0
+  index: -1
+arugal_r_upperarm
+  rotate: true
+  xy: 447, 113
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+arugal_shadow
+  rotate: false
+  xy: 215, 134
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

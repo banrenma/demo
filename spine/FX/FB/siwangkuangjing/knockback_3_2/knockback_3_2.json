@@ -1,0 +1,35 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "knockback_3_2_", "bone": "root", "attachment": "knockback_3_2_" }
+],
+"skins": {
+	"default": {
+		"knockback_3_2_": {
+			"knockback_3_2_": { "scaleX": 2, "scaleY": 2, "width": 165, "height": 65 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"knockback_3_2_": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "knockback_3_2_" },
+					{ "time": 0.1666, "name": "knockback_3_2_" },
+					{ "time": 0.5, "name": "knockback_3_2_" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

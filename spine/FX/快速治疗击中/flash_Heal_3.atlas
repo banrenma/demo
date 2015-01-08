@@ -1,0 +1,110 @@
+
+flash_Heal_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flash_Heal_3_01
+  rotate: false
+  xy: 804, 90
+  size: 45, 25
+  orig: 80, 140
+  offset: 31, 5
+  index: -1
+flash_Heal_3_02
+  rotate: false
+  xy: 728, 82
+  size: 74, 33
+  orig: 80, 140
+  offset: 6, 0
+  index: -1
+flash_Heal_3_03
+  rotate: false
+  xy: 646, 69
+  size: 80, 46
+  orig: 80, 140
+  offset: 0, 0
+  index: -1
+flash_Heal_3_04
+  rotate: false
+  xy: 564, 48
+  size: 80, 67
+  orig: 80, 140
+  offset: 0, 0
+  index: -1
+flash_Heal_3_05
+  rotate: false
+  xy: 330, 20
+  size: 80, 95
+  orig: 80, 140
+  offset: 0, 2
+  index: -1
+flash_Heal_3_06
+  rotate: false
+  xy: 84, 4
+  size: 80, 111
+  orig: 80, 140
+  offset: 0, 8
+  index: -1
+flash_Heal_3_07
+  rotate: false
+  xy: 248, 6
+  size: 80, 109
+  orig: 80, 140
+  offset: 0, 15
+  index: -1
+flash_Heal_3_08
+  rotate: false
+  xy: 2, 2
+  size: 80, 113
+  orig: 80, 140
+  offset: 0, 18
+  index: -1
+flash_Heal_3_09
+  rotate: false
+  xy: 166, 4
+  size: 80, 111
+  orig: 80, 140
+  offset: 0, 25
+  index: -1
+flash_Heal_3_10
+  rotate: false
+  xy: 412, 22
+  size: 75, 93
+  orig: 80, 140
+  offset: 5, 32
+  index: -1
+flash_Heal_3_11
+  rotate: false
+  xy: 489, 37
+  size: 73, 78
+  orig: 80, 140
+  offset: 7, 45
+  index: -1
+flash_Heal_3_15
+  rotate: false
+  xy: 489, 37
+  size: 73, 78
+  orig: 80, 140
+  offset: 7, 61
+  index: -1
+flash_Heal_3_14
+  rotate: false
+  xy: 489, 37
+  size: 73, 78
+  orig: 80, 140
+  offset: 7, 57
+  index: -1
+flash_Heal_3_13
+  rotate: false
+  xy: 489, 37
+  size: 73, 78
+  orig: 80, 140
+  offset: 7, 53
+  index: -1
+flash_Heal_3_12
+  rotate: false
+  xy: 489, 37
+  size: 73, 78
+  orig: 80, 140
+  offset: 7, 49
+  index: -1

@@ -1,0 +1,54 @@
+
+timebomb_7.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+timebomb_7_1
+  rotate: true
+  xy: 335, 95
+  size: 30, 27
+  orig: 135, 195
+  offset: 51, 21
+  index: -1
+timebomb_7_2
+  rotate: true
+  xy: 335, 6
+  size: 77, 86
+  orig: 135, 195
+  offset: 29, 18
+  index: -1
+timebomb_7_3
+  rotate: true
+  xy: 2, 121
+  size: 131, 179
+  orig: 135, 195
+  offset: 2, 9
+  index: -1
+timebomb_7_4
+  rotate: true
+  xy: 183, 127
+  size: 125, 186
+  orig: 135, 195
+  offset: 5, 9
+  index: -1
+timebomb_7_5
+  rotate: false
+  xy: 371, 85
+  size: 120, 167
+  orig: 135, 195
+  offset: 9, 9
+  index: -1
+timebomb_7_6
+  rotate: true
+  xy: 183, 5
+  size: 120, 150
+  orig: 135, 195
+  offset: 9, 9
+  index: -1
+timebomb_7_7
+  rotate: true
+  xy: 2, 2
+  size: 117, 133
+  orig: 135, 195
+  offset: 10, 9
+  index: -1

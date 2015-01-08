@@ -1,0 +1,145 @@
+
+arcane_barrage_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arcane_barrage_2_1_1
+  rotate: false
+  xy: 250, 217
+  size: 121, 37
+  orig: 140, 50
+  offset: 15, 10
+  index: -1
+arcane_barrage_2_1_10
+  rotate: false
+  xy: 250, 217
+  size: 121, 37
+  orig: 140, 50
+  offset: 15, 10
+  index: -1
+arcane_barrage_2_1_2
+  rotate: false
+  xy: 373, 217
+  size: 120, 37
+  orig: 140, 50
+  offset: 15, 9
+  index: -1
+arcane_barrage_2_1_3
+  rotate: false
+  xy: 124, 4
+  size: 117, 40
+  orig: 140, 50
+  offset: 15, 5
+  index: -1
+arcane_barrage_2_1_4
+  rotate: false
+  xy: 367, 136
+  size: 117, 39
+  orig: 140, 50
+  offset: 15, 4
+  index: -1
+arcane_barrage_2_1_5
+  rotate: false
+  xy: 371, 177
+  size: 118, 38
+  orig: 140, 50
+  offset: 15, 5
+  index: -1
+arcane_barrage_2_1_6
+  rotate: false
+  xy: 250, 177
+  size: 119, 38
+  orig: 140, 50
+  offset: 14, 5
+  index: -1
+arcane_barrage_2_1_7
+  rotate: false
+  xy: 247, 136
+  size: 118, 39
+  orig: 140, 50
+  offset: 15, 8
+  index: -1
+arcane_barrage_2_1_8
+  rotate: false
+  xy: 2, 2
+  size: 120, 40
+  orig: 140, 50
+  offset: 15, 9
+  index: -1
+arcane_barrage_2_1_9
+  rotate: true
+  xy: 84, 46
+  size: 120, 38
+  orig: 140, 50
+  offset: 15, 10
+  index: -1
+arcane_barrage_2_2_1
+  rotate: false
+  xy: 125, 216
+  size: 123, 38
+  orig: 140, 50
+  offset: 10, 4
+  index: -1
+arcane_barrage_2_2_10
+  rotate: false
+  xy: 125, 216
+  size: 123, 38
+  orig: 140, 50
+  offset: 10, 4
+  index: -1
+arcane_barrage_2_2_2
+  rotate: true
+  xy: 2, 44
+  size: 122, 39
+  orig: 140, 50
+  offset: 10, 5
+  index: -1
+arcane_barrage_2_2_3
+  rotate: false
+  xy: 124, 131
+  size: 119, 42
+  orig: 140, 50
+  offset: 10, 7
+  index: -1
+arcane_barrage_2_2_4
+  rotate: false
+  xy: 124, 88
+  size: 119, 41
+  orig: 140, 50
+  offset: 10, 9
+  index: -1
+arcane_barrage_2_2_5
+  rotate: false
+  xy: 125, 175
+  size: 120, 39
+  orig: 140, 50
+  offset: 10, 10
+  index: -1
+arcane_barrage_2_2_6
+  rotate: false
+  xy: 124, 46
+  size: 120, 40
+  orig: 140, 50
+  offset: 10, 9
+  index: -1
+arcane_barrage_2_2_7
+  rotate: false
+  xy: 2, 168
+  size: 120, 42
+  orig: 140, 50
+  offset: 9, 4
+  index: -1
+arcane_barrage_2_2_8
+  rotate: false
+  xy: 2, 212
+  size: 121, 42
+  orig: 140, 50
+  offset: 10, 3
+  index: -1
+arcane_barrage_2_2_9
+  rotate: true
+  xy: 43, 44
+  size: 122, 39
+  orig: 140, 50
+  offset: 10, 3
+  index: -1

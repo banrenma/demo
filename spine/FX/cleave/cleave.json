@@ -1,0 +1,38 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "cleave0001", "bone": "root", "attachment": "cleave_07" }
+],
+"skins": {
+	"default": {
+		"cleave0001": {
+			"cleave_01": { "width": 210, "height": 117 },
+			"cleave_02": { "width": 210, "height": 117 },
+			"cleave_03": { "width": 210, "height": 117 },
+			"cleave_04": { "width": 210, "height": 117 },
+			"cleave_05": { "width": 210, "height": 117 },
+			"cleave_06": { "width": 210, "height": 117 },
+			"cleave_07": { "width": 210, "height": 117 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"cleave0001": {
+				"attachment": [
+					{ "time": 0, "name": "cleave_01" },
+					{ "time": 0.0333, "name": "cleave_02" },
+					{ "time": 0.0666, "name": "cleave_03" },
+					{ "time": 0.1, "name": "cleave_04" },
+					{ "time": 0.1333, "name": "cleave_05" },
+					{ "time": 0.1666, "name": "cleave_06" },
+					{ "time": 0.2, "name": "cleave_07" }
+				]
+			}
+		}
+	}
+}
+}

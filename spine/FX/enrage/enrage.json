@@ -1,0 +1,34 @@
+{
+"bones": [
+	{ "name": "root", "y": 27.99 }
+],
+"slots": [
+	{ "name": "enrage_01", "bone": "root", "attachment": "enrage_05" }
+],
+"skins": {
+	"default": {
+		"enrage_01": {
+			"enrage_01": { "width": 70, "height": 90 },
+			"enrage_02": { "width": 70, "height": 90 },
+			"enrage_03": { "width": 70, "height": 90 },
+			"enrage_04": { "width": 70, "height": 90 },
+			"enrage_05": { "width": 70, "height": 90 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"enrage_01": {
+				"attachment": [
+					{ "time": 0, "name": "enrage_01" },
+					{ "time": 0.0333, "name": "enrage_02" },
+					{ "time": 0.0666, "name": "enrage_03" },
+					{ "time": 0.1, "name": "enrage_04" },
+					{ "time": 0.1333, "name": "enrage_05" }
+				]
+			}
+		}
+	}
+}
+}

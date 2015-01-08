@@ -1,0 +1,54 @@
+
+trample_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+trample_1_10
+  rotate: false
+  xy: 2, 191
+  size: 308, 94
+  orig: 325, 100
+  offset: 8, 3
+  index: -1
+trample_1_12
+  rotate: false
+  xy: 2, 96
+  size: 308, 93
+  orig: 325, 100
+  offset: 8, 4
+  index: -1
+trample_1_14
+  rotate: false
+  xy: 2, 2
+  size: 308, 92
+  orig: 325, 100
+  offset: 8, 5
+  index: -1
+trample_1_2
+  rotate: true
+  xy: 312, 169
+  size: 308, 92
+  orig: 325, 100
+  offset: 8, 5
+  index: -1
+trample_1_4
+  rotate: false
+  xy: 2, 383
+  size: 308, 94
+  orig: 325, 100
+  offset: 8, 3
+  index: -1
+trample_1_6
+  rotate: false
+  xy: 2, 383
+  size: 308, 94
+  orig: 325, 100
+  offset: 8, 3
+  index: -1
+trample_1_8
+  rotate: false
+  xy: 2, 287
+  size: 308, 94
+  orig: 325, 100
+  offset: 8, 3
+  index: -1

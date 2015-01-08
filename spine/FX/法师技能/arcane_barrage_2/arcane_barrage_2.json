@@ -1,0 +1,71 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "arcane_barrage_2_1_1", "bone": "root", "attachment": "arcane_barrage_2_1_9" },
+	{ "name": "root", "bone": "root", "attachment": "arcane_barrage_2_2_9" }
+],
+"skins": {
+	"default": {
+		"arcane_barrage_2_1_1": {
+			"arcane_barrage_2_1_1": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_1_2": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_1_3": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_1_4": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_1_5": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_1_6": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_1_7": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_1_8": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_1_9": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_1_10": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 }
+		},
+		"root": {
+			"arcane_barrage_2_2_1": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_2_2": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_2_3": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_2_4": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_2_5": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_2_6": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_2_7": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_2_8": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_2_9": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 },
+			"arcane_barrage_2_2_10": { "scaleX": 2, "scaleY": 2, "width": 140, "height": 50 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"arcane_barrage_2_1_1": {
+				"attachment": [
+					{ "time": 0, "name": "arcane_barrage_2_1_1" },
+					{ "time": 0.0333, "name": "arcane_barrage_2_1_2" },
+					{ "time": 0.0666, "name": "arcane_barrage_2_1_3" },
+					{ "time": 0.1, "name": "arcane_barrage_2_1_4" },
+					{ "time": 0.1333, "name": "arcane_barrage_2_1_5" },
+					{ "time": 0.1666, "name": "arcane_barrage_2_1_6" },
+					{ "time": 0.2, "name": "arcane_barrage_2_1_7" },
+					{ "time": 0.2333, "name": "arcane_barrage_2_1_8" },
+					{ "time": 0.2666, "name": "arcane_barrage_2_1_9" },
+					{ "time": 0.3, "name": "arcane_barrage_2_1_10" }
+				]
+			},
+			"root": {
+				"attachment": [
+					{ "time": 0, "name": "arcane_barrage_2_2_1" },
+					{ "time": 0.0333, "name": "arcane_barrage_2_2_2" },
+					{ "time": 0.0666, "name": "arcane_barrage_2_2_3" },
+					{ "time": 0.1, "name": "arcane_barrage_2_2_4" },
+					{ "time": 0.1333, "name": "arcane_barrage_2_2_5" },
+					{ "time": 0.1666, "name": "arcane_barrage_2_2_6" },
+					{ "time": 0.2, "name": "arcane_barrage_2_2_7" },
+					{ "time": 0.2333, "name": "arcane_barrage_2_2_8" },
+					{ "time": 0.2666, "name": "arcane_barrage_2_2_9" },
+					{ "time": 0.3, "name": "arcane_barrage_2_2_10" }
+				]
+			}
+		}
+	}
+}
+}

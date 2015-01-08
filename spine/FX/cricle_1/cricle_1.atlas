@@ -1,0 +1,12 @@
+
+cricle_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cricle_1_1
+  rotate: false
+  xy: 2, 2
+  size: 51, 27
+  orig: 51, 27
+  offset: 0, 0
+  index: -1

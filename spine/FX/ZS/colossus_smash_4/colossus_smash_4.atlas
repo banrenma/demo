@@ -1,0 +1,110 @@
+
+colossus_smash_4.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+colossus_smash_4_1
+  rotate: false
+  xy: 148, 2
+  size: 26, 35
+  orig: 50, 50
+  offset: 15, 7
+  index: -1
+colossus_smash_4_10
+  rotate: false
+  xy: 90, 2
+  size: 27, 35
+  orig: 50, 50
+  offset: 10, 7
+  index: -1
+colossus_smash_4_11
+  rotate: false
+  xy: 2, 2
+  size: 28, 35
+  orig: 50, 50
+  offset: 11, 7
+  index: -1
+colossus_smash_4_12
+  rotate: false
+  xy: 119, 2
+  size: 27, 35
+  orig: 50, 50
+  offset: 13, 7
+  index: -1
+colossus_smash_4_13
+  rotate: false
+  xy: 343, 2
+  size: 25, 35
+  orig: 50, 50
+  offset: 15, 7
+  index: -1
+colossus_smash_4_14
+  rotate: false
+  xy: 370, 2
+  size: 25, 35
+  orig: 50, 50
+  offset: 15, 7
+  index: -1
+colossus_smash_4_15
+  rotate: false
+  xy: 397, 2
+  size: 25, 35
+  orig: 50, 50
+  offset: 15, 7
+  index: -1
+colossus_smash_4_2
+  rotate: false
+  xy: 176, 2
+  size: 26, 35
+  orig: 50, 50
+  offset: 15, 7
+  index: -1
+colossus_smash_4_3
+  rotate: false
+  xy: 32, 2
+  size: 27, 35
+  orig: 50, 50
+  offset: 12, 7
+  index: -1
+colossus_smash_4_4
+  rotate: false
+  xy: 204, 2
+  size: 26, 35
+  orig: 50, 50
+  offset: 10, 7
+  index: -1
+colossus_smash_4_5
+  rotate: false
+  xy: 61, 2
+  size: 27, 35
+  orig: 50, 50
+  offset: 9, 7
+  index: -1
+colossus_smash_4_6
+  rotate: false
+  xy: 232, 2
+  size: 26, 35
+  orig: 50, 50
+  offset: 10, 7
+  index: -1
+colossus_smash_4_7
+  rotate: false
+  xy: 316, 2
+  size: 25, 35
+  orig: 50, 50
+  offset: 11, 7
+  index: -1
+colossus_smash_4_8
+  rotate: false
+  xy: 260, 2
+  size: 26, 35
+  orig: 50, 50
+  offset: 10, 7
+  index: -1
+colossus_smash_4_9
+  rotate: false
+  xy: 288, 2
+  size: 26, 35
+  orig: 50, 50
+  offset: 10, 7
+  index: -1

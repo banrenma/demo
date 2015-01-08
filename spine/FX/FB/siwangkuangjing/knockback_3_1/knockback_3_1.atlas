@@ -1,0 +1,47 @@
+
+knockback_3_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+knockback_3_1_0001
+  rotate: false
+  xy: 154, 52
+  size: 105, 62
+  orig: 245, 160
+  offset: 8, 97
+  index: -1
+knockback_3_1_0002
+  rotate: false
+  xy: 2, 89
+  size: 150, 152
+  orig: 245, 160
+  offset: 7, 5
+  index: -1
+knockback_3_1_0003
+  rotate: true
+  xy: 2, 2
+  size: 85, 117
+  orig: 245, 160
+  offset: 111, 2
+  index: -1
+knockback_3_1_0004
+  rotate: false
+  xy: 154, 116
+  size: 117, 125
+  orig: 245, 160
+  offset: 123, 13
+  index: -1
+knockback_3_1_0005
+  rotate: false
+  xy: 273, 123
+  size: 112, 118
+  orig: 245, 160
+  offset: 124, 14
+  index: -1
+knockback_3_1_0006
+  rotate: false
+  xy: 387, 140
+  size: 95, 101
+  orig: 245, 160
+  offset: 128, 19
+  index: -1

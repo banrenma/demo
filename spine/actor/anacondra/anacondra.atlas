@@ -1,0 +1,208 @@
+
+anacondra.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anacondra_body
+  rotate: false
+  xy: 406, 6
+  size: 31, 39
+  orig: 33, 39
+  offset: 2, 0
+  index: -1
+anacondra_brest
+  rotate: true
+  xy: 439, 19
+  size: 28, 17
+  orig: 30, 18
+  offset: 1, 1
+  index: -1
+anacondra_hair1
+  rotate: true
+  xy: 440, 93
+  size: 33, 69
+  orig: 37, 74
+  offset: 4, 0
+  index: -1
+anacondra_hair2
+  rotate: true
+  xy: 337, 6
+  size: 39, 67
+  orig: 44, 67
+  offset: 0, 0
+  index: -1
+anacondra_hair3
+  rotate: true
+  xy: 337, 47
+  size: 42, 85
+  orig: 42, 85
+  offset: 0, 0
+  index: -1
+anacondra_hair4
+  rotate: true
+  xy: 59, 8
+  size: 18, 48
+  orig: 26, 51
+  offset: 3, 0
+  index: -1
+anacondra_head1
+  rotate: false
+  xy: 2, 28
+  size: 68, 98
+  orig: 71, 103
+  offset: 2, 3
+  index: -1
+anacondra_head2
+  rotate: false
+  xy: 272, 28
+  size: 63, 98
+  orig: 71, 103
+  offset: 2, 3
+  index: -1
+anacondra_head3
+  rotate: false
+  xy: 140, 28
+  size: 64, 98
+  orig: 71, 103
+  offset: 2, 3
+  index: -1
+anacondra_head4
+  rotate: false
+  xy: 72, 28
+  size: 66, 98
+  orig: 71, 103
+  offset: 2, 3
+  index: -1
+anacondra_head5
+  rotate: false
+  xy: 206, 28
+  size: 64, 98
+  orig: 71, 103
+  offset: 1, 3
+  index: -1
+anacondra_l_calf
+  rotate: false
+  xy: 458, 27
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+anacondra_l_ear
+  rotate: true
+  xy: 424, 49
+  size: 40, 38
+  orig: 46, 44
+  offset: 6, 0
+  index: -1
+anacondra_l_eyebrow
+  rotate: false
+  xy: 109, 5
+  size: 40, 21
+  orig: 42, 24
+  offset: 0, 0
+  index: -1
+anacondra_l_foot
+  rotate: true
+  xy: 497, 57
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+anacondra_l_foot 2
+  rotate: false
+  xy: 471, 36
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+anacondra_r_foot
+  rotate: false
+  xy: 471, 36
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+anacondra_l_hand
+  rotate: true
+  xy: 230, 5
+  size: 21, 31
+  orig: 22, 31
+  offset: 0, 0
+  index: -1
+anacondra_l_thigh
+  rotate: true
+  xy: 464, 50
+  size: 14, 31
+  orig: 17, 34
+  offset: 0, 0
+  index: -1
+anacondra_l_upperarm
+  rotate: false
+  xy: 151, 2
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+anacondra_pelvis
+  rotate: true
+  xy: 171, 2
+  size: 24, 18
+  orig: 24, 18
+  offset: 0, 0
+  index: -1
+anacondra_r_calf
+  rotate: false
+  xy: 492, 70
+  size: 13, 21
+  orig: 17, 21
+  offset: 4, 0
+  index: -1
+anacondra_r_ear
+  rotate: true
+  xy: 191, 3
+  size: 23, 37
+  orig: 23, 37
+  offset: 0, 0
+  index: -1
+anacondra_r_eyebrow
+  rotate: false
+  xy: 297, 9
+  size: 31, 17
+  orig: 34, 20
+  offset: 3, 0
+  index: -1
+anacondra_r_forearm
+  rotate: false
+  xy: 464, 66
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+anacondra_r_thigh
+  rotate: true
+  xy: 263, 7
+  size: 19, 32
+  orig: 19, 36
+  offset: 0, 0
+  index: -1
+anacondra_r_upperarm
+  rotate: true
+  xy: 439, 2
+  size: 15, 28
+  orig: 15, 28
+  offset: 0, 0
+  index: -1
+anacondra_shadow
+  rotate: false
+  xy: 2, 9
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1
+anacondra_staff
+  rotate: true
+  xy: 337, 91
+  size: 35, 101
+  orig: 35, 105
+  offset: 0, 4
+  index: -1

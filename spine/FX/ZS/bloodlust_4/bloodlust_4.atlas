@@ -1,0 +1,33 @@
+
+bloodlust_4.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloodlust_4_1
+  rotate: false
+  xy: 2, 97
+  size: 99, 141
+  orig: 120, 150
+  offset: 10, 0
+  index: -1
+bloodlust_4_2
+  rotate: true
+  xy: 2, 2
+  size: 93, 133
+  orig: 120, 150
+  offset: 13, 1
+  index: -1
+bloodlust_4_3
+  rotate: true
+  xy: 103, 147
+  size: 91, 146
+  orig: 120, 150
+  offset: 14, 0
+  index: -1
+bloodlust_4_4
+  rotate: false
+  xy: 137, 9
+  size: 87, 136
+  orig: 120, 150
+  offset: 15, 1
+  index: -1

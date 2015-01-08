@@ -1,0 +1,138 @@
+
+edwin_vancleef.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+edwin_vancleef_body
+  rotate: false
+  xy: 181, 115
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+edwin_vancleef_head1
+  rotate: false
+  xy: 61, 168
+  size: 90, 85
+  orig: 90, 85
+  offset: 0, 0
+  index: -1
+edwin_vancleef_head2
+  rotate: false
+  xy: 153, 168
+  size: 90, 85
+  orig: 90, 85
+  offset: 0, 0
+  index: -1
+edwin_vancleef_head3
+  rotate: false
+  xy: 245, 168
+  size: 90, 85
+  orig: 90, 85
+  offset: 0, 0
+  index: -1
+edwin_vancleef_head4
+  rotate: false
+  xy: 337, 168
+  size: 90, 85
+  orig: 90, 85
+  offset: 0, 0
+  index: -1
+edwin_vancleef_head5
+  rotate: true
+  xy: 2, 39
+  size: 90, 85
+  orig: 90, 85
+  offset: 0, 0
+  index: -1
+edwin_vancleef_head6
+  rotate: false
+  xy: 89, 81
+  size: 90, 85
+  orig: 90, 85
+  offset: 0, 0
+  index: -1
+edwin_vancleef_l_calf
+  rotate: true
+  xy: 89, 39
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+edwin_vancleef_l_forearm
+  rotate: true
+  xy: 181, 83
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+edwin_vancleef_l_thigh
+  rotate: false
+  xy: 487, 221
+  size: 23, 32
+  orig: 23, 32
+  offset: 0, 0
+  index: -1
+edwin_vancleef_l_upperarm
+  rotate: false
+  xy: 429, 169
+  size: 56, 84
+  orig: 56, 84
+  offset: 0, 0
+  index: -1
+edwin_vancleef_pelvis
+  rotate: true
+  xy: 487, 178
+  size: 41, 21
+  orig: 41, 21
+  offset: 0, 0
+  index: -1
+edwin_vancleef_r_calf
+  rotate: false
+  xy: 78, 10
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+edwin_vancleef_r_forearm
+  rotate: false
+  xy: 234, 133
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+edwin_vancleef_r_thigh
+  rotate: false
+  xy: 61, 136
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+edwin_vancleef_r_upperarm
+  rotate: true
+  xy: 2, 2
+  size: 35, 74
+  orig: 35, 74
+  offset: 0, 0
+  index: -1
+edwin_vancleef_shadow
+  rotate: false
+  xy: 89, 62
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1
+edwin_vancleef_weapon
+  rotate: false
+  xy: 2, 131
+  size: 57, 122
+  orig: 57, 122
+  offset: 0, 0
+  index: -1
+edwin_vancleef_weapon 2
+  rotate: false
+  xy: 2, 131
+  size: 57, 122
+  orig: 57, 122
+  offset: 0, 0
+  index: -1

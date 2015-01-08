@@ -1,0 +1,54 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "colossus_smash_4_1", "bone": "root", "attachment": "colossus_smash_4_9" }
+],
+"skins": {
+	"default": {
+		"colossus_smash_4_1": {
+			"colossus_smash_4_1": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_2": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_3": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_4": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_5": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_6": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_7": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_8": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_9": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_10": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_11": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_12": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_13": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_14": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 },
+			"colossus_smash_4_15": { "scaleX": 2, "scaleY": 2, "width": 50, "height": 50 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"colossus_smash_4_1": {
+				"attachment": [
+					{ "time": 0, "name": "colossus_smash_4_1" },
+					{ "time": 0.0333, "name": "colossus_smash_4_2" },
+					{ "time": 0.0666, "name": "colossus_smash_4_3" },
+					{ "time": 0.1, "name": "colossus_smash_4_4" },
+					{ "time": 0.1333, "name": "colossus_smash_4_5" },
+					{ "time": 0.1666, "name": "colossus_smash_4_6" },
+					{ "time": 0.2, "name": "colossus_smash_4_7" },
+					{ "time": 0.2333, "name": "colossus_smash_4_8" },
+					{ "time": 0.2666, "name": "colossus_smash_4_9" },
+					{ "time": 0.3, "name": "colossus_smash_4_10" },
+					{ "time": 0.3333, "name": "colossus_smash_4_11" },
+					{ "time": 0.3666, "name": "colossus_smash_4_12" },
+					{ "time": 0.4, "name": "colossus_smash_4_13" },
+					{ "time": 0.4333, "name": "colossus_smash_4_14" },
+					{ "time": 0.4666, "name": "colossus_smash_4_15" }
+				]
+			}
+		}
+	}
+}
+}

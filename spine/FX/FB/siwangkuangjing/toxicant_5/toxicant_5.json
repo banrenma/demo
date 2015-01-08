@@ -1,0 +1,38 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "toxicant_5_1", "bone": "root", "attachment": "toxicant_5_7" }
+],
+"skins": {
+	"default": {
+		"toxicant_5_1": {
+			"toxicant_5_1": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_5_2": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_5_3": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_5_4": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_5_5": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_5_6": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 },
+			"toxicant_5_7": { "x": -2, "y": 40, "scaleX": 2, "scaleY": 2, "width": 405, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"toxicant_5_1": {
+				"attachment": [
+					{ "time": 0, "name": "toxicant_5_1" },
+					{ "time": 0.0333, "name": "toxicant_5_2" },
+					{ "time": 0.0666, "name": "toxicant_5_3" },
+					{ "time": 0.1, "name": "toxicant_5_4" },
+					{ "time": 0.1333, "name": "toxicant_5_5" },
+					{ "time": 0.1666, "name": "toxicant_5_6" },
+					{ "time": 0.2, "name": "toxicant_5_7" }
+				]
+			}
+		}
+	}
+}
+}

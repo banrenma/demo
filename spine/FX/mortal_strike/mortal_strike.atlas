@@ -1,0 +1,138 @@
+
+mortal_strike.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mortal_strike_01
+  rotate: false
+  xy: 848, 44
+  size: 93, 210
+  orig: 260, 240
+  offset: 26, 14
+  index: -1
+mortal_strike_02
+  rotate: true
+  xy: 229, 94
+  size: 160, 211
+  orig: 260, 240
+  offset: 22, 12
+  index: -1
+mortal_strike_03
+  rotate: true
+  xy: 442, 103
+  size: 151, 206
+  orig: 260, 240
+  offset: 46, 13
+  index: -1
+mortal_strike_04
+  rotate: true
+  xy: 650, 81
+  size: 173, 196
+  orig: 260, 240
+  offset: 43, 12
+  index: -1
+mortal_strike_05
+  rotate: false
+  xy: 2, 57
+  size: 225, 197
+  orig: 260, 240
+  offset: 18, 28
+  index: -1
+mortal_strike_06
+  rotate: false
+  xy: 536, 13
+  size: 13, 40
+  orig: 260, 240
+  offset: 108, 170
+  index: -1
+mortal_strike_07
+  rotate: true
+  xy: 491, 2
+  size: 51, 43
+  orig: 260, 240
+  offset: 108, 157
+  index: -1
+mortal_strike_08
+  rotate: true
+  xy: 441, 2
+  size: 51, 48
+  orig: 260, 240
+  offset: 108, 145
+  index: -1
+mortal_strike_09
+  rotate: true
+  xy: 122, 4
+  size: 51, 106
+  orig: 260, 240
+  offset: 108, 85
+  index: -1
+mortal_strike_10
+  rotate: true
+  xy: 2, 4
+  size: 51, 118
+  orig: 260, 240
+  offset: 108, 66
+  index: -1
+mortal_strike_11
+  rotate: false
+  xy: 943, 126
+  size: 67, 128
+  orig: 260, 240
+  offset: 108, 52
+  index: -1
+mortal_strike_12
+  rotate: true
+  xy: 442, 55
+  size: 46, 115
+  orig: 260, 240
+  offset: 129, 44
+  index: -1
+mortal_strike_13
+  rotate: true
+  xy: 230, 7
+  size: 85, 114
+  orig: 260, 240
+  offset: 90, 41
+  index: -1
+mortal_strike_14
+  rotate: true
+  xy: 346, 7
+  size: 85, 93
+  orig: 260, 240
+  offset: 90, 40
+  index: -1
+mortal_strike_15
+  rotate: false
+  xy: 559, 18
+  size: 85, 83
+  orig: 260, 240
+  offset: 90, 39
+  index: -1
+mortal_strike_16
+  rotate: true
+  xy: 943, 39
+  size: 85, 54
+  orig: 260, 240
+  offset: 90, 61
+  index: -1
+mortal_strike_17
+  rotate: false
+  xy: 646, 25
+  size: 85, 54
+  orig: 260, 240
+  offset: 90, 60
+  index: -1
+mortal_strike_18
+  rotate: false
+  xy: 733, 39
+  size: 13, 40
+  orig: 260, 240
+  offset: 90, 67
+  index: -1
+mortal_strike_19
+  rotate: false
+  xy: 748, 43
+  size: 13, 36
+  orig: 260, 240
+  offset: 90, 66
+  index: -1

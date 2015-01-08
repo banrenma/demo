@@ -1,0 +1,82 @@
+
+blizzard_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blizzard_2_01
+  rotate: true
+  xy: 413, 438
+  size: 72, 260
+  orig: 85, 266
+  offset: 8, 0
+  index: -1
+blizzard_3_01
+  rotate: false
+  xy: 536, 351
+  size: 106, 85
+  orig: 270, 150
+  offset: 84, 7
+  index: -1
+blizzard_3_02
+  rotate: false
+  xy: 861, 392
+  size: 145, 118
+  orig: 270, 150
+  offset: 67, 6
+  index: -1
+blizzard_3_03
+  rotate: false
+  xy: 230, 230
+  size: 163, 133
+  orig: 270, 150
+  offset: 62, 4
+  index: -1
+blizzard_3_04
+  rotate: false
+  xy: 2, 2
+  size: 187, 131
+  orig: 270, 150
+  offset: 48, 1
+  index: -1
+blizzard_3_05
+  rotate: false
+  xy: 214, 365
+  size: 197, 145
+  orig: 270, 150
+  offset: 43, 0
+  index: -1
+blizzard_3_06
+  rotate: false
+  xy: 2, 360
+  size: 210, 150
+  orig: 270, 150
+  offset: 28, 0
+  index: -1
+blizzard_3_07
+  rotate: true
+  xy: 2, 135
+  size: 223, 137
+  orig: 270, 150
+  offset: 22, 0
+  index: -1
+blizzard_3_08
+  rotate: false
+  xy: 675, 404
+  size: 184, 106
+  orig: 270, 150
+  offset: 28, 0
+  index: -1
+blizzard_3_09
+  rotate: true
+  xy: 141, 185
+  size: 173, 87
+  orig: 270, 150
+  offset: 36, 0
+  index: -1
+blizzard_3_10
+  rotate: false
+  xy: 413, 366
+  size: 121, 70
+  orig: 270, 150
+  offset: 65, 15
+  index: -1

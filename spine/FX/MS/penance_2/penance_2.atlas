@@ -1,0 +1,68 @@
+
+penance_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+penance_2_0001
+  rotate: false
+  xy: 2, 420
+  size: 237, 90
+  orig: 250, 90
+  offset: 13, 0
+  index: -1
+penance_2_0002
+  rotate: false
+  xy: 2, 328
+  size: 235, 90
+  orig: 250, 90
+  offset: 12, 0
+  index: -1
+penance_2_0003
+  rotate: false
+  xy: 241, 341
+  size: 236, 80
+  orig: 250, 90
+  offset: 12, 0
+  index: -1
+penance_2_0004
+  rotate: false
+  xy: 2, 236
+  size: 233, 90
+  orig: 250, 90
+  offset: 12, 0
+  index: -1
+penance_2_0005
+  rotate: false
+  xy: 237, 168
+  size: 233, 87
+  orig: 250, 90
+  offset: 12, 3
+  index: -1
+penance_2_0006
+  rotate: true
+  xy: 2, 2
+  size: 232, 90
+  orig: 250, 90
+  offset: 12, 0
+  index: -1
+penance_2_0007
+  rotate: false
+  xy: 239, 257
+  size: 234, 82
+  orig: 250, 90
+  offset: 11, 8
+  index: -1
+penance_2_0008
+  rotate: false
+  xy: 94, 82
+  size: 233, 84
+  orig: 250, 90
+  offset: 12, 6
+  index: -1
+penance_2_0009
+  rotate: false
+  xy: 241, 423
+  size: 237, 87
+  orig: 250, 90
+  offset: 13, 3
+  index: -1

@@ -1,0 +1,131 @@
+
+goblin_overseer.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+goblin_overseer_belt
+  rotate: false
+  xy: 89, 13
+  size: 26, 13
+  orig: 34, 18
+  offset: 4, 3
+  index: -1
+goblin_overseer_body
+  rotate: true
+  xy: 134, 44
+  size: 24, 25
+  orig: 30, 30
+  offset: 3, 3
+  index: -1
+goblin_overseer_hair
+  rotate: false
+  xy: 174, 85
+  size: 51, 38
+  orig: 51, 38
+  offset: 0, 0
+  index: -1
+goblin_overseer_head1
+  rotate: false
+  xy: 68, 56
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+goblin_overseer_head2
+  rotate: false
+  xy: 2, 55
+  size: 64, 68
+  orig: 64, 68
+  offset: 0, 0
+  index: -1
+goblin_overseer_l_calf
+  rotate: false
+  xy: 231, 62
+  size: 20, 24
+  orig: 28, 28
+  offset: 4, 2
+  index: -1
+goblin_overseer_l_ear
+  rotate: false
+  xy: 134, 70
+  size: 38, 53
+  orig: 50, 70
+  offset: 6, 9
+  index: -1
+goblin_overseer_l_forearm
+  rotate: false
+  xy: 227, 88
+  size: 27, 35
+  orig: 37, 40
+  offset: 6, 4
+  index: -1
+goblin_overseer_l_thigh
+  rotate: false
+  xy: 215, 44
+  size: 14, 20
+  orig: 18, 24
+  offset: 2, 2
+  index: -1
+goblin_overseer_l_upperarm
+  rotate: true
+  xy: 209, 25
+  size: 17, 18
+  orig: 20, 22
+  offset: 1, 2
+  index: -1
+goblin_overseer_pelvis
+  rotate: false
+  xy: 188, 46
+  size: 25, 18
+  orig: 30, 20
+  offset: 2, 1
+  index: -1
+goblin_overseer_r_calf
+  rotate: true
+  xy: 161, 40
+  size: 24, 25
+  orig: 28, 28
+  offset: 2, 2
+  index: -1
+goblin_overseer_r_ear
+  rotate: false
+  xy: 61, 13
+  size: 26, 40
+  orig: 46, 60
+  offset: 13, 6
+  index: -1
+goblin_overseer_r_forearm
+  rotate: false
+  xy: 89, 28
+  size: 29, 26
+  orig: 36, 30
+  offset: 3, 2
+  index: -1
+goblin_overseer_r_thigh
+  rotate: true
+  xy: 188, 29
+  size: 15, 19
+  orig: 20, 24
+  offset: 2, 3
+  index: -1
+goblin_overseer_r_upperarm
+  rotate: true
+  xy: 231, 43
+  size: 17, 21
+  orig: 20, 22
+  offset: 1, 0
+  index: -1
+goblin_overseer_shadow
+  rotate: false
+  xy: 174, 66
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1
+goblin_overseer_weapon
+  rotate: false
+  xy: 2, 2
+  size: 57, 51
+  orig: 63, 57
+  offset: 2, 2
+  index: -1

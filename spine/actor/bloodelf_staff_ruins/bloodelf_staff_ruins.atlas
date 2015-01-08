@@ -1,0 +1,173 @@
+
+bloodelf_staff_ruins.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloodelf_staff_ruins_body
+  rotate: false
+  xy: 268, 14
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_brest
+  rotate: false
+  xy: 299, 13
+  size: 30, 23
+  orig: 30, 23
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_hair1
+  rotate: true
+  xy: 149, 78
+  size: 48, 73
+  orig: 48, 73
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_hair2
+  rotate: false
+  xy: 492, 75
+  size: 18, 51
+  orig: 18, 51
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_hair3
+  rotate: false
+  xy: 2, 3
+  size: 70, 85
+  orig: 70, 85
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_head1
+  rotate: false
+  xy: 148, 4
+  size: 73, 72
+  orig: 73, 72
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_head2
+  rotate: false
+  xy: 224, 54
+  size: 73, 72
+  orig: 73, 72
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_head3
+  rotate: false
+  xy: 299, 54
+  size: 73, 72
+  orig: 73, 72
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_head4
+  rotate: true
+  xy: 74, 11
+  size: 77, 72
+  orig: 77, 72
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_head5
+  rotate: false
+  xy: 374, 54
+  size: 73, 72
+  orig: 73, 72
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_l_ear
+  rotate: false
+  xy: 449, 75
+  size: 41, 51
+  orig: 41, 51
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_l_foot
+  rotate: false
+  xy: 280, 4
+  size: 17, 8
+  orig: 17, 8
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_l_forearm
+  rotate: true
+  xy: 391, 40
+  size: 12, 20
+  orig: 12, 20
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_l_hand
+  rotate: false
+  xy: 413, 40
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_l_upperarm
+  rotate: false
+  xy: 331, 14
+  size: 17, 22
+  orig: 17, 22
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_m_down1
+  rotate: false
+  xy: 223, 6
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_m_down2
+  rotate: true
+  xy: 350, 40
+  size: 12, 39
+  orig: 12, 39
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_polearm
+  rotate: true
+  xy: 2, 90
+  size: 36, 145
+  orig: 36, 145
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_r_ear
+  rotate: true
+  xy: 299, 38
+  size: 14, 49
+  orig: 14, 49
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_r_foot
+  rotate: false
+  xy: 299, 2
+  size: 16, 9
+  orig: 16, 9
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_r_forearm
+  rotate: false
+  xy: 370, 22
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_r_hand
+  rotate: false
+  xy: 268, 2
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_r_upperarm
+  rotate: false
+  xy: 350, 18
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+bloodelf_staff_ruins_shadow
+  rotate: false
+  xy: 449, 56
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

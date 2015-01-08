@@ -1,0 +1,54 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "flurry_01", "bone": "root", "attachment": "flurry_15" }
+],
+"skins": {
+	"default": {
+		"flurry_01": {
+			"flurry_01": { "width": 160, "height": 180 },
+			"flurry_02": { "width": 160, "height": 180 },
+			"flurry_03": { "width": 160, "height": 180 },
+			"flurry_04": { "width": 160, "height": 180 },
+			"flurry_05": { "width": 160, "height": 180 },
+			"flurry_06": { "width": 160, "height": 180 },
+			"flurry_07": { "width": 160, "height": 180 },
+			"flurry_08": { "width": 160, "height": 180 },
+			"flurry_09": { "width": 160, "height": 180 },
+			"flurry_10": { "width": 160, "height": 180 },
+			"flurry_11": { "width": 160, "height": 180 },
+			"flurry_12": { "width": 160, "height": 180 },
+			"flurry_13": { "width": 160, "height": 180 },
+			"flurry_14": { "width": 160, "height": 180 },
+			"flurry_15": { "width": 160, "height": 180 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"flurry_01": {
+				"attachment": [
+					{ "time": 0, "name": "flurry_01" },
+					{ "time": 0.0333, "name": "flurry_02" },
+					{ "time": 0.0666, "name": "flurry_03" },
+					{ "time": 0.1, "name": "flurry_04" },
+					{ "time": 0.1333, "name": "flurry_05" },
+					{ "time": 0.1666, "name": "flurry_06" },
+					{ "time": 0.2, "name": "flurry_07" },
+					{ "time": 0.2333, "name": "flurry_08" },
+					{ "time": 0.2666, "name": "flurry_09" },
+					{ "time": 0.3, "name": "flurry_10" },
+					{ "time": 0.3333, "name": "flurry_11" },
+					{ "time": 0.3666, "name": "flurry_12" },
+					{ "time": 0.4, "name": "flurry_13" },
+					{ "time": 0.4333, "name": "flurry_14" },
+					{ "time": 0.4666, "name": "flurry_15" }
+				]
+			}
+		}
+	}
+}
+}

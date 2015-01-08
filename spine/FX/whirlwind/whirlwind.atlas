@@ -1,0 +1,40 @@
+
+whirlwind.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+whirlwind_01
+  rotate: false
+  xy: 2, 305
+  size: 299, 56
+  orig: 320, 100
+  offset: 8, 25
+  index: -1
+whirlwind_02
+  rotate: true
+  xy: 118, 25
+  size: 278, 56
+  orig: 320, 100
+  offset: 9, 22
+  index: -1
+whirlwind_03
+  rotate: true
+  xy: 2, 2
+  size: 301, 54
+  orig: 320, 100
+  offset: 19, 22
+  index: -1
+whirlwind_04
+  rotate: true
+  xy: 58, 8
+  size: 295, 58
+  orig: 320, 100
+  offset: 25, 23
+  index: -1
+whirlwind_05
+  rotate: false
+  xy: 2, 363
+  size: 310, 56
+  orig: 320, 100
+  offset: 9, 25
+  index: -1

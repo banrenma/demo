@@ -1,0 +1,44 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bladestorm_01", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"bladestorm_01": {
+			"bladestorm_01": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 },
+			"bladestorm_02": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 },
+			"bladestorm_03": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 },
+			"bladestorm_04": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 },
+			"bladestorm_05": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 },
+			"bladestorm_06": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 },
+			"bladestorm_07": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 },
+			"bladestorm_08": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 },
+			"bladestorm_09": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 },
+			"bladestorm_10": { "scaleX": 2, "scaleY": 2, "width": 500, "height": 155 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"bladestorm_01": {
+				"attachment": [
+					{ "time": 0, "name": "bladestorm_01" },
+					{ "time": 0.0333, "name": "bladestorm_02" },
+					{ "time": 0.0666, "name": "bladestorm_03" },
+					{ "time": 0.1, "name": "bladestorm_04" },
+					{ "time": 0.1333, "name": "bladestorm_05" },
+					{ "time": 0.1666, "name": "bladestorm_06" },
+					{ "time": 0.2, "name": "bladestorm_07" },
+					{ "time": 0.2333, "name": "bladestorm_08" },
+					{ "time": 0.2666, "name": "bladestorm_09" },
+					{ "time": 0.3, "name": "bladestorm_10" }
+				]
+			}
+		}
+	}
+}
+}

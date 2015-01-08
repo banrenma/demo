@@ -1,0 +1,75 @@
+
+npc_normal_firemage_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+npc_normal_firemage_3_01
+  rotate: true
+  xy: 465, 51
+  size: 183, 190
+  orig: 260, 240
+  offset: 36, 10
+  index: -1
+npc_normal_firemage_3_02
+  rotate: false
+  xy: 657, 76
+  size: 202, 158
+  orig: 260, 240
+  offset: 29, 28
+  index: -1
+npc_normal_firemage_3_03
+  rotate: false
+  xy: 251, 51
+  size: 212, 190
+  orig: 260, 240
+  offset: 27, 4
+  index: -1
+npc_normal_firemage_3_04
+  rotate: false
+  xy: 251, 243
+  size: 235, 193
+  orig: 260, 240
+  offset: 18, 14
+  index: -1
+npc_normal_firemage_3_05
+  rotate: false
+  xy: 2, 223
+  size: 247, 213
+  orig: 260, 240
+  offset: 13, 5
+  index: -1
+npc_normal_firemage_3_06
+  rotate: false
+  xy: 2, 7
+  size: 232, 214
+  orig: 260, 240
+  offset: 0, 24
+  index: -1
+npc_normal_firemage_3_07
+  rotate: true
+  xy: 705, 236
+  size: 200, 214
+  orig: 260, 240
+  offset: 32, 24
+  index: -1
+npc_normal_firemage_3_08
+  rotate: true
+  xy: 488, 236
+  size: 200, 215
+  orig: 260, 240
+  offset: 32, 23
+  index: -1
+npc_normal_firemage_3_09
+  rotate: true
+  xy: 861, 112
+  size: 122, 116
+  orig: 260, 240
+  offset: 72, 42
+  index: -1
+npc_normal_firemage_3_10
+  rotate: false
+  xy: 861, 2
+  size: 112, 108
+  orig: 260, 240
+  offset: 73, 54
+  index: -1

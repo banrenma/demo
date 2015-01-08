@@ -1,0 +1,292 @@
+
+human_wrath.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+human_wrath_body
+  rotate: false
+  xy: 191, 196
+  size: 54, 44
+  orig: 59, 48
+  offset: 3, 2
+  index: -1
+human_wrath_body2
+  rotate: false
+  xy: 247, 260
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+human_wrath_body3
+  rotate: false
+  xy: 247, 202
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+human_wrath_head1
+  rotate: false
+  xy: 2, 402
+  size: 75, 108
+  orig: 77, 109
+  offset: 2, 0
+  index: -1
+human_wrath_head10
+  rotate: false
+  xy: 79, 199
+  size: 78, 91
+  orig: 78, 91
+  offset: 0, 0
+  index: -1
+human_wrath_head11
+  rotate: false
+  xy: 239, 321
+  size: 75, 86
+  orig: 75, 86
+  offset: 0, 0
+  index: -1
+human_wrath_head12
+  rotate: false
+  xy: 232, 409
+  size: 80, 101
+  orig: 80, 101
+  offset: 0, 0
+  index: -1
+human_wrath_head13
+  rotate: false
+  xy: 156, 311
+  size: 81, 89
+  orig: 81, 89
+  offset: 0, 0
+  index: -1
+human_wrath_head2
+  rotate: false
+  xy: 2, 292
+  size: 75, 108
+  orig: 77, 109
+  offset: 2, 0
+  index: -1
+human_wrath_head3
+  rotate: false
+  xy: 156, 402
+  size: 74, 108
+  orig: 77, 109
+  offset: 2, 0
+  index: -1
+human_wrath_head4
+  rotate: false
+  xy: 2, 72
+  size: 74, 108
+  orig: 77, 109
+  offset: 2, 0
+  index: -1
+human_wrath_head5
+  rotate: false
+  xy: 79, 402
+  size: 75, 108
+  orig: 77, 109
+  offset: 2, 0
+  index: -1
+human_wrath_head6
+  rotate: false
+  xy: 2, 182
+  size: 75, 108
+  orig: 77, 109
+  offset: 2, 0
+  index: -1
+human_wrath_head7
+  rotate: false
+  xy: 79, 292
+  size: 75, 108
+  orig: 77, 109
+  offset: 2, 0
+  index: -1
+human_wrath_head8
+  rotate: false
+  xy: 314, 417
+  size: 77, 93
+  orig: 77, 93
+  offset: 0, 0
+  index: -1
+human_wrath_head9
+  rotate: false
+  xy: 393, 417
+  size: 77, 93
+  orig: 77, 93
+  offset: 0, 0
+  index: -1
+human_wrath_l_calf
+  rotate: true
+  xy: 138, 140
+  size: 19, 25
+  orig: 31, 31
+  offset: 5, 4
+  index: -1
+human_wrath_l_calf2
+  rotate: false
+  xy: 113, 72
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+human_wrath_l_forearm
+  rotate: true
+  xy: 472, 478
+  size: 32, 38
+  orig: 36, 43
+  offset: 2, 3
+  index: -1
+human_wrath_l_shoulder
+  rotate: false
+  xy: 79, 149
+  size: 57, 48
+  orig: 64, 62
+  offset: 4, 6
+  index: -1
+human_wrath_l_thigh
+  rotate: false
+  xy: 165, 140
+  size: 19, 19
+  orig: 26, 27
+  offset: 3, 5
+  index: -1
+human_wrath_l_upperarm
+  rotate: true
+  xy: 82, 2
+  size: 22, 35
+  orig: 33, 40
+  offset: 6, 2
+  index: -1
+human_wrath_pelvis
+  rotate: false
+  xy: 78, 104
+  size: 46, 24
+  orig: 49, 30
+  offset: 2, 3
+  index: -1
+human_wrath_pelvis2
+  rotate: true
+  xy: 82, 26
+  size: 44, 21
+  orig: 44, 21
+  offset: 0, 0
+  index: -1
+human_wrath_r_calf
+  rotate: false
+  xy: 126, 104
+  size: 19, 24
+  orig: 27, 29
+  offset: 5, 2
+  index: -1
+human_wrath_r_calf2
+  rotate: false
+  xy: 137, 45
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+human_wrath_r_forearm
+  rotate: false
+  xy: 174, 161
+  size: 34, 33
+  orig: 46, 44
+  offset: 7, 5
+  index: -1
+human_wrath_r_forearm2
+  rotate: false
+  xy: 105, 39
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+human_wrath_r_forearm3
+  rotate: false
+  xy: 210, 163
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+human_wrath_r_forearm4
+  rotate: true
+  xy: 78, 72
+  size: 30, 33
+  orig: 30, 33
+  offset: 0, 0
+  index: -1
+human_wrath_r_shoulder
+  rotate: true
+  xy: 138, 161
+  size: 36, 34
+  orig: 52, 60
+  offset: 9, 7
+  index: -1
+human_wrath_r_thigh
+  rotate: true
+  xy: 186, 142
+  size: 17, 21
+  orig: 25, 24
+  offset: 4, 2
+  index: -1
+human_wrath_r_upperarm
+  rotate: false
+  xy: 134, 74
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+human_wrath_shadow
+  rotate: false
+  xy: 78, 130
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1
+human_wrath_shield
+  rotate: true
+  xy: 432, 341
+  size: 74, 78
+  orig: 85, 97
+  offset: 4, 11
+  index: -1
+human_wrath_shield2
+  rotate: false
+  xy: 191, 242
+  size: 54, 67
+  orig: 54, 67
+  offset: 0, 0
+  index: -1
+human_wrath_shield3
+  rotate: true
+  xy: 2, 10
+  size: 60, 78
+  orig: 60, 78
+  offset: 0, 0
+  index: -1
+human_wrath_weapon
+  rotate: true
+  xy: 316, 371
+  size: 44, 114
+  orig: 70, 151
+  offset: 10, 8
+  index: -1
+human_wrath_weapon2
+  rotate: true
+  xy: 316, 328
+  size: 41, 108
+  orig: 41, 108
+  offset: 0, 0
+  index: -1
+human_wrath_weapon3
+  rotate: false
+  xy: 159, 204
+  size: 30, 105
+  orig: 30, 105
+  offset: 0, 0
+  index: -1
+human_wrath_weapon4
+  rotate: false
+  xy: 472, 417
+  size: 35, 59
+  orig: 35, 59
+  offset: 0, 0
+  index: -1

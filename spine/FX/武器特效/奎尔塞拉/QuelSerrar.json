@@ -1,0 +1,87 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "QuelSerrar_0001", "bone": "root", "attachment": "QuelSerrar_0059" }
+],
+"skins": {
+	"default": {
+		"QuelSerrar_0001": {
+			"QuelSerrar_0001": { "width": 68, "height": 170 },
+			"QuelSerrar_0003": { "width": 68, "height": 170 },
+			"QuelSerrar_0005": { "width": 68, "height": 170 },
+			"QuelSerrar_0007": { "width": 68, "height": 170 },
+			"QuelSerrar_0009": { "width": 68, "height": 170 },
+			"QuelSerrar_0011": { "width": 68, "height": 170 },
+			"QuelSerrar_0013": { "width": 68, "height": 170 },
+			"QuelSerrar_0015": { "width": 68, "height": 170 },
+			"QuelSerrar_0017": { "width": 68, "height": 170 },
+			"QuelSerrar_0019": { "width": 68, "height": 170 },
+			"QuelSerrar_0021": { "width": 68, "height": 170 },
+			"QuelSerrar_0023": { "width": 68, "height": 170 },
+			"QuelSerrar_0025": { "width": 68, "height": 170 },
+			"QuelSerrar_0027": { "width": 68, "height": 170 },
+			"QuelSerrar_0029": { "width": 68, "height": 170 },
+			"QuelSerrar_0031": { "width": 68, "height": 170 },
+			"QuelSerrar_0033": { "width": 68, "height": 170 },
+			"QuelSerrar_0035": { "width": 68, "height": 170 },
+			"QuelSerrar_0037": { "width": 68, "height": 170 },
+			"QuelSerrar_0039": { "width": 68, "height": 170 },
+			"QuelSerrar_0041": { "width": 68, "height": 170 },
+			"QuelSerrar_0043": { "width": 68, "height": 170 },
+			"QuelSerrar_0045": { "width": 68, "height": 170 },
+			"QuelSerrar_0047": { "width": 68, "height": 170 },
+			"QuelSerrar_0049": { "width": 68, "height": 170 },
+			"QuelSerrar_0051": { "width": 68, "height": 170 },
+			"QuelSerrar_0053": { "width": 68, "height": 170 },
+			"QuelSerrar_0055": { "width": 68, "height": 170 },
+			"QuelSerrar_0057": { "width": 68, "height": 170 },
+			"QuelSerrar_0059": { "width": 68, "height": 170 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"QuelSerrar_0001": {
+				"attachment": [
+					{ "time": 0, "name": "QuelSerrar_0001" },
+					{ "time": 0.0666, "name": "QuelSerrar_0003" },
+					{ "time": 0.1333, "name": "QuelSerrar_0005" },
+					{ "time": 0.2, "name": "QuelSerrar_0007" },
+					{ "time": 0.2666, "name": "QuelSerrar_0009" },
+					{ "time": 0.3333, "name": "QuelSerrar_0011" },
+					{ "time": 0.4, "name": "QuelSerrar_0013" },
+					{ "time": 0.4666, "name": "QuelSerrar_0015" },
+					{ "time": 0.5333, "name": "QuelSerrar_0017" },
+					{ "time": 0.6, "name": "QuelSerrar_0019" },
+					{ "time": 0.6666, "name": "QuelSerrar_0021" },
+					{ "time": 0.7333, "name": "QuelSerrar_0023" },
+					{ "time": 0.8, "name": "QuelSerrar_0025" },
+					{ "time": 0.8666, "name": "QuelSerrar_0027" },
+					{ "time": 0.9333, "name": "QuelSerrar_0029" },
+					{ "time": 1, "name": "QuelSerrar_0031" },
+					{ "time": 1.0666, "name": "QuelSerrar_0033" },
+					{ "time": 1.1333, "name": "QuelSerrar_0035" },
+					{ "time": 1.2, "name": "QuelSerrar_0037" },
+					{ "time": 1.2666, "name": "QuelSerrar_0039" },
+					{ "time": 1.3333, "name": "QuelSerrar_0041" },
+					{ "time": 1.4, "name": "QuelSerrar_0043" },
+					{ "time": 1.4666, "name": "QuelSerrar_0045" },
+					{ "time": 1.5333, "name": "QuelSerrar_0047" },
+					{ "time": 1.6, "name": "QuelSerrar_0049" },
+					{ "time": 1.6666, "name": "QuelSerrar_0051" },
+					{ "time": 1.7333, "name": "QuelSerrar_0053" },
+					{ "time": 1.8, "name": "QuelSerrar_0055" },
+					{ "time": 1.8666, "name": "QuelSerrar_0057" },
+					{ "time": 1.9333, "name": "QuelSerrar_0059" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

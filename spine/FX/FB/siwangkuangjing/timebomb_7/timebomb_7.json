@@ -1,0 +1,38 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "timebomb_7_1", "bone": "root", "attachment": "timebomb_7_7" }
+],
+"skins": {
+	"default": {
+		"timebomb_7_1": {
+			"timebomb_7_1": { "x": 1.99, "y": 131.99, "scaleX": 2, "scaleY": 2, "width": 135, "height": 195 },
+			"timebomb_7_2": { "x": 1.99, "y": 131.99, "scaleX": 2, "scaleY": 2, "width": 135, "height": 195 },
+			"timebomb_7_3": { "x": 1.99, "y": 131.99, "scaleX": 2, "scaleY": 2, "width": 135, "height": 195 },
+			"timebomb_7_4": { "x": 1.99, "y": 131.99, "scaleX": 2, "scaleY": 2, "width": 135, "height": 195 },
+			"timebomb_7_5": { "x": 1.99, "y": 131.99, "scaleX": 2, "scaleY": 2, "width": 135, "height": 195 },
+			"timebomb_7_6": { "x": 1.99, "y": 131.99, "scaleX": 2, "scaleY": 2, "width": 135, "height": 195 },
+			"timebomb_7_7": { "x": 1.99, "y": 131.99, "scaleX": 2, "scaleY": 2, "width": 135, "height": 195 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"timebomb_7_1": {
+				"attachment": [
+					{ "time": 0, "name": "timebomb_7_1" },
+					{ "time": 0.0666, "name": "timebomb_7_2" },
+					{ "time": 0.1333, "name": "timebomb_7_3" },
+					{ "time": 0.2, "name": "timebomb_7_4" },
+					{ "time": 0.2666, "name": "timebomb_7_5" },
+					{ "time": 0.3333, "name": "timebomb_7_6" },
+					{ "time": 0.4, "name": "timebomb_7_7" }
+				]
+			}
+		}
+	}
+}
+}

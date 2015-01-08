@@ -1,0 +1,40 @@
+
+enrage.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+enrage_01
+  rotate: true
+  xy: 2, 3
+  size: 60, 74
+  orig: 70, 90
+  offset: 4, 2
+  index: -1
+enrage_02
+  rotate: true
+  xy: 78, 2
+  size: 60, 78
+  orig: 70, 90
+  offset: 6, 1
+  index: -1
+enrage_03
+  rotate: true
+  xy: 160, 62
+  size: 56, 75
+  orig: 70, 90
+  offset: 8, 1
+  index: -1
+enrage_04
+  rotate: true
+  xy: 78, 64
+  size: 54, 80
+  orig: 70, 90
+  offset: 9, 2
+  index: -1
+enrage_05
+  rotate: true
+  xy: 2, 65
+  size: 53, 74
+  orig: 70, 90
+  offset: 9, 2
+  index: -1

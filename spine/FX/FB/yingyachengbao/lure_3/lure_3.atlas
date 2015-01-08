@@ -1,0 +1,124 @@
+
+lure_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lure_3_1
+  rotate: false
+  xy: 241, 2
+  size: 73, 53
+  orig: 140, 100
+  offset: 32, 20
+  index: -1
+lure_3_10
+  rotate: false
+  xy: 2, 203
+  size: 120, 90
+  orig: 140, 100
+  offset: 11, 4
+  index: -1
+lure_3_11
+  rotate: false
+  xy: 124, 295
+  size: 120, 90
+  orig: 140, 100
+  offset: 11, 4
+  index: -1
+lure_3_12
+  rotate: false
+  xy: 2, 387
+  size: 121, 90
+  orig: 140, 100
+  offset: 11, 4
+  index: -1
+lure_3_13
+  rotate: false
+  xy: 247, 387
+  size: 120, 90
+  orig: 140, 100
+  offset: 11, 4
+  index: -1
+lure_3_14
+  rotate: false
+  xy: 2, 111
+  size: 120, 90
+  orig: 140, 100
+  offset: 11, 4
+  index: -1
+lure_3_15
+  rotate: false
+  xy: 2, 21
+  size: 120, 88
+  orig: 140, 100
+  offset: 11, 5
+  index: -1
+lure_3_16
+  rotate: false
+  xy: 246, 209
+  size: 117, 86
+  orig: 140, 100
+  offset: 13, 6
+  index: -1
+lure_3_17
+  rotate: false
+  xy: 124, 28
+  size: 115, 84
+  orig: 140, 100
+  offset: 14, 7
+  index: -1
+lure_3_2
+  rotate: false
+  xy: 245, 57
+  size: 90, 67
+  orig: 140, 100
+  offset: 25, 14
+  index: -1
+lure_3_3
+  rotate: false
+  xy: 246, 126
+  size: 107, 81
+  orig: 140, 100
+  offset: 18, 8
+  index: -1
+lure_3_4
+  rotate: false
+  xy: 124, 114
+  size: 119, 88
+  orig: 140, 100
+  offset: 11, 5
+  index: -1
+lure_3_5
+  rotate: false
+  xy: 246, 297
+  size: 120, 88
+  orig: 140, 100
+  offset: 11, 5
+  index: -1
+lure_3_6
+  rotate: false
+  xy: 2, 295
+  size: 120, 90
+  orig: 140, 100
+  offset: 11, 4
+  index: -1
+lure_3_7
+  rotate: false
+  xy: 125, 387
+  size: 120, 90
+  orig: 140, 100
+  offset: 11, 4
+  index: -1
+lure_3_8
+  rotate: false
+  xy: 369, 389
+  size: 120, 88
+  orig: 140, 100
+  offset: 11, 5
+  index: -1
+lure_3_9
+  rotate: false
+  xy: 124, 204
+  size: 120, 89
+  orig: 140, 100
+  offset: 11, 4
+  index: -1

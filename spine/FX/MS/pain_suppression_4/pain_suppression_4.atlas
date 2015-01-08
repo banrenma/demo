@@ -1,0 +1,110 @@
+
+pain_suppression_4.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pain_suppression_4_0001
+  rotate: true
+  xy: 266, 13
+  size: 99, 128
+  orig: 125, 150
+  offset: 14, 8
+  index: -1
+pain_suppression_4_0003
+  rotate: true
+  xy: 136, 9
+  size: 102, 128
+  orig: 125, 150
+  offset: 14, 8
+  index: -1
+pain_suppression_4_0005
+  rotate: false
+  xy: 210, 114
+  size: 100, 130
+  orig: 125, 150
+  offset: 13, 7
+  index: -1
+pain_suppression_4_0007
+  rotate: false
+  xy: 315, 380
+  size: 101, 130
+  orig: 125, 150
+  offset: 13, 7
+  index: -1
+pain_suppression_4_0009
+  rotate: false
+  xy: 107, 245
+  size: 101, 131
+  orig: 125, 150
+  offset: 13, 6
+  index: -1
+pain_suppression_4_0011
+  rotate: false
+  xy: 107, 378
+  size: 103, 132
+  orig: 125, 150
+  offset: 12, 6
+  index: -1
+pain_suppression_4_0013
+  rotate: false
+  xy: 2, 107
+  size: 103, 132
+  orig: 125, 150
+  offset: 12, 6
+  index: -1
+pain_suppression_4_0015
+  rotate: false
+  xy: 2, 376
+  size: 103, 134
+  orig: 125, 150
+  offset: 12, 5
+  index: -1
+pain_suppression_4_0017
+  rotate: false
+  xy: 2, 241
+  size: 103, 133
+  orig: 125, 150
+  offset: 12, 5
+  index: -1
+pain_suppression_4_0019
+  rotate: true
+  xy: 2, 2
+  size: 103, 132
+  orig: 125, 150
+  offset: 12, 6
+  index: -1
+pain_suppression_4_0021
+  rotate: false
+  xy: 212, 378
+  size: 101, 132
+  orig: 125, 150
+  offset: 13, 6
+  index: -1
+pain_suppression_4_0023
+  rotate: false
+  xy: 107, 113
+  size: 101, 130
+  orig: 125, 150
+  offset: 13, 7
+  index: -1
+pain_suppression_4_0025
+  rotate: false
+  xy: 210, 246
+  size: 101, 130
+  orig: 125, 150
+  offset: 13, 7
+  index: -1
+pain_suppression_4_0027
+  rotate: false
+  xy: 313, 248
+  size: 99, 128
+  orig: 125, 150
+  offset: 14, 8
+  index: -1
+pain_suppression_4_0029
+  rotate: false
+  xy: 312, 116
+  size: 99, 128
+  orig: 125, 150
+  offset: 14, 8
+  index: -1

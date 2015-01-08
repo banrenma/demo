@@ -1,0 +1,82 @@
+
+heroic_strike_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heroic_strike_3_01
+  rotate: false
+  xy: 378, 2
+  size: 173, 126
+  orig: 260, 220
+  offset: 35, 59
+  index: -1
+heroic_strike_3_02
+  rotate: false
+  xy: 250, 130
+  size: 216, 174
+  orig: 260, 220
+  offset: 1, 46
+  index: -1
+heroic_strike_3_03
+  rotate: false
+  xy: 729, 133
+  size: 211, 190
+  orig: 260, 220
+  offset: 18, 12
+  index: -1
+heroic_strike_3_04
+  rotate: false
+  xy: 485, 160
+  size: 223, 161
+  orig: 260, 220
+  offset: 16, 10
+  index: -1
+heroic_strike_3_05
+  rotate: false
+  xy: 729, 325
+  size: 228, 163
+  orig: 260, 220
+  offset: 15, 8
+  index: -1
+heroic_strike_3_06
+  rotate: false
+  xy: 251, 306
+  size: 232, 182
+  orig: 260, 220
+  offset: 13, 7
+  index: -1
+heroic_strike_3_07
+  rotate: false
+  xy: 485, 323
+  size: 242, 165
+  orig: 260, 220
+  offset: 12, 9
+  index: -1
+heroic_strike_3_08
+  rotate: false
+  xy: 2, 131
+  size: 246, 177
+  orig: 260, 220
+  offset: 7, 2
+  index: -1
+heroic_strike_3_09
+  rotate: false
+  xy: 2, 310
+  size: 247, 178
+  orig: 260, 220
+  offset: 9, 2
+  index: -1
+heroic_strike_3_10
+  rotate: false
+  xy: 2, 5
+  size: 187, 124
+  orig: 260, 220
+  offset: 35, 37
+  index: -1
+heroic_strike_3_11
+  rotate: false
+  xy: 191, 5
+  size: 185, 123
+  orig: 260, 220
+  offset: 36, 37
+  index: -1

@@ -1,0 +1,146 @@
+
+1001.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+doan_brest
+  rotate: false
+  xy: 561, 82
+  size: 53, 43
+  orig: 53, 43
+  offset: 0, 0
+  index: -1
+doan_down1
+  rotate: true
+  xy: 198, 8
+  size: 14, 46
+  orig: 14, 46
+  offset: 0, 0
+  index: -1
+doan_down2
+  rotate: true
+  xy: 255, 26
+  size: 24, 47
+  orig: 24, 47
+  offset: 0, 0
+  index: -1
+doan_down3
+  rotate: false
+  xy: 501, 70
+  size: 58, 55
+  orig: 58, 55
+  offset: 0, 0
+  index: -1
+doan_down4
+  rotate: true
+  xy: 616, 85
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+doan_head1
+  rotate: false
+  xy: 2, 2
+  size: 73, 90
+  orig: 73, 90
+  offset: 0, 0
+  index: -1
+doan_head2
+  rotate: false
+  xy: 77, 2
+  size: 73, 90
+  orig: 73, 90
+  offset: 0, 0
+  index: -1
+doan_head3
+  rotate: true
+  xy: 153, 52
+  size: 73, 90
+  orig: 73, 90
+  offset: 0, 0
+  index: -1
+doan_head4
+  rotate: true
+  xy: 245, 52
+  size: 73, 90
+  orig: 73, 90
+  offset: 0, 0
+  index: -1
+doan_head5
+  rotate: true
+  xy: 337, 52
+  size: 73, 90
+  orig: 73, 90
+  offset: 0, 0
+  index: -1
+doan_l_foot
+  rotate: false
+  xy: 812, 113
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+doan_r_foot
+  rotate: false
+  xy: 812, 113
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+doan_l_forearm
+  rotate: true
+  xy: 718, 95
+  size: 30, 45
+  orig: 30, 45
+  offset: 0, 0
+  index: -1
+doan_l_shoudler
+  rotate: false
+  xy: 429, 75
+  size: 70, 50
+  orig: 70, 50
+  offset: 0, 0
+  index: -1
+doan_l_upperarm
+  rotate: true
+  xy: 765, 95
+  size: 30, 45
+  orig: 30, 45
+  offset: 0, 0
+  index: -1
+doan_polearm
+  rotate: true
+  xy: 2, 94
+  size: 31, 149
+  orig: 31, 149
+  offset: 0, 0
+  index: -1
+doan_r_forearm
+  rotate: false
+  xy: 671, 86
+  size: 45, 39
+  orig: 45, 39
+  offset: 0, 0
+  index: -1
+doan_r_shoudler
+  rotate: false
+  xy: 152, 7
+  size: 44, 43
+  orig: 44, 43
+  offset: 0, 0
+  index: -1
+doan_r_upperarm
+  rotate: true
+  xy: 429, 53
+  size: 20, 47
+  orig: 20, 47
+  offset: 0, 0
+  index: -1
+doan_shadow
+  rotate: false
+  xy: 198, 24
+  size: 55, 26
+  orig: 55, 26
+  offset: 0, 0
+  index: -1

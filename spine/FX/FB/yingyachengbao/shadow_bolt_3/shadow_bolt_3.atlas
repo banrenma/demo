@@ -1,0 +1,68 @@
+
+shadow_bolt_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow_bolt_3_1
+  rotate: true
+  xy: 384, 65
+  size: 119, 92
+  orig: 270, 200
+  offset: 61, 50
+  index: -1
+shadow_bolt_3_2
+  rotate: false
+  xy: 2, 308
+  size: 269, 200
+  orig: 270, 200
+  offset: 1, 0
+  index: -1
+shadow_bolt_3_3
+  rotate: false
+  xy: 2, 106
+  size: 260, 200
+  orig: 270, 200
+  offset: 5, 0
+  index: -1
+shadow_bolt_3_4
+  rotate: false
+  xy: 273, 314
+  size: 198, 194
+  orig: 270, 200
+  offset: 35, 0
+  index: -1
+shadow_bolt_3_5
+  rotate: true
+  xy: 357, 186
+  size: 126, 125
+  orig: 270, 200
+  offset: 71, 35
+  index: -1
+shadow_bolt_3_6
+  rotate: false
+  xy: 290, 20
+  size: 92, 139
+  orig: 270, 200
+  offset: 104, 31
+  index: -1
+shadow_bolt_3_7
+  rotate: false
+  xy: 264, 161
+  size: 91, 145
+  orig: 270, 200
+  offset: 108, 28
+  index: -1
+shadow_bolt_3_8
+  rotate: true
+  xy: 2, 4
+  size: 100, 150
+  orig: 270, 200
+  offset: 112, 26
+  index: -1
+shadow_bolt_3_9
+  rotate: true
+  xy: 154, 2
+  size: 102, 134
+  orig: 270, 200
+  offset: 114, 34
+  index: -1

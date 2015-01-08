@@ -1,0 +1,12 @@
+
+winding_of_cane_4_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+winding_of_cane_2_4
+  rotate: false
+  xy: 2, 2
+  size: 161, 101
+  orig: 180, 160
+  offset: 13, 14
+  index: -1

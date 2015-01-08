@@ -1,0 +1,33 @@
+
+winding_of_cane_3_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+winding_of_cane_2_1
+  rotate: false
+  xy: 325, 10
+  size: 102, 25
+  orig: 180, 160
+  offset: 36, 11
+  index: -1
+winding_of_cane_2_2
+  rotate: false
+  xy: 325, 37
+  size: 112, 66
+  orig: 180, 160
+  offset: 37, 14
+  index: -1
+winding_of_cane_2_3
+  rotate: false
+  xy: 165, 19
+  size: 158, 84
+  orig: 180, 160
+  offset: 22, 14
+  index: -1
+winding_of_cane_2_4
+  rotate: false
+  xy: 2, 2
+  size: 161, 101
+  orig: 180, 160
+  offset: 13, 14
+  index: -1

@@ -1,0 +1,215 @@
+
+venomwing.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+venomwing_body1
+  rotate: false
+  xy: 2, 100
+  size: 149, 154
+  orig: 149, 154
+  offset: 0, 0
+  index: -1
+venomwing_body2
+  rotate: false
+  xy: 151, 2
+  size: 55, 29
+  orig: 55, 29
+  offset: 0, 0
+  index: -1
+venomwing_body3
+  rotate: false
+  xy: 208, 15
+  size: 20, 16
+  orig: 20, 16
+  offset: 0, 0
+  index: -1
+venomwing_chin3
+  rotate: true
+  xy: 373, 10
+  size: 52, 33
+  orig: 52, 33
+  offset: 0, 0
+  index: -1
+venomwing_eye1
+  rotate: true
+  xy: 408, 28
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+venomwing_eye2
+  rotate: false
+  xy: 440, 86
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+venomwing_eye3
+  rotate: true
+  xy: 442, 47
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+venomwing_eye4
+  rotate: false
+  xy: 442, 13
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+venomwing_eye5
+  rotate: true
+  xy: 476, 47
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+venomwing_hair1
+  rotate: false
+  xy: 402, 67
+  size: 36, 57
+  orig: 36, 57
+  offset: 0, 0
+  index: -1
+venomwing_hair2
+  rotate: false
+  xy: 312, 12
+  size: 59, 50
+  orig: 59, 50
+  offset: 0, 0
+  index: -1
+venomwing_hair3
+  rotate: false
+  xy: 442, 150
+  size: 68, 30
+  orig: 68, 30
+  offset: 0, 0
+  index: -1
+venomwing_hair4
+  rotate: false
+  xy: 442, 120
+  size: 68, 28
+  orig: 68, 28
+  offset: 0, 0
+  index: -1
+venomwing_head1
+  rotate: false
+  xy: 254, 125
+  size: 72, 60
+  orig: 72, 60
+  offset: 0, 0
+  index: -1
+venomwing_head2
+  rotate: true
+  xy: 444, 182
+  size: 72, 60
+  orig: 72, 60
+  offset: 0, 0
+  index: -1
+venomwing_head3
+  rotate: false
+  xy: 254, 65
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+venomwing_head4
+  rotate: false
+  xy: 328, 64
+  size: 72, 60
+  orig: 72, 60
+  offset: 0, 0
+  index: -1
+venomwing_head5
+  rotate: false
+  xy: 238, 2
+  size: 72, 60
+  orig: 72, 60
+  offset: 0, 0
+  index: -1
+venomwing_l_wing1
+  rotate: false
+  xy: 153, 175
+  size: 88, 79
+  orig: 88, 79
+  offset: 0, 0
+  index: -1
+venomwing_l_wing2
+  rotate: false
+  xy: 336, 204
+  size: 106, 50
+  orig: 106, 50
+  offset: 0, 0
+  index: -1
+venomwing_l_wing3
+  rotate: false
+  xy: 151, 33
+  size: 85, 44
+  orig: 85, 44
+  offset: 0, 0
+  index: -1
+venomwing_l_wing4
+  rotate: false
+  xy: 2, 2
+  size: 54, 96
+  orig: 54, 96
+  offset: 0, 0
+  index: -1
+venomwing_l_wing5
+  rotate: true
+  xy: 153, 121
+  size: 52, 99
+  orig: 52, 99
+  offset: 0, 0
+  index: -1
+venomwing_l_wing6
+  rotate: false
+  xy: 58, 31
+  size: 91, 67
+  orig: 91, 67
+  offset: 0, 0
+  index: -1
+venomwing_l_wing7
+  rotate: false
+  xy: 153, 79
+  size: 97, 40
+  orig: 97, 40
+  offset: 0, 0
+  index: -1
+venomwing_l_wing8
+  rotate: false
+  xy: 243, 187
+  size: 91, 67
+  orig: 91, 67
+  offset: 0, 0
+  index: -1
+venomwing_r_wing1
+  rotate: true
+  xy: 336, 162
+  size: 40, 83
+  orig: 40, 83
+  offset: 0, 0
+  index: -1
+venomwing_r_wing2
+  rotate: false
+  xy: 328, 126
+  size: 80, 34
+  orig: 80, 34
+  offset: 0, 0
+  index: -1
+venomwing_shadow
+  rotate: false
+  xy: 58, 12
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1
+venomwing_tongue
+  rotate: true
+  xy: 421, 169
+  size: 33, 19
+  orig: 33, 19
+  offset: 0, 0
+  index: -1

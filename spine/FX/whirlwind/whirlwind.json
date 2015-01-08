@@ -1,0 +1,34 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "whirlwind_01", "bone": "root", "attachment": "whirlwind_05" }
+],
+"skins": {
+	"default": {
+		"whirlwind_01": {
+			"whirlwind_01": { "width": 320, "height": 100 },
+			"whirlwind_02": { "width": 320, "height": 100 },
+			"whirlwind_03": { "width": 320, "height": 100 },
+			"whirlwind_04": { "width": 320, "height": 100 },
+			"whirlwind_05": { "width": 320, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"whirlwind_01": {
+				"attachment": [
+					{ "time": 0, "name": "whirlwind_01" },
+					{ "time": 0.0333, "name": "whirlwind_02" },
+					{ "time": 0.0666, "name": "whirlwind_03" },
+					{ "time": 0.1, "name": "whirlwind_04" },
+					{ "time": 0.1333, "name": "whirlwind_05" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,117 @@
+
+power_word_shield_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+power_word_shield_3_01
+  rotate: false
+  xy: 2, 113
+  size: 100, 124
+  orig: 100, 125
+  offset: 0, 0
+  index: -1
+power_word_shield_3_02
+  rotate: false
+  xy: 202, 9
+  size: 48, 50
+  orig: 100, 125
+  offset: 19, 36
+  index: -1
+power_word_shield_3_03
+  rotate: true
+  xy: 136, 2
+  size: 51, 64
+  orig: 100, 125
+  offset: 18, 32
+  index: -1
+power_word_shield_3_05
+  rotate: true
+  xy: 372, 58
+  size: 55, 67
+  orig: 100, 125
+  offset: 17, 30
+  index: -1
+power_word_shield_3_07
+  rotate: false
+  xy: 311, 76
+  size: 59, 70
+  orig: 100, 125
+  offset: 15, 29
+  index: -1
+power_word_shield_3_09
+  rotate: false
+  xy: 247, 67
+  size: 62, 73
+  orig: 100, 125
+  offset: 14, 27
+  index: -1
+power_word_shield_3_11
+  rotate: false
+  xy: 194, 61
+  size: 51, 77
+  orig: 100, 125
+  offset: 27, 25
+  index: -1
+power_word_shield_3_13
+  rotate: false
+  xy: 136, 55
+  size: 56, 79
+  orig: 100, 125
+  offset: 25, 24
+  index: -1
+power_word_shield_3_15
+  rotate: false
+  xy: 75, 28
+  size: 59, 83
+  orig: 100, 125
+  offset: 24, 22
+  index: -1
+power_word_shield_3_17
+  rotate: true
+  xy: 374, 115
+  size: 61, 85
+  orig: 100, 125
+  offset: 23, 21
+  index: -1
+power_word_shield_3_19
+  rotate: false
+  xy: 306, 148
+  size: 66, 89
+  orig: 100, 125
+  offset: 21, 19
+  index: -1
+power_word_shield_3_21
+  rotate: true
+  xy: 374, 178
+  size: 59, 92
+  orig: 100, 125
+  offset: 20, 18
+  index: -1
+power_word_shield_3_23
+  rotate: false
+  xy: 242, 142
+  size: 62, 95
+  orig: 100, 125
+  offset: 19, 16
+  index: -1
+power_word_shield_3_25
+  rotate: false
+  xy: 174, 140
+  size: 66, 97
+  orig: 100, 125
+  offset: 17, 15
+  index: -1
+power_word_shield_3_27
+  rotate: false
+  xy: 104, 136
+  size: 68, 101
+  orig: 100, 125
+  offset: 16, 13
+  index: -1
+power_word_shield_3_29
+  rotate: false
+  xy: 2, 8
+  size: 71, 103
+  orig: 100, 125
+  offset: 15, 12
+  index: -1

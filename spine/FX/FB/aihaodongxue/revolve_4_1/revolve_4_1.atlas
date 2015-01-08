@@ -1,0 +1,40 @@
+
+revolve_4_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+revolve_4_1_1
+  rotate: false
+  xy: 2, 2
+  size: 262, 63
+  orig: 400, 150
+  offset: 77, 14
+  index: -1
+revolve_4_1_2
+  rotate: false
+  xy: 2, 128
+  size: 296, 64
+  orig: 400, 150
+  offset: 56, 13
+  index: -1
+revolve_4_1_3
+  rotate: false
+  xy: 2, 194
+  size: 338, 53
+  orig: 400, 150
+  offset: 35, 24
+  index: -1
+revolve_4_1_4
+  rotate: false
+  xy: 2, 249
+  size: 345, 55
+  orig: 400, 150
+  offset: 27, 22
+  index: -1
+revolve_4_1_5
+  rotate: false
+  xy: 2, 67
+  size: 282, 59
+  orig: 400, 150
+  offset: 37, 18
+  index: -1

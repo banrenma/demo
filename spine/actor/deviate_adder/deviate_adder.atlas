@@ -1,0 +1,145 @@
+
+deviate_adder.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deviate_adder_body1
+  rotate: false
+  xy: 91, 84
+  size: 87, 102
+  orig: 87, 102
+  offset: 0, 0
+  index: -1
+deviate_adder_body2
+  rotate: false
+  xy: 2, 344
+  size: 94, 141
+  orig: 94, 141
+  offset: 0, 0
+  index: -1
+deviate_adder_body3
+  rotate: false
+  xy: 2, 196
+  size: 89, 146
+  orig: 89, 146
+  offset: 0, 0
+  index: -1
+deviate_adder_body4
+  rotate: true
+  xy: 98, 398
+  size: 87, 146
+  orig: 87, 146
+  offset: 0, 0
+  index: -1
+deviate_adder_body5
+  rotate: false
+  xy: 2, 52
+  size: 87, 142
+  orig: 87, 142
+  offset: 0, 0
+  index: -1
+deviate_adder_body6
+  rotate: true
+  xy: 246, 398
+  size: 87, 138
+  orig: 87, 138
+  offset: 0, 0
+  index: -1
+deviate_adder_chin1
+  rotate: false
+  xy: 2, 2
+  size: 67, 48
+  orig: 67, 48
+  offset: 0, 0
+  index: -1
+deviate_adder_chin3
+  rotate: false
+  xy: 2, 2
+  size: 67, 48
+  orig: 67, 48
+  offset: 0, 0
+  index: -1
+deviate_adder_chin2
+  rotate: false
+  xy: 2, 2
+  size: 67, 48
+  orig: 67, 48
+  offset: 0, 0
+  index: -1
+deviate_adder_chin4
+  rotate: false
+  xy: 2, 2
+  size: 67, 48
+  orig: 67, 48
+  offset: 0, 0
+  index: -1
+deviate_adder_chin5
+  rotate: false
+  xy: 203, 178
+  size: 67, 48
+  orig: 67, 48
+  offset: 0, 0
+  index: -1
+deviate_adder_head1
+  rotate: false
+  xy: 98, 314
+  size: 131, 82
+  orig: 131, 82
+  offset: 0, 0
+  index: -1
+deviate_adder_head2
+  rotate: false
+  xy: 231, 313
+  size: 131, 83
+  orig: 131, 83
+  offset: 0, 0
+  index: -1
+deviate_adder_head3
+  rotate: false
+  xy: 226, 228
+  size: 131, 83
+  orig: 131, 83
+  offset: 0, 0
+  index: -1
+deviate_adder_head4
+  rotate: false
+  xy: 93, 228
+  size: 131, 84
+  orig: 131, 84
+  offset: 0, 0
+  index: -1
+deviate_adder_head5
+  rotate: false
+  xy: 364, 294
+  size: 131, 83
+  orig: 131, 83
+  offset: 0, 0
+  index: -1
+deviate_adder_l_wing1
+  rotate: true
+  xy: 386, 379
+  size: 106, 115
+  orig: 106, 115
+  offset: 0, 0
+  index: -1
+deviate_adder_l_wing2
+  rotate: true
+  xy: 359, 222
+  size: 70, 122
+  orig: 70, 122
+  offset: 0, 0
+  index: -1
+deviate_adder_r_wing
+  rotate: true
+  xy: 93, 188
+  size: 38, 108
+  orig: 38, 108
+  offset: 0, 0
+  index: -1
+deviate_adder_shadow
+  rotate: false
+  xy: 91, 65
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

@@ -39,6 +39,12 @@
     <ClCompile Include="..\Classes\EventManage.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\NSkeletonDataCache.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NSpineExt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -68,10 +74,16 @@
     <ClInclude Include="..\Classes\EventManage.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\NSkeletonDataCache.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NSpineExt.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc">
-      <Filter>resource</Filter>
+      <Filter>src</Filter>
     </ResourceCompile>
   </ItemGroup>
 </Project>

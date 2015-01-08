@@ -1,0 +1,236 @@
+
+jaina_proudmoore.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jaina_proudmoore_body
+  rotate: false
+  xy: 500, 81
+  size: 35, 26
+  orig: 35, 30
+  offset: 0, 4
+  index: -1
+jaina_proudmoore_brest
+  rotate: false
+  xy: 557, 99
+  size: 35, 27
+  orig: 35, 30
+  offset: 0, 3
+  index: -1
+jaina_proudmoore_cape
+  rotate: false
+  xy: 89, 54
+  size: 96, 72
+  orig: 99, 76
+  offset: 3, 4
+  index: -1
+jaina_proudmoore_down1
+  rotate: false
+  xy: 61, 2
+  size: 12, 24
+  orig: 19, 26
+  offset: 5, 0
+  index: -1
+jaina_proudmoore_down2
+  rotate: true
+  xy: 656, 113
+  size: 13, 36
+  orig: 17, 36
+  offset: 2, 0
+  index: -1
+jaina_proudmoore_down3
+  rotate: true
+  xy: 594, 100
+  size: 26, 30
+  orig: 26, 30
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_down4
+  rotate: false
+  xy: 464, 87
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_down5
+  rotate: false
+  xy: 89, 2
+  size: 43, 50
+  orig: 43, 50
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_down6
+  rotate: false
+  xy: 431, 79
+  size: 31, 47
+  orig: 31, 48
+  offset: 0, 1
+  index: -1
+jaina_proudmoore_down7
+  rotate: false
+  xy: 134, 5
+  size: 37, 47
+  orig: 37, 50
+  offset: 0, 1
+  index: -1
+jaina_proudmoore_hair1
+  rotate: false
+  xy: 431, 20
+  size: 19, 57
+  orig: 27, 57
+  offset: 3, 0
+  index: -1
+jaina_proudmoore_hair2
+  rotate: true
+  xy: 173, 9
+  size: 31, 75
+  orig: 31, 75
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_hair3
+  rotate: false
+  xy: 187, 42
+  size: 67, 52
+  orig: 69, 52
+  offset: 2, 0
+  index: -1
+jaina_proudmoore_hair4
+  rotate: true
+  xy: 2, 4
+  size: 22, 57
+  orig: 25, 62
+  offset: 3, 0
+  index: -1
+jaina_proudmoore_hair5
+  rotate: false
+  xy: 2, 28
+  size: 85, 98
+  orig: 89, 98
+  offset: 4, 0
+  index: -1
+jaina_proudmoore_head1
+  rotate: true
+  xy: 256, 40
+  size: 54, 61
+  orig: 63, 68
+  offset: 3, 3
+  index: -1
+jaina_proudmoore_head2
+  rotate: false
+  xy: 319, 65
+  size: 54, 61
+  orig: 63, 68
+  offset: 3, 3
+  index: -1
+jaina_proudmoore_head3
+  rotate: false
+  xy: 319, 2
+  size: 54, 61
+  orig: 63, 68
+  offset: 3, 3
+  index: -1
+jaina_proudmoore_head4
+  rotate: false
+  xy: 375, 65
+  size: 54, 61
+  orig: 63, 68
+  offset: 3, 3
+  index: -1
+jaina_proudmoore_head5
+  rotate: false
+  xy: 375, 2
+  size: 54, 61
+  orig: 63, 68
+  offset: 3, 3
+  index: -1
+jaina_proudmoore_l_forearm
+  rotate: false
+  xy: 537, 89
+  size: 18, 18
+  orig: 22, 22
+  offset: 2, 3
+  index: -1
+jaina_proudmoore_l_hand
+  rotate: true
+  xy: 694, 115
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_l_shoudler
+  rotate: false
+  xy: 250, 5
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_l_upperarm
+  rotate: false
+  xy: 451, 2
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_polearm
+  rotate: true
+  xy: 187, 96
+  size: 30, 124
+  orig: 30, 124
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_r_forearm
+  rotate: true
+  xy: 431, 2
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_r_hand
+  rotate: true
+  xy: 75, 12
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_r_shoudler
+  rotate: true
+  xy: 287, 11
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_r_upperarm
+  rotate: true
+  xy: 710, 115
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+jaina_proudmoore_shadow
+  rotate: false
+  xy: 500, 109
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1
+jaina_proudmoore_waist
+  rotate: true
+  xy: 626, 103
+  size: 23, 28
+  orig: 23, 32
+  offset: 0, 0
+  index: -1
+jaina_proudmoorel_foot
+  rotate: true
+  xy: 452, 62
+  size: 15, 10
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+jaina_proudmoorer_foot
+  rotate: true
+  xy: 452, 62
+  size: 15, 10
+  orig: 15, 12
+  offset: 0, 0
+  index: -1

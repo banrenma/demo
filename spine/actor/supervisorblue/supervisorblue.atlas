@@ -1,0 +1,131 @@
+
+supervisorblue.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+supervisorblue_belt
+  rotate: false
+  xy: 134, 58
+  size: 26, 13
+  orig: 34, 18
+  offset: 4, 3
+  index: -1
+supervisorblue_body
+  rotate: false
+  xy: 216, 82
+  size: 24, 25
+  orig: 30, 30
+  offset: 3, 3
+  index: -1
+supervisorblue_hair
+  rotate: false
+  xy: 61, 18
+  size: 51, 38
+  orig: 51, 38
+  offset: 0, 0
+  index: -1
+supervisorblue_head
+  rotate: false
+  xy: 2, 58
+  size: 64, 68
+  orig: 64, 68
+  offset: 0, 0
+  index: -1
+supervisorblue_head2
+  rotate: false
+  xy: 68, 58
+  size: 64, 68
+  orig: 64, 68
+  offset: 0, 0
+  index: -1
+supervisorblue_l_calf
+  rotate: false
+  xy: 201, 55
+  size: 20, 24
+  orig: 28, 28
+  offset: 4, 2
+  index: -1
+supervisorblue_l_ear
+  rotate: false
+  xy: 134, 73
+  size: 38, 53
+  orig: 50, 70
+  offset: 6, 9
+  index: -1
+supervisorblue_l_forearm
+  rotate: false
+  xy: 114, 21
+  size: 27, 35
+  orig: 37, 40
+  offset: 6, 4
+  index: -1
+supervisorblue_l_thigh
+  rotate: true
+  xy: 61, 2
+  size: 14, 20
+  orig: 18, 24
+  offset: 2, 2
+  index: -1
+supervisorblue_l_upperarm
+  rotate: true
+  xy: 137, 2
+  size: 17, 18
+  orig: 20, 22
+  offset: 1, 2
+  index: -1
+supervisorblue_pelvis
+  rotate: false
+  xy: 174, 61
+  size: 25, 18
+  orig: 30, 20
+  offset: 2, 1
+  index: -1
+supervisorblue_r_calf
+  rotate: false
+  xy: 171, 34
+  size: 24, 25
+  orig: 28, 28
+  offset: 2, 2
+  index: -1
+supervisorblue_r_ear
+  rotate: true
+  xy: 174, 81
+  size: 26, 40
+  orig: 46, 60
+  offset: 13, 6
+  index: -1
+supervisorblue_r_forearm
+  rotate: true
+  xy: 143, 27
+  size: 29, 26
+  orig: 36, 30
+  offset: 3, 2
+  index: -1
+supervisorblue_r_thigh
+  rotate: true
+  xy: 231, 111
+  size: 15, 19
+  orig: 20, 24
+  offset: 2, 3
+  index: -1
+supervisorblue_r_upperarm
+  rotate: true
+  xy: 114, 2
+  size: 17, 21
+  orig: 20, 22
+  offset: 1, 0
+  index: -1
+supervisorblue_shadow
+  rotate: false
+  xy: 174, 109
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1
+supervisorblue_weapon
+  rotate: false
+  xy: 2, 5
+  size: 57, 51
+  orig: 63, 57
+  offset: 2, 2
+  index: -1

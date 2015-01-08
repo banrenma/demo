@@ -1,0 +1,166 @@
+
+requi_of_souls_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang_1
+  rotate: false
+  xy: 339, 171
+  size: 130, 380
+  orig: 130, 380
+  offset: 0, 0
+  index: -1
+gui_1
+  rotate: true
+  xy: 130, 478
+  size: 73, 136
+  orig: 110, 250
+  offset: 17, 0
+  index: -1
+gui_10
+  rotate: false
+  xy: 912, 3
+  size: 78, 238
+  orig: 110, 250
+  offset: 15, 12
+  index: -1
+gui_11
+  rotate: true
+  xy: 579, 129
+  size: 78, 238
+  orig: 110, 250
+  offset: 15, 12
+  index: -1
+gui_12
+  rotate: false
+  xy: 932, 610
+  size: 75, 238
+  orig: 110, 250
+  offset: 17, 12
+  index: -1
+gui_13
+  rotate: true
+  xy: 579, 53
+  size: 74, 238
+  orig: 110, 250
+  offset: 18, 12
+  index: -1
+gui_2
+  rotate: false
+  xy: 932, 453
+  size: 75, 155
+  orig: 110, 250
+  offset: 16, 0
+  index: -1
+gui_3
+  rotate: true
+  xy: 813, 1431
+  size: 77, 174
+  orig: 110, 250
+  offset: 15, 0
+  index: -1
+gui_4
+  rotate: true
+  xy: 813, 1510
+  size: 78, 193
+  orig: 110, 250
+  offset: 15, 0
+  index: -1
+gui_5
+  rotate: false
+  xy: 913, 243
+  size: 79, 208
+  orig: 110, 250
+  offset: 14, 6
+  index: -1
+gui_6
+  rotate: false
+  xy: 832, 293
+  size: 79, 222
+  orig: 110, 250
+  offset: 14, 12
+  index: -1
+gui_7
+  rotate: true
+  xy: 339, 6
+  size: 80, 238
+  orig: 110, 250
+  offset: 14, 12
+  index: -1
+gui_8
+  rotate: true
+  xy: 339, 88
+  size: 81, 238
+  orig: 110, 250
+  offset: 13, 12
+  index: -1
+gui_9
+  rotate: false
+  xy: 832, 53
+  size: 78, 238
+  orig: 110, 250
+  offset: 15, 12
+  index: -1
+wu_1
+  rotate: false
+  xy: 2, 1212
+  size: 809, 376
+  orig: 840, 380
+  offset: 14, 0
+  index: -1
+xian_1
+  rotate: false
+  xy: 2, 455
+  size: 126, 96
+  orig: 720, 360
+  offset: 588, 144
+  index: -1
+xian_2
+  rotate: true
+  xy: 813, 1175
+  size: 254, 168
+  orig: 720, 360
+  offset: 369, 103
+  index: -1
+xian_3
+  rotate: false
+  xy: 471, 209
+  size: 359, 242
+  orig: 720, 360
+  offset: 240, 64
+  index: -1
+xian_4
+  rotate: false
+  xy: 2, 553
+  size: 471, 314
+  orig: 720, 360
+  offset: 97, 26
+  index: -1
+xian_5
+  rotate: false
+  xy: 512, 850
+  size: 490, 323
+  orig: 720, 360
+  offset: 62, 21
+  index: -1
+xian_6
+  rotate: false
+  xy: 2, 869
+  size: 508, 341
+  orig: 720, 360
+  offset: 28, 11
+  index: -1
+xian_7
+  rotate: false
+  xy: 475, 517
+  size: 455, 331
+  orig: 720, 360
+  offset: 72, 17
+  index: -1
+xian_8
+  rotate: true
+  xy: 2, 2
+  size: 449, 335
+  orig: 720, 360
+  offset: 61, 15
+  index: -1

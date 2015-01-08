@@ -1,0 +1,173 @@
+
+conjure.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+conjure_l_foot
+  rotate: true
+  xy: 134, 4
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+conjure_r_foot
+  rotate: true
+  xy: 134, 4
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+conjurer_body
+  rotate: false
+  xy: 411, 76
+  size: 58, 50
+  orig: 58, 50
+  offset: 0, 0
+  index: -1
+conjurer_hair1
+  rotate: true
+  xy: 411, 31
+  size: 24, 28
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+conjurer_hair2
+  rotate: true
+  xy: 329, 9
+  size: 41, 24
+  orig: 41, 24
+  offset: 0, 0
+  index: -1
+conjurer_hair3
+  rotate: false
+  xy: 367, 55
+  size: 42, 71
+  orig: 42, 71
+  offset: 0, 0
+  index: -1
+conjurer_hair4
+  rotate: false
+  xy: 270, 3
+  size: 57, 47
+  orig: 57, 47
+  offset: 0, 0
+  index: -1
+conjurer_head1
+  rotate: false
+  xy: 2, 26
+  size: 71, 74
+  orig: 76, 74
+  offset: 5, 0
+  index: -1
+conjurer_head2
+  rotate: false
+  xy: 75, 26
+  size: 71, 74
+  orig: 76, 74
+  offset: 5, 0
+  index: -1
+conjurer_head3
+  rotate: false
+  xy: 148, 52
+  size: 71, 74
+  orig: 76, 74
+  offset: 5, 0
+  index: -1
+conjurer_head4
+  rotate: false
+  xy: 221, 52
+  size: 71, 74
+  orig: 76, 74
+  offset: 5, 0
+  index: -1
+conjurer_head5
+  rotate: false
+  xy: 294, 52
+  size: 71, 74
+  orig: 76, 74
+  offset: 5, 0
+  index: -1
+conjurer_l_down
+  rotate: true
+  xy: 28, 11
+  size: 13, 45
+  orig: 13, 45
+  offset: 0, 0
+  index: -1
+conjurer_l_forearm
+  rotate: false
+  xy: 355, 19
+  size: 25, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+conjurer_l_hand
+  rotate: true
+  xy: 2, 2
+  size: 22, 24
+  orig: 22, 24
+  offset: 0, 0
+  index: -1
+conjurer_l_upperarm
+  rotate: true
+  xy: 471, 53
+  size: 25, 31
+  orig: 27, 31
+  offset: 2, 0
+  index: -1
+conjurer_m_l_down
+  rotate: true
+  xy: 148, 10
+  size: 40, 59
+  orig: 40, 59
+  offset: 0, 0
+  index: -1
+conjurer_m_r_down
+  rotate: true
+  xy: 209, 8
+  size: 42, 59
+  orig: 42, 59
+  offset: 0, 0
+  index: -1
+conjurer_polearm
+  rotate: true
+  xy: 2, 102
+  size: 24, 139
+  orig: 35, 143
+  offset: 4, 0
+  index: -1
+conjurer_r_down
+  rotate: false
+  xy: 471, 80
+  size: 33, 46
+  orig: 33, 46
+  offset: 0, 0
+  index: -1
+conjurer_r_forearm
+  rotate: true
+  xy: 382, 22
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+conjurer_r_hand
+  rotate: false
+  xy: 112, 5
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+conjurer_r_upperarm
+  rotate: true
+  xy: 75, 3
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+conjurer_shadow
+  rotate: false
+  xy: 411, 57
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

@@ -1,0 +1,110 @@
+
+combustion_4.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+combustion_4_1
+  rotate: false
+  xy: 2, 282
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_10
+  rotate: false
+  xy: 184, 2
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_11
+  rotate: false
+  xy: 275, 142
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_12
+  rotate: false
+  xy: 366, 282
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_13
+  rotate: false
+  xy: 275, 2
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_14
+  rotate: false
+  xy: 366, 142
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_15
+  rotate: false
+  xy: 366, 2
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_2
+  rotate: false
+  xy: 2, 142
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_3
+  rotate: false
+  xy: 93, 282
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_4
+  rotate: false
+  xy: 2, 2
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_5
+  rotate: false
+  xy: 93, 142
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_6
+  rotate: false
+  xy: 184, 282
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_7
+  rotate: false
+  xy: 93, 2
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_8
+  rotate: false
+  xy: 184, 142
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1
+combustion_4_9
+  rotate: false
+  xy: 275, 282
+  size: 89, 138
+  orig: 99, 141
+  offset: 5, 0
+  index: -1

@@ -1,0 +1,58 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "arcane_blast_1_1", "bone": "root", "attachment": "arcane_blast_1_1" }
+],
+"skins": {
+	"default": {
+		"arcane_blast_1_1": {
+			"arcane_blast_1_1": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_2": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_3": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_4": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_5": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_6": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_7": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_8": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_9": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_10": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_11": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_12": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_13": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_14": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_15": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_16": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 },
+			"arcane_blast_1_17": { "scaleX": 2, "scaleY": 2, "width": 100, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"arcane_blast_1_1": {
+				"attachment": [
+					{ "time": 0, "name": "arcane_blast_1_1" },
+					{ "time": 0.0333, "name": "arcane_blast_1_2" },
+					{ "time": 0.0666, "name": "arcane_blast_1_3" },
+					{ "time": 0.1, "name": "arcane_blast_1_4" },
+					{ "time": 0.1333, "name": "arcane_blast_1_5" },
+					{ "time": 0.1666, "name": "arcane_blast_1_6" },
+					{ "time": 0.2, "name": "arcane_blast_1_7" },
+					{ "time": 0.2333, "name": "arcane_blast_1_8" },
+					{ "time": 0.2666, "name": "arcane_blast_1_9" },
+					{ "time": 0.3, "name": "arcane_blast_1_10" },
+					{ "time": 0.3333, "name": "arcane_blast_1_11" },
+					{ "time": 0.3666, "name": "arcane_blast_1_12" },
+					{ "time": 0.4, "name": "arcane_blast_1_13" },
+					{ "time": 0.4333, "name": "arcane_blast_1_14" },
+					{ "time": 0.4666, "name": "arcane_blast_1_15" },
+					{ "time": 0.5, "name": "arcane_blast_1_16" },
+					{ "time": 0.5333, "name": "arcane_blast_1_17" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,4509 @@
+{
+"bones": [
+	{ "name": "blackdrake_bloodfang" },
+	{ "name": "blackdrake_bloodfang_", "parent": "blackdrake_bloodfang", "x": -2.59, "y": 46.65 },
+	{
+		"name": "blackdrake_bloodfang_body",
+		"parent": "blackdrake_bloodfang_",
+		"length": 61.14,
+		"x": 1.89,
+		"y": -14.41,
+		"rotation": 83.93
+	},
+	{ "name": "blackdrake_bloodfang_shadow", "parent": "blackdrake_bloodfang_", "x": 2.59, "y": -45.92, "scaleY": 1.425 },
+	{
+		"name": "blackdrake_bloodfang_head",
+		"parent": "blackdrake_bloodfang_body",
+		"length": 91.66,
+		"x": 35.52,
+		"y": -2.42,
+		"rotation": 34.92
+	},
+	{
+		"name": "blackdrake_bloodfang_l_down",
+		"parent": "blackdrake_bloodfang_body",
+		"length": 18.88,
+		"x": 8.56,
+		"y": -8.46,
+		"rotation": -126.04
+	},
+	{
+		"name": "blackdrake_bloodfang_l_thigh",
+		"parent": "blackdrake_bloodfang_body",
+		"length": 25.83,
+		"x": 6.44,
+		"y": -7.4,
+		"rotation": -156.33
+	},
+	{
+		"name": "blackdrake_bloodfang_l_upperarm",
+		"parent": "blackdrake_bloodfang_body",
+		"length": 54.82,
+		"x": 37.91,
+		"y": -16.85,
+		"rotation": -40.03
+	},
+	{ "name": "blackdrake_bloodfang_plevis", "parent": "blackdrake_bloodfang_body", "x": -2.3, "y": 2.22, "rotation": -83.93 },
+	{
+		"name": "blackdrake_bloodfang_r_down",
+		"parent": "blackdrake_bloodfang_body",
+		"length": 13.95,
+		"x": 3.09,
+		"y": 12.7,
+		"rotation": 151.13
+	},
+	{
+		"name": "blackdrake_bloodfang_r_thigh",
+		"parent": "blackdrake_bloodfang_body",
+		"length": 24,
+		"x": 2.51,
+		"y": 8.19,
+		"rotation": 163.02
+	},
+	{
+		"name": "blackdrake_bloodfang_r_upperarm",
+		"parent": "blackdrake_bloodfang_body",
+		"length": 57.47,
+		"x": 23.68,
+		"y": 27.27,
+		"rotation": 32.67
+	},
+	{ "name": "dummy_body", "parent": "blackdrake_bloodfang_body", "x": 16.14, "y": 7.06, "rotation": -83.93 },
+	{ "name": "dummy_foot", "parent": "blackdrake_bloodfang_shadow", "x": 0.19, "y": -0.24 },
+	{
+		"name": "blackdrake_bloodfang_l_calf",
+		"parent": "blackdrake_bloodfang_l_thigh",
+		"length": 17.15,
+		"x": 36.8,
+		"y": -3.7,
+		"rotation": 170.07
+	},
+	{
+		"name": "blackdrake_bloodfang_l_forearm",
+		"parent": "blackdrake_bloodfang_l_upperarm",
+		"length": 25.02,
+		"x": -5.83,
+		"y": -36.67,
+		"rotation": 56.56
+	},
+	{
+		"name": "blackdrake_bloodfang_r_calf",
+		"parent": "blackdrake_bloodfang_r_thigh",
+		"length": 17.56,
+		"x": 35.01,
+		"y": 6.23,
+		"rotation": -148.38
+	},
+	{
+		"name": "blackdrake_bloodfang_r_forearm",
+		"parent": "blackdrake_bloodfang_r_upperarm",
+		"length": 24.41,
+		"x": -16.15,
+		"y": 27.4,
+		"rotation": -51.78
+	},
+	{ "name": "dummy_head", "parent": "blackdrake_bloodfang_head", "x": 57.62, "y": -18.36, "rotation": -118.86 },
+	{
+		"name": "blackdrake_bloodfang_l_hand",
+		"parent": "blackdrake_bloodfang_l_forearm",
+		"length": 52.79,
+		"x": -17.84,
+		"y": 11.02,
+		"rotation": -29.55
+	},
+	{
+		"name": "blackdrake_bloodfang_r_hand",
+		"parent": "blackdrake_bloodfang_r_forearm",
+		"length": 44.54,
+		"x": -19.29,
+		"y": 6.46,
+		"rotation": 3.42
+	},
+	{ "name": "dummy_l_weapon", "parent": "blackdrake_bloodfang_l_hand", "x": -1.57, "y": 0.8, "rotation": -70.92 },
+	{ "name": "dummy_r_weapon", "parent": "blackdrake_bloodfang_r_hand", "x": 0.88, "y": -0.4, "rotation": -68.24 }
+],
+"slots": [
+	{ "name": "blackdrake_bloodfang_shadow", "bone": "blackdrake_bloodfang_shadow", "attachment": "blackdrake_bloodfang_shadow" },
+	{
+		"name": "blackdrake_bloodfang_r_forearm",
+		"bone": "blackdrake_bloodfang_r_forearm",
+		"attachment": "blackdrake_bloodfang_r_forearm"
+	},
+	{
+		"name": "blackdrake_bloodfang_r_upperarm",
+		"bone": "blackdrake_bloodfang_r_upperarm",
+		"attachment": "blackdrake_bloodfang_r_upperarm"
+	},
+	{ "name": "blackdrake_bloodfang_r_hand", "bone": "blackdrake_bloodfang_r_hand", "attachment": "blackdrake_bloodfang_r_hand" },
+	{ "name": "blackdrake_bloodfang_r_thigh", "bone": "blackdrake_bloodfang_r_thigh", "attachment": "blackdrake_bloodfang_r_thigh" },
+	{ "name": "blackdrake_bloodfang_r_calf", "bone": "blackdrake_bloodfang_r_calf", "attachment": "blackdrake_bloodfang_r_calf" },
+	{ "name": "blackdrake_bloodfang_plevis", "bone": "blackdrake_bloodfang_plevis", "attachment": "blackdrake_bloodfang_plevis" },
+	{ "name": "blackdrake_bloodfang_l_thigh", "bone": "blackdrake_bloodfang_l_thigh", "attachment": "blackdrake_bloodfang_l_thigh" },
+	{ "name": "blackdrake_bloodfang_l_calf", "bone": "blackdrake_bloodfang_l_calf", "attachment": "blackdrake_bloodfang_l_calf" },
+	{ "name": "blackdrake_bloodfang_l_down", "bone": "blackdrake_bloodfang_l_down", "attachment": "blackdrake_bloodfang_l_down" },
+	{ "name": "blackdrake_bloodfang_r_down", "bone": "blackdrake_bloodfang_r_down", "attachment": "blackdrake_bloodfang_r_down" },
+	{ "name": "blackdrake_bloodfang_body", "bone": "blackdrake_bloodfang_body", "attachment": "blackdrake_bloodfang_body" },
+	{ "name": "blackdrake_bloodfang_head", "bone": "blackdrake_bloodfang_head", "attachment": "blackdrake_bloodfang_head1" },
+	{
+		"name": "blackdrake_bloodfang_l_forearm",
+		"bone": "blackdrake_bloodfang_l_forearm",
+		"attachment": "blackdrake_bloodfang_l_forearm"
+	},
+	{
+		"name": "blackdrake_bloodfang_l_upperarm",
+		"bone": "blackdrake_bloodfang_l_upperarm",
+		"attachment": "blackdrake_bloodfang_l_upperarm"
+	},
+	{ "name": "blackdrake_bloodfang_l_hand", "bone": "blackdrake_bloodfang_l_hand", "attachment": "blackdrake_bloodfang_l_hand" }
+],
+"skins": {
+	"default": {
+		"blackdrake_bloodfang_body": {
+			"blackdrake_bloodfang_body": { "x": 31.17, "y": -0.94, "rotation": -83.93, "width": 66, "height": 70 }
+		},
+		"blackdrake_bloodfang_head": {
+			"blackdrake_bloodfang_head1": { "x": 34.52, "y": 0.18, "rotation": -118.86, "width": 79, "height": 108 },
+			"blackdrake_bloodfang_head2": { "x": 34.52, "y": 0.18, "rotation": -118.86, "width": 79, "height": 108 },
+			"blackdrake_bloodfang_head3": { "x": 34.52, "y": 0.18, "rotation": -118.86, "width": 79, "height": 108 },
+			"blackdrake_bloodfang_head4": { "x": 34.52, "y": 0.18, "rotation": -118.86, "width": 79, "height": 108 },
+			"blackdrake_bloodfang_head5": { "x": 34.52, "y": 0.18, "rotation": -118.86, "width": 79, "height": 108 }
+		},
+		"blackdrake_bloodfang_l_calf": {
+			"blackdrake_bloodfang_l_calf": { "x": 8.6, "y": -0.1, "rotation": -97.68, "width": 20, "height": 20 }
+		},
+		"blackdrake_bloodfang_l_down": {
+			"blackdrake_bloodfang_l_down": { "x": 9.17, "y": -2.27, "rotation": 42.1, "width": 35, "height": 19 }
+		},
+		"blackdrake_bloodfang_l_forearm": {
+			"blackdrake_bloodfang_l_forearm": { "x": 10.87, "y": -0.66, "rotation": -100.47, "width": 19, "height": 28 }
+		},
+		"blackdrake_bloodfang_l_hand": {
+			"blackdrake_bloodfang_l_hand": { "x": 25.79, "y": 2.84, "rotation": -70.92, "width": 42, "height": 62 }
+		},
+		"blackdrake_bloodfang_l_thigh": {
+			"blackdrake_bloodfang_l_thigh": { "x": 14.33, "y": 1.21, "rotation": 72.39, "width": 34, "height": 34 }
+		},
+		"blackdrake_bloodfang_l_upperarm": {
+			"blackdrake_bloodfang_l_upperarm": { "x": 31.34, "y": -6.12, "rotation": -43.9, "width": 67, "height": 79 }
+		},
+		"blackdrake_bloodfang_plevis": {
+			"blackdrake_bloodfang_plevis": { "x": 2.15, "y": -1.61, "width": 42, "height": 20 }
+		},
+		"blackdrake_bloodfang_r_calf": {
+			"blackdrake_bloodfang_r_calf": { "x": 9.3, "y": -0.45, "rotation": -98.58, "width": 22, "height": 20 }
+		},
+		"blackdrake_bloodfang_r_down": {
+			"blackdrake_bloodfang_r_down": { "x": 5.69, "y": -0.51, "rotation": 124.92, "width": 24, "height": 23 }
+		},
+		"blackdrake_bloodfang_r_forearm": {
+			"blackdrake_bloodfang_r_forearm": { "x": 10.68, "y": -0.66, "rotation": -64.82, "width": 20, "height": 25 }
+		},
+		"blackdrake_bloodfang_r_hand": {
+			"blackdrake_bloodfang_r_hand": { "x": 23.48, "y": 0.42, "rotation": -68.24, "width": 33, "height": 56 }
+		},
+		"blackdrake_bloodfang_r_thigh": {
+			"blackdrake_bloodfang_r_thigh": { "x": 15.11, "y": -1.23, "rotation": 113.03, "width": 27, "height": 31 }
+		},
+		"blackdrake_bloodfang_r_upperarm": {
+			"blackdrake_bloodfang_r_upperarm": { "x": 23.33, "y": 2.74, "rotation": -116.61, "width": 54, "height": 76 }
+		},
+		"blackdrake_bloodfang_shadow": {
+			"blackdrake_bloodfang_shadow": { "x": 0.06, "y": 2.2, "scaleX": 3.617, "width": 55, "height": 26 }
+		}
+	}
+},
+"animations": {
+	"attack02": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.1, "name": "blackdrake_bloodfang_head2" },
+					{ "time": 0.3333, "name": "blackdrake_bloodfang_head3" },
+					{ "time": 1.0333, "name": "blackdrake_bloodfang_head2" },
+					{ "time": 1.3, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 1.3333, "name": "blackdrake_bloodfang_head1" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.4333, "angle": -5.73 },
+					{ "time": 0.9, "angle": -4.3 },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": 0, "y": -4 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.9, "x": 0, "y": -1 },
+					{ "time": 1.0666, "x": 0, "y": -6 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "angle": 4.57 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.9, "angle": 1.14 },
+					{ "time": 1.0666, "angle": 4.57 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "angle": -32.11 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.9, "angle": -8.02 },
+					{ "time": 1.0666, "angle": -32.11 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": -14.89, "y": 9.97 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.9, "x": -3.72, "y": 2.49 },
+					{ "time": 1.0666, "x": -14.89, "y": 9.97 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "angle": -18.34 },
+					{ "time": 0.4333, "angle": -136.9 },
+					{ "time": 0.9, "angle": -118.7 },
+					{ "time": 1.0666, "angle": -18.34 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 54.87, "y": 17.95 },
+					{ "time": 0.9, "x": 38.06, "y": 16.26 },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "angle": 11.15 },
+					{ "time": 0.4333, "angle": -28.28 },
+					{ "time": 0.9, "angle": -18.42 },
+					{ "time": 1.0666, "angle": 11.15 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": -5.57, "y": -3.87 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.9, "x": 0.04, "y": -0.31 },
+					{ "time": 1.0666, "x": 0.18, "y": -1.25 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "angle": -8.14 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.9, "angle": -2.03 },
+					{ "time": 1.0666, "angle": -8.14 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "angle": 19.89 },
+					{ "time": 0.4333, "angle": 11.55 },
+					{ "time": 0.9, "angle": 20.61 },
+					{ "time": 1.0666, "angle": 8.36 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": 0.21, "y": -1.98 },
+					{ "time": 0.4333, "x": -9.78, "y": -3.57 },
+					{ "time": 0.9, "x": -7.33, "y": -2.68 },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": 1.125, "y": 1 },
+					{ "time": 0.4333, "x": 0.924, "y": 1 },
+					{ "time": 0.9, "x": 1.014, "y": 1 },
+					{ "time": 1.0666, "x": 1.125, "y": 1 },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "angle": -6.91 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.9, "angle": -1.72 },
+					{ "time": 1.0666, "angle": -6.91 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": 0.973, "y": 0.973 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.9, "x": 0.993, "y": 0.993 },
+					{ "time": 1.0666, "x": 0.973, "y": 0.973 },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.4333, "angle": 7.59 },
+					{ "time": 0.9, "angle": 5.69 },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": -1.84, "y": 1.81 },
+					{ "time": 0.4333, "x": -0.36, "y": 3.14 },
+					{ "time": 0.9, "x": -0.73, "y": 2.81 },
+					{ "time": 1.0666, "x": -3.97, "y": 2.42 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": 0.994, "y": 1 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.9, "x": 0.998, "y": 1 },
+					{ "time": 1.0666, "x": 0.994, "y": 1 },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": -1.98, "y": -0.21 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.9, "x": -0.49, "y": -0.05 },
+					{ "time": 1.0666, "x": -1.98, "y": -0.21 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": 0.893, "y": 1 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.9, "x": 0.973, "y": 1 },
+					{ "time": 1.0666, "x": 0.893, "y": 1 },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "angle": 6.91 },
+					{ "time": 0.4333, "angle": 5.36 },
+					{ "time": 0.9, "angle": 5.75 },
+					{ "time": 1.0666, "angle": 6.91 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": -3.63, "y": 2.39 },
+					{ "time": 0.4333, "x": 0.3, "y": 3.59 },
+					{ "time": 0.9, "x": -0.67, "y": 3.29 },
+					{ "time": 1.0666, "x": -5.41, "y": 1.36 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.278, 0.64, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": 0.966, "y": 1.027 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.9, "x": 0.991, "y": 1.006 },
+					{ "time": 1.0666, "x": 0.966, "y": 1.027 },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3, "angle": 0 },
+					{ "time": 0.4333, "angle": -23.51 },
+					{ "time": 0.9, "angle": -34.08 },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 8.33, "y": 10.25 },
+					{ "time": 0.9, "x": 12.37, "y": 10.11 },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"attack05": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.2333, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.3666, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.5333, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.8333, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 1.3, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 1.5, "name": "blackdrake_bloodfang_head1" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.3666, "angle": -7.19 },
+					{ "time": 0.5333, "angle": -15.46 },
+					{ "time": 0.7, "angle": 9.89, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 9.89, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 9.89 },
+					{ "time": 1.3, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": 0, "y": -4 },
+					{ "time": 0.3666, "x": 13, "y": 0 },
+					{ "time": 0.5333, "x": 20, "y": 4 },
+					{ "time": 0.7, "x": -19.66, "y": 0 },
+					{ "time": 0.8333, "x": -17, "y": 0 },
+					{ "time": 1.0666, "x": -18, "y": 0 },
+					{ "time": 1.3, "x": 0, "y": -4 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 0.896, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 0.896 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "angle": 4.57 },
+					{ "time": 0.3666, "angle": -36.33 },
+					{ "time": 0.5333, "angle": -41.88 },
+					{ "time": 0.7, "angle": 45.06 },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0 },
+					{ "time": 1.3, "angle": 4.57 },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.3666, "x": -4.39, "y": 2.65 },
+					{ "time": 0.5333, "x": -4.91, "y": 2.23 },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 1.115, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1.115 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.3666, "angle": 60.06, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 60.06 },
+					{ "time": 0.7, "angle": 10.6 },
+					{ "time": 0.7666, "angle": 3.53 },
+					{ "time": 0.8333, "angle": -91.48 },
+					{ "time": 1.0666, "angle": -53.45 },
+					{ "time": 1.3, "angle": -32.11 },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.3666, "x": 14.48, "y": -11.87, "curve": "stepped" },
+					{ "time": 0.5333, "x": 14.48, "y": -11.87 },
+					{ "time": 0.7, "x": -7.23, "y": -9.21 },
+					{ "time": 0.7666, "x": -7.59, "y": -12.5 },
+					{ "time": 0.8333, "x": -24.8, "y": 33.61 },
+					{ "time": 1.0666, "x": -19.83, "y": 12.28 },
+					{ "time": 1.3, "x": -14.89, "y": 9.97 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1 },
+					{ "time": 0.7, "x": 1.175, "y": 1 },
+					{ "time": 0.8333, "x": 1.525, "y": 1 },
+					{ "time": 1.0666, "x": 1.394, "y": 1 },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_hand": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "angle": -10.82 },
+					{ "time": 0.2666, "angle": -5.88 },
+					{ "time": 0.3666, "angle": 39.79, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 39.79 },
+					{ "time": 0.7, "angle": 54.99 },
+					{ "time": 0.8333, "angle": 28.43 },
+					{ "time": 1.0666, "angle": 0 },
+					{ "time": 1.3, "angle": 20.79 },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": 0.68, "y": 0.58 },
+					{ "time": 0.2666, "x": 1.54, "y": -0.23 },
+					{ "time": 0.3666, "x": -3.15, "y": -23.37, "curve": "stepped" },
+					{ "time": 0.5333, "x": -3.15, "y": -23.37 },
+					{ "time": 0.7, "x": 8.12, "y": -29.84 },
+					{ "time": 0.8333, "x": 3.91, "y": -14.31 },
+					{ "time": 1.0666, "x": 0, "y": 0 },
+					{ "time": 1.3, "x": 0.71, "y": -13.01 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1.256, "y": 1.256, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1.256, "y": 1.256 },
+					{ "time": 0.7, "x": 1.331, "y": 1.331 },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "angle": -159.18 },
+					{ "time": 0.2666, "angle": -42.41 },
+					{ "time": 0.3, "angle": 44.71 },
+					{ "time": 0.3666, "angle": 81.25 },
+					{ "time": 0.5333, "angle": 75.7 },
+					{ "time": 0.7, "angle": 73.9 },
+					{ "time": 0.8333, "angle": -8.06 },
+					{ "time": 1.0666, "angle": -1.42 },
+					{ "time": 1.3, "angle": -18.34 },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": 64.65, "y": -12.25 },
+					{ "time": 0.2666, "x": 33.9, "y": 22.26 },
+					{ "time": 0.3, "x": 9.71, "y": 7.96 },
+					{ "time": 0.3666, "x": -0.3, "y": -32.37 },
+					{ "time": 0.5333, "x": 0.25, "y": -40.14 },
+					{ "time": 0.7, "x": -2.61, "y": -30.05 },
+					{ "time": 0.8333, "x": -0.2, "y": -2.99 },
+					{ "time": 1.0666, "x": 1.03, "y": -3.39 },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 1.115, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1.115 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "angle": 9.78 },
+					{ "time": 0.3666, "angle": 12.19 },
+					{ "time": 0.5333, "angle": 17.31 },
+					{ "time": 0.7, "angle": 6.16 },
+					{ "time": 0.8333, "angle": -6.99 },
+					{ "time": 1.0666, "angle": -0.92 },
+					{ "time": 1.3, "angle": 6.84 },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": -5.96, "y": -0.63 },
+					{ "time": 0.3666, "x": -2.73, "y": -3.48 },
+					{ "time": 0.5333, "x": 4.27, "y": -10.98 },
+					{ "time": 0.7, "x": -2.95, "y": -12.05 },
+					{ "time": 0.8333, "x": -1.66, "y": 5.12 },
+					{ "time": 1.0666, "x": -3.7, "y": 1.35 },
+					{ "time": 1.3, "x": 0.18, "y": -1.25 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 1.115, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1.115 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "angle": -8.14 },
+					{ "time": 0.3666, "angle": -55.09 },
+					{ "time": 0.5333, "angle": -60.63 },
+					{ "time": 0.7, "angle": -18.75, "curve": "stepped" },
+					{ "time": 0.8333, "angle": -18.75, "curve": "stepped" },
+					{ "time": 1.0666, "angle": -18.75 },
+					{ "time": 1.3, "angle": -8.14 },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.3666, "x": 9.22, "y": 4.12 },
+					{ "time": 0.5333, "x": 10.61, "y": 2.72 },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 1.115, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1.115 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.3666, "angle": -36.33 },
+					{ "time": 0.5333, "angle": -41.88 },
+					{ "time": 0.7, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.3666, "x": 4.05, "y": 8.76 },
+					{ "time": 0.5333, "x": 5, "y": 8.52 },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 1.115, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1.115 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "angle": -14.95 },
+					{ "time": 0.3666, "angle": 109.63 },
+					{ "time": 0.5333, "angle": 117.88 },
+					{ "time": 0.7, "angle": 109.69 },
+					{ "time": 0.8333, "angle": -49.14 },
+					{ "time": 1.0666, "angle": -59.36 },
+					{ "time": 1.3, "angle": 8.36 },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": -0.76, "y": 7.25 },
+					{ "time": 0.3666, "x": 16.65, "y": 12.38 },
+					{ "time": 0.5333, "x": 14.51, "y": -7.16 },
+					{ "time": 0.7, "x": 15.13, "y": -10.7 },
+					{ "time": 0.7333, "x": 3.79, "y": -7.32 },
+					{ "time": 0.7666, "x": 3.32, "y": 10.69 },
+					{ "time": 0.8333, "x": 5.81, "y": 54.53 },
+					{ "time": 1.0666, "x": 3.08, "y": 41.42 },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 1.115, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1.115 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0 },
+					{ "time": 0.5333, "x": 4, "y": 0 },
+					{ "time": 0.7, "x": -12, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": -12, "y": 0 },
+					{ "time": 1.0666, "x": -10, "y": 0 },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": 1.079, "y": 1 },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1 },
+					{ "time": 1.3, "x": 1.058, "y": 1 },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.3666, "angle": -28.54, "curve": "stepped" },
+					{ "time": 0.5333, "angle": -28.54 },
+					{ "time": 0.7, "angle": 68.78 },
+					{ "time": 0.7333, "angle": 50.12 },
+					{ "time": 0.7666, "angle": -18.79 },
+					{ "time": 0.8333, "angle": 0 },
+					{ "time": 1.0666, "angle": -16.48 },
+					{ "time": 1.3, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.3666, "x": 7.43, "y": 13.3, "curve": "stepped" },
+					{ "time": 0.5333, "x": 7.43, "y": 13.3 },
+					{ "time": 0.7, "x": -1.05, "y": -26.66 },
+					{ "time": 0.7333, "x": -2.09, "y": -18.11 },
+					{ "time": 0.7666, "x": 3.95, "y": 14.75 },
+					{ "time": 0.8333, "x": 0, "y": 0 },
+					{ "time": 1.0666, "x": 0.62, "y": 8.01 },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1 },
+					{ "time": 0.7, "x": 0.892, "y": 0.892 },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "angle": -6.91 },
+					{ "time": 0.3666, "angle": -6.98, "curve": "stepped" },
+					{ "time": 0.4666, "angle": -6.98, "curve": "stepped" },
+					{ "time": 0.5333, "angle": -6.98 },
+					{ "time": 0.7, "angle": -29.71 },
+					{ "time": 0.8333, "angle": -23.8 },
+					{ "time": 1.0666, "angle": -26.02 },
+					{ "time": 1.3, "angle": -6.91 },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.3666, "x": -0.8, "y": 6.59 },
+					{ "time": 0.4666, "x": -3.04, "y": 5.61 },
+					{ "time": 0.5333, "x": -4.66, "y": 4.14 },
+					{ "time": 0.7, "x": -2.53, "y": -0.11 },
+					{ "time": 0.8333, "x": 0, "y": 0 },
+					{ "time": 1.0666, "x": -0.95, "y": -0.04 },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": 0.973, "y": 0.973 },
+					{ "time": 0.3666, "x": 1.107, "y": 1.115 },
+					{ "time": 0.4666, "x": 1.16, "y": 1.115 },
+					{ "time": 0.5333, "x": 1.195, "y": 1.115 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1 },
+					{ "time": 1.3, "x": 0.973, "y": 0.973 },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.3666, "angle": -343.87 },
+					{ "time": 0.5333, "angle": -328.54 },
+					{ "time": 0.7, "angle": -4.65 },
+					{ "time": 0.8333, "angle": 0 },
+					{ "time": 1.0666, "angle": -1.74 },
+					{ "time": 1.3, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": -1.84, "y": 1.81 },
+					{ "time": 0.3666, "x": 0.51, "y": 5.5 },
+					{ "time": 0.5333, "x": -2.63, "y": 7.83 },
+					{ "time": 0.7, "x": 0.24, "y": -1.22 },
+					{ "time": 0.8333, "x": 0, "y": 0 },
+					{ "time": 1.0666, "x": 0.62, "y": -0.51 },
+					{ "time": 1.3, "x": -1.84, "y": 1.81 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": 0.994, "y": 1 },
+					{ "time": 0.3666, "x": 0.995, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0.995, "y": 1 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1 },
+					{ "time": 1.3, "x": 0.994, "y": 1 },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.3666, "angle": -1.72 },
+					{ "time": 0.5333, "angle": -16.38 },
+					{ "time": 0.7, "angle": 23.49 },
+					{ "time": 0.8333, "angle": 18.83 },
+					{ "time": 1.0666, "angle": 20.57 },
+					{ "time": 1.3, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": -1.98, "y": -0.21 },
+					{ "time": 0.3666, "x": -5.47, "y": 3.62 },
+					{ "time": 0.5333, "x": -6.91, "y": -4.37 },
+					{ "time": 0.7, "x": -8.93, "y": -5.04 },
+					{ "time": 0.8333, "x": -7.87, "y": -4.11, "curve": "stepped" },
+					{ "time": 1.0666, "x": -7.87, "y": -4.11 },
+					{ "time": 1.3, "x": -1.98, "y": -0.21 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": 0.893, "y": 1 },
+					{ "time": 0.3666, "x": 0.911, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0.911, "y": 1 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1 },
+					{ "time": 1.3, "x": 0.893, "y": 1 },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "angle": 6.91 },
+					{ "time": 0.3666, "angle": 13.19 },
+					{ "time": 0.4666, "angle": 8.27 },
+					{ "time": 0.5333, "angle": 4.99 },
+					{ "time": 0.7, "angle": 23.36 },
+					{ "time": 0.8333, "angle": 14.45 },
+					{ "time": 1.0666, "angle": 17.79 },
+					{ "time": 1.3, "angle": 6.91 },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": -3.63, "y": 2.39 },
+					{ "time": 0.3666, "x": 0.57, "y": 2.63 },
+					{ "time": 0.4666, "x": 1.29, "y": 1.53 },
+					{ "time": 0.5333, "x": 0.7, "y": 1.72 },
+					{ "time": 0.7, "x": -5.36, "y": 7.26 },
+					{ "time": 0.8333, "x": -2.29, "y": 6.01 },
+					{ "time": 1.0666, "x": -3.44, "y": 6.48 },
+					{ "time": 1.3, "x": -3.63, "y": 2.39 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": 0.966, "y": 1.027 },
+					{ "time": 0.3666, "x": 0.912, "y": 1 },
+					{ "time": 0.4666, "x": 0.924, "y": 1 },
+					{ "time": 0.5333, "x": 0.931, "y": 1 },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1 },
+					{ "time": 1.3, "x": 0.966, "y": 1.027 },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_forearm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "angle": -54.44 },
+					{ "time": 0.3, "angle": 47.1 },
+					{ "time": 0.3666, "angle": 58, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 58 },
+					{ "time": 0.7, "angle": 17.82 },
+					{ "time": 0.8333, "angle": 0 },
+					{ "time": 1.0666, "angle": 16.52 },
+					{ "time": 1.3, "angle": 0, "curve": "stepped" },
+					{ "time": 1.5, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.312, 0.62, 0.715, 1 ]
+					},
+					{ "time": 0.2333, "x": 15.36, "y": 8.37 },
+					{ "time": 0.2666, "x": 0.56, "y": 6.27 },
+					{ "time": 0.3, "x": 0.38, "y": 2.64 },
+					{ "time": 0.3666, "x": -6.39, "y": -14.22, "curve": "stepped" },
+					{ "time": 0.5333, "x": -6.39, "y": -14.22 },
+					{ "time": 0.7, "x": -5.09, "y": -3.9 },
+					{ "time": 0.8333, "x": 0, "y": 0 },
+					{ "time": 1.0666, "x": 0.94, "y": -0.62 },
+					{ "time": 1.3, "x": -7.36, "y": 1.07 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.5, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_": {
+				"rotate": [
+					{ "time": 0.7, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.7, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.7, "x": 1, "y": 1 }
+				]
+			},
+			"dummy_body": {
+				"rotate": [
+					{ "time": 0.3666, "angle": -36.33 },
+					{ "time": 0.5333, "angle": -41.88 }
+				],
+				"translate": [
+					{ "time": 0.3666, "x": -112.2, "y": 10.87 },
+					{ "time": 0.5333, "x": -126.9, "y": 21.27 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 1, "y": 1.115, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1.115 }
+				]
+			},
+			"dummy_head": {
+				"rotate": [
+					{ "time": 0.3666, "angle": -4.62, "curve": "stepped" },
+					{ "time": 0.5333, "angle": -4.62 }
+				],
+				"translate": [
+					{ "time": 0.3666, "x": -10.42, "y": -13.12 },
+					{ "time": 0.5333, "x": -12.15, "y": -14.13 }
+				]
+			},
+			"dummy_r_weapon": {
+				"translate": [
+					{ "time": 0.2666, "x": -10.77, "y": 3.28 },
+					{ "time": 0.3666, "x": -14.17, "y": 8.91, "curve": "stepped" },
+					{ "time": 0.5333, "x": -14.17, "y": 8.91 },
+					{ "time": 0.7, "x": -6.07, "y": 4.14 }
+				],
+				"scale": [
+					{ "time": 0.7, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"dummy_l_weapon": {
+				"rotate": [
+					{ "time": 0.7666, "angle": 23.23 }
+				],
+				"translate": [
+					{ "time": 0.7666, "x": 1.61, "y": -13.55 }
+				]
+			}
+		},
+		"draworder": [
+			{ "time": 0 },
+			{
+				"time": 0.2666,
+				"offsets": [
+					{ "slot": "blackdrake_bloodfang_l_upperarm", "offset": -3 }
+				]
+			},
+			{
+				"time": 0.3,
+				"offsets": [
+					{ "slot": "blackdrake_bloodfang_r_hand", "offset": 10 },
+					{ "slot": "blackdrake_bloodfang_l_upperarm", "offset": -4 }
+				]
+			},
+			{
+				"time": 0.3333,
+				"offsets": [
+					{ "slot": "blackdrake_bloodfang_r_hand", "offset": 10 },
+					{ "slot": "blackdrake_bloodfang_l_upperarm", "offset": -4 }
+				]
+			},
+			{
+				"time": 0.3666,
+				"offsets": [
+					{ "slot": "blackdrake_bloodfang_r_forearm", "offset": 9 },
+					{ "slot": "blackdrake_bloodfang_r_upperarm", "offset": 9 },
+					{ "slot": "blackdrake_bloodfang_r_hand", "offset": 10 },
+					{ "slot": "blackdrake_bloodfang_l_upperarm", "offset": -6 }
+				]
+			},
+			{
+				"time": 0.5333,
+				"offsets": [
+					{ "slot": "blackdrake_bloodfang_r_forearm", "offset": 9 },
+					{ "slot": "blackdrake_bloodfang_r_upperarm", "offset": 9 },
+					{ "slot": "blackdrake_bloodfang_r_hand", "offset": 10 },
+					{ "slot": "blackdrake_bloodfang_l_upperarm", "offset": -6 }
+				]
+			},
+			{
+				"time": 0.7333,
+				"offsets": [
+					{ "slot": "blackdrake_bloodfang_r_forearm", "offset": 8 },
+					{ "slot": "blackdrake_bloodfang_r_upperarm", "offset": 9 },
+					{ "slot": "blackdrake_bloodfang_r_hand", "offset": 7 },
+					{ "slot": "blackdrake_bloodfang_head", "offset": 3 }
+				]
+			},
+			{
+				"time": 0.7666,
+				"offsets": [
+					{ "slot": "blackdrake_bloodfang_r_forearm", "offset": 8 },
+					{ "slot": "blackdrake_bloodfang_r_upperarm", "offset": 9 },
+					{ "slot": "blackdrake_bloodfang_r_hand", "offset": 7 }
+				]
+			}
+		]
+	},
+	"dead": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.1, "name": "blackdrake_bloodfang_head2" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -31.43 },
+					{ "time": 0.3333, "angle": -50.83 },
+					{ "time": 0.4666, "angle": -90.9, "curve": "stepped" },
+					{ "time": 0.6, "angle": -90.9, "curve": "stepped" },
+					{ "time": 0.7333, "angle": -90.9, "curve": "stepped" },
+					{ "time": 0.8666, "angle": -90.9 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 33.37, "y": 41.48 },
+					{ "time": 0.3333, "x": 73.36, "y": 57.69 },
+					{ "time": 0.4666, "x": 85.34, "y": -15.39 },
+					{ "time": 0.6, "x": 85.34, "y": -3.39 },
+					{ "time": 0.7333, "x": 85.34, "y": -18.39 },
+					{ "time": 0.8666, "x": 85.34, "y": -15.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -9.73, "curve": "stepped" },
+					{ "time": 0.3333, "angle": -9.73 },
+					{ "time": 0.4666, "angle": -32.97, "curve": "stepped" },
+					{ "time": 0.6, "angle": -32.97, "curve": "stepped" },
+					{ "time": 0.7333, "angle": -32.97, "curve": "stepped" },
+					{ "time": 0.8666, "angle": -32.97 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": -1.55, "y": -1.32, "curve": "stepped" },
+					{ "time": 0.3333, "x": -1.55, "y": -1.32 },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.6, "angle": 25.27 },
+					{ "time": 0.7333, "angle": 24.9 },
+					{ "time": 0.8666, "angle": 37.99 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.6, "x": 7.29, "y": -3.42 },
+					{ "time": 0.7333, "x": 10.19, "y": -3.25 },
+					{ "time": 0.8666, "x": 16.62, "y": -5.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 },
+					{ "time": 0.7333, "angle": -15.29 },
+					{ "time": 0.8666, "angle": 15.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": 1.28, "y": 1.82 },
+					{ "time": 0.8666, "x": 1.4, "y": -18.99 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -35.31 },
+					{ "time": 0.3333, "angle": -5.15 },
+					{ "time": 0.4666, "angle": -17.08 },
+					{ "time": 0.6, "angle": 7.93 },
+					{ "time": 0.7333, "angle": -2.27 },
+					{ "time": 0.8666, "angle": 2.82 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 4.27, "y": -4.39, "curve": "stepped" },
+					{ "time": 0.3333, "x": 4.27, "y": -4.39 },
+					{ "time": 0.4666, "x": -1.89, "y": -2.09 },
+					{ "time": 0.6, "x": -1.44, "y": -9.73 },
+					{ "time": 0.7333, "x": -0.85, "y": -10.61 },
+					{ "time": 0.8666, "x": -1.15, "y": -10.17 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": 4.19, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 4.19 },
+					{ "time": 0.4666, "angle": 19.65 },
+					{ "time": 0.6, "angle": -7.56 },
+					{ "time": 0.7333, "angle": 3.99 },
+					{ "time": 0.8666, "angle": -6.87 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 3.32, "y": -11.31, "curve": "stepped" },
+					{ "time": 0.3333, "x": 3.32, "y": -11.31 },
+					{ "time": 0.4666, "x": 5.71, "y": 0.29, "curve": "stepped" },
+					{ "time": 0.6, "x": 5.71, "y": 0.29 },
+					{ "time": 0.7333, "x": 6.19, "y": -3.67 },
+					{ "time": 0.8666, "x": 5.71, "y": 0.29 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -9.73, "curve": "stepped" },
+					{ "time": 0.3333, "angle": -9.73 },
+					{ "time": 0.4666, "angle": -28.56, "curve": "stepped" },
+					{ "time": 0.6, "angle": -28.56, "curve": "stepped" },
+					{ "time": 0.7333, "angle": -28.56, "curve": "stepped" },
+					{ "time": 0.8666, "angle": -28.56 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 2.1, "y": -0.7, "curve": "stepped" },
+					{ "time": 0.3333, "x": 2.1, "y": -0.7 },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -9.73, "curve": "stepped" },
+					{ "time": 0.3333, "angle": -9.73 },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 0.4, "y": 0.35, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0.4, "y": 0.35 },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -36.52 },
+					{ "time": 0.3333, "angle": -44.57 },
+					{ "time": 0.4666, "angle": -46.2 },
+					{ "time": 0.6, "angle": -24.65 },
+					{ "time": 0.7333, "angle": -46.2 },
+					{ "time": 0.8666, "angle": -35.43 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": -3.39, "y": -6.16 },
+					{ "time": 0.3333, "x": 3.93, "y": 1.57 },
+					{ "time": 0.4666, "x": -0.15, "y": 12.4 },
+					{ "time": 0.6, "x": -2.44, "y": 19.33 },
+					{ "time": 0.7333, "x": -0.15, "y": 12.4 },
+					{ "time": 0.8666, "x": -1.3, "y": 15.86 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 30, "y": 0 },
+					{ "time": 0.3333, "x": 80, "y": 0 },
+					{ "time": 0.4666, "x": 98, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 0.841, "y": 1 },
+					{ "time": 0.3333, "x": 0.882, "y": 1 },
+					{ "time": 0.4666, "x": 1.455, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -9.73, "curve": "stepped" },
+					{ "time": 0.3333, "angle": -9.73 },
+					{ "time": 0.4666, "angle": -19.31 },
+					{ "time": 0.6, "angle": -329.91 },
+					{ "time": 0.7333, "angle": 2.76 },
+					{ "time": 0.8666, "angle": -334.38 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": 1.34, "y": -0.54, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1.34, "y": -0.54 },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 },
+					{ "time": 0.4666, "angle": -309.35, "curve": "stepped" },
+					{ "time": 0.6, "angle": -309.35 },
+					{ "time": 0.7333, "angle": -326.96 },
+					{ "time": 0.8666, "angle": 41.84 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": 0.66, "y": 14.85, "curve": "stepped" },
+					{ "time": 0.6, "x": 0.66, "y": 14.85 },
+					{ "time": 0.7333, "x": 1.56, "y": 10.95 },
+					{ "time": 0.8666, "x": 1.11, "y": 12.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -9.73, "curve": "stepped" },
+					{ "time": 0.3333, "angle": -9.73 },
+					{ "time": 0.4666, "angle": 322.18 },
+					{ "time": 0.6, "angle": -15.54 },
+					{ "time": 0.7333, "angle": 330.18 },
+					{ "time": 0.8666, "angle": 331.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": -1.34, "y": -0.98, "curve": "stepped" },
+					{ "time": 0.3333, "x": -1.34, "y": -0.98 },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": 16.4, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 16.4 },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": -1.13, "y": 6.81, "curve": "stepped" },
+					{ "time": 0.3333, "x": -1.13, "y": 6.81 },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.1333, "name": "blackdrake_bloodfang_head5" },
+					{ "time": 0.5333, "name": "blackdrake_bloodfang_head1" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -26.39 },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 37, "y": 5 },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 12.87 },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -39.35 },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 2.62, "y": 5.93 },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 24, "y": 0 },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -13.46 },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -335.22 },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 1.21, "y": 5.24 },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 22.2 },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -3.6, "y": 7.79 },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"reverse-walk": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.2666, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.4666, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.7333, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.9333, "name": "blackdrake_bloodfang_head1" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": 0.16, "y": 3.33 },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": 0.16, "y": 3.33 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": -20.98 },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.7333, "angle": -20.98 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": -1.67, "y": -0.01 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": -5.12 },
+					{ "time": 0.4666, "angle": -28.54 },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": -4.06, "y": -1.4 },
+					{ "time": 0.4666, "x": -7.87, "y": 4.8 },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": -9.73 },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0 },
+					{ "time": 0.9333, "angle": -9.73 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": 2.51, "y": -4.76 },
+					{ "time": 0.4666, "x": 0.4, "y": -7.61 },
+					{ "time": 0.7333, "x": 0.42, "y": -3.97 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": 12.26 },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.7333, "angle": 12.26 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": -1.67, "y": -0.01 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": 0.99, "y": 0.1 },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": -0.84, "y": 0.07 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 5.95 },
+					{ "time": 0.2666, "angle": -3.6 },
+					{ "time": 0.4666, "angle": -3.83 },
+					{ "time": 0.7333, "angle": 0 },
+					{ "time": 0.9333, "angle": 5.95 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": 1.77, "y": 2.19 },
+					{ "time": 0.4666, "x": -0.31, "y": 2.98 },
+					{ "time": 0.7333, "x": -0.01, "y": 0.16 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2666, "x": 0.921, "y": 1 },
+					{ "time": 0.4666, "x": 1, "y": 1 },
+					{ "time": 0.7333, "x": 0.921, "y": 1 },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": -12.83 },
+					{ "time": 0.2666, "angle": 0 },
+					{ "time": 0.4666, "angle": 11.65 },
+					{ "time": 0.7333, "angle": -11.17 },
+					{ "time": 0.9333, "angle": -12.83 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.41, "y": 4.79 },
+					{ "time": 0.2666, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": -2.88, "y": -5.57 },
+					{ "time": 0.7333, "x": 1.27, "y": 6.88 },
+					{ "time": 0.9333, "x": 1.41, "y": 4.79 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": -305.31 },
+					{ "time": 0.2666, "angle": 10.83 },
+					{ "time": 0.4666, "angle": -9.69 },
+					{ "time": 0.7333, "angle": -2.1 },
+					{ "time": 0.9333, "angle": -305.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": 1.31, "y": -2.87 },
+					{ "time": 0.4666, "x": -0.78, "y": -2.09 },
+					{ "time": 0.7333, "x": -1.41, "y": -2.5 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": -270.87 },
+					{ "time": 0.4666, "angle": -329.59 },
+					{ "time": 0.7333, "angle": 9.7 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": -10.82, "y": 22.7 },
+					{ "time": 0.4666, "x": 3.61, "y": 9.32 },
+					{ "time": 0.7333, "x": 2.12, "y": 1.38 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 306.3 },
+					{ "time": 0.2666, "angle": 311.12 },
+					{ "time": 0.4666, "angle": 3.57 },
+					{ "time": 0.7333, "angle": -11.3 },
+					{ "time": 0.9333, "angle": 306.3 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.97, "y": -0.42 },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": -2.86, "y": 4.89 },
+					{ "time": 0.9333, "x": -3.97, "y": -0.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": -10.83 },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.7333, "angle": 48.19 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": 2.63, "y": -2.14 },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": -12.6, "y": 9.33 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": -1 },
+					{ "time": 0.4666, "angle": -9.6 },
+					{ "time": 0.7333, "angle": -18.16 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": -2.24, "y": -4.46 },
+					{ "time": 0.4666, "x": -0.66, "y": -3.53 },
+					{ "time": 0.7333, "x": 0.89, "y": 1.78 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"selected": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.3333, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.6666, "name": "blackdrake_bloodfang_head1" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": 15 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 7.52 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 3.89 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -8.98 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.861, "y": 1 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"stand": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.5, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.8333, "name": "blackdrake_bloodfang_head1" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4, "x": 0, "y": 2 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.115, "y": 1 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 8.48 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 1.98, "y": 0.21 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -4.15 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 0.99, "y": 0.1 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.071, "y": 1 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4, "x": 0.99, "y": 0.1 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -10.84 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 1.98, "y": 0.21 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4, "angle": 6.21 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4, "x": -2.01, "y": -0.96 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4, "x": 1.9, "y": -0.6 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.065, "y": 1 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4, "x": 1.84, "y": 0.78 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.056, "y": 1 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"victory": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.1, "name": "blackdrake_bloodfang_head2" },
+					{ "time": 0.2666, "name": "blackdrake_bloodfang_head4" },
+					{ "time": 0.7666, "name": "blackdrake_bloodfang_head2" },
+					{ "time": 0.9333, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.9666, "name": "blackdrake_bloodfang_head1" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.4333, "angle": -5.73 },
+					{ "time": 0.6333, "angle": -4.3 },
+					{ "time": 0.8, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": 0, "y": -4 },
+					{ "time": 0.4333, "x": 0, "y": 30 },
+					{ "time": 0.6333, "x": 0, "y": 19 },
+					{ "time": 0.8, "x": 0, "y": -9 },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 4.57 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6333, "angle": 1.14 },
+					{ "time": 0.8, "angle": 4.57 },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": -32.11 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6333, "angle": -8.02 },
+					{ "time": 0.8, "angle": -32.11 },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -14.89, "y": 9.97 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.6333, "x": -3.72, "y": 2.49 },
+					{ "time": 0.8, "x": -5.43, "y": 3.59 },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": -18.34 },
+					{ "time": 0.4333, "angle": -136.9 },
+					{ "time": 0.6333, "angle": -118.7 },
+					{ "time": 0.8, "angle": -18.34 },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 44.67, "y": 17.86 },
+					{ "time": 0.6333, "x": 30.72, "y": 23.05 },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 11.15 },
+					{ "time": 0.4333, "angle": -28.28 },
+					{ "time": 0.6333, "angle": -18.42 },
+					{ "time": 0.8, "angle": 11.15 },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": 0.18, "y": -1.25 },
+					{ "time": 0.4333, "x": -3.91, "y": -0.81 },
+					{ "time": 0.6333, "x": 2.99, "y": 0.22 },
+					{ "time": 0.8, "x": 0.18, "y": -1.25 },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": -8.14 },
+					{ "time": 0.4333, "angle": -29.22 },
+					{ "time": 0.6333, "angle": -25.17 },
+					{ "time": 0.8, "angle": -8.14 },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 8.36 },
+					{ "time": 0.4333, "angle": 11.55 },
+					{ "time": 0.6333, "angle": 35.27 },
+					{ "time": 0.8, "angle": 18.8 },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": -9.78, "y": -3.57 },
+					{ "time": 0.6333, "x": -2.84, "y": -7.91 },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 1.125, "y": 1 },
+					{ "time": 0.4333, "x": 0.924, "y": 1 },
+					{ "time": 0.6333, "x": 1.014, "y": 1 },
+					{ "time": 0.8, "x": 1.125, "y": 1 },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6333, "angle": -11.51 },
+					{ "time": 0.8, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.6333, "x": 2.75, "y": 4.17 },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": -6.91 },
+					{ "time": 0.4333, "angle": -24.79 },
+					{ "time": 0.6333, "angle": -34.88 },
+					{ "time": 0.8, "angle": -6.91 },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 0.973, "y": 0.973 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 0.993, "y": 0.993 },
+					{ "time": 0.8, "x": 0.973, "y": 0.973 },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.4333, "angle": 7.59 },
+					{ "time": 0.6333, "angle": 5.69 },
+					{ "time": 0.8, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -1.84, "y": 1.81 },
+					{ "time": 0.4333, "x": -0.36, "y": 3.14 },
+					{ "time": 0.6333, "x": -0.73, "y": 2.81 },
+					{ "time": 0.8, "x": -7.17, "y": 3.32 },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 0.994, "y": 1 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 0.998, "y": 1 },
+					{ "time": 0.8, "x": 0.994, "y": 1 },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -1.98, "y": -0.21 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.6333, "x": -0.49, "y": -0.05 },
+					{ "time": 0.8, "x": -1.98, "y": -0.21 },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 0.893, "y": 1 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 0.973, "y": 1 },
+					{ "time": 0.8, "x": 0.893, "y": 1 },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 6.91 },
+					{ "time": 0.4333, "angle": 52.27 },
+					{ "time": 0.6333, "angle": 59.01 },
+					{ "time": 0.8, "angle": 6.91 },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2333, "x": -3.63, "y": 2.39 },
+					{ "time": 0.4333, "x": -12.36, "y": 12.33 },
+					{ "time": 0.6333, "x": -14.19, "y": 14.36 },
+					{ "time": 0.8, "x": -8.08, "y": -0.16 },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 0.966, "y": 1.027 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 0.991, "y": 1.006 },
+					{ "time": 0.8, "x": 0.966, "y": 1.027 },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 },
+					{ "time": 0.4333, "angle": -23.51 },
+					{ "time": 0.6333, "angle": -34.08 },
+					{ "time": 0.8, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 8.33, "y": 10.25 },
+					{ "time": 0.6333, "x": 12.37, "y": 10.11 },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"walk": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.1333, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.2666, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.4333, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.5666, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.7, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.8666, "name": "blackdrake_bloodfang_head1" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 9, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 9, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 9, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 9, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 9, "curve": "stepped" },
+					{ "time": 0.7, "angle": 9, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 9 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 18 },
+					{ "time": 0.1333, "x": 0, "y": -5 },
+					{ "time": 0.2666, "x": 0, "y": 4 },
+					{ "time": 0.4333, "x": 0, "y": 18 },
+					{ "time": 0.5666, "x": 0, "y": -5 },
+					{ "time": 0.7, "x": 0, "y": 4 },
+					{ "time": 0.8666, "x": 0, "y": 18 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 14.31 },
+					{ "time": 0.1333, "angle": 0 },
+					{ "time": 0.2666, "angle": -15.86 },
+					{ "time": 0.4333, "angle": 14.31 },
+					{ "time": 0.5666, "angle": 0 },
+					{ "time": 0.7, "angle": -15.86 },
+					{ "time": 0.8666, "angle": 14.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.2666, "x": 1.143, "y": 1 },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 },
+					{ "time": 0.7, "x": 1.143, "y": 1 },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": -42.8 },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0 },
+					{ "time": 0.4333, "angle": -7.9 },
+					{ "time": 0.5666, "angle": 20.13 },
+					{ "time": 0.7, "angle": -11.43 },
+					{ "time": 0.8666, "angle": -42.8 }
+				],
+				"translate": [
+					{ "time": 0, "x": -11.37, "y": 10.77 },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 0.11, "y": -3.4 },
+					{ "time": 0.5666, "x": 7.21, "y": -8.34 },
+					{ "time": 0.7, "x": -6.99, "y": -1.38 },
+					{ "time": 0.8666, "x": -11.37, "y": 10.77 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 27.93 },
+					{ "time": 0.1333, "angle": 1.36 },
+					{ "time": 0.2666, "angle": 3 },
+					{ "time": 0.4333, "angle": -1.95 },
+					{ "time": 0.5666, "angle": -7.79 },
+					{ "time": 0.7, "angle": 7.48 },
+					{ "time": 0.8666, "angle": 27.93 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.59, "y": -9.08 },
+					{ "time": 0.1333, "x": -0.1, "y": -1.99 },
+					{ "time": 0.2666, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 2.57, "y": 0.81 },
+					{ "time": 0.5666, "x": -0.3, "y": -5.99 },
+					{ "time": 0.7, "x": -0.56, "y": -10.98 },
+					{ "time": 0.8666, "x": 4.59, "y": -9.08 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{ "time": 0, "angle": 4.49 },
+					{ "time": 0.1333, "angle": 0 },
+					{ "time": 0.2666, "angle": 4.15 },
+					{ "time": 0.4333, "angle": 4.49 },
+					{ "time": 0.5666, "angle": 0 },
+					{ "time": 0.7, "angle": 5.67 },
+					{ "time": 0.8666, "angle": 4.49 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{ "time": 0, "angle": -12.91 },
+					{ "time": 0.1333, "angle": 0 },
+					{ "time": 0.2666, "angle": 15.06 },
+					{ "time": 0.4333, "angle": -12.91 },
+					{ "time": 0.5666, "angle": 0 },
+					{ "time": 0.7, "angle": -15.91 },
+					{ "time": 0.8666, "angle": -12.91 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.2666, "x": 1.072, "y": 1 },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1 },
+					{ "time": 0.7, "x": 1.072, "y": 1 },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": -15.63 },
+					{ "time": 0.1333, "angle": -16.5 },
+					{ "time": 0.2666, "angle": -7.98 },
+					{ "time": 0.4333, "angle": 13.68 },
+					{ "time": 0.5666, "angle": 0.61 },
+					{ "time": 0.7, "angle": -5.11 },
+					{ "time": 0.8666, "angle": -15.63 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.51, "y": 9.98 },
+					{ "time": 0.1333, "x": 1.91, "y": 4.53 },
+					{ "time": 0.2666, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": -0.25, "y": -4.99 },
+					{ "time": 0.5666, "x": 1.91, "y": 4.53 },
+					{ "time": 0.7, "x": -3.31, "y": 8.33 },
+					{ "time": 0.8666, "x": 0.51, "y": 9.98 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.894, "y": 1 },
+					{ "time": 0.1333, "x": 1.147, "y": 1 },
+					{ "time": 0.2666, "x": 0.924, "y": 1 },
+					{ "time": 0.4333, "x": 0.894, "y": 1 },
+					{ "time": 0.5666, "x": 1.147, "y": 1 },
+					{ "time": 0.7, "x": 0.924, "y": 1 },
+					{ "time": 0.8666, "x": 0.894, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 15.15 },
+					{ "time": 0.1333, "angle": -20.73 },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.5666, "angle": -11.85 },
+					{ "time": 0.7, "angle": 0 },
+					{ "time": 0.8666, "angle": 15.15 }
+				],
+				"translate": [
+					{ "time": 0, "x": -4.43, "y": -7.91 },
+					{ "time": 0.1333, "x": 1.39, "y": 10.51 },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.5666, "x": 1.23, "y": 7.52 },
+					{ "time": 0.7, "x": 0, "y": 0 },
+					{ "time": 0.8666, "x": -4.43, "y": -7.91 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": -16.6 },
+					{ "time": 0.1333, "angle": -13.83 },
+					{ "time": 0.2666, "angle": -313.77 },
+					{ "time": 0.4333, "angle": -289.82 },
+					{ "time": 0.5666, "angle": -23.07 },
+					{ "time": 0.7, "angle": -25.11 },
+					{ "time": 0.8666, "angle": -16.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": -0.06, "y": -6.42 },
+					{ "time": 0.2666, "x": -0.1, "y": -1.99 },
+					{ "time": 0.4333, "x": -0.25, "y": -4.99 },
+					{ "time": 0.5666, "x": -0.06, "y": -6.42 },
+					{ "time": 0.7, "x": -0.1, "y": -1.99 },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": -329.78 },
+					{ "time": 0.1333, "angle": -253.93 },
+					{ "time": 0.2666, "angle": -318.68 },
+					{ "time": 0.4333, "angle": -329.78 },
+					{ "time": 0.5666, "angle": -282.69 },
+					{ "time": 0.7, "angle": -336.75 },
+					{ "time": 0.8666, "angle": -329.78 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.8, "y": 7.57 },
+					{ "time": 0.1333, "x": -14.86, "y": 19.6 },
+					{ "time": 0.2666, "x": -0.16, "y": 11.5 },
+					{ "time": 0.4333, "x": 0.8, "y": 7.57 },
+					{ "time": 0.5666, "x": -10.09, "y": 19.26 },
+					{ "time": 0.7, "x": 2.35, "y": 9.67 },
+					{ "time": 0.8666, "x": 0.8, "y": 7.57 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 22.89 },
+					{ "time": 0.1333, "angle": 297.81 },
+					{ "time": 0.2666, "angle": 315.57 },
+					{ "time": 0.4333, "angle": 295.19 },
+					{ "time": 0.5666, "angle": 303.43 },
+					{ "time": 0.7, "angle": -9.29 },
+					{ "time": 0.8666, "angle": 22.89 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": -2.4, "y": -7.88 },
+					{ "time": 0.2666, "x": 0.45, "y": 8.82 },
+					{ "time": 0.4333, "x": -0.79, "y": 4.04 },
+					{ "time": 0.5666, "x": -2.74, "y": -6.18 },
+					{ "time": 0.7, "x": -4.82, "y": 4.46 },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": 23.2 },
+					{ "time": 0.2666, "angle": -22.53 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.5666, "angle": 63.41 },
+					{ "time": 0.7, "angle": 55.41 },
+					{ "time": 0.8666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1333, "x": -7.51, "y": 7.57 },
+					{ "time": 0.2666, "x": 4.85, "y": -6.95 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.5666, "x": -16.44, "y": 11.87 },
+					{ "time": 0.7, "x": -14.16, "y": 10.46 },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": -13.05 },
+					{ "time": 0.1333, "angle": -17.94 },
+					{ "time": 0.2666, "angle": -14.64 },
+					{ "time": 0.4333, "angle": -30.36 },
+					{ "time": 0.5666, "angle": -17.94 },
+					{ "time": 0.7, "angle": -23.73 },
+					{ "time": 0.8666, "angle": -13.05 }
+				],
+				"translate": [
+					{ "time": 0, "x": -5.37, "y": -2.67 },
+					{ "time": 0.1333, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": 2.49, "y": 3.12 },
+					{ "time": 0.4333, "x": 7.51, "y": 8.29 },
+					{ "time": 0.5666, "x": 0, "y": 0 },
+					{ "time": 0.7, "x": -2.06, "y": 1.57 },
+					{ "time": 0.8666, "x": -5.37, "y": -2.67 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"walk001": {
+		"slots": {
+			"blackdrake_bloodfang_head": {
+				"attachment": [
+					{ "time": 0, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.2, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.4666, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.6666, "name": "blackdrake_bloodfang_head1" },
+					{ "time": 0.9333, "name": "blackdrake_bloodfang_head1" }
+				]
+			}
+		},
+		"bones": {
+			"blackdrake_bloodfang_body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 0.16, "y": 3.33 },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0.16, "y": 3.33 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -20.98 },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.6666, "angle": -20.98 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -1.67, "y": -0.01 },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.4666, "angle": -28.54 },
+					{ "time": 0.6666, "angle": -5.12 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": -7.87, "y": 4.8 },
+					{ "time": 0.6666, "x": -4.06, "y": -1.4 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_hand": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": -9.73 },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 },
+					{ "time": 0.9333, "angle": -9.73 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 0.42, "y": -3.97 },
+					{ "time": 0.4666, "x": 0.4, "y": -7.61 },
+					{ "time": 0.6666, "x": 2.51, "y": -4.76 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 12.26 },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.6666, "angle": 12.26 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -1.67, "y": -0.01 },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_plevis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -0.84, "y": 0.07 },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0.99, "y": 0.1 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_upperarm": {
+				"rotate": [
+					{ "time": 0, "angle": 5.95 },
+					{ "time": 0.2, "angle": 0 },
+					{ "time": 0.4666, "angle": -3.83 },
+					{ "time": 0.6666, "angle": -3.6 },
+					{ "time": 0.9333, "angle": 5.95 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -0.01, "y": 0.16 },
+					{ "time": 0.4666, "x": -0.31, "y": 2.98 },
+					{ "time": 0.6666, "x": 1.77, "y": 2.19 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_shadow": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 0.921, "y": 1 },
+					{ "time": 0.4666, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 0.921, "y": 1 },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_hand": {
+				"rotate": [
+					{ "time": 0, "angle": -12.83 },
+					{ "time": 0.2, "angle": -11.17 },
+					{ "time": 0.4666, "angle": 11.65 },
+					{ "time": 0.6666, "angle": 0 },
+					{ "time": 0.9333, "angle": -12.83 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.41, "y": 4.79 },
+					{ "time": 0.2, "x": 1.27, "y": 6.88 },
+					{ "time": 0.4666, "x": -2.88, "y": -5.57 },
+					{ "time": 0.6666, "x": 0, "y": 0 },
+					{ "time": 0.9333, "x": 1.41, "y": 4.79 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": -305.31 },
+					{ "time": 0.2, "angle": -2.1 },
+					{ "time": 0.4666, "angle": -9.69 },
+					{ "time": 0.6666, "angle": 10.83 },
+					{ "time": 0.9333, "angle": -305.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -1.41, "y": -2.5 },
+					{ "time": 0.4666, "x": -0.78, "y": -2.09 },
+					{ "time": 0.6666, "x": 1.31, "y": -2.87 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 9.7 },
+					{ "time": 0.4666, "angle": -329.59 },
+					{ "time": 0.6666, "angle": -270.87 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 2.12, "y": 1.38 },
+					{ "time": 0.4666, "x": 3.61, "y": 9.32 },
+					{ "time": 0.6666, "x": -10.82, "y": 22.7 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_l_thigh": {
+				"rotate": [
+					{ "time": 0, "angle": 306.3 },
+					{ "time": 0.2, "angle": -11.3 },
+					{ "time": 0.4666, "angle": 3.57 },
+					{ "time": 0.6666, "angle": 311.12 },
+					{ "time": 0.9333, "angle": 306.3 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.97, "y": -0.42 },
+					{ "time": 0.2, "x": -2.86, "y": 4.89 },
+					{ "time": 0.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 },
+					{ "time": 0.9333, "x": -3.97, "y": -0.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_calf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 48.19 },
+					{ "time": 0.4666, "angle": 0 },
+					{ "time": 0.6666, "angle": -10.83 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -12.6, "y": 9.33 },
+					{ "time": 0.4666, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 2.63, "y": -2.14 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			},
+			"blackdrake_bloodfang_r_forearm": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -18.16 },
+					{ "time": 0.4666, "angle": -9.6 },
+					{ "time": 0.6666, "angle": -1 },
+					{ "time": 0.9333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 0.89, "y": 1.78 },
+					{ "time": 0.4666, "x": -0.66, "y": -3.53 },
+					{ "time": 0.6666, "x": -2.24, "y": -4.46 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

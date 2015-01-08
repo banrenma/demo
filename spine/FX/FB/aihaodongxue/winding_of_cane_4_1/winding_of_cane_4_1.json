@@ -1,0 +1,33 @@
+{
+"bones": [
+	{ "name": "root", "y": 70.99 }
+],
+"slots": [
+	{ "name": "winding_of_cane_3_1", "bone": "root", "attachment": "winding_of_cane_1_6" }
+],
+"skins": {
+	"default": {
+		"winding_of_cane_3_1": {
+			"winding_of_cane_1_6": { "width": 180, "height": 160 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"winding_of_cane_3_1": {
+				"attachment": [
+					{ "time": 0, "name": "winding_of_cane_1_6" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

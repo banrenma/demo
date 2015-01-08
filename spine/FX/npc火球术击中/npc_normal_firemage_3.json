@@ -1,0 +1,44 @@
+{
+"bones": [
+	{ "name": "root", "y": 32 }
+],
+"slots": [
+	{ "name": "npc_normal_firemage_3", "bone": "root", "attachment": "npc_normal_firemage_3_10" }
+],
+"skins": {
+	"default": {
+		"npc_normal_firemage_3": {
+			"npc_normal_firemage_3_01": { "width": 260, "height": 240 },
+			"npc_normal_firemage_3_02": { "width": 260, "height": 240 },
+			"npc_normal_firemage_3_03": { "width": 260, "height": 240 },
+			"npc_normal_firemage_3_04": { "width": 260, "height": 240 },
+			"npc_normal_firemage_3_05": { "width": 260, "height": 240 },
+			"npc_normal_firemage_3_06": { "width": 260, "height": 240 },
+			"npc_normal_firemage_3_07": { "width": 260, "height": 240 },
+			"npc_normal_firemage_3_08": { "width": 260, "height": 240 },
+			"npc_normal_firemage_3_09": { "width": 260, "height": 240 },
+			"npc_normal_firemage_3_10": { "width": 260, "height": 240 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"npc_normal_firemage_3": {
+				"attachment": [
+					{ "time": 0, "name": "npc_normal_firemage_3_01" },
+					{ "time": 0.0666, "name": "npc_normal_firemage_3_02" },
+					{ "time": 0.1333, "name": "npc_normal_firemage_3_03" },
+					{ "time": 0.2, "name": "npc_normal_firemage_3_04" },
+					{ "time": 0.2666, "name": "npc_normal_firemage_3_05" },
+					{ "time": 0.3333, "name": "npc_normal_firemage_3_06" },
+					{ "time": 0.4, "name": "npc_normal_firemage_3_07" },
+					{ "time": 0.4666, "name": "npc_normal_firemage_3_08" },
+					{ "time": 0.5333, "name": "npc_normal_firemage_3_09" },
+					{ "time": 0.6, "name": "npc_normal_firemage_3_10" }
+				]
+			}
+		}
+	}
+}
+}

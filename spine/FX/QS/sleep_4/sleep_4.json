@@ -1,0 +1,44 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "sleep_4_0001", "bone": "root", "attachment": "sleep_4_0019" }
+],
+"skins": {
+	"default": {
+		"sleep_4_0001": {
+			"sleep_4_0001": { "width": 70, "height": 80 },
+			"sleep_4_0003": { "width": 70, "height": 80 },
+			"sleep_4_0005": { "width": 70, "height": 80 },
+			"sleep_4_0007": { "width": 70, "height": 80 },
+			"sleep_4_0009": { "width": 70, "height": 80 },
+			"sleep_4_0011": { "width": 70, "height": 80 },
+			"sleep_4_0013": { "width": 70, "height": 80 },
+			"sleep_4_0015": { "width": 70, "height": 80 },
+			"sleep_4_0017": { "width": 70, "height": 80 },
+			"sleep_4_0019": { "width": 70, "height": 80 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sleep_4_0001": {
+				"attachment": [
+					{ "time": 0, "name": "sleep_4_0001" },
+					{ "time": 0.0666, "name": "sleep_4_0003" },
+					{ "time": 0.1333, "name": "sleep_4_0005" },
+					{ "time": 0.2, "name": "sleep_4_0007" },
+					{ "time": 0.2666, "name": "sleep_4_0009" },
+					{ "time": 0.3333, "name": "sleep_4_0011" },
+					{ "time": 0.4, "name": "sleep_4_0013" },
+					{ "time": 0.4666, "name": "sleep_4_0015" },
+					{ "time": 0.5333, "name": "sleep_4_0017" },
+					{ "time": 0.6, "name": "sleep_4_0019" }
+				]
+			}
+		}
+	}
+}
+}

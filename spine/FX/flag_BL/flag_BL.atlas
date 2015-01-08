@@ -1,0 +1,117 @@
+
+flag_BL.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+002
+  rotate: false
+  xy: 2, 94
+  size: 62, 123
+  orig: 62, 123
+  offset: 0, 0
+  index: -1
+flag_BL_01
+  rotate: false
+  xy: 232, 148
+  size: 80, 69
+  orig: 94, 78
+  offset: 8, 0
+  index: -1
+flag_BL_02
+  rotate: false
+  xy: 66, 148
+  size: 81, 69
+  orig: 94, 78
+  offset: 8, 0
+  index: -1
+flag_BL_03
+  rotate: false
+  xy: 149, 148
+  size: 81, 69
+  orig: 94, 78
+  offset: 9, 1
+  index: -1
+flag_BL_04
+  rotate: false
+  xy: 314, 148
+  size: 80, 69
+  orig: 94, 78
+  offset: 9, 2
+  index: -1
+flag_BL_05
+  rotate: false
+  xy: 70, 80
+  size: 80, 66
+  orig: 94, 78
+  offset: 9, 3
+  index: -1
+flag_BL_06
+  rotate: false
+  xy: 152, 13
+  size: 80, 65
+  orig: 94, 78
+  offset: 9, 3
+  index: -1
+flag_BL_07
+  rotate: false
+  xy: 70, 12
+  size: 80, 66
+  orig: 94, 78
+  offset: 9, 3
+  index: -1
+flag_BL_08
+  rotate: false
+  xy: 234, 81
+  size: 80, 65
+  orig: 94, 78
+  offset: 9, 4
+  index: -1
+flag_BL_09
+  rotate: false
+  xy: 316, 2
+  size: 80, 62
+  orig: 94, 78
+  offset: 9, 6
+  index: -1
+flag_BL_10
+  rotate: true
+  xy: 383, 67
+  size: 79, 63
+  orig: 94, 78
+  offset: 9, 5
+  index: -1
+flag_BL_11
+  rotate: false
+  xy: 234, 14
+  size: 80, 65
+  orig: 94, 78
+  offset: 8, 4
+  index: -1
+flag_BL_12
+  rotate: true
+  xy: 316, 66
+  size: 80, 65
+  orig: 94, 78
+  offset: 8, 3
+  index: -1
+flag_BL_13
+  rotate: true
+  xy: 2, 11
+  size: 81, 66
+  orig: 94, 78
+  offset: 8, 3
+  index: -1
+flag_BL_14
+  rotate: false
+  xy: 152, 80
+  size: 80, 66
+  orig: 94, 78
+  offset: 8, 3
+  index: -1
+flag_BL_15
+  rotate: false
+  xy: 396, 149
+  size: 81, 68
+  orig: 94, 78
+  offset: 8, 1
+  index: -1

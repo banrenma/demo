@@ -1,0 +1,30 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "ice_lance_3_1", "bone": "root", "attachment": "ice_lance_3_3" }
+],
+"skins": {
+	"default": {
+		"ice_lance_3_1": {
+			"ice_lance_3_1": { "x": 28, "y": 4.99, "width": 230, "height": 120 },
+			"ice_lance_3_2": { "x": 28, "y": 4.99, "width": 230, "height": 120 },
+			"ice_lance_3_3": { "x": 28, "y": 4.99, "width": 230, "height": 120 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"ice_lance_3_1": {
+				"attachment": [
+					{ "time": 0, "name": "ice_lance_3_1" },
+					{ "time": 0.0666, "name": "ice_lance_3_2" },
+					{ "time": 0.1333, "name": "ice_lance_3_3" }
+				]
+			}
+		}
+	}
+}
+}

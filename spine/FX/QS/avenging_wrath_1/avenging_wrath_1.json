@@ -1,0 +1,62 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "avenging_wrath_1_0001", "bone": "root", "attachment": "avenging_wrath_1_0019" }
+],
+"skins": {
+	"default": {
+		"avenging_wrath_1_0001": {
+			"avenging_wrath_1_0001": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0002": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0003": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0004": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0005": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0006": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0007": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0008": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0009": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0010": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0011": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0012": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0013": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0014": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0015": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0016": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0017": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0018": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_1_0019": { "x": 11, "y": 61.99, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"avenging_wrath_1_0001": {
+				"attachment": [
+					{ "time": 0, "name": "avenging_wrath_1_0001" },
+					{ "time": 0.0333, "name": "avenging_wrath_1_0002" },
+					{ "time": 0.0666, "name": "avenging_wrath_1_0003" },
+					{ "time": 0.1, "name": "avenging_wrath_1_0004" },
+					{ "time": 0.1333, "name": "avenging_wrath_1_0005" },
+					{ "time": 0.1666, "name": "avenging_wrath_1_0006" },
+					{ "time": 0.2, "name": "avenging_wrath_1_0007" },
+					{ "time": 0.2333, "name": "avenging_wrath_1_0008" },
+					{ "time": 0.2666, "name": "avenging_wrath_1_0009" },
+					{ "time": 0.3, "name": "avenging_wrath_1_0010" },
+					{ "time": 0.3333, "name": "avenging_wrath_1_0011" },
+					{ "time": 0.3666, "name": "avenging_wrath_1_0012" },
+					{ "time": 0.4, "name": "avenging_wrath_1_0013" },
+					{ "time": 0.4333, "name": "avenging_wrath_1_0014" },
+					{ "time": 0.4666, "name": "avenging_wrath_1_0015" },
+					{ "time": 0.5, "name": "avenging_wrath_1_0016" },
+					{ "time": 0.5333, "name": "avenging_wrath_1_0017" },
+					{ "time": 0.5666, "name": "avenging_wrath_1_0018" },
+					{ "time": 0.6, "name": "avenging_wrath_1_0019" }
+				]
+			}
+		}
+	}
+}
+}

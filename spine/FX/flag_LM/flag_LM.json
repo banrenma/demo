@@ -1,0 +1,58 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" }
+],
+"slots": [
+	{ "name": "002", "bone": "bone2", "attachment": "flag_LM_14" },
+	{ "name": "001", "bone": "bone", "attachment": "001" }
+],
+"skins": {
+	"default": {
+		"001": {
+			"001": { "width": 60, "height": 105 }
+		},
+		"002": {
+			"flag_LM_01": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_02": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_03": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_04": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_05": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_06": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_07": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_08": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_09": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_10": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_11": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_12": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_13": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 },
+			"flag_LM_14": { "x": 40.71, "y": -2.94, "width": 90, "height": 77 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"002": {
+				"attachment": [
+					{ "time": 0, "name": "flag_LM_01" },
+					{ "time": 0.0666, "name": "flag_LM_02" },
+					{ "time": 0.1333, "name": "flag_LM_03" },
+					{ "time": 0.2, "name": "flag_LM_04" },
+					{ "time": 0.2666, "name": "flag_LM_05" },
+					{ "time": 0.3333, "name": "flag_LM_06" },
+					{ "time": 0.4, "name": "flag_LM_07" },
+					{ "time": 0.4666, "name": "flag_LM_08" },
+					{ "time": 0.5333, "name": "flag_LM_09" },
+					{ "time": 0.6, "name": "flag_LM_10" },
+					{ "time": 0.6666, "name": "flag_LM_11" },
+					{ "time": 0.7333, "name": "flag_LM_12" },
+					{ "time": 0.8, "name": "flag_LM_13" },
+					{ "time": 0.8666, "name": "flag_LM_14" }
+				]
+			}
+		}
+	}
+}
+}

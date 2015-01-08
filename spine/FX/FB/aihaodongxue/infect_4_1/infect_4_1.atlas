@@ -1,0 +1,96 @@
+
+infect_4_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+infect_1_1
+  rotate: true
+  xy: 2, 124
+  size: 120, 72
+  orig: 120, 73
+  offset: 0, 0
+  index: -1
+infect_1_10
+  rotate: true
+  xy: 149, 2
+  size: 120, 71
+  orig: 120, 73
+  offset: 0, 0
+  index: -1
+infect_1_11
+  rotate: true
+  xy: 222, 124
+  size: 120, 71
+  orig: 120, 73
+  offset: 0, 0
+  index: -1
+infect_1_12
+  rotate: true
+  xy: 222, 2
+  size: 120, 71
+  orig: 120, 73
+  offset: 0, 0
+  index: -1
+infect_1_13
+  rotate: false
+  xy: 295, 173
+  size: 120, 71
+  orig: 120, 73
+  offset: 0, 0
+  index: -1
+infect_1_2
+  rotate: true
+  xy: 76, 124
+  size: 120, 71
+  orig: 120, 73
+  offset: 0, 0
+  index: -1
+infect_1_3
+  rotate: true
+  xy: 417, 124
+  size: 120, 70
+  orig: 120, 73
+  offset: 0, 1
+  index: -1
+infect_1_4
+  rotate: false
+  xy: 295, 101
+  size: 120, 70
+  orig: 120, 73
+  offset: 0, 1
+  index: -1
+infect_1_5
+  rotate: true
+  xy: 417, 3
+  size: 119, 70
+  orig: 120, 73
+  offset: 0, 1
+  index: -1
+infect_1_6
+  rotate: false
+  xy: 295, 29
+  size: 119, 70
+  orig: 120, 73
+  offset: 0, 1
+  index: -1
+infect_1_7
+  rotate: true
+  xy: 2, 2
+  size: 120, 72
+  orig: 120, 73
+  offset: 0, 0
+  index: -1
+infect_1_8
+  rotate: true
+  xy: 76, 2
+  size: 120, 71
+  orig: 120, 73
+  offset: 0, 0
+  index: -1
+infect_1_9
+  rotate: true
+  xy: 149, 124
+  size: 120, 71
+  orig: 120, 73
+  offset: 0, 0
+  index: -1

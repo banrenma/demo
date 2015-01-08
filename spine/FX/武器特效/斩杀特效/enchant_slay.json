@@ -1,0 +1,84 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "enchant_slay_0001", "bone": "root", "attachment": "enchant_slay_0059" }
+],
+"skins": {
+	"default": {
+		"enchant_slay_0001": {
+			"enchant_slay_0001": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0003": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0005": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0007": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0009": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0011": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0013": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0015": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0017": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0019": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0021": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0023": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0025": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0027": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0029": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0031": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0033": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0035": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0037": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0039": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0041": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0043": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0045": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0047": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0049": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0051": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0053": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0055": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0057": { "x": 2, "y": 62, "width": 80, "height": 180 },
+			"enchant_slay_0059": { "x": 2, "y": 62, "width": 80, "height": 180 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"enchant_slay_0001": {
+				"attachment": [
+					{ "time": 0, "name": "enchant_slay_0001" },
+					{ "time": 0.0666, "name": "enchant_slay_0003" },
+					{ "time": 0.1333, "name": "enchant_slay_0005" },
+					{ "time": 0.2, "name": "enchant_slay_0007" },
+					{ "time": 0.2666, "name": "enchant_slay_0009" },
+					{ "time": 0.3333, "name": "enchant_slay_0011" },
+					{ "time": 0.4, "name": "enchant_slay_0013" },
+					{ "time": 0.4666, "name": "enchant_slay_0015" },
+					{ "time": 0.5333, "name": "enchant_slay_0017" },
+					{ "time": 0.6, "name": "enchant_slay_0019" },
+					{ "time": 0.6666, "name": "enchant_slay_0021" },
+					{ "time": 0.7333, "name": "enchant_slay_0023" },
+					{ "time": 0.8, "name": "enchant_slay_0025" },
+					{ "time": 0.8666, "name": "enchant_slay_0027" },
+					{ "time": 0.9333, "name": "enchant_slay_0029" },
+					{ "time": 1, "name": "enchant_slay_0031" },
+					{ "time": 1.0666, "name": "enchant_slay_0033" },
+					{ "time": 1.1333, "name": "enchant_slay_0035" },
+					{ "time": 1.2, "name": "enchant_slay_0037" },
+					{ "time": 1.2666, "name": "enchant_slay_0039" },
+					{ "time": 1.3333, "name": "enchant_slay_0041" },
+					{ "time": 1.4, "name": "enchant_slay_0043" },
+					{ "time": 1.4666, "name": "enchant_slay_0045" },
+					{ "time": 1.5333, "name": "enchant_slay_0047" },
+					{ "time": 1.6, "name": "enchant_slay_0049" },
+					{ "time": 1.6666, "name": "enchant_slay_0051" },
+					{ "time": 1.7333, "name": "enchant_slay_0053" },
+					{ "time": 1.8, "name": "enchant_slay_0055" },
+					{ "time": 1.8666, "name": "enchant_slay_0057" },
+					{ "time": 1.9333, "name": "enchant_slay_0059" }
+				]
+			}
+		}
+	}
+}
+}

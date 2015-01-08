@@ -1,0 +1,89 @@
+
+blink_1_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blink_1_2_1
+  rotate: false
+  xy: 120, 11
+  size: 75, 89
+  orig: 140, 240
+  offset: 32, 59
+  index: -1
+blink_1_2_10
+  rotate: false
+  xy: 262, 307
+  size: 57, 56
+  orig: 140, 240
+  offset: 37, 159
+  index: -1
+blink_1_2_11
+  rotate: true
+  xy: 197, 44
+  size: 56, 55
+  orig: 140, 240
+  offset: 38, 165
+  index: -1
+blink_1_2_12
+  rotate: false
+  xy: 262, 280
+  size: 24, 25
+  orig: 140, 240
+  offset: 69, 200
+  index: -1
+blink_1_2_2
+  rotate: false
+  xy: 2, 2
+  size: 116, 133
+  orig: 140, 240
+  offset: 14, 37
+  index: -1
+blink_1_2_3
+  rotate: false
+  xy: 2, 317
+  size: 140, 174
+  orig: 140, 240
+  offset: 0, 16
+  index: -1
+blink_1_2_4
+  rotate: true
+  xy: 326, 354
+  size: 137, 167
+  orig: 140, 240
+  offset: 1, 20
+  index: -1
+blink_1_2_5
+  rotate: false
+  xy: 2, 137
+  size: 132, 178
+  orig: 140, 240
+  offset: 3, 23
+  index: -1
+blink_1_2_6
+  rotate: true
+  xy: 144, 365
+  size: 126, 180
+  orig: 140, 240
+  offset: 6, 27
+  index: -1
+blink_1_2_7
+  rotate: false
+  xy: 144, 268
+  size: 116, 95
+  orig: 140, 240
+  offset: 13, 117
+  index: -1
+blink_1_2_8
+  rotate: false
+  xy: 136, 183
+  size: 103, 83
+  orig: 140, 240
+  offset: 13, 135
+  index: -1
+blink_1_2_9
+  rotate: false
+  xy: 136, 102
+  size: 102, 79
+  orig: 140, 240
+  offset: 14, 144
+  index: -1

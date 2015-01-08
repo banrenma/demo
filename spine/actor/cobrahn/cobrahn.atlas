@@ -1,0 +1,292 @@
+
+cobrahn.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cobrahn_body
+  rotate: false
+  xy: 685, 70
+  size: 60, 56
+  orig: 72, 90
+  offset: 5, 7
+  index: -1
+cobrahn_body2
+  rotate: false
+  xy: 622, 69
+  size: 61, 57
+  orig: 72, 90
+  offset: 5, 7
+  index: -1
+cobrahn_body3
+  rotate: false
+  xy: 747, 71
+  size: 55, 55
+  orig: 64, 56
+  offset: 4, 0
+  index: -1
+cobrahn_body4
+  rotate: false
+  xy: 804, 71
+  size: 55, 55
+  orig: 64, 56
+  offset: 3, 0
+  index: -1
+cobrahn_hair1
+  rotate: true
+  xy: 351, 79
+  size: 47, 98
+  orig: 69, 98
+  offset: 14, 0
+  index: -1
+cobrahn_head1
+  rotate: false
+  xy: 51, 34
+  size: 58, 92
+  orig: 58, 92
+  offset: 0, 0
+  index: -1
+cobrahn_head2
+  rotate: false
+  xy: 111, 34
+  size: 58, 92
+  orig: 58, 92
+  offset: 0, 0
+  index: -1
+cobrahn_head3
+  rotate: false
+  xy: 171, 34
+  size: 58, 92
+  orig: 58, 92
+  offset: 0, 0
+  index: -1
+cobrahn_head4
+  rotate: false
+  xy: 231, 34
+  size: 58, 92
+  orig: 58, 92
+  offset: 0, 0
+  index: -1
+cobrahn_head5
+  rotate: false
+  xy: 291, 34
+  size: 58, 92
+  orig: 58, 92
+  offset: 0, 0
+  index: -1
+cobrahn_l_calf
+  rotate: false
+  xy: 589, 57
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+cobrahn_l_calf2
+  rotate: true
+  xy: 621, 49
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+cobrahn_l_ear
+  rotate: true
+  xy: 351, 45
+  size: 32, 47
+  orig: 32, 52
+  offset: 0, 5
+  index: -1
+cobrahn_l_eyebrow
+  rotate: false
+  xy: 398, 3
+  size: 39, 15
+  orig: 39, 15
+  offset: 0, 0
+  index: -1
+cobrahn_l_foot
+  rotate: false
+  xy: 136, 2
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+cobrahn_l_foot2
+  rotate: false
+  xy: 156, 2
+  size: 17, 11
+  orig: 18, 11
+  offset: 1, 0
+  index: -1
+cobrahn_l_forearm
+  rotate: true
+  xy: 861, 72
+  size: 54, 56
+  orig: 54, 56
+  offset: 0, 0
+  index: -1
+cobrahn_l_forearm2
+  rotate: false
+  xy: 919, 73
+  size: 45, 53
+  orig: 45, 53
+  offset: 0, 0
+  index: -1
+cobrahn_l_forearm3
+  rotate: false
+  xy: 966, 76
+  size: 48, 50
+  orig: 48, 50
+  offset: 0, 0
+  index: -1
+cobrahn_l_thigh
+  rotate: false
+  xy: 529, 53
+  size: 18, 23
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+cobrahn_l_upperarm
+  rotate: true
+  xy: 400, 45
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
+cobrahn_mace
+  rotate: false
+  xy: 2, 12
+  size: 47, 114
+  orig: 49, 114
+  offset: 1, 0
+  index: -1
+cobrahn_mace2
+  rotate: true
+  xy: 451, 81
+  size: 45, 86
+  orig: 49, 114
+  offset: 4, 1
+  index: -1
+cobrahn_mace3
+  rotate: true
+  xy: 539, 78
+  size: 48, 81
+  orig: 49, 114
+  offset: 0, 0
+  index: -1
+cobrahn_plevis
+  rotate: false
+  xy: 239, 9
+  size: 39, 23
+  orig: 39, 23
+  offset: 0, 0
+  index: -1
+cobrahn_plevis2
+  rotate: false
+  xy: 280, 9
+  size: 39, 23
+  orig: 39, 23
+  offset: 0, 0
+  index: -1
+cobrahn_plevis3
+  rotate: false
+  xy: 321, 9
+  size: 39, 23
+  orig: 39, 23
+  offset: 0, 0
+  index: -1
+cobrahn_plevis4
+  rotate: true
+  xy: 442, 40
+  size: 37, 23
+  orig: 39, 23
+  offset: 0, 0
+  index: -1
+cobrahn_plevis5
+  rotate: false
+  xy: 398, 20
+  size: 39, 23
+  orig: 39, 23
+  offset: 0, 0
+  index: -1
+cobrahn_plevis6
+  rotate: false
+  xy: 966, 51
+  size: 39, 23
+  orig: 39, 23
+  offset: 0, 0
+  index: -1
+cobrahn_r_calf
+  rotate: false
+  xy: 568, 57
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+cobrahn_r_ear
+  rotate: true
+  xy: 85, 7
+  size: 25, 49
+  orig: 36, 54
+  offset: 7, 0
+  index: -1
+cobrahn_r_eyebrow
+  rotate: true
+  xy: 439, 7
+  size: 31, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+cobrahn_r_foot
+  rotate: true
+  xy: 609, 58
+  size: 18, 10
+  orig: 18, 10
+  offset: 0, 0
+  index: -1
+cobrahn_r_forearm
+  rotate: true
+  xy: 51, 2
+  size: 30, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+cobrahn_r_forearm2
+  rotate: false
+  xy: 467, 47
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+cobrahn_r_forearm3
+  rotate: false
+  xy: 362, 10
+  size: 34, 33
+  orig: 128, 128
+  offset: 44, 46
+  index: -1
+cobrahn_r_forearm4
+  rotate: false
+  xy: 498, 48
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+cobrahn_r_thigh
+  rotate: false
+  xy: 549, 53
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+cobrahn_r_upperarm
+  rotate: true
+  xy: 193, 13
+  size: 19, 44
+  orig: 19, 44
+  offset: 0, 0
+  index: -1
+cobrahn_shadow
+  rotate: false
+  xy: 136, 15
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

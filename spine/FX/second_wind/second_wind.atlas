@@ -1,0 +1,115 @@
+
+second_wind.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+second_wind_03
+  rotate: true
+  xy: 233, 366
+  size: 105, 148
+  orig: 150, 300
+  offset: 24, 37
+  index: -1
+second_wind_05
+  rotate: true
+  xy: 2, 34
+  size: 110, 195
+  orig: 150, 300
+  offset: 20, 48
+  index: -1
+second_wind_11
+  rotate: true
+  xy: 2, 146
+  size: 109, 238
+  orig: 150, 300
+  offset: 20, 60
+  index: -1
+second_wind_13
+  rotate: true
+  xy: 2, 383
+  size: 88, 229
+  orig: 150, 300
+  offset: 20, 71
+  index: -1
+second_wind_15
+  rotate: true
+  xy: 270, 256
+  size: 108, 229
+  orig: 150, 300
+  offset: 28, 71
+  index: -1
+second_wind_17
+  rotate: true
+  xy: 199, 33
+  size: 110, 140
+  orig: 150, 300
+  offset: 27, 72
+  index: -1
+second_wind_19
+  rotate: false
+  xy: 382, 115
+  size: 111, 139
+  orig: 150, 300
+  offset: 26, 73
+  index: -1
+second_wind_23
+  rotate: true
+  xy: 341, 2
+  size: 111, 140
+  orig: 150, 300
+  offset: 28, 73
+  index: -1
+second_wind_25
+  rotate: true
+  xy: 242, 145
+  size: 109, 138
+  orig: 150, 300
+  offset: 29, 74
+  index: -1
+second_wind_27
+  rotate: true
+  xy: 130, 257
+  size: 107, 138
+  orig: 150, 300
+  offset: 30, 74
+  index: -1
+second_wind_29
+  rotate: true
+  xy: 2, 275
+  size: 106, 126
+  orig: 150, 300
+  offset: 31, 85
+  index: -1
+second_wind_31
+  rotate: true
+  xy: 383, 366
+  size: 105, 126
+  orig: 150, 300
+  offset: 31, 85
+  index: -1
+
+second_wind2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+second_wind_07
+  rotate: false
+  xy: 114, 28
+  size: 110, 212
+  orig: 150, 300
+  offset: 20, 50
+  index: -1
+second_wind_09
+  rotate: false
+  xy: 2, 2
+  size: 110, 238
+  orig: 150, 300
+  offset: 20, 53
+  index: -1
+second_wind_21
+  rotate: false
+  xy: 226, 100
+  size: 112, 140
+  orig: 150, 300
+  offset: 27, 73
+  index: -1

@@ -1,0 +1,96 @@
+
+shield_slam.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shield_slam_01
+  rotate: false
+  xy: 690, 240
+  size: 53, 75
+  orig: 300, 200
+  offset: 3, 55
+  index: -1
+shield_slam_02
+  rotate: false
+  xy: 74, 32
+  size: 55, 79
+  orig: 300, 200
+  offset: 12, 53
+  index: -1
+shield_slam_03
+  rotate: false
+  xy: 922, 393
+  size: 60, 90
+  orig: 300, 200
+  offset: 39, 47
+  index: -1
+shield_slam_04
+  rotate: false
+  xy: 2, 2
+  size: 70, 109
+  orig: 300, 200
+  offset: 84, 37
+  index: -1
+shield_slam_05
+  rotate: false
+  xy: 425, 333
+  size: 192, 150
+  orig: 300, 200
+  offset: 81, 22
+  index: -1
+shield_slam_06
+  rotate: false
+  xy: 425, 181
+  size: 192, 150
+  orig: 300, 200
+  offset: 81, 22
+  index: -1
+shield_slam_07
+  rotate: false
+  xy: 2, 299
+  size: 213, 184
+  orig: 300, 200
+  offset: 81, 11
+  index: -1
+shield_slam_08
+  rotate: false
+  xy: 2, 113
+  size: 213, 184
+  orig: 300, 200
+  offset: 81, 11
+  index: -1
+shield_slam_09
+  rotate: false
+  xy: 217, 307
+  size: 206, 176
+  orig: 300, 200
+  offset: 81, 14
+  index: -1
+shield_slam_10
+  rotate: false
+  xy: 217, 129
+  size: 206, 176
+  orig: 300, 200
+  offset: 81, 14
+  index: -1
+shield_slam_11
+  rotate: false
+  xy: 772, 318
+  size: 148, 165
+  orig: 300, 200
+  offset: 81, 14
+  index: -1
+shield_slam_12
+  rotate: false
+  xy: 619, 317
+  size: 151, 166
+  orig: 300, 200
+  offset: 81, 13
+  index: -1
+shield_slam_13
+  rotate: false
+  xy: 619, 206
+  size: 69, 109
+  orig: 300, 200
+  offset: 81, 37
+  index: -1

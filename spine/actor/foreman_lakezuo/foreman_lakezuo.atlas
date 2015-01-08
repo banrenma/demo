@@ -1,0 +1,152 @@
+
+foreman_lakezuo.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+foreman_lakezuo_belt
+  rotate: false
+  xy: 202, 72
+  size: 122, 54
+  orig: 136, 71
+  offset: 9, 7
+  index: -1
+foreman_lakezuo_body
+  rotate: false
+  xy: 94, 37
+  size: 106, 89
+  orig: 137, 104
+  offset: 15, 6
+  index: -1
+foreman_lakezuo_brest
+  rotate: false
+  xy: 766, 87
+  size: 80, 39
+  orig: 87, 46
+  offset: 3, 3
+  index: -1
+foreman_lakezuo_fore
+  rotate: false
+  xy: 202, 41
+  size: 51, 29
+  orig: 59, 42
+  offset: 4, 4
+  index: -1
+foreman_lakezuo_head
+  rotate: true
+  xy: 326, 42
+  size: 84, 86
+  orig: 103, 95
+  offset: 15, 0
+  index: -1
+foreman_lakezuo_head2
+  rotate: true
+  xy: 414, 42
+  size: 84, 86
+  orig: 103, 95
+  offset: 15, 0
+  index: -1
+foreman_lakezuo_head3
+  rotate: true
+  xy: 502, 41
+  size: 85, 86
+  orig: 103, 95
+  offset: 14, 0
+  index: -1
+foreman_lakezuo_head4
+  rotate: true
+  xy: 590, 41
+  size: 85, 86
+  orig: 103, 95
+  offset: 14, 0
+  index: -1
+foreman_lakezuo_head5
+  rotate: true
+  xy: 678, 42
+  size: 84, 86
+  orig: 103, 95
+  offset: 15, 0
+  index: -1
+foreman_lakezuo_l_calf
+  rotate: false
+  xy: 255, 42
+  size: 47, 28
+  orig: 55, 40
+  offset: 4, 5
+  index: -1
+foreman_lakezuo_l_ear
+  rotate: false
+  xy: 848, 35
+  size: 31, 38
+  orig: 36, 49
+  offset: 0, 4
+  index: -1
+foreman_lakezuo_l_forearm
+  rotate: false
+  xy: 902, 77
+  size: 49, 49
+  orig: 59, 59
+  offset: 5, 6
+  index: -1
+foreman_lakezuo_l_thigh
+  rotate: true
+  xy: 991, 81
+  size: 45, 31
+  orig: 48, 39
+  offset: 1, 4
+  index: -1
+foreman_lakezuo_l_upperarm
+  rotate: true
+  xy: 766, 38
+  size: 47, 61
+  orig: 69, 71
+  offset: 10, 3
+  index: -1
+foreman_lakezuo_mace
+  rotate: false
+  xy: 2, 16
+  size: 90, 110
+  orig: 108, 133
+  offset: 7, 12
+  index: -1
+foreman_lakezuo_r_calf
+  rotate: false
+  xy: 94, 12
+  size: 40, 23
+  orig: 48, 31
+  offset: 4, 4
+  index: -1
+foreman_lakezuo_r_ear
+  rotate: false
+  xy: 136, 2
+  size: 18, 33
+  orig: 28, 41
+  offset: 4, 4
+  index: -1
+foreman_lakezuo_r_forearm
+  rotate: true
+  xy: 848, 75
+  size: 51, 52
+  orig: 61, 63
+  offset: 7, 5
+  index: -1
+foreman_lakezuo_r_thigh
+  rotate: false
+  xy: 156, 2
+  size: 38, 26
+  orig: 43, 37
+  offset: 1, 6
+  index: -1
+foreman_lakezuo_r_upperarm
+  rotate: false
+  xy: 953, 82
+  size: 36, 44
+  orig: 51, 48
+  offset: 6, 2
+  index: -1
+foreman_lakezuo_shadow
+  rotate: true
+  xy: 829, 30
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

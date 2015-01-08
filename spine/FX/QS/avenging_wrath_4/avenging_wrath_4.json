@@ -1,0 +1,78 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "avenging_wrath_4_0001", "bone": "root", "attachment": "avenging_wrath_4_0027" }
+],
+"skins": {
+	"default": {
+		"avenging_wrath_4_0001": {
+			"avenging_wrath_4_0001": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0002": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0003": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0004": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0005": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0006": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0007": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0008": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0009": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0010": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0011": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0012": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0013": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0014": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0015": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0016": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0017": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0018": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0019": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0020": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0021": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0022": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0023": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0024": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0025": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0026": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 },
+			"avenging_wrath_4_0027": { "x": 11, "y": 62, "scaleX": 2, "scaleY": 2, "width": 120, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"avenging_wrath_4_0001": {
+				"attachment": [
+					{ "time": 0, "name": "avenging_wrath_4_0001" },
+					{ "time": 0.0333, "name": "avenging_wrath_4_0002" },
+					{ "time": 0.0666, "name": "avenging_wrath_4_0003" },
+					{ "time": 0.1, "name": "avenging_wrath_4_0004" },
+					{ "time": 0.1333, "name": "avenging_wrath_4_0005" },
+					{ "time": 0.1666, "name": "avenging_wrath_4_0006" },
+					{ "time": 0.2, "name": "avenging_wrath_4_0007" },
+					{ "time": 0.2333, "name": "avenging_wrath_4_0008" },
+					{ "time": 0.2666, "name": "avenging_wrath_4_0009" },
+					{ "time": 0.3, "name": "avenging_wrath_4_0010" },
+					{ "time": 0.3333, "name": "avenging_wrath_4_0011" },
+					{ "time": 0.3666, "name": "avenging_wrath_4_0012" },
+					{ "time": 0.4, "name": "avenging_wrath_4_0013" },
+					{ "time": 0.4333, "name": "avenging_wrath_4_0014" },
+					{ "time": 0.4666, "name": "avenging_wrath_4_0015" },
+					{ "time": 0.5, "name": "avenging_wrath_4_0016" },
+					{ "time": 0.5333, "name": "avenging_wrath_4_0017" },
+					{ "time": 0.5666, "name": "avenging_wrath_4_0018" },
+					{ "time": 0.6, "name": "avenging_wrath_4_0019" },
+					{ "time": 0.6333, "name": "avenging_wrath_4_0020" },
+					{ "time": 0.6666, "name": "avenging_wrath_4_0021" },
+					{ "time": 0.7, "name": "avenging_wrath_4_0022" },
+					{ "time": 0.7333, "name": "avenging_wrath_4_0023" },
+					{ "time": 0.7666, "name": "avenging_wrath_4_0024" },
+					{ "time": 0.8, "name": "avenging_wrath_4_0025" },
+					{ "time": 0.8333, "name": "avenging_wrath_4_0026" },
+					{ "time": 0.8666, "name": "avenging_wrath_4_0027" }
+				]
+			}
+		}
+	}
+}
+}

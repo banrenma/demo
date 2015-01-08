@@ -1,0 +1,103 @@
+
+guardian_angel_4.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guardian_angel_4_1
+  rotate: false
+  xy: 2, 420
+  size: 136, 86
+  orig: 175, 93
+  offset: 15, 0
+  index: -1
+guardian_angel_4_10
+  rotate: true
+  xy: 172, 141
+  size: 138, 81
+  orig: 175, 93
+  offset: 14, 0
+  index: -1
+guardian_angel_4_11
+  rotate: false
+  xy: 86, 59
+  size: 138, 80
+  orig: 175, 93
+  offset: 14, 0
+  index: -1
+guardian_angel_4_12
+  rotate: true
+  xy: 417, 368
+  size: 138, 80
+  orig: 175, 93
+  offset: 14, 0
+  index: -1
+guardian_angel_4_13
+  rotate: true
+  xy: 255, 281
+  size: 138, 79
+  orig: 175, 93
+  offset: 14, 0
+  index: -1
+guardian_angel_4_14
+  rotate: true
+  xy: 336, 283
+  size: 138, 79
+  orig: 175, 93
+  offset: 14, 0
+  index: -1
+guardian_angel_4_2
+  rotate: true
+  xy: 2, 142
+  size: 136, 84
+  orig: 175, 93
+  offset: 15, 0
+  index: -1
+guardian_angel_4_3
+  rotate: false
+  xy: 140, 421
+  size: 136, 85
+  orig: 175, 93
+  offset: 15, 0
+  index: -1
+guardian_angel_4_4
+  rotate: true
+  xy: 2, 280
+  size: 138, 84
+  orig: 175, 93
+  offset: 14, 0
+  index: -1
+guardian_angel_4_5
+  rotate: false
+  xy: 278, 423
+  size: 137, 83
+  orig: 175, 93
+  offset: 14, 0
+  index: -1
+guardian_angel_4_6
+  rotate: true
+  xy: 2, 2
+  size: 138, 82
+  orig: 175, 93
+  offset: 14, 0
+  index: -1
+guardian_angel_4_7
+  rotate: true
+  xy: 88, 141
+  size: 137, 82
+  orig: 175, 93
+  offset: 15, 0
+  index: -1
+guardian_angel_4_8
+  rotate: true
+  xy: 88, 280
+  size: 138, 82
+  orig: 175, 93
+  offset: 14, 0
+  index: -1
+guardian_angel_4_9
+  rotate: true
+  xy: 172, 281
+  size: 138, 81
+  orig: 175, 93
+  offset: 14, 0
+  index: -1

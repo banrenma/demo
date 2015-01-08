@@ -1,0 +1,285 @@
+
+toxicant_6.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+toxicant_6_0001
+  rotate: false
+  xy: 397, 442
+  size: 393, 106
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0003
+  rotate: true
+  xy: 902, 729
+  size: 393, 107
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0005
+  rotate: false
+  xy: 2, 323
+  size: 393, 107
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0007
+  rotate: true
+  xy: 792, 729
+  size: 393, 108
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0009
+  rotate: false
+  xy: 2, 432
+  size: 393, 108
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0011
+  rotate: false
+  xy: 397, 882
+  size: 393, 109
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0013
+  rotate: false
+  xy: 2, 653
+  size: 393, 109
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0015
+  rotate: true
+  xy: 905, 1124
+  size: 393, 110
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0017
+  rotate: false
+  xy: 2, 764
+  size: 393, 110
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0019
+  rotate: true
+  xy: 792, 1124
+  size: 393, 111
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0021
+  rotate: false
+  xy: 2, 876
+  size: 393, 111
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0023
+  rotate: false
+  xy: 397, 1106
+  size: 393, 112
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0025
+  rotate: false
+  xy: 2, 1219
+  size: 393, 113
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0027
+  rotate: false
+  xy: 397, 1335
+  size: 393, 113
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0029
+  rotate: true
+  xy: 908, 1519
+  size: 393, 113
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0031
+  rotate: false
+  xy: 2, 1104
+  size: 393, 113
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0033
+  rotate: false
+  xy: 397, 1220
+  size: 393, 113
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0035
+  rotate: false
+  xy: 2, 1798
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0037
+  rotate: false
+  xy: 2, 1682
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0039
+  rotate: false
+  xy: 397, 1798
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0041
+  rotate: false
+  xy: 2, 1566
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0043
+  rotate: false
+  xy: 397, 1682
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0045
+  rotate: false
+  xy: 2, 1450
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0047
+  rotate: false
+  xy: 397, 1566
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0049
+  rotate: false
+  xy: 2, 1334
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0051
+  rotate: false
+  xy: 397, 1450
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0053
+  rotate: true
+  xy: 792, 1519
+  size: 393, 114
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0055
+  rotate: false
+  xy: 2, 989
+  size: 393, 113
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0057
+  rotate: false
+  xy: 397, 993
+  size: 393, 111
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0059
+  rotate: false
+  xy: 397, 771
+  size: 393, 109
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0061
+  rotate: false
+  xy: 2, 542
+  size: 393, 109
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0063
+  rotate: false
+  xy: 397, 660
+  size: 393, 109
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0065
+  rotate: false
+  xy: 397, 550
+  size: 393, 108
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0067
+  rotate: false
+  xy: 2, 215
+  size: 393, 106
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0069
+  rotate: false
+  xy: 2, 2
+  size: 393, 104
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0071
+  rotate: true
+  xy: 792, 334
+  size: 393, 105
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0073
+  rotate: false
+  xy: 2, 108
+  size: 393, 105
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0075
+  rotate: false
+  xy: 397, 227
+  size: 393, 105
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0077
+  rotate: true
+  xy: 899, 334
+  size: 393, 105
+  orig: 405, 200
+  offset: 7, 8
+  index: -1
+toxicant_6_0079
+  rotate: false
+  xy: 397, 334
+  size: 393, 106
+  orig: 405, 200
+  offset: 7, 8
+  index: -1

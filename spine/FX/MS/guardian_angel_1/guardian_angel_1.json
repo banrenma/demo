@@ -1,0 +1,62 @@
+{
+"bones": [
+	{ "name": "root", "x": 33, "y": 73, "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "guardian_angel_1_1", "bone": "root", "attachment": "guardian_angel_1_9" }
+],
+"skins": {
+	"default": {
+		"guardian_angel_1_1": {
+			"guardian_angel_1_1": { "width": 175, "height": 93 },
+			"guardian_angel_1_2": { "width": 175, "height": 93 },
+			"guardian_angel_1_3": { "width": 175, "height": 93 },
+			"guardian_angel_1_4": { "width": 175, "height": 93 },
+			"guardian_angel_1_5": { "width": 175, "height": 93 },
+			"guardian_angel_1_6": { "width": 175, "height": 93 },
+			"guardian_angel_1_7": { "width": 175, "height": 93 },
+			"guardian_angel_1_8": { "width": 175, "height": 93 },
+			"guardian_angel_1_9": { "width": 175, "height": 93 },
+			"guardian_angel_1_10": { "width": 175, "height": 93 },
+			"guardian_angel_1_11": { "width": 175, "height": 93 },
+			"guardian_angel_1_12": { "width": 175, "height": 93 },
+			"guardian_angel_1_13": { "width": 175, "height": 93 },
+			"guardian_angel_1_14": { "width": 175, "height": 93 },
+			"guardian_angel_1_15": { "width": 175, "height": 93 },
+			"guardian_angel_1_16": { "width": 175, "height": 93 },
+			"guardian_angel_1_17": { "width": 175, "height": 93 },
+			"guardian_angel_1_18": { "width": 175, "height": 93 },
+			"guardian_angel_1_19": { "width": 175, "height": 93 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"guardian_angel_1_1": {
+				"attachment": [
+					{ "time": 0, "name": "guardian_angel_1_1" },
+					{ "time": 0.0333, "name": "guardian_angel_1_2" },
+					{ "time": 0.0666, "name": "guardian_angel_1_3" },
+					{ "time": 0.1, "name": "guardian_angel_1_4" },
+					{ "time": 0.1333, "name": "guardian_angel_1_5" },
+					{ "time": 0.1666, "name": "guardian_angel_1_6" },
+					{ "time": 0.2, "name": "guardian_angel_1_7" },
+					{ "time": 0.2333, "name": "guardian_angel_1_8" },
+					{ "time": 0.2666, "name": "guardian_angel_1_9" },
+					{ "time": 0.3, "name": "guardian_angel_1_10" },
+					{ "time": 0.3333, "name": "guardian_angel_1_11" },
+					{ "time": 0.3666, "name": "guardian_angel_1_12" },
+					{ "time": 0.4, "name": "guardian_angel_1_13" },
+					{ "time": 0.4333, "name": "guardian_angel_1_14" },
+					{ "time": 0.4666, "name": "guardian_angel_1_15" },
+					{ "time": 0.5, "name": "guardian_angel_1_16" },
+					{ "time": 0.5333, "name": "guardian_angel_1_17" },
+					{ "time": 0.5666, "name": "guardian_angel_1_18" },
+					{ "time": 0.6, "name": "guardian_angel_1_19" }
+				]
+			}
+		}
+	}
+}
+}

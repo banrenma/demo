@@ -1,0 +1,56 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "pyroblast_3_0001", "bone": "root", "attachment": "pyroblast_3_0016", "additive": true }
+],
+"skins": {
+	"default": {
+		"pyroblast_3_0001": {
+			"pyroblast_3_0001": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0002": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0003": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0004": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0005": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0006": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0007": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0008": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0009": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0010": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0011": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0012": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0013": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0014": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0015": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 },
+			"pyroblast_3_0016": { "scaleX": 2, "scaleY": 2, "width": 150, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"pyroblast_3_0001": {
+				"attachment": [
+					{ "time": 0, "name": "pyroblast_3_0001" },
+					{ "time": 0.0333, "name": "pyroblast_3_0002" },
+					{ "time": 0.0666, "name": "pyroblast_3_0003" },
+					{ "time": 0.1, "name": "pyroblast_3_0004" },
+					{ "time": 0.1333, "name": "pyroblast_3_0005" },
+					{ "time": 0.1666, "name": "pyroblast_3_0006" },
+					{ "time": 0.2, "name": "pyroblast_3_0007" },
+					{ "time": 0.2333, "name": "pyroblast_3_0008" },
+					{ "time": 0.2666, "name": "pyroblast_3_0009" },
+					{ "time": 0.3, "name": "pyroblast_3_0010" },
+					{ "time": 0.3333, "name": "pyroblast_3_0011" },
+					{ "time": 0.3666, "name": "pyroblast_3_0012" },
+					{ "time": 0.4, "name": "pyroblast_3_0013" },
+					{ "time": 0.4333, "name": "pyroblast_3_0014" },
+					{ "time": 0.4666, "name": "pyroblast_3_0015" },
+					{ "time": 0.5, "name": "pyroblast_3_0016" }
+				]
+			}
+		}
+	}
+}
+}

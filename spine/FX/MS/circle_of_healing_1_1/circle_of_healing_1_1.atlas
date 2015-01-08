@@ -1,0 +1,124 @@
+
+circle_of_healing_1_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle_of_healing_1_1_0002
+  rotate: false
+  xy: 374, 443
+  size: 58, 67
+  orig: 130, 150
+  offset: 38, 4
+  index: -1
+circle_of_healing_1_1_0004
+  rotate: false
+  xy: 158, 244
+  size: 65, 119
+  orig: 130, 150
+  offset: 34, 1
+  index: -1
+circle_of_healing_1_1_0006
+  rotate: false
+  xy: 79, 71
+  size: 70, 145
+  orig: 130, 150
+  offset: 32, 0
+  index: -1
+circle_of_healing_1_1_0008
+  rotate: false
+  xy: 84, 218
+  size: 72, 145
+  orig: 130, 150
+  offset: 30, 0
+  index: -1
+circle_of_healing_1_1_0010
+  rotate: false
+  xy: 2, 71
+  size: 75, 145
+  orig: 130, 150
+  offset: 29, 0
+  index: -1
+circle_of_healing_1_1_0012
+  rotate: false
+  xy: 86, 365
+  size: 78, 145
+  orig: 130, 150
+  offset: 28, 0
+  index: -1
+circle_of_healing_1_1_0014
+  rotate: false
+  xy: 2, 365
+  size: 82, 145
+  orig: 130, 150
+  offset: 26, 0
+  index: -1
+circle_of_healing_1_1_0016
+  rotate: false
+  xy: 2, 218
+  size: 80, 145
+  orig: 130, 150
+  offset: 27, 0
+  index: -1
+circle_of_healing_1_1_0018
+  rotate: false
+  xy: 166, 365
+  size: 69, 145
+  orig: 130, 150
+  offset: 32, 0
+  index: -1
+circle_of_healing_1_1_0020
+  rotate: true
+  xy: 2, 2
+  size: 67, 145
+  orig: 130, 150
+  offset: 32, 0
+  index: -1
+circle_of_healing_1_1_0022
+  rotate: true
+  xy: 149, 2
+  size: 67, 145
+  orig: 130, 150
+  offset: 32, 0
+  index: -1
+circle_of_healing_1_1_0024
+  rotate: false
+  xy: 151, 71
+  size: 67, 145
+  orig: 130, 150
+  offset: 32, 0
+  index: -1
+circle_of_healing_1_1_0026
+  rotate: false
+  xy: 237, 370
+  size: 67, 140
+  orig: 130, 150
+  offset: 32, 2
+  index: -1
+circle_of_healing_1_1_0028
+  rotate: false
+  xy: 306, 396
+  size: 66, 114
+  orig: 130, 150
+  offset: 33, 7
+  index: -1
+circle_of_healing_1_1_0030
+  rotate: false
+  xy: 374, 401
+  size: 53, 40
+  orig: 130, 150
+  offset: 40, 77
+  index: -1
+circle_of_healing_1_1_0032
+  rotate: false
+  xy: 158, 221
+  size: 31, 21
+  orig: 130, 150
+  offset: 47, 82
+  index: -1
+circle_of_healing_1_1_0034
+  rotate: false
+  xy: 225, 355
+  size: 8, 8
+  orig: 130, 150
+  offset: 48, 99
+  index: -1

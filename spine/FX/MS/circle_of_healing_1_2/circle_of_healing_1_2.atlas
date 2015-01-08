@@ -1,0 +1,222 @@
+
+circle_of_healing_1_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle_of_healing_1_2_10
+  rotate: false
+  xy: 130, 305
+  size: 125, 41
+  orig: 130, 55
+  offset: 5, 7
+  index: -1
+circle_of_healing_1_2_11
+  rotate: false
+  xy: 2, 305
+  size: 126, 41
+  orig: 130, 55
+  offset: 3, 7
+  index: -1
+circle_of_healing_1_2_12
+  rotate: false
+  xy: 2, 391
+  size: 128, 41
+  orig: 130, 55
+  offset: 2, 7
+  index: -1
+circle_of_healing_1_2_13
+  rotate: true
+  xy: 126, 2
+  size: 106, 41
+  orig: 130, 55
+  offset: 14, 7
+  index: -1
+circle_of_healing_1_2_14
+  rotate: false
+  xy: 129, 221
+  size: 104, 41
+  orig: 130, 55
+  offset: 15, 7
+  index: -1
+circle_of_healing_1_2_15
+  rotate: true
+  xy: 212, 31
+  size: 91, 41
+  orig: 130, 55
+  offset: 23, 7
+  index: -1
+circle_of_healing_1_2_16
+  rotate: true
+  xy: 212, 124
+  size: 95, 41
+  orig: 130, 55
+  offset: 21, 7
+  index: -1
+circle_of_healing_1_2_17
+  rotate: true
+  xy: 169, 15
+  size: 99, 41
+  orig: 130, 55
+  offset: 19, 7
+  index: -1
+circle_of_healing_1_2_18
+  rotate: true
+  xy: 169, 116
+  size: 103, 41
+  orig: 130, 55
+  offset: 17, 7
+  index: -1
+circle_of_healing_1_2_19
+  rotate: true
+  xy: 126, 110
+  size: 107, 41
+  orig: 130, 55
+  offset: 15, 7
+  index: -1
+circle_of_healing_1_2_2
+  rotate: false
+  xy: 368, 227
+  size: 108, 37
+  orig: 130, 55
+  offset: 15, 9
+  index: -1
+circle_of_healing_1_2_20
+  rotate: false
+  xy: 255, 238
+  size: 111, 41
+  orig: 130, 55
+  offset: 13, 7
+  index: -1
+circle_of_healing_1_2_21
+  rotate: false
+  xy: 390, 348
+  size: 115, 41
+  orig: 130, 55
+  offset: 11, 7
+  index: -1
+circle_of_healing_1_2_22
+  rotate: false
+  xy: 390, 391
+  size: 118, 41
+  orig: 130, 55
+  offset: 10, 7
+  index: -1
+circle_of_healing_1_2_23
+  rotate: false
+  xy: 2, 133
+  size: 122, 41
+  orig: 130, 55
+  offset: 8, 7
+  index: -1
+circle_of_healing_1_2_24
+  rotate: false
+  xy: 2, 219
+  size: 124, 41
+  orig: 130, 55
+  offset: 6, 7
+  index: -1
+circle_of_healing_1_2_25
+  rotate: false
+  xy: 131, 348
+  size: 126, 41
+  orig: 130, 55
+  offset: 4, 7
+  index: -1
+circle_of_healing_1_2_26
+  rotate: false
+  xy: 260, 393
+  size: 128, 39
+  orig: 130, 55
+  offset: 2, 8
+  index: -1
+circle_of_healing_1_2_27
+  rotate: false
+  xy: 387, 307
+  size: 121, 39
+  orig: 130, 55
+  offset: 6, 8
+  index: -1
+circle_of_healing_1_2_28
+  rotate: false
+  xy: 384, 266
+  size: 122, 39
+  orig: 130, 55
+  offset: 7, 8
+  index: -1
+circle_of_healing_1_2_29
+  rotate: true
+  xy: 2, 6
+  size: 125, 38
+  orig: 130, 55
+  offset: 5, 9
+  index: -1
+circle_of_healing_1_2_3
+  rotate: true
+  xy: 85, 10
+  size: 121, 39
+  orig: 130, 55
+  offset: 8, 8
+  index: -1
+circle_of_healing_1_2_30
+  rotate: false
+  xy: 257, 281
+  size: 125, 37
+  orig: 130, 55
+  offset: 5, 9
+  index: -1
+circle_of_healing_1_2_31
+  rotate: false
+  xy: 259, 320
+  size: 126, 35
+  orig: 130, 55
+  offset: 3, 10
+  index: -1
+circle_of_healing_1_2_32
+  rotate: false
+  xy: 260, 357
+  size: 128, 34
+  orig: 130, 55
+  offset: 2, 11
+  index: -1
+circle_of_healing_1_2_4
+  rotate: false
+  xy: 129, 264
+  size: 124, 39
+  orig: 130, 55
+  offset: 6, 8
+  index: -1
+circle_of_healing_1_2_5
+  rotate: false
+  xy: 132, 391
+  size: 126, 41
+  orig: 130, 55
+  offset: 4, 7
+  index: -1
+circle_of_healing_1_2_6
+  rotate: false
+  xy: 2, 348
+  size: 127, 41
+  orig: 130, 55
+  offset: 3, 7
+  index: -1
+circle_of_healing_1_2_7
+  rotate: true
+  xy: 42, 10
+  size: 121, 41
+  orig: 130, 55
+  offset: 6, 7
+  index: -1
+circle_of_healing_1_2_8
+  rotate: false
+  xy: 2, 176
+  size: 122, 41
+  orig: 130, 55
+  offset: 7, 7
+  index: -1
+circle_of_healing_1_2_9
+  rotate: false
+  xy: 2, 262
+  size: 125, 41
+  orig: 130, 55
+  offset: 5, 7
+  index: -1

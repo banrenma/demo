@@ -1,0 +1,215 @@
+
+kaelthas.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kaelthas_acc1
+  rotate: false
+  xy: 445, 23
+  size: 45, 103
+  orig: 45, 104
+  offset: 0, 0
+  index: -1
+kaelthas_acc2
+  rotate: true
+  xy: 708, 96
+  size: 30, 95
+  orig: 30, 96
+  offset: 0, 0
+  index: -1
+kaelthas_body
+  rotate: true
+  xy: 196, 75
+  size: 51, 46
+  orig: 55, 46
+  offset: 0, 0
+  index: -1
+kaelthas_cape 
+  rotate: false
+  xy: 248, 8
+  size: 118, 118
+  orig: 128, 118
+  offset: 6, 0
+  index: -1
+kaelthas_hair1
+  rotate: true
+  xy: 492, 24
+  size: 20, 91
+  orig: 29, 92
+  offset: 0, 0
+  index: -1
+kaelthas_hair2
+  rotate: true
+  xy: 805, 98
+  size: 28, 97
+  orig: 41, 101
+  offset: 11, 2
+  index: -1
+kaelthas_hair3 
+  rotate: false
+  xy: 368, 14
+  size: 75, 112
+  orig: 77, 112
+  offset: 1, 0
+  index: -1
+kaelthas_head1
+  rotate: true
+  xy: 2, 2
+  size: 66, 80
+  orig: 74, 81
+  offset: 5, 0
+  index: -1
+kaelthas_head2
+  rotate: true
+  xy: 84, 2
+  size: 66, 80
+  orig: 74, 81
+  offset: 5, 0
+  index: -1
+kaelthas_head3
+  rotate: true
+  xy: 166, 2
+  size: 66, 80
+  orig: 74, 81
+  offset: 5, 0
+  index: -1
+kaelthas_head4
+  rotate: false
+  xy: 492, 46
+  size: 66, 80
+  orig: 74, 81
+  offset: 5, 0
+  index: -1
+kaelthas_head5
+  rotate: false
+  xy: 560, 46
+  size: 66, 80
+  orig: 74, 81
+  offset: 5, 0
+  index: -1
+kaelthas_l_down 
+  rotate: true
+  xy: 708, 46
+  size: 48, 69
+  orig: 48, 69
+  offset: 0, 0
+  index: -1
+kaelthas_l_ear
+  rotate: true
+  xy: 904, 89
+  size: 37, 68
+  orig: 37, 77
+  offset: 0, 4
+  index: -1
+kaelthas_l_eyebrow
+  rotate: false
+  xy: 904, 59
+  size: 45, 28
+  orig: 45, 44
+  offset: 0, 8
+  index: -1
+kaelthas_l_forearm
+  rotate: true
+  xy: 696, 7
+  size: 37, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+kaelthas_l_hand
+  rotate: false
+  xy: 585, 15
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+kaelthas_l_shoudler
+  rotate: false
+  xy: 628, 62
+  size: 78, 64
+  orig: 78, 64
+  offset: 0, 0
+  index: -1
+kaelthas_l_upperarm
+  rotate: true
+  xy: 866, 71
+  size: 25, 36
+  orig: 25, 36
+  offset: 0, 0
+  index: -1
+kaelthas_m_down 
+  rotate: true
+  xy: 805, 75
+  size: 21, 59
+  orig: 24, 59
+  offset: 3, 0
+  index: -1
+kaelthas_pelvis 
+  rotate: true
+  xy: 628, 8
+  size: 52, 66
+  orig: 61, 66
+  offset: 4, 0
+  index: -1
+kaelthas_polearm
+  rotate: true
+  xy: 2, 70
+  size: 56, 192
+  orig: 56, 192
+  offset: 0, 0
+  index: -1
+kaelthas_r_down 
+  rotate: true
+  xy: 804, 56
+  size: 17, 59
+  orig: 27, 59
+  offset: 6, 0
+  index: -1
+kaelthas_r_ear
+  rotate: false
+  xy: 779, 39
+  size: 23, 55
+  orig: 33, 55
+  offset: 5, 0
+  index: -1
+kaelthas_r_eyebrow
+  rotate: false
+  xy: 865, 43
+  size: 29, 26
+  orig: 34, 29
+  offset: 0, 3
+  index: -1
+kaelthas_r_forearm 
+  rotate: false
+  xy: 753, 2
+  size: 33, 35
+  orig: 38, 39
+  offset: 2, 2
+  index: -1
+kaelthas_r_hand 
+  rotate: false
+  xy: 788, 8
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+kaelthas_r_shoudler 
+  rotate: true
+  xy: 974, 88
+  size: 38, 47
+  orig: 44, 52
+  offset: 6, 5
+  index: -1
+kaelthas_r_upperarm 
+  rotate: true
+  xy: 445, 2
+  size: 19, 35
+  orig: 19, 35
+  offset: 0, 0
+  index: -1
+kaelthas_shadow
+  rotate: false
+  xy: 804, 37
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

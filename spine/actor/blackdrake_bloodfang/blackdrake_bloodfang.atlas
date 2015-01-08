@@ -1,0 +1,145 @@
+
+blackdrake_bloodfang.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blackdrake_bloodfang_body
+  rotate: false
+  xy: 245, 175
+  size: 66, 70
+  orig: 66, 70
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_head1
+  rotate: false
+  xy: 2, 137
+  size: 79, 108
+  orig: 79, 108
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_head2
+  rotate: false
+  xy: 2, 27
+  size: 79, 108
+  orig: 79, 108
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_head3
+  rotate: false
+  xy: 83, 137
+  size: 79, 108
+  orig: 79, 108
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_head4
+  rotate: false
+  xy: 83, 27
+  size: 79, 108
+  orig: 79, 108
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_head5
+  rotate: false
+  xy: 164, 137
+  size: 79, 108
+  orig: 79, 108
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_l_calf
+  rotate: false
+  xy: 313, 169
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_l_down
+  rotate: false
+  xy: 455, 207
+  size: 35, 19
+  orig: 35, 19
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_l_forearm
+  rotate: true
+  xy: 46, 6
+  size: 19, 28
+  orig: 19, 28
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_l_hand
+  rotate: true
+  xy: 391, 203
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_l_thigh
+  rotate: false
+  xy: 164, 20
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_l_upperarm
+  rotate: false
+  xy: 164, 56
+  size: 67, 79
+  orig: 67, 79
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_plevis
+  rotate: false
+  xy: 2, 5
+  size: 42, 20
+  orig: 42, 20
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_r_calf
+  rotate: false
+  xy: 129, 5
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_r_down
+  rotate: false
+  xy: 103, 2
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_r_forearm
+  rotate: true
+  xy: 76, 5
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_r_hand
+  rotate: true
+  xy: 245, 140
+  size: 33, 56
+  orig: 33, 56
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_r_thigh
+  rotate: false
+  xy: 200, 23
+  size: 27, 31
+  orig: 27, 31
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_r_upperarm
+  rotate: true
+  xy: 313, 191
+  size: 54, 76
+  orig: 54, 76
+  offset: 0, 0
+  index: -1
+blackdrake_bloodfang_shadow
+  rotate: false
+  xy: 455, 228
+  size: 55, 17
+  orig: 55, 26
+  offset: 0, 4
+  index: -1

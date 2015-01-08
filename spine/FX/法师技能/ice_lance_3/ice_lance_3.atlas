@@ -1,0 +1,26 @@
+
+ice_lance_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ice_lance_3_1
+  rotate: false
+  xy: 2, 16
+  size: 207, 93
+  orig: 230, 120
+  offset: 10, 11
+  index: -1
+ice_lance_3_2
+  rotate: false
+  xy: 211, 2
+  size: 137, 107
+  orig: 230, 120
+  offset: 35, 6
+  index: -1
+ice_lance_3_3
+  rotate: false
+  xy: 350, 45
+  size: 87, 64
+  orig: 230, 120
+  offset: 60, 31
+  index: -1

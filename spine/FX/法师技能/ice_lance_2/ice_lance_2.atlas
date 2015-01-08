@@ -1,0 +1,75 @@
+
+ice_lance_2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ice_lance_2_1
+  rotate: false
+  xy: 2, 2
+  size: 200, 45
+  orig: 220, 45
+  offset: 20, 0
+  index: -1
+ice_lance_2_10
+  rotate: false
+  xy: 2, 143
+  size: 219, 45
+  orig: 220, 45
+  offset: 1, 0
+  index: -1
+ice_lance_2_2
+  rotate: false
+  xy: 214, 96
+  size: 203, 45
+  orig: 220, 45
+  offset: 17, 0
+  index: -1
+ice_lance_2_3
+  rotate: false
+  xy: 224, 190
+  size: 214, 45
+  orig: 220, 45
+  offset: 6, 0
+  index: -1
+ice_lance_2_4
+  rotate: false
+  xy: 211, 49
+  size: 200, 45
+  orig: 220, 45
+  offset: 20, 0
+  index: -1
+ice_lance_2_5
+  rotate: false
+  xy: 223, 143
+  size: 207, 45
+  orig: 220, 45
+  offset: 13, 0
+  index: -1
+ice_lance_2_6
+  rotate: false
+  xy: 204, 2
+  size: 200, 45
+  orig: 220, 45
+  offset: 20, 0
+  index: -1
+ice_lance_2_7
+  rotate: false
+  xy: 2, 96
+  size: 210, 45
+  orig: 220, 45
+  offset: 10, 0
+  index: -1
+ice_lance_2_8
+  rotate: false
+  xy: 2, 190
+  size: 220, 45
+  orig: 220, 45
+  offset: 0, 0
+  index: -1
+ice_lance_2_9
+  rotate: false
+  xy: 2, 49
+  size: 207, 45
+  orig: 220, 45
+  offset: 13, 0
+  index: -1

@@ -1,0 +1,138 @@
+
+avenging_wrath_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+avenging_wrath_1_0001
+  rotate: true
+  xy: 458, 413
+  size: 72, 17
+  orig: 120, 100
+  offset: 22, 33
+  index: -1
+avenging_wrath_1_0002
+  rotate: true
+  xy: 300, 294
+  size: 95, 69
+  orig: 120, 100
+  offset: 11, 0
+  index: -1
+avenging_wrath_1_0003
+  rotate: true
+  xy: 299, 192
+  size: 100, 70
+  orig: 120, 100
+  offset: 9, 0
+  index: -1
+avenging_wrath_1_0004
+  rotate: false
+  xy: 196, 216
+  size: 101, 76
+  orig: 120, 100
+  offset: 9, 0
+  index: -1
+avenging_wrath_1_0005
+  rotate: true
+  xy: 371, 289
+  size: 101, 86
+  orig: 120, 100
+  offset: 9, 0
+  index: -1
+avenging_wrath_1_0006
+  rotate: false
+  xy: 2, 388
+  size: 110, 97
+  orig: 120, 100
+  offset: 5, 0
+  index: -1
+avenging_wrath_1_0007
+  rotate: true
+  xy: 2, 274
+  size: 112, 95
+  orig: 120, 100
+  offset: 5, 0
+  index: -1
+avenging_wrath_1_0008
+  rotate: true
+  xy: 2, 44
+  size: 113, 93
+  orig: 120, 100
+  offset: 4, 0
+  index: -1
+avenging_wrath_1_0009
+  rotate: false
+  xy: 344, 392
+  size: 112, 93
+  orig: 120, 100
+  offset: 5, 0
+  index: -1
+avenging_wrath_1_0010
+  rotate: false
+  xy: 114, 391
+  size: 113, 94
+  orig: 120, 100
+  offset: 4, 0
+  index: -1
+avenging_wrath_1_0011
+  rotate: true
+  xy: 2, 159
+  size: 113, 94
+  orig: 120, 100
+  offset: 4, 0
+  index: -1
+avenging_wrath_1_0012
+  rotate: false
+  xy: 229, 391
+  size: 113, 94
+  orig: 120, 100
+  offset: 4, 0
+  index: -1
+avenging_wrath_1_0013
+  rotate: false
+  xy: 196, 294
+  size: 102, 95
+  orig: 120, 100
+  offset: 9, 0
+  index: -1
+avenging_wrath_1_0014
+  rotate: true
+  xy: 99, 283
+  size: 103, 95
+  orig: 120, 100
+  offset: 8, 0
+  index: -1
+avenging_wrath_1_0015
+  rotate: true
+  xy: 99, 189
+  size: 92, 95
+  orig: 120, 100
+  offset: 13, 0
+  index: -1
+avenging_wrath_1_0016
+  rotate: false
+  xy: 371, 191
+  size: 92, 96
+  orig: 120, 100
+  offset: 13, 0
+  index: -1
+avenging_wrath_1_0017
+  rotate: true
+  xy: 98, 95
+  size: 92, 96
+  orig: 120, 100
+  offset: 13, 0
+  index: -1
+avenging_wrath_1_0018
+  rotate: false
+  xy: 196, 118
+  size: 92, 96
+  orig: 120, 100
+  offset: 13, 0
+  index: -1
+avenging_wrath_1_0019
+  rotate: true
+  xy: 97, 2
+  size: 91, 97
+  orig: 120, 100
+  offset: 13, 0
+  index: -1

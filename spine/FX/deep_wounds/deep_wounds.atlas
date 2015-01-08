@@ -1,0 +1,61 @@
+
+deep_wounds.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deep_wounds_01
+  rotate: true
+  xy: 177, 2
+  size: 68, 74
+  orig: 130, 120
+  offset: 23, 16
+  index: -1
+deep_wounds_02
+  rotate: false
+  xy: 182, 165
+  size: 71, 89
+  orig: 130, 120
+  offset: 22, 13
+  index: -1
+deep_wounds_03
+  rotate: false
+  xy: 2, 157
+  size: 87, 97
+  orig: 130, 120
+  offset: 23, 13
+  index: -1
+deep_wounds_04
+  rotate: false
+  xy: 91, 159
+  size: 89, 95
+  orig: 130, 120
+  offset: 26, 20
+  index: -1
+deep_wounds_05
+  rotate: false
+  xy: 2, 62
+  size: 88, 93
+  orig: 130, 120
+  offset: 28, 23
+  index: -1
+deep_wounds_06
+  rotate: false
+  xy: 92, 68
+  size: 83, 89
+  orig: 130, 120
+  offset: 26, 20
+  index: -1
+deep_wounds_07
+  rotate: false
+  xy: 177, 72
+  size: 77, 85
+  orig: 130, 120
+  offset: 29, 23
+  index: -1
+deep_wounds_08
+  rotate: true
+  xy: 92, 4
+  size: 62, 79
+  orig: 130, 120
+  offset: 29, 26
+  index: -1

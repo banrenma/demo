@@ -1,0 +1,117 @@
+
+pyroblast_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pyroblast_3_0001
+  rotate: false
+  xy: 494, 500
+  size: 6, 8
+  orig: 150, 150
+  offset: 72, 71
+  index: -1
+pyroblast_3_0002
+  rotate: false
+  xy: 2, 2
+  size: 24, 26
+  orig: 150, 150
+  offset: 63, 62
+  index: -1
+pyroblast_3_0003
+  rotate: false
+  xy: 426, 340
+  size: 65, 62
+  orig: 150, 150
+  offset: 42, 43
+  index: -1
+pyroblast_3_0004
+  rotate: false
+  xy: 2, 372
+  size: 142, 136
+  orig: 150, 150
+  offset: 3, 6
+  index: -1
+pyroblast_3_0005
+  rotate: false
+  xy: 146, 373
+  size: 141, 135
+  orig: 150, 150
+  offset: 4, 6
+  index: -1
+pyroblast_3_0006
+  rotate: false
+  xy: 2, 235
+  size: 142, 135
+  orig: 150, 150
+  offset: 3, 6
+  index: -1
+pyroblast_3_0007
+  rotate: false
+  xy: 2, 98
+  size: 139, 135
+  orig: 150, 150
+  offset: 5, 6
+  index: -1
+pyroblast_3_0008
+  rotate: false
+  xy: 146, 237
+  size: 138, 134
+  orig: 150, 150
+  offset: 5, 6
+  index: -1
+pyroblast_3_0009
+  rotate: false
+  xy: 289, 376
+  size: 135, 132
+  orig: 150, 150
+  offset: 7, 7
+  index: -1
+pyroblast_3_0010
+  rotate: false
+  xy: 143, 113
+  size: 115, 120
+  orig: 150, 150
+  offset: 20, 14
+  index: -1
+pyroblast_3_0011
+  rotate: true
+  xy: 349, 273
+  size: 101, 64
+  orig: 150, 150
+  offset: 24, 75
+  index: -1
+pyroblast_3_0012
+  rotate: true
+  xy: 426, 404
+  size: 104, 66
+  orig: 150, 150
+  offset: 22, 75
+  index: -1
+pyroblast_3_0013
+  rotate: false
+  xy: 2, 30
+  size: 105, 66
+  orig: 150, 150
+  offset: 22, 76
+  index: -1
+pyroblast_3_0014
+  rotate: true
+  xy: 260, 130
+  size: 105, 65
+  orig: 150, 150
+  offset: 22, 77
+  index: -1
+pyroblast_3_0015
+  rotate: false
+  xy: 143, 49
+  size: 105, 62
+  orig: 150, 150
+  offset: 22, 80
+  index: -1
+pyroblast_3_0016
+  rotate: true
+  xy: 286, 267
+  size: 104, 61
+  orig: 150, 150
+  offset: 22, 81
+  index: -1

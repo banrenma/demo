@@ -1,0 +1,40 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "bloodthirst_01", "bone": "root", "attachment": "bloodthirst_08" }
+],
+"skins": {
+	"default": {
+		"bloodthirst_01": {
+			"bloodthirst_01": { "x": -45, "y": -3.99, "width": 140, "height": 150 },
+			"bloodthirst_02": { "x": -45, "y": -3.99, "width": 140, "height": 150 },
+			"bloodthirst_03": { "x": -45, "y": -3.99, "width": 140, "height": 150 },
+			"bloodthirst_04": { "x": -45, "y": -3.99, "width": 140, "height": 150 },
+			"bloodthirst_05": { "x": -45, "y": -3.99, "width": 140, "height": 150 },
+			"bloodthirst_06": { "x": -45, "y": -3.99, "width": 140, "height": 150 },
+			"bloodthirst_07": { "x": -45, "y": -3.99, "width": 140, "height": 150 },
+			"bloodthirst_08": { "x": -45, "y": -3.99, "width": 140, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"bloodthirst_01": {
+				"attachment": [
+					{ "time": 0, "name": "bloodthirst_01" },
+					{ "time": 0.0333, "name": "bloodthirst_02" },
+					{ "time": 0.0666, "name": "bloodthirst_03" },
+					{ "time": 0.1, "name": "bloodthirst_04" },
+					{ "time": 0.1333, "name": "bloodthirst_05" },
+					{ "time": 0.1666, "name": "bloodthirst_06" },
+					{ "time": 0.2, "name": "bloodthirst_07" },
+					{ "time": 0.2333, "name": "bloodthirst_08" }
+				]
+			}
+		}
+	}
+}
+}

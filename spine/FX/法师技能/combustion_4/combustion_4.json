@@ -1,0 +1,54 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "combustion_4_1", "bone": "root", "attachment": "combustion_4_9", "additive": true }
+],
+"skins": {
+	"default": {
+		"combustion_4_1": {
+			"combustion_4_1": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_2": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_3": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_4": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_5": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_6": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_7": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_8": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_9": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_10": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_11": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_12": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_13": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_14": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 },
+			"combustion_4_15": { "y": 108.99, "scaleX": 2, "scaleY": 2, "width": 99, "height": 141 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"combustion_4_1": {
+				"attachment": [
+					{ "time": 0, "name": "combustion_4_1" },
+					{ "time": 0.0333, "name": "combustion_4_2" },
+					{ "time": 0.0666, "name": "combustion_4_3" },
+					{ "time": 0.1, "name": "combustion_4_4" },
+					{ "time": 0.1333, "name": "combustion_4_5" },
+					{ "time": 0.1666, "name": "combustion_4_6" },
+					{ "time": 0.2, "name": "combustion_4_7" },
+					{ "time": 0.2333, "name": "combustion_4_8" },
+					{ "time": 0.2666, "name": "combustion_4_9" },
+					{ "time": 0.3, "name": "combustion_4_10" },
+					{ "time": 0.3333, "name": "combustion_4_11" },
+					{ "time": 0.3666, "name": "combustion_4_12" },
+					{ "time": 0.4, "name": "combustion_4_13" },
+					{ "time": 0.4333, "name": "combustion_4_14" },
+					{ "time": 0.4666, "name": "combustion_4_15" }
+				]
+			}
+		}
+	}
+}
+}

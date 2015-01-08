@@ -1,0 +1,103 @@
+
+recklessness.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+recklessness_01
+  rotate: false
+  xy: 992, 103
+  size: 14, 23
+  orig: 113, 120
+  offset: 78, 24
+  index: -1
+recklessness_02
+  rotate: false
+  xy: 2, 2
+  size: 33, 27
+  orig: 113, 120
+  offset: 64, 19
+  index: -1
+recklessness_03
+  rotate: false
+  xy: 682, 47
+  size: 93, 79
+  orig: 113, 120
+  offset: 0, 16
+  index: -1
+recklessness_04
+  rotate: false
+  xy: 486, 45
+  size: 95, 81
+  orig: 113, 120
+  offset: 0, 15
+  index: -1
+recklessness_05
+  rotate: false
+  xy: 583, 49
+  size: 97, 77
+  orig: 113, 120
+  offset: 1, 18
+  index: -1
+recklessness_06
+  rotate: false
+  xy: 388, 45
+  size: 96, 81
+  orig: 113, 120
+  offset: 1, 15
+  index: -1
+recklessness_07
+  rotate: false
+  xy: 869, 50
+  size: 80, 76
+  orig: 113, 120
+  offset: 4, 17
+  index: -1
+recklessness_08
+  rotate: false
+  xy: 951, 53
+  size: 39, 73
+  orig: 113, 120
+  offset: 9, 14
+  index: -1
+recklessness_09
+  rotate: false
+  xy: 292, 34
+  size: 94, 92
+  orig: 113, 120
+  offset: 16, 12
+  index: -1
+recklessness_10
+  rotate: false
+  xy: 2, 31
+  size: 94, 95
+  orig: 113, 120
+  offset: 15, 10
+  index: -1
+recklessness_11
+  rotate: false
+  xy: 195, 33
+  size: 95, 93
+  orig: 113, 120
+  offset: 13, 12
+  index: -1
+recklessness_12
+  rotate: false
+  xy: 98, 32
+  size: 95, 94
+  orig: 113, 120
+  offset: 13, 11
+  index: -1
+recklessness_13
+  rotate: true
+  xy: 777, 50
+  size: 76, 90
+  orig: 113, 120
+  offset: 28, 12
+  index: -1
+recklessness_14
+  rotate: true
+  xy: 388, 7
+  size: 36, 48
+  orig: 113, 120
+  offset: 63, 48
+  index: -1

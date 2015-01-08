@@ -1,0 +1,12 @@
+
+taunt_1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+taunt_1_01
+  rotate: false
+  xy: 2, 2
+  size: 282, 281
+  orig: 284, 283
+  offset: 0, 2
+  index: -1

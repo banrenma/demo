@@ -1,0 +1,89 @@
+
+devouring_plague_3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+devouring_plague_3_1
+  rotate: true
+  xy: 110, 2
+  size: 71, 39
+  orig: 180, 220
+  offset: 72, 7
+  index: -1
+devouring_plague_3_10
+  rotate: false
+  xy: 402, 123
+  size: 60, 69
+  orig: 180, 220
+  offset: 56, 141
+  index: -1
+devouring_plague_3_11
+  rotate: true
+  xy: 131, 102
+  size: 59, 58
+  orig: 180, 220
+  offset: 57, 158
+  index: -1
+devouring_plague_3_12
+  rotate: false
+  xy: 191, 118
+  size: 40, 45
+  orig: 180, 220
+  offset: 70, 171
+  index: -1
+devouring_plague_3_2
+  rotate: false
+  xy: 374, 194
+  size: 106, 52
+  orig: 180, 220
+  offset: 42, 10
+  index: -1
+devouring_plague_3_3
+  rotate: false
+  xy: 270, 183
+  size: 102, 63
+  orig: 180, 220
+  offset: 33, 11
+  index: -1
+devouring_plague_3_4
+  rotate: false
+  xy: 2, 163
+  size: 137, 83
+  orig: 180, 220
+  offset: 31, 12
+  index: -1
+devouring_plague_3_5
+  rotate: false
+  xy: 2, 8
+  size: 106, 65
+  orig: 180, 220
+  offset: 50, 50
+  index: -1
+devouring_plague_3_6
+  rotate: false
+  xy: 2, 75
+  size: 127, 86
+  orig: 180, 220
+  offset: 17, 58
+  index: -1
+devouring_plague_3_7
+  rotate: false
+  xy: 141, 165
+  size: 127, 81
+  orig: 180, 220
+  offset: 16, 67
+  index: -1
+devouring_plague_3_8
+  rotate: true
+  xy: 347, 114
+  size: 67, 53
+  orig: 180, 220
+  offset: 67, 107
+  index: -1
+devouring_plague_3_9
+  rotate: true
+  xy: 270, 127
+  size: 54, 75
+  orig: 180, 220
+  offset: 59, 117
+  index: -1

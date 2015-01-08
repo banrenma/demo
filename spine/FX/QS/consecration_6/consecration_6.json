@@ -1,0 +1,33 @@
+{
+"bones": [
+	{ "name": "root", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "consecration_5_0001", "bone": "root", "attachment": "consecration_6_0001", "additive": true }
+],
+"skins": {
+	"default": {
+		"consecration_5_0001": {
+			"consecration_6_0001": { "width": 275, "height": 106 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"consecration_5_0001": {
+				"attachment": [
+					{ "time": 0, "name": "consecration_6_0001" },
+					{ "time": 0.5, "name": "consecration_6_0001" },
+					{ "time": 1, "name": "consecration_6_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff86" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

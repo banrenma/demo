@@ -142,6 +142,8 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="..\Classes\Hero.cpp" />
     <ClCompile Include="..\Classes\Monster.cpp" />
+    <ClCompile Include="..\Classes\NSkeletonDataCache.cpp" />
+    <ClCompile Include="..\Classes\NSpineExt.cpp" />
     <ClCompile Include="..\Classes\StateMachine.cpp" />
     <ClCompile Include="..\Classes\Util.cpp" />
     <ClCompile Include="..\Classes\UtilManage.cpp" />
@@ -153,6 +155,8 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\Hero.h" />
     <ClInclude Include="..\Classes\Monster.h" />
+    <ClInclude Include="..\Classes\NSkeletonDataCache.h" />
+    <ClInclude Include="..\Classes\NSpineExt.h" />
     <ClInclude Include="..\Classes\StateMachine.h" />
     <ClInclude Include="..\Classes\Util.h" />
     <ClInclude Include="..\Classes\UtilManage.h" />
