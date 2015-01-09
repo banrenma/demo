@@ -20,7 +20,6 @@ USING_NS_CC;
 
 NSkeletonData::NSkeletonData()
 {
-
 	m_ID = 0;
 	m_atlas = NULL;
 	m_pskeletonData = NULL;

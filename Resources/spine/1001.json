@@ -1,7 +1,7 @@
 {
-"skeleton": { "hash": "4XLjje+X7UwmWyZs08HDqV/sBN0", "spine": "2.1.07", "width": 199.45, "height": 170.95, "images": "" },
+"skeleton": { "hash": "HHLanV5vO3ifqp2g2v5s84xSKes", "spine": "2.1.07", "width": 199.45, "height": 170.95, "images": "" },
 "bones": [
-	{ "name": "root" },
+	{ "name": "root", "x": 80.97 },
 	{ "name": "doan", "parent": "root", "x": -2.85, "y": 45.79 },
 	{ "name": "doan_shadow", "parent": "root", "x": -1.35, "y": 5.72 },
 	{ "name": "doan_body", "parent": "doan", "length": 33.42, "x": -1.13, "y": -9.54, "rotation": 91.36 },
@@ -42,14 +42,14 @@
 	{ "name": "doan_l_forearm", "bone": "doan_l_forearm", "attachment": "doan_l_forearm" },
 	{ "name": "doan_l_upperarm", "bone": "doan_l_upperarm", "attachment": "doan_l_upperarm" },
 	{ "name": "doan_l_shoudler", "bone": "doan_l_shoudler", "attachment": "doan_l_shoudler" },
-	{ "name": "UtilBoundingBxo", "bone": "root", "attachment": "UtilBoundingBxo" }
+	{ "name": "UtilBoundingBox", "bone": "root", "attachment": "UtilBoundingBox" }
 ],
 "skins": {
 	"default": {
-		"UtilBoundingBxo": {
-			"UtilBoundingBxo": {
+		"UtilBoundingBox": {
+			"UtilBoundingBox": {
 				"type": "boundingbox",
-				"vertices": [ -58.463165, 137.9283, -58.734177, -13.831654, 59.150787, -12.205654, 61.047787, 138.74129 ]
+				"vertices": [ -54.965714, 134.97925, -54.175735, -15.515572, 61.164116, -15.910576, 63.139122, 134.58423 ]
 			}
 		},
 		"doan_body": {
@@ -65,7 +65,7 @@
 			"doan_down4": { "x": 18.97, "y": 0.17, "rotation": 62.7, "width": 40, "height": 53 }
 		},
 		"doan_head1": {
-			"doan_head1": { "x": 28.05, "y": -6.54, "rotation": -82.85, "width": 73, "height": 90 },
+			"doan_head1": { "x": 28.88, "y": -13.21, "rotation": -83.73, "width": 73, "height": 90 },
 			"doan_head2": { "x": 28.05, "y": -6.54, "rotation": -82.85, "width": 73, "height": 90 },
 			"doan_head3": { "x": 28.05, "y": -6.54, "rotation": -82.85, "width": 73, "height": 90 },
 			"doan_head4": { "x": 28.05, "y": -6.54, "rotation": -82.85, "width": 73, "height": 90 },

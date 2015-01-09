@@ -45,6 +45,9 @@
     <ClCompile Include="..\Classes\NSpineExt.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\NBlood.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -78,6 +81,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\NSpineExt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NBlood.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

@@ -45,7 +45,12 @@ bool HelloWorld::init()
 	NSpineExt* node = NSpineExt::create(1001);
 	this->addChild(node);
 	node->setPosition(200,200);
-	Rect rt = node->getSkeletonBoundingBox("UtilBoundingBxo");
+	Rect rt = node->getSkeletonBoundingBox("UtilBoundingBox");
+
+	DrawNode * dw = DrawNode::create();
+	dw->drawRect(rt.origin,Vec2(rt.size.width + rt.origin.x,rt.size.height + rt.origin.y),Color4F::BLUE);
+	
+	this->addChild(dw);
     return true;
 }
 
