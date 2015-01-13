@@ -1,7 +1,7 @@
 {
-"skeleton": { "hash": "HHLanV5vO3ifqp2g2v5s84xSKes", "spine": "2.1.07", "width": 199.45, "height": 170.95, "images": "" },
+"skeleton": { "hash": "9PcZiXAReFTVRhGD7p5Noolypdg", "spine": "2.1.08", "width": 199.45, "height": 170.95, "images": "" },
 "bones": [
-	{ "name": "root", "x": 80.97 },
+	{ "name": "root" },
 	{ "name": "doan", "parent": "root", "x": -2.85, "y": 45.79 },
 	{ "name": "doan_shadow", "parent": "root", "x": -1.35, "y": 5.72 },
 	{ "name": "doan_body", "parent": "doan", "length": 33.42, "x": -1.13, "y": -9.54, "rotation": 91.36 },
@@ -23,7 +23,7 @@
 	{ "name": "doan_l_forearm", "parent": "doan_l_upperarm", "length": 29.76, "x": 34.94, "y": -0.37, "rotation": -58.44 },
 	{ "name": "doan_r_forearm", "parent": "doan_r_upperarm", "length": 33.28, "x": 22.36, "y": 1.85, "rotation": -62.41 },
 	{ "name": "doan_polearm", "parent": "doan_r_forearm", "length": 58.11, "x": 32.6, "y": 1.97, "rotation": -94.5 },
-	{ "name": "dummy_weapon", "parent": "doan_polearm", "x": 109.33, "y": 0.02, "rotation": -110.84 }
+	{ "name": "weapon", "parent": "doan_polearm", "x": 109.33, "y": 0.02, "rotation": -110.84 }
 ],
 "slots": [
 	{ "name": "doan_shadow", "bone": "doan_shadow", "attachment": "doan_shadow" },
@@ -65,7 +65,7 @@
 			"doan_down4": { "x": 18.97, "y": 0.17, "rotation": 62.7, "width": 40, "height": 53 }
 		},
 		"doan_head1": {
-			"doan_head1": { "x": 28.88, "y": -13.21, "rotation": -83.73, "width": 73, "height": 90 },
+			"doan_head1": { "x": 28.05, "y": -6.54, "rotation": -82.85, "width": 73, "height": 90 },
 			"doan_head2": { "x": 28.05, "y": -6.54, "rotation": -82.85, "width": 73, "height": 90 },
 			"doan_head3": { "x": 28.05, "y": -6.54, "rotation": -82.85, "width": 73, "height": 90 },
 			"doan_head4": { "x": 28.05, "y": -6.54, "rotation": -82.85, "width": 73, "height": 90 },
@@ -105,6 +105,10 @@
 			"doan_shadow": { "x": 2.93, "y": -3.95, "scaleX": 3.306, "scaleY": 2.142, "width": 55, "height": 26 }
 		}
 	}
+},
+"events": {
+	"attack": {},
+	"attakcend": {}
 },
 "animations": {
 	"animation": {},
@@ -457,7 +461,11 @@
 					{ "time": 0.1333, "x": 0.55, "y": 2.78 }
 				]
 			}
-		}
+		},
+		"events": [
+			{ "time": 0.2333, "name": "attack" },
+			{ "time": 0.7333, "name": "attakcend" }
+		]
 	},
 	"dead": {
 		"slots": {

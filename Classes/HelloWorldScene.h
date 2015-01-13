@@ -2,6 +2,9 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "Util.h"
+#include "NSpineExt.h"
+#include "ui/CocosGUI.h"
 
 class HelloWorld : public cocos2d::Layer
 {
@@ -13,6 +16,8 @@ public:
     virtual bool init();
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+	void clickEvent(Ref * btn);
+	Util * ut;
 };
 
 #endif // __HELLOWORLD_SCENE_H__

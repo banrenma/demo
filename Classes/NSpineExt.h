@@ -14,14 +14,16 @@ public:
 	NSpineExt* createWithData (spSkeletonData* skeletonData);
 	NSpineExt* createWithFile (const std::string& skeletonDataFile, spAtlas* atlas, float scale);
 	NSpineExt* createWithFile (const std::string& skeletonDataFile, const std::string& atlasFile, float scale);
-
+	NSpineExt();
 	NSpineExt (spSkeletonData* skeletonData);
 	NSpineExt (const std::string& skeletonDataFile, spAtlas* atlas, float scale);
 	NSpineExt (const std::string& skeletonDataFile, const std::string& atlasFile, float scale);
 	Rect getSkeletonBoundingBox(const std::string& slotName);
-	Vec2 getBonePosition(const std::string& boneName);
+	
 	CC_SYNTHESIZE(int,m_ID,ID)
 	~NSpineExt();
+	cocos2d::Vec2 getBoneWorldPosition( const std::string& boneName );
+	cocos2d::Vec2 getBoneLocalPosition( const std::string& boneName );
 };
 
 

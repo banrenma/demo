@@ -4,7 +4,10 @@
 //静态成员  s_
 //类成员  m_
 #include "cocos2d.h"
+#include "NSpineExt.h"
+#include "NBlood.h"
 USING_NS_CC;
+
 
 
 class baseUtil
@@ -19,17 +22,32 @@ public:
 
 };
 
-
-class Util:public Node ,public baseUtil
+class Util:public NSpineExt ,public baseUtil
 {
 public:
-	Util();
+
+	static Util * create(UtilData & data);
+	bool initUtil(UtilData & data);
+
+
+	virtual void update(float delta);
+	
+	Util(spSkeletonData * pSkeleton);
 	~Util();
+
+	Node * getBeforeSkeletonNode(){ return m_BeforeSkeletonNode; }
+	Node * getBehindSkeletonNode(){return m_BehindSkeletonNode; }
+protected:
+	Node * m_Blood; 
+	Node * m_BeforeSkeletonNode;
+	Node * m_BehindSkeletonNode;
+	UtilData m_data;
+
 protected:
 	
-	//骨骼  -- 动画 --血条对象 --选中区域 --受击位置 --攻击特效位置 -- 攻击范围 -- 
 
-	//状态机 对象
+
+	
 
 
 

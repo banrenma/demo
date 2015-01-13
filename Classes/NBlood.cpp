@@ -1,8 +1,5 @@
 #include "NBlood.h"
 
-
-
-
 NBlood * NBlood::create( const std::string &Redfile,const std::string &Yellowfile,const std::string &Greenfile,int totalBlood,int PieceBlood /*= 1000*/ )
 {
 	NBlood * pBlood = new NBlood();
@@ -17,6 +14,23 @@ NBlood * NBlood::create( const std::string &Redfile,const std::string &Yellowfil
 	return NULL;
 }
 
+NBlood * NBlood::create( int totalBlood, int PieceBlood /*= 1000*/ )
+{
+	NBlood * pBlood = new NBlood();
+
+
+	if ( pBlood && pBlood->init(CONSTREDFILE,CONSTYELLOWFILE,CONSTGREENFILE,totalBlood,PieceBlood))
+	{
+		pBlood->autorelease();
+		return pBlood;
+	}
+	CC_SAFE_DELETE(pBlood);
+	return NULL;
+}
+
+
+
+
 bool NBlood::init( const std::string &Redfile,const std::string &Yellowfile,const std::string &Greenfile,int totalBlood, int PieceBlood /*= 1000*/ )
 {
 	m_pRedBlood = Sprite::create(Redfile);
@@ -27,27 +41,46 @@ bool NBlood::init( const std::string &Redfile,const std::string &Yellowfile,cons
 		log("NBlood init fail");
 		return false;
 	}
-	m_iTotal = m_iCur = totalBlood;
+	m_iTotal = m_iCur = m_iCurTemp = totalBlood;
 	m_iPieceBlood = PieceBlood;
+	m_iDefaultHurt = m_iPieceBlood/20;
 	this->addChild(m_pRedBlood,0);
 	this->addChild(m_pYellowBlood,1);
 	this->addChild(m_pGreenBlood,2);
-	if(m_iTotal <= m_iPieceBlood)
-	{
-		m_pYellowBlood:setVisible(false);
-	}
+	this->scheduleUpdateWithPriority(1);
 	return true;
 }
 
-void NBlood::showBlood( int hurt, int curBlood )
+void NBlood::update( float deltaTime )
 {
-	m_iCur = 
-	if(m_iCur <= m_iPieceBlood)
-
+	if(m_iCurTemp <= m_iCur)
+	{
+		return;
+	}
+	if(m_iCurTemp <= m_iCur - m_iDefaultHurt)
+	{
+		m_iCurTemp = m_iCur;
+	}
+	else
+	{
+		m_iCurTemp -= m_iDefaultHurt;
+	}
+	if(m_iCurTemp <= m_iPieceBlood)
+	{
+		m_pYellowBlood->setVisible(false);
+	}
+	else
+	{
+		m_pYellowBlood->setVisible(true);
+	}
+	m_pGreenBlood->setScaleX(((m_iCurTemp + m_iPieceBlood)%m_iPieceBlood) /(float)m_iPieceBlood);
 
 }
 
-NBlood::NBlood():m_fSpeed(0.1)
+
+
+
+NBlood::NBlood()
 {
 
 }
@@ -56,6 +89,7 @@ NBlood::~NBlood()
 {
 
 }
+
 
 
 

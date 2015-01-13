@@ -17,34 +17,30 @@ USING_NS_CC;
 *************************************************/
 
 //静态变量要在类外定义
-
-NSkeletonData::NSkeletonData()
+bool UtilBaseData::init(UtilBaseData & data)
 {
-	m_ID = 0;
-	m_atlas = NULL;
-	m_pskeletonData = NULL;
+	m_iID =data.m_iID;
+	m_strJsonFile= data.m_strJsonFile;
+	m_strAtlasFile = data.m_strAtlasFile;
+	m_poSkeletonData = data.m_poSkeletonData;
+	m_poAtlas = data.m_poAtlas;
+	return initSkeletonData();
 }
-bool NSkeletonData::init( const char *jsonpath,const char *atlaspath ,int ID )
-{
-	if(jsonpath == NULL || atlaspath == NULL)
-	{
-		log("class NSkeletonData   jsonpath or atlaspath is NULL");
-		return false;
-	}
 
-	m_ID = ID;
-	m_atlas = spAtlas_createFromFile(atlaspath, 0);
-	if(m_atlas == NULL)
+bool UtilBaseData::initSkeletonData()
+{
+	m_poAtlas = spAtlas_createFromFile(m_strAtlasFile.c_str(), 0);
+	if(m_poAtlas == NULL)
 	{
-		log("class NSkeletonData   m_atlas is NULL");
+		log("class UtilBaseData   m_atlas is NULL");
 		return false;
 	}
-	spSkeletonJson* json = spSkeletonJson_create(m_atlas);
+	spSkeletonJson* json = spSkeletonJson_create(m_poAtlas);
 	json->scale = 1.0;
-	m_pskeletonData = spSkeletonJson_readSkeletonDataFile(json, jsonpath);
-	if(m_pskeletonData == NULL || json->error)
+	m_poSkeletonData = spSkeletonJson_readSkeletonDataFile(json, m_strJsonFile.c_str());
+	if(m_poSkeletonData == NULL || json->error)
 	{
-		log("class NSkeletonData Error reading skeleton data file  m_pskeletonData is NULL  or json->error %s",json->error);
+		log("class UtilBaseData Error reading skeleton data file  m_pskeletonData is NULL  or json->error %s",json->error);
 		spSkeletonJson_dispose(json);
 		return false;
 	}
@@ -52,16 +48,30 @@ bool NSkeletonData::init( const char *jsonpath,const char *atlaspath ,int ID )
 	return true;
 }
 
-NSkeletonData::~NSkeletonData()
+UtilBaseData::~UtilBaseData()
 {
-	if(m_atlas != NULL)
-		 spAtlas_dispose(m_atlas);
-	if(m_pskeletonData != NULL)
-		spSkeletonData_dispose(m_pskeletonData);
+	if(m_poAtlas != NULL)
+		spAtlas_dispose(m_poAtlas);
+	if(m_poSkeletonData != NULL)
+		spSkeletonData_dispose(m_poSkeletonData);
 }
 
 
 
+bool UtilData::init( UtilData & data )
+{
+	m_iID =data.m_iID;
+	m_iTotalBlood = data.m_iTotalBlood;
+	m_iAttack = data.m_iAttack;
+	m_iDefend = data.m_iDefend;
+	m_strJsonFile= data.m_strJsonFile;
+	m_strAtlasFile = data.m_strAtlasFile;
+	m_vecSkill = data.m_vecSkill;
+	m_ucAttr = data.m_ucAttr;
+	m_poSkeletonData = data.m_poSkeletonData;
+	m_poAtlas = data.m_poAtlas;
+	return initSkeletonData();
+}
 
 static NSkeletonDataCache * pInstance = NULL;
 
@@ -76,24 +86,47 @@ NSkeletonDataCache * NSkeletonDataCache::getInstance()
 	return pInstance;
 }
 
-bool NSkeletonDataCache::AddSkeletonDataCache( const char *jsonpath,const char *atlaspath,int ID )
+bool NSkeletonDataCache::AddSkeletonDataCache( UtilBaseData & data )
 {
-	std::map<int,NSkeletonData *>::iterator it = m_SkeletonDataMap.find(ID);
+	std::map<int,UtilBaseData *>::iterator it = m_SkeletonDataMap.find(data.getID());
 	if(it == m_SkeletonDataMap.end())
 	{
-		NSkeletonData * pSkeletonData = new NSkeletonData();
+		UtilBaseData * pSkeletonData = new UtilBaseData();
 		if(pSkeletonData)
 		{
-			if(pSkeletonData->init(jsonpath, atlaspath, ID))
+			if(pSkeletonData->init(data))
 			{
-				m_SkeletonDataMap[ID] = pSkeletonData;
+				m_SkeletonDataMap[data.getID()] = pSkeletonData;
 				return true;
 			}
 			else
 			{
 				pSkeletonData->release();
 			}
-			
+
+		}
+	}
+	return false;
+}
+
+bool NSkeletonDataCache::AddSkeletonDataCache( UtilData & data )
+{
+	std::map<int,UtilBaseData *>::iterator it = m_SkeletonDataMap.find(data.getID());
+	if(it == m_SkeletonDataMap.end())
+	{
+		UtilBaseData * pSkeletonData = new UtilData();
+		if(pSkeletonData)
+		{
+			if(pSkeletonData->init(data))
+			{
+				m_SkeletonDataMap[data.getID()] = pSkeletonData;
+				return true;
+			}
+			else
+			{
+				pSkeletonData->release();
+			}
+
 		}
 	}
 	return false;
@@ -101,7 +134,7 @@ bool NSkeletonDataCache::AddSkeletonDataCache( const char *jsonpath,const char *
 
 bool NSkeletonDataCache::RemoveSkeletonDataCache( int ID )
 {
-	std::map<int,NSkeletonData *>::iterator it = m_SkeletonDataMap.find(ID);
+	std::map<int,UtilBaseData *>::iterator it = m_SkeletonDataMap.find(ID);
 	if(it != m_SkeletonDataMap.end())
 	{
 		it->second->release();
@@ -114,7 +147,7 @@ bool NSkeletonDataCache::RemoveSkeletonDataCache( int ID )
 
 bool NSkeletonDataCache::RemoveAllSkeletonDataCache()
 {
-	std::map<int,NSkeletonData *>::iterator it = m_SkeletonDataMap.begin();
+	std::map<int,UtilBaseData *>::iterator it = m_SkeletonDataMap.begin();
 	for(;it != m_SkeletonDataMap.end();it++)
 	{
 		it->second->release();
@@ -126,7 +159,7 @@ bool NSkeletonDataCache::RemoveAllSkeletonDataCache()
 
 spSkeletonData * NSkeletonDataCache::getSkeletonData( int ID )
 {
-	std::map<int,NSkeletonData *>::iterator it = m_SkeletonDataMap.find(ID);
+	std::map<int,UtilBaseData *>::iterator it = m_SkeletonDataMap.find(ID);
 	if(it != m_SkeletonDataMap.end())
 	{
 		return it->second->getSPSkeletonData();
@@ -144,8 +177,6 @@ NSkeletonDataCache::~NSkeletonDataCache()
 	RemoveAllSkeletonDataCache();
 }
 
-
-
 NSkeletonDataCache::NGarbage::~NGarbage()
 {
 	if(pInstance != NULL)
@@ -153,4 +184,7 @@ NSkeletonDataCache::NGarbage::~NGarbage()
 		delete pInstance;
 	}
 }
+
+
+
 

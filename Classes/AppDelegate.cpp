@@ -40,6 +40,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	//增加资源文件 目录
 	FileUtils::getInstance()->addSearchPath("spine/");
 	FileUtils::getInstance()->addSearchPath("map/");
+	FileUtils::getInstance()->addSearchPath("fonts/");
     // create a scene. it's an autorelease object
     auto scene = HelloWorld::createScene();
 

@@ -61,44 +61,52 @@ NSpineExt* NSpineExt::create( int Id )
 	node->autorelease();
 	//这里要调用一下updateWorldTransform 初始化 m0 m1 m00 m01
 	node->setID(Id);
-	node->updateWorldTransform();
+	//node->updateWorldTransform();
 	return node;
 }
 //创建spine对象 接口
 NSpineExt* NSpineExt::createWithData (spSkeletonData* skeletonData) {
 	NSpineExt* node = new NSpineExt(skeletonData);
 	node->autorelease();
+	//node->updateWorldTransform();
 	return node;
 }
 //创建spine对象 接口 文件方式
 NSpineExt* NSpineExt::createWithFile (const std::string& skeletonDataFile, spAtlas* atlas, float scale) {
 	NSpineExt* node = new NSpineExt(skeletonDataFile, atlas, scale);
 	node->autorelease();
+	//node->updateWorldTransform();
 	return node;
 }
 //spine 导出 *.json--动画 骨骼关系  *.atlas --属性参数
 NSpineExt* NSpineExt::createWithFile (const std::string& skeletonDataFile, const std::string& atlasFile, float scale) {
 	NSpineExt* node = new NSpineExt(skeletonDataFile, atlasFile, scale);
 	node->autorelease();
+	//node->updateWorldTransform();
 	return node;
 }
 
 NSpineExt::NSpineExt( spSkeletonData* skeletonData ):m_ID(0),SkeletonAnimation(skeletonData)
 {
-
+	updateWorldTransform();
 }
 
 NSpineExt::NSpineExt (const std::string& skeletonDataFile, spAtlas* atlas, float scale)
 	: m_ID(0),SkeletonAnimation(skeletonDataFile, atlas, scale) {
-		
+		updateWorldTransform();
 }
 
 NSpineExt::NSpineExt (const std::string& skeletonDataFile, const std::string& atlasFile, float scale)
 	: m_ID(0),SkeletonAnimation(skeletonDataFile, atlasFile, scale) {
-	
+	updateWorldTransform();
 }
 
-cocos2d::Vec2 NSpineExt::getBonePosition( const std::string& boneName )
+NSpineExt::NSpineExt()
+{
+
+}
+
+cocos2d::Vec2 NSpineExt::getBoneWorldPosition( const std::string& boneName )
 {
 	spBone * bone = findBone(boneName);
 	if(!bone)
@@ -109,6 +117,15 @@ cocos2d::Vec2 NSpineExt::getBonePosition( const std::string& boneName )
 	return Vec2(bone->worldX + bone->skeleton->x + position.x,bone->worldY + bone->skeleton->y + position.y);
 }
 
+cocos2d::Vec2 NSpineExt::getBoneLocalPosition( const std::string& boneName )
+{
+	spBone * bone = findBone(boneName);
+	if(!bone)
+	{
+		return Vec2::ZERO;
+	}
+	return Vec2(bone->worldX + bone->skeleton->x,bone->worldY + bone->skeleton->y);
+}
 NSpineExt::~NSpineExt()
 {
 
