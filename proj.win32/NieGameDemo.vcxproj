@@ -86,7 +86,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
       <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -145,6 +145,7 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClCompile Include="..\Classes\NBlood.cpp" />
     <ClCompile Include="..\Classes\NSkeletonDataCache.cpp" />
     <ClCompile Include="..\Classes\NSpineExt.cpp" />
+    <ClCompile Include="..\Classes\sqlite\DbSqlite.cpp" />
     <ClCompile Include="..\Classes\StateMachine.cpp" />
     <ClCompile Include="..\Classes\Util.cpp" />
     <ClCompile Include="..\Classes\UtilManage.cpp" />
@@ -159,6 +160,7 @@ xcopy /Y /Q "$(EngineRoot)external\websockets\prebuilt\win32\*.*" "$(OutDir)"</C
     <ClInclude Include="..\Classes\NBlood.h" />
     <ClInclude Include="..\Classes\NSkeletonDataCache.h" />
     <ClInclude Include="..\Classes\NSpineExt.h" />
+    <ClInclude Include="..\Classes\sqlite\DbSqlite.h" />
     <ClInclude Include="..\Classes\StateMachine.h" />
     <ClInclude Include="..\Classes\Util.h" />
     <ClInclude Include="..\Classes\UtilManage.h" />

@@ -16,15 +16,19 @@ Util::~Util()
 Util * Util::create( UtilData & data )
 {
 	NSkeletonDataCache * pCache = NSkeletonDataCache::getInstance();
-	spSkeletonData * pSkeleton = pCache->getSkeletonData(data.m_ID);
-	if(!pSkeleton)
+	UtilBaseData * pData = pCache->getData(data.getID());
+	if(!pData)
 	{
-		pCache->AddSkeletonDataCache(data.m_strJsonFile.c_str(),data.m_strAtlasFile.c_str(),data.m_ID);
-		pSkeleton =  pCache->getSkeletonData(data.m_ID);
+		pCache->AddSkeletonDataCache(data);
+		pData =  pCache->getData(data.getID());
 	}
-
-	Util * ut = new Util(pSkeleton);
-	if(ut && ut->initUtil(data))
+	UtilData * poData = dynamic_cast<UtilData * >(pData);
+	if(!poData)
+	{
+		return NULL;
+	}
+	Util * ut = new Util(poData);
+	if(ut)
 	{
 		ut->autorelease();
 		return ut;
@@ -33,10 +37,10 @@ Util * Util::create( UtilData & data )
 	return NULL;
 }
 
-bool Util::initUtil( UtilData & data )
+bool Util::initUtil( )
 {
-	m_data = data;
-	m_Blood = NBlood::create(m_data.m_iTotalBlood);
+
+	m_Blood = NBlood::create(m_data->getTotalBlood());
 	m_BeforeSkeletonNode = Node::create();
 	m_BehindSkeletonNode = Node::create();
 
@@ -58,10 +62,10 @@ void Util::update( float delta )
 	m_BeforeSkeletonNode->setPosition(this->getBoneLocalPosition("weapon"));
 }
 
-
-Util::Util(spSkeletonData * pSkeleton):NSpineExt(pSkeleton)
+Util::Util( UtilData * pData ):NSpineExt(pData->getSPSkeletonData())
 {
-
+	m_data = pData;
+	initUtil();
 }
 
 

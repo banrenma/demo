@@ -167,6 +167,16 @@ spSkeletonData * NSkeletonDataCache::getSkeletonData( int ID )
 	return NULL;
 }
 
+UtilBaseData * NSkeletonDataCache::getData( int ID )
+{
+	std::map<int,UtilBaseData *>::iterator it = m_SkeletonDataMap.find(ID);
+	if(it != m_SkeletonDataMap.end())
+	{
+		return it->second;
+	}
+	return NULL;
+}
+
 NSkeletonDataCache::NSkeletonDataCache()
 {
 	m_SkeletonDataMap.empty();

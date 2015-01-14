@@ -10,7 +10,7 @@
 
 #define MAX_SKILL_NUM 4
 
-class UtilBaseData:public Ref
+class UtilBaseData:public cocos2d::Ref
 {
 public:
 	UtilBaseData():m_iID(0),m_poSkeletonData(NULL),m_poAtlas(NULL)
@@ -23,6 +23,8 @@ public:
 		m_iID =ID;
 		m_strJsonFile= strJsonFile;
 		m_strAtlasFile = strAtlasFile;
+		m_poSkeletonData =  NULL;
+		m_poAtlas = NULL;
 	}
 	UtilBaseData(UtilBaseData & data){
 		m_iID =data.m_iID;
@@ -45,7 +47,7 @@ public:
 	CC_SYNTHESIZE(spAtlas*,m_poAtlas,Atlas)
 	CC_SYNTHESIZE(std::string,m_strJsonFile,JsonFile)
 	CC_SYNTHESIZE(std::string,m_strAtlasFile,AtlasFile)
-	bool init(UtilBaseData & data);
+	virtual bool init(UtilBaseData & data);
 	bool initSkeletonData();
 };
 
@@ -107,7 +109,7 @@ public:
 	CC_SYNTHESIZE(unsigned char, m_ucAttr,ucAttr)
 	CC_SYNTHESIZE(std::vector<std::string>,m_vecSkill, vecSkill)
 
-	bool init(UtilData & data);
+	virtual bool init(UtilData & data);
 };
 
 class NSkeletonDataCache : public cocos2d::Ref
@@ -120,6 +122,8 @@ public:
 	
 
 	spSkeletonData * getSkeletonData(int ID);
+	UtilBaseData * getData( int ID );
+
 	bool RemoveSkeletonDataCache(int ID);
 	bool RemoveAllSkeletonDataCache();
 private:

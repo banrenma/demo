@@ -10,6 +10,9 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\sqlite">
+      <UniqueIdentifier>{6d84f396-c3c9-4fc0-a591-ade1f330b0a4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,6 +51,9 @@
     <ClCompile Include="..\Classes\NBlood.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\sqlite\DbSqlite.cpp">
+      <Filter>src\sqlite</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -85,6 +91,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\NBlood.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\sqlite\DbSqlite.h">
+      <Filter>src\sqlite</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

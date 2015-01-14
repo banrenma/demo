@@ -27,12 +27,13 @@ class Util:public NSpineExt ,public baseUtil
 public:
 
 	static Util * create(UtilData & data);
-	bool initUtil(UtilData & data);
+	bool initUtil();
 
 
 	virtual void update(float delta);
 	
-	Util(spSkeletonData * pSkeleton);
+	Util(UtilData * pData);
+	Util(){}
 	~Util();
 
 	Node * getBeforeSkeletonNode(){ return m_BeforeSkeletonNode; }
@@ -41,7 +42,7 @@ protected:
 	Node * m_Blood; 
 	Node * m_BeforeSkeletonNode;
 	Node * m_BehindSkeletonNode;
-	UtilData m_data;
+	UtilData* m_data;
 
 protected:
 	
