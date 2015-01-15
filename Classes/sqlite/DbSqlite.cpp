@@ -1,12 +1,31 @@
-#include "sqlite/DbSqlite.h"
+ï»¿#include "sqlite/DbSqlite.h"
 
 USING_NS_CC;
 
 static DbSqlite * pDbSqlite = NULL;
 static sqlite3 * pDb = NULL;
-static char * pErrMsg = NULL;//´íÎóĞÅÏ¢ 
+static char * pErrMsg = NULL;//é”™è¯¯ä¿¡æ¯ 
 static int result;
 static std::string sqlstr;
+
+
+
+DbSqlite::DbSqlite():m_eType(dbType::DBNone)
+{
+
+}
+DbSqlite::~DbSqlite()
+{
+	if(pDb != NULL)
+	{
+		this->closeDB();
+	}
+}
+
+sqlite3 * DbSqlite::getpSqlite3()
+{
+	return pDb;
+}
 DbSqlite * DbSqlite::getInstance()
 {
 	if(pDbSqlite == NULL)
@@ -16,40 +35,128 @@ DbSqlite * DbSqlite::getInstance()
 	}
 	return pDbSqlite;
 }
-
-bool DbSqlite::initDB( const char * name )
+//
+bool DbSqlite::initDB( const char * name ,bool isWritablePath)
 {
-	std::string basePath = FileUtils::getInstance()->getWritablePath();
-	std::string path = basePath + name;
-	//´ò¿ªÒ»¸öÊı¾İ¿â£¬Èç¹û¸ÃÊı¾İ¿â²»´æÔÚ£¬Ôò´´½¨Ò»¸öÊı¾İ¿âÎÄ¼ş  
+	if(pDb != NULL)
+	{
+		log( "å…ˆå…³é—­ä¸€ä¸ªè¿æ¥");  
+		return false;
+	}
+	std::string path;
+	if(isWritablePath)
+	{
+		std::string basePath = FileUtils::getInstance()->getWritablePath();
+		path = basePath + name;
+	}
+	else
+	{
+		path = name;
+	}
+	//æ‰“å¼€ä¸€ä¸ªæ•°æ®åº“ï¼Œå¦‚æœè¯¥æ•°æ®åº“ä¸å­˜åœ¨ï¼Œåˆ™åˆ›å»ºä¸€ä¸ªæ•°æ®åº“æ–‡ä»¶  
 	result = sqlite3_open(path.c_str(), &pDb);  
+	m_eType = dbType::FileDB;
 	if( result != SQLITE_OK )  
 	{
-		log( "´ò¿ªÊı¾İ¿âÊ§°Ü£¬´íÎóÂë:%d £¬´íÎóÔ­Òò:%s\n" , result, pErrMsg );  
+		log( "æ‰“å¼€æ•°æ®åº“å¤±è´¥ï¼Œé”™è¯¯ç :%d ï¼Œé”™è¯¯åŸå› :%s\n" , result, pErrMsg );  
 		return false;
 	}
 	return true;
 }
 
+//æ‰“å¼€ä¸€ä¸ªå†…å­˜æ•°æ®åº“ï¼Œå¦‚æœè¯¥æ•°æ®åº“ä¸å­˜åœ¨ï¼Œåˆ™åˆ›å»ºä¸€ä¸ªæ•°æ®åº“æ–‡ä»¶
+bool DbSqlite::initMemoryDB() 
+{
+	if(pDb != NULL)
+	{
+		log( "å…ˆå…³é—­ä¸€ä¸ªè¿æ¥");  
+		return false;
+	}
+	//æ‰“å¼€ä¸€ä¸ªæ•°æ®åº“ï¼Œå¦‚æœè¯¥æ•°æ®åº“ä¸å­˜åœ¨ï¼Œåˆ™åˆ›å»ºä¸€ä¸ªæ•°æ®åº“æ–‡ä»¶  
+	result = sqlite3_open(":memory:", &pDb); 
+	m_eType = dbType::MemoryDB;
+	if( result != SQLITE_OK )  
+	{
+		log( "æ‰“å¼€æ•°æ®åº“å¤±è´¥ï¼Œé”™è¯¯ç :%d ï¼Œé”™è¯¯åŸå› :%s\n" , result, pErrMsg );  
+		return false;
+	}
+	return true;
+}
+//ä»å†…å­˜ å¤‡ä»½åˆ°æ–‡ä»¶  æˆ–è€… ä»æ–‡ä»¶ åˆ°å†…å­˜
+bool DbSqlite::backup_init_DB(const char *zFilename, int isSave /*= false*/,bool isWritablePath /*= true*/)  
+
+{  
+	if(m_eType != dbType::MemoryDB || pDb == NULL)
+	{
+		return false; 
+	}
+
+	int rc;  
+
+	sqlite3 *pFile;  
+
+	sqlite3_backup *pBackup;  
+
+	sqlite3 *pTo;  
+
+	sqlite3 *pFrom;  
+
+	std::string path;
+	if(isWritablePath)
+	{
+		std::string basePath = FileUtils::getInstance()->getWritablePath();
+		path = basePath + zFilename;
+	}
+	else
+	{
+		path = zFilename;
+	}
+
+	rc = sqlite3_open(path.c_str(), &pFile);  
+
+	if(rc == SQLITE_OK)  
+	{  
+		pFrom = (isSave?pDb:pFile);  
+		pTo = (isSave?pFile:pDb);  
+
+		pBackup = sqlite3_backup_init(pTo,"main",pFrom,"main");  
+
+		if(pBackup)  
+		{  
+			(void)sqlite3_backup_step(pBackup,-1);  
+			(void)sqlite3_backup_finish(pBackup);  
+		}  
+
+		rc = sqlite3_errcode(pTo);  
+
+	}  
+
+	(void)sqlite3_close(pFile);  
+
+	return true;  
+}  
+
+
 void DbSqlite::closeDB()
 {
-	sqlite3_close(pDb);  
+	sqlite3_close(pDb);
+	pDb = NULL;
+	m_eType = dbType::DBNone;
 }
 
-//tableIsExistµÄ»Øµ÷º¯Êı  
+//tableIsExistçš„å›è°ƒå‡½æ•°  
 int isExisted( void * para, int n_column, char ** column_value, char ** column_name )  
 {  
     bool *isExisted_=(bool*)para;  
     *isExisted_=(**column_value)!='0';  
     return 0;  
 }  
-  
-//ÅĞ¶Ï±í¸ñÊÇ·ñ´æÔÚ  
+//åˆ¤æ–­è¡¨æ ¼æ˜¯å¦å­˜åœ¨  
 bool DbSqlite::tableIsExist( std::string name )  
 {  
     if (pDb!=NULL)  
     {  
-        //ÅĞ¶Ï±íÊÇ·ñ´æÔÚ  
+        //åˆ¤æ–­è¡¨æ˜¯å¦å­˜åœ¨  
         bool tableIsExisted;  
         sqlstr = "select count(type) from sqlite_master where type='table' and name ='"+name+"'";  
         result =sqlite3_exec(pDb,sqlstr.c_str(),isExisted,&tableIsExisted,&pErrMsg);  
@@ -58,73 +165,73 @@ bool DbSqlite::tableIsExist( std::string name )
     return false;  
 }  
   
-//ÔÚÊı¾İ¿âÖĞÅĞ¶ÏÃûÎªnameµÄ±íÊ¾·ñ´æÔÚ£¬Èç¹û²»´æÔÚÔò´´½¨ÕâÕÅ±í  
-//@Ê¾ÀıÓï¾ästd::string sqls = "create table user(id integer,username text,password text)";  
+//åœ¨æ•°æ®åº“ä¸­åˆ¤æ–­åä¸ºnameçš„è¡¨ç¤ºå¦å­˜åœ¨ï¼Œå¦‚æœä¸å­˜åœ¨åˆ™åˆ›å»ºè¿™å¼ è¡¨  
+//@ç¤ºä¾‹è¯­å¥std::string sqls = "create table user(id integer,username text,password text)";  
 void DbSqlite::createTable( std::string sql,std::string name )  
 {  
     if (!tableIsExist(name))  
     {  
-        //´´½¨±í£¬ÉèÖÃIDÎªÖ÷¼ü£¬ÇÒ×Ô¶¯Ôö¼Ó  
+        //åˆ›å»ºè¡¨ï¼Œè®¾ç½®IDä¸ºä¸»é”®ï¼Œä¸”è‡ªåŠ¨å¢åŠ   
         result = sqlite3_exec(pDb,sql.c_str(),NULL,NULL,&pErrMsg);  
         if( result != SQLITE_OK )  
-            log( "´´½¨±íÊ§°Ü£¬´íÎóÂë:%d £¬´íÎóÔ­Òò:%s\n" , result, pErrMsg );  
+            log( "åˆ›å»ºè¡¨å¤±è´¥ï¼Œé”™è¯¯ç :%d ï¼Œé”™è¯¯åŸå› :%s\n" , result, pErrMsg );  
     }  
       
 }  
   
   
-//É¾³ı±í¸ñ  
-//@Ê¾ÀıÓï¾äsqlstr="drop table name";  
+//åˆ é™¤è¡¨æ ¼  
+//@ç¤ºä¾‹è¯­å¥sqlstr="drop table name";  
 void DbSqlite::deleteTable( std::string sql,std::string name )  
 {  
     if (tableIsExist(name))  
     {  
         result = sqlite3_exec(pDb,sql.c_str(),NULL,NULL,&pErrMsg);  
         if( result != SQLITE_OK )  
-            log( "´´½¨±íÊ§°Ü£¬´íÎóÂë:%d £¬´íÎóÔ­Òò:%s\n" , result, pErrMsg );  
+            log( "åˆ é™¤è¡¨æ ¼ï¼Œé”™è¯¯ç :%d ï¼Œé”™è¯¯åŸå› :%s\n" , result, pErrMsg );  
     }  
 }  
   
   
-//²åÈëÊı¾İ  
-//@Ê¾ÀıÓï¾äsqlstr=" insert into MyTable_1( name ) values ( 'ÇæÌìÖù' ) ";  
+//æ’å…¥æ•°æ®  
+//@ç¤ºä¾‹è¯­å¥sqlstr=" insert into MyTable_1( name ) values ( 'æ“å¤©æŸ±' ) ";  
 void DbSqlite::insertData( std::string sql ){  
     result = sqlite3_exec( pDb, sql.c_str() , NULL, NULL, &pErrMsg );  
     if(result != SQLITE_OK )  
-        log( "²åÈë¼ÇÂ¼Ê§°Ü£¬´íÎóÂë:%d £¬´íÎóÔ­Òò:%s\n" , result, pErrMsg );  
+        log( "æ’å…¥è®°å½•å¤±è´¥ï¼Œé”™è¯¯ç :%d ï¼Œé”™è¯¯åŸå› :%s\n" , result, pErrMsg );  
 }  
   
   
-//É¾³ıÊı¾İ  
-//@Ê¾ÀıÓï¾äsqlstr="delete from MyTable_1 where ID = 2";  
+//åˆ é™¤æ•°æ®  
+//@ç¤ºä¾‹è¯­å¥sqlstr="delete from MyTable_1 where ID = 2";  
 void DbSqlite::deleteData( std::string sql )  
 {  
     result=sqlite3_exec( pDb, sql.c_str() , NULL, NULL, &pErrMsg );  
     if(result != SQLITE_OK )  
-        log( "²åÈë¼ÇÂ¼Ê§°Ü£¬´íÎóÂë:%d £¬´íÎóÔ­Òò:%s\n" , result, pErrMsg );  
+        log( "æ’å…¥è®°å½•å¤±è´¥ï¼Œé”™è¯¯ç :%d ï¼Œé”™è¯¯åŸå› :%s\n" , result, pErrMsg );  
 }  
   
   
-//ĞŞ¸ÄÊı¾İ  
-//@Ê¾ÀıÓï¾ä        sqlstr="update MyTable_1 set name='ÍşÕğÌì' where ID = 3";  
+//ä¿®æ”¹æ•°æ®  
+//@ç¤ºä¾‹è¯­å¥        sqlstr="update MyTable_1 set name='å¨éœ‡å¤©' where ID = 3";  
 void DbSqlite::updateData( std::string sql )  
 {  
     result = sqlite3_exec( pDb, sql.c_str() , NULL, NULL, &pErrMsg );  
     if(result != SQLITE_OK )  
-        log( "²åÈë¼ÇÂ¼Ê§°Ü£¬´íÎóÂë:%d £¬´íÎóÔ­Òò:%s\n" , result, pErrMsg );  
+        log( "æ’å…¥è®°å½•å¤±è´¥ï¼Œé”™è¯¯ç :%d ï¼Œé”™è¯¯åŸå› :%s\n" , result, pErrMsg );  
 }  
   
   
-//getDataCountµÄ»Øµ÷º¯Êı  
+//getDataCountçš„å›è°ƒå‡½æ•°  
 int loadRecordCount( void * para, int n_column, char ** column_value, char ** column_name )  
 {  
     int *count=(int*)para;  
-    *count=n_column;  
+    *count=atoi(column_value[0]);  
     return 0;  
 }  
-//»ñÈ¡¼ÇÂ¼µÄÌõÊı  
-//@Ê¾ÀıÓï¾ästd::string sqlsssss = "select count(*) from user";  
-//@Ê¾ÀıÓï¾ä  È¡µÃ±í¸ñ×Ö¶ÎµÄÓï¾ästd::string sqlsssss = "select * from user";  
+//è·å–è®°å½•çš„æ¡æ•°  
+//@ç¤ºä¾‹è¯­å¥std::string sqlsssss = "select count(*) from user";  
+//@ç¤ºä¾‹è¯­å¥  å–å¾—è¡¨æ ¼å­—æ®µçš„è¯­å¥std::string sqlsssss = "select * from user";  
 int DbSqlite::getDataCount( std::string sql )  
 {  
     int count=0;  
@@ -133,23 +240,35 @@ int DbSqlite::getDataCount( std::string sql )
 }  
   
   
-//getDataInfoµÄ»Øµ÷º¯Êı  
+//getDataInfoçš„å›è°ƒå‡½æ•°  
 int loadRecord( void * para, int n_column, char ** column_value, char ** column_name )  
 {  
     log("n_column:%d",n_column);  
-	Label * lb = (Label *)(para);
-	std::string str,strtemp;
 
-	lb->setString(column_value[1]);
     
     return 0;  
 }  
-//»ñÈ¡Ò»Ìõ¼ÇÂ¼µÄĞÅÏ¢ ÆäÖĞµÄpSendÊÇÒ»¸öÊµÌåÀàÎÒÃÇÒÔºó¿ÉÒÔ×Ô¶¨ÒåÒ»¸ö¼Ì³ĞÁËCCObjectµÄÀàÀ´´úÌæËû±£´æÊı¾İ¿âÖĞÈ¡³öÀ´µÄÊı¾İ  
+//è·å–ä¸€æ¡è®°å½•çš„ä¿¡æ¯ å…¶ä¸­çš„pSendæ˜¯ä¸€ä¸ªå®ä½“ç±»æˆ‘ä»¬ä»¥åå¯ä»¥è‡ªå®šä¹‰ä¸€ä¸ªç»§æ‰¿äº†CCObjectçš„ç±»æ¥ä»£æ›¿ä»–ä¿å­˜æ•°æ®åº“ä¸­å–å‡ºæ¥çš„æ•°æ®  
 /* 
- *  ÕâÀï×îºÃÀ©Õ¹ÏÂ£¬ÈÃ  pSend  ÊÇÒ»¸övector 
+ *  è¿™é‡Œæœ€å¥½æ‰©å±•ä¸‹ï¼Œè®©  pSend  æ˜¯ä¸€ä¸ªvector 
  */  
 void DbSqlite::getDataInfo( std::string sql,void *pSend )  
 {  
     sqlite3_exec( pDb, sql.c_str() , loadRecord, pSend, &pErrMsg );  
 }  
 
+void DbSqlite::getDataInfo( std::string sql,void *pSend ,Sqlite_CallBack callback)  
+{  
+	sqlite3_exec( pDb, sql.c_str() , callback, pSend, &pErrMsg );  
+}  
+
+
+
+
+DbSqlite::DbGarbage::~DbGarbage()
+{
+	if(pDbSqlite != NULL)
+	{
+		delete pDbSqlite;
+	}
+}

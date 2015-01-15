@@ -18,7 +18,7 @@ public:
     CREATE_FUNC(HelloWorld);
 	void clickEvent(Ref * btn);
 	Util * ut;
-	Label * lb3;
+	
 };
 
 #endif // __HELLOWORLD_SCENE_H__

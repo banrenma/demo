@@ -3,6 +3,7 @@
 #include "NSpineExt.h"
 #include "ui/CocosGUI.h"
 #include "sqlite/DbSqlite.h"
+#include "sqlite/DBtest.h"
 
 USING_NS_CC;
 using namespace ui;
@@ -97,11 +98,10 @@ bool HelloWorld::init()
 	this->addChild(ut);
 
 
+	DBtest * tst = new DBtest("dbtest.db");
 
-	lb3 = Label::createWithTTF("attack","Marker Felt.ttf",30);
-	lb3->setPosition(Vec2(500,200));
-	lb3->setColor(Color3B::RED);
-	this->addChild(lb3);
+	this->addChild(tst);
+	tst->setPosition( 300,400);
 	//db test
 
 
@@ -117,56 +117,38 @@ bool HelloWorld::init()
 	  Button * bt = dynamic_cast<Button *>(btn);
 	  if(bt->getTag() == 1)
 	  {
-		  /*  log("1111111111111111111111111111111");
-		  ut->setAnimation(0,"walk",true);*/
-		  DbSqlite * pIns = DbSqlite::getInstance();
-		  pIns->initDB("test.db");
-		  std::string createTableSql = "create table login (id integer primary key autoincrement,name varchar(20),passwd varchar(20));";  
-		  pIns->createTable(createTableSql.c_str(),"login");  
-
-		  //@Ê¾ÀýÓï¾äsqlstr=" insert into MyTable_1( name ) values ( 'ÇæÌìÖù' ) ";  
-		  pIns->insertData(" insert into login values('1','aaaa','123456')" ); 
-		  pIns->insertData(" insert into login values('2','bbbb','123456')" ); 
-		  pIns->insertData(" insert into login values('3','cccc','123456')" ); 
-		  pIns->insertData(" insert into login values('4','dddd','123456')" ); 
-
-		  pIns->getDataInfo("select * from login",lb3);
-
+		  log("1111111111111111111111111111111");
+		  ut->setAnimation(0,"walk",true);
 	  }
 	  else if(bt->getTag() == 2)
 	  {
-		  //log("1111111111111111111111111111111");
-		  //spTrackEntry* entry = ut->setAnimation(0,"attack11",false);
-		  //ut->setTrackEventListener(entry,[=](int trackIndex, spEvent* event){
-			 // if(strcmp(event->data->name,"attack") == 0)
-			 // {
-				//  log("attack event");
-				// 
+		  log("1111111111111111111111111111111");
+		  spTrackEntry* entry = ut->setAnimation(0,"attack11",false);
+		  ut->setTrackEventListener(entry,[=](int trackIndex, spEvent* event){
+			  if(strcmp(event->data->name,"attack") == 0)
+			  {
+				  log("attack event");
+				 
 
-				//  NSpineExt* node = NSpineExt::create(2001);
-				//  node->setAnimation(0,"animation",false);
-				// ut->getBeforeSkeletonNode()->addChild(node);
+				  NSpineExt* node = NSpineExt::create(2001);
+				  node->setAnimation(0,"animation",false);
+				 ut->getBeforeSkeletonNode()->addChild(node);
 
-				//  ClippingNode * nd = ClippingNode::create(node);
-				//  LayerColor * color = LayerColor::create(Color4B(0,0,0,128),1280,720);
-				//  nd->addChild(color);
-				//	nd->setInverted(true);
-				//	nd->setAlphaThreshold(0.5);
-				//  this->addChild(nd,0,10);
-				//
-
-
-			 // }
-			 // if(strcmp(event->data->name,"attakcend") == 0)
-			 // {
-				//  log("attakcend event");
-				//  ut->getBeforeSkeletonNode()->removeAllChildrenWithCleanup(true);
-				//  this->removeChildByTag(10,true);
-			 // }
-		  //});
-		  DbSqlite * pIns = DbSqlite::getInstance();
-		  pIns->deleteTable("drop table login","login");
-		  pIns->closeDB();
+				  ClippingNode * nd = ClippingNode::create(node);
+				  LayerColor * color = LayerColor::create(Color4B(0,0,0,128),1280,720);
+				  nd->addChild(color);
+					nd->setInverted(true);
+					nd->setAlphaThreshold(0.5);
+				  this->addChild(nd,0,10);
+			  }
+			  if(strcmp(event->data->name,"attakcend") == 0)
+			  {
+				  log("attakcend event");
+				  ut->getBeforeSkeletonNode()->removeAllChildrenWithCleanup(true);
+				  this->removeChildByTag(10,true);
+			  }
+		  });
+	
 
 	  }
 
