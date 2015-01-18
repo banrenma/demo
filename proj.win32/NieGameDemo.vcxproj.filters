@@ -57,6 +57,9 @@
     <ClCompile Include="..\Classes\sqlite\DBtest.cpp">
       <Filter>src\sqlite</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\BehaveTree.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -100,6 +103,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\sqlite\DBtest.h">
       <Filter>src\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BehaveTree.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
