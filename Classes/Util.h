@@ -24,6 +24,18 @@ public:
 
 class Util:public NSpineExt ,public baseUtil
 {
+	enum class Controlstate
+	{
+		Util_useControl,
+		Util_AiControl,
+	};
+	enum class state
+	{
+		Util_empty,
+		Util_findTarget,
+		Util_attackTarget,
+		Util_escape
+	};
 public:
 
 	static Util * create(UtilData & data);
@@ -43,6 +55,16 @@ protected:
 	Node * m_BeforeSkeletonNode;
 	Node * m_BehindSkeletonNode;
 	UtilData* m_data;
+
+
+	Controlstate m_ControlState;
+	state m_state;
+
+
+
+
+
+
 
 protected:
 	

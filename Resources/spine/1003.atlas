@@ -1,0 +1,118 @@
+
+1003.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ectoplasm_body
+  rotate: false
+  xy: 165, 194
+  size: 124, 55
+  orig: 124, 55
+  offset: 0, 0
+  index: -1
+ectoplasm_foots
+  rotate: false
+  xy: 2, 200
+  size: 161, 49
+  orig: 161, 49
+  offset: 0, 0
+  index: -1
+ectoplasm_head1
+  rotate: false
+  xy: 2, 101
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+ectoplasm_head10
+  rotate: false
+  xy: 861, 152
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+ectoplasm_head11
+  rotate: false
+  xy: 116, 95
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+ectoplasm_head2
+  rotate: false
+  xy: 2, 2
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+ectoplasm_head3
+  rotate: false
+  xy: 291, 152
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+ectoplasm_head4
+  rotate: false
+  xy: 405, 152
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+ectoplasm_head5
+  rotate: false
+  xy: 519, 152
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+ectoplasm_head6
+  rotate: false
+  xy: 633, 152
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+ectoplasm_head7
+  rotate: false
+  xy: 747, 152
+  size: 112, 97
+  orig: 112, 97
+  offset: 0, 0
+  index: -1
+ectoplasm_l_forearm
+  rotate: false
+  xy: 153, 65
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+ectoplasm_l_upperarm
+  rotate: false
+  xy: 230, 160
+  size: 27, 32
+  orig: 27, 32
+  offset: 0, 0
+  index: -1
+ectoplasm_r_forearm
+  rotate: false
+  xy: 116, 65
+  size: 35, 28
+  orig: 35, 28
+  offset: 0, 0
+  index: -1
+ectoplasm_r_upperarm
+  rotate: false
+  xy: 116, 31
+  size: 27, 32
+  orig: 27, 32
+  offset: 0, 0
+  index: -1
+ectoplasm_shadow
+  rotate: true
+  xy: 975, 194
+  size: 55, 26
+  orig: 55, 26
+  offset: 0, 0
+  index: -1

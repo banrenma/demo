@@ -11,8 +11,9 @@ public:
 		m_iID = s_BehaviorID;
 		s_BehaviorID++;
 	}
+	virtual void destory(){};
 	virtual bool visit(){return true;};
-	~Behavior(){}
+	~Behavior(){destory();}
 	CC_SYNTHESIZE(int,m_iID,ID)
 };
 int Behavior::s_BehaviorID = 0;
@@ -22,7 +23,22 @@ class  CompositeNode:public Behavior
 {
 public:
 	CompositeNode(){m_vecChild.empty();}
-	~ CompositeNode(){}
+	~ CompositeNode(){
+		destory();
+	}
+
+	virtual void destory(){
+		std::vector<Behavior *>::iterator it;
+		for(it = m_vecChild.begin(); it != m_vecChild.end(); it++)
+		{
+			if((*it) != NULL)
+			{
+				(*it)->destory();
+			}
+			delete (*it);
+		}
+	};
+
 	virtual bool visit(){return true;}
 	virtual void addChild(Behavior * child){ m_vecChild.push_back(child);};
 	virtual void removeChild(int  id)
@@ -32,6 +48,8 @@ public:
 		{
 			if((*it)->getID() == id)
 			{
+				(*it)->destory();
+				delete (*it);
 				m_vecChild.erase(it);
 				return; 
 			}
@@ -39,6 +57,7 @@ public:
 	};
 	virtual void removeAllChild()
 	{
+		destory();
 		m_vecChild.empty();
 	}
 protected:
@@ -157,6 +176,8 @@ public:
 //条件节点
 typedef std::function<bool()>BehaviorCallback;
 
+typedef std::function<bool()>BehaviorCallbackEvent;
+
 class BehaviorLeafNode:public Behavior
 {
 public:
@@ -174,6 +195,7 @@ public:
 protected:
 	BehaviorCallback m_pFunbehaviorCallback;
 };
+
 
 class ConditionNode:public BehaviorLeafNode
 {

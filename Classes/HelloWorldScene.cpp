@@ -98,10 +98,10 @@ bool HelloWorld::init()
 	this->addChild(ut);
 
 
-	DBtest * tst = new DBtest("dbtest.db");
+	//DBtest * tst = new DBtest("dbtest.db");
 
-	this->addChild(tst);
-	tst->setPosition( 300,400);
+	//this->addChild(tst);
+	//tst->setPosition( 300,400);
 	//db test
 
 
