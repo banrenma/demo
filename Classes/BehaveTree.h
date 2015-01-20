@@ -2,6 +2,9 @@
 #define __BEHAVETREE__
 
 #include "cocos2d.h"
+
+//修改返回状态吗
+
 class Behavior
 {
 public:
@@ -16,7 +19,7 @@ public:
 	~Behavior(){destory();}
 	CC_SYNTHESIZE(int,m_iID,ID)
 };
-int Behavior::s_BehaviorID = 0;
+
 
 // 组合 节点
 class  CompositeNode:public Behavior
@@ -174,34 +177,36 @@ public:
 	CC_SYNTHESIZE(int,m_iJudgeCount,JudgeCount)
 };
 //条件节点
-typedef std::function<bool()>BehaviorCallback;
+typedef std::function<bool()>BehaviorLeafCallback;
 
-typedef std::function<bool()>BehaviorCallbackEvent;
+
 
 class BehaviorLeafNode:public Behavior
 {
 public:
 	BehaviorLeafNode(){}
-	BehaviorLeafNode(const BehaviorCallback &callback)
+	BehaviorLeafNode(const BehaviorLeafCallback &callback)
 	{
 		this->m_pFunbehaviorCallback = callback;
 	}
 	virtual bool visit(){return m_pFunbehaviorCallback();}
-	void setBehaviorCallback(const BehaviorCallback &callback)
+	void setBehaviorCallback(const BehaviorLeafCallback &callback)
 	{
 		this->m_pFunbehaviorCallback = callback;
 	}
 	~BehaviorLeafNode(){}
 protected:
-	BehaviorCallback m_pFunbehaviorCallback;
+	BehaviorLeafCallback m_pFunbehaviorCallback;
+	
 };
+
 
 
 class ConditionNode:public BehaviorLeafNode
 {
 public:
 	ConditionNode(){}
-	ConditionNode(const BehaviorCallback &callback):BehaviorLeafNode(callback)
+	ConditionNode(const BehaviorLeafCallback &callback):BehaviorLeafNode(callback)
 	{
 		
 	}
@@ -211,10 +216,52 @@ class ActionNode:public BehaviorLeafNode
 {
 public:
 	ActionNode(){}
-	ActionNode(const BehaviorCallback &callback):BehaviorLeafNode(callback)
+	ActionNode(const BehaviorLeafCallback &callback):BehaviorLeafNode(callback)
 	{
 	}
 	~ActionNode(){}
 };
+
+
+
+typedef std::function<bool(Behavior *)>BehaviorNodeCallback;
+
+class DecoratorNode:public Behavior
+{
+
+public:
+	DecoratorNode():m_pChild(NULL){}
+	DecoratorNode(Behavior *m_pChild,const BehaviorNodeCallback &beforecallback,const BehaviorNodeCallback &endcallback)
+	{
+		this->m_pChild = m_pChild;
+		this->m_pBeforeFunbehaviorCallback = beforecallback;
+		this->m_pEndFunbehaviorCallback = endcallback;
+	}
+	virtual bool visit(){
+		bool ret = false;
+		m_pBeforeFunbehaviorCallback(this);
+		if(m_pChild)
+		{
+			ret = m_pChild->visit();
+		}
+		ret = m_pEndFunbehaviorCallback(this);
+		return false;
+	}
+	void setBeforeBehaviorCallback(const BehaviorNodeCallback &callback)
+	{
+		this->m_pBeforeFunbehaviorCallback = callback;
+	}
+	void setEndBehaviorCallback(const BehaviorNodeCallback &callback)
+	{
+		this->m_pEndFunbehaviorCallback = callback;
+	}
+	~DecoratorNode(){}
+protected:
+	Behavior *m_pChild;
+	BehaviorNodeCallback m_pBeforeFunbehaviorCallback;
+	BehaviorNodeCallback m_pEndFunbehaviorCallback;
+};
+
+
 
 #endif

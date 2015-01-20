@@ -1,6 +1,6 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
-
+#include "UtilManage.h"
 USING_NS_CC;
 
 AppDelegate::AppDelegate() {
@@ -42,7 +42,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	FileUtils::getInstance()->addSearchPath("map/");
 	FileUtils::getInstance()->addSearchPath("fonts/");
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    auto scene = batterScene::createScene();
 
     // run
     director->runWithScene(scene);

@@ -11,9 +11,11 @@ enum class NEventType{
 	FightBegin,
 	SceneBegin,      //
 	NextScene,
-	UtilEnter,
 	Story,
 	FightEnd,
+
+	//
+
 	//ManageTimeLineEvent  定时器
 	MonsterAdd,
 	HeroAdd,
@@ -36,7 +38,7 @@ enum class NEventType{
 enum class NEventName{
 	//场景事件
 	ManageChokeEvent,
-	ManageTimeLineEvent,      //
+
 	UserControlEvent,
 	AiEvent,
 	HurtEvent,
@@ -55,7 +57,7 @@ class  nEvent
 public:	
 
 public:
-	nEvent(int m_fromID,int m_toID,NEventstate m_Eventstate,int time,NEventType  m_type,NEventName m_name)
+	nEvent(int m_fromID,int m_toID,NEventName m_name,NEventType  m_type,NEventstate m_Eventstate,int time,void * m_args)
 	{
 		this->m_fromID =m_fromID;
 		this->m_toID= m_toID;
@@ -63,7 +65,7 @@ public:
 		this->time = time;
 		this->m_name = m_name;
 		this->m_type = m_type;
-
+		this->m_args = m_args;
 	}
 	nEvent(nEvent & data){
 		m_fromID =data.m_fromID;
@@ -72,7 +74,7 @@ public:
 		time = data.time;
 		m_name = data.m_name;
 		m_type = data.m_type;
-
+		m_args = data.m_args;
 	}
 
 	nEvent operator =(nEvent & data){
@@ -82,9 +84,17 @@ public:
 		time = data.time;
 		m_name = data.m_name;
 		m_type = data.m_type;
+		m_args = data.m_args;
 		return *this;
 	}
 
+	~nEvent()
+	{
+		if(m_args != NULL)
+		{
+			delete m_args;
+		}
+	}
 
 public:
 	int m_fromID;
@@ -93,6 +103,7 @@ public:
 	int time;
 	NEventType  m_type;
 	NEventName m_name;
+	void * m_args;
 };
 
 
@@ -107,16 +118,40 @@ public:
 	void createTree();
 	void setCurEvent(nEvent * ev);
 	void postEvent(nEvent * ev);
+	//条件回调
 	bool isCurEventEmpty();
-	bool isCurEventInProgress();
+
+	bool isCurEventStateInProgress();
+	bool isCurEventStateBegin();
+	bool isCurEventStateEnd();
+
 	bool isCurEventNameEqualChokeEvent();
 
 	bool isCurEventTypeEqualFightBegin();
 	bool isCurEventTypeEqualSceneBegin();
 	bool isCurEventTypeEqualNextScene();
-	bool isCurEventTypeEqualUtilEnter();
 	bool isCurEventTypeEqualStory();
 	bool isCurEventTypeEqualFightEnd();
+
+	//Action回调
+	bool Action_PostSceneBeginEvent();
+	bool Action_EndFight();
+	bool Action_HeroEntrance();
+	bool Action_RegisterEvent();
+	bool Action_PostSceneBeginEndEvent();
+	bool Action_EnterNextScene();
+
+
+	bool isStoryTypeBoss();
+	bool isStoryTalk();
+	bool Action_PauseUtilAllAction();
+	bool Action_PostStoryEndOrNext();
+	bool Action_BossComming();
+	bool Action_Talk();
+
+
+	bool visit();
+	bool Action_PostFightBeginEvent();
 protected:
 	std::vector<Util *> m_Hero;
 	std::vector<Util *> m_Monster;
@@ -138,6 +173,7 @@ public:
 	CREATE_FUNC(batterScene);
 	
 	UtilManage * m_Manage;
+	void update(float dt);
 	void addUtilChild();
 
 };
