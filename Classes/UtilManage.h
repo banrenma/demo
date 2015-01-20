@@ -26,6 +26,7 @@ enum class NEventType{
 	MoveHero,
 	SelectTarget,
 	HeroSkill,
+
 	AutoFight,
 
 	//ai
@@ -38,7 +39,7 @@ enum class NEventType{
 enum class NEventName{
 	//场景事件
 	ManageChokeEvent,
-
+	RegisterEvent,
 	UserControlEvent,
 	AiEvent,
 	HurtEvent,
@@ -155,8 +156,9 @@ public:
 protected:
 	std::vector<Util *> m_Hero;
 	std::vector<Util *> m_Monster;
-	std::vector<nEvent *>m_ManageEvent; //普通
-	nEvent * m_curEvent;   //阻塞事件
+	std::queue<nEvent *>m_ManageEvent; //普通
+	nEvent *m_curEvent;
+	nEvent * m_curChokeEvent;   //阻塞事件
 	Layer * m_Layer;
 	SelectorNode *rootNode;
 };

@@ -2,8 +2,10 @@
 #define __BEHAVETREE__
 
 #include "cocos2d.h"
+USING_NS_CC;
+//修改返回状态吗  下次 写的时候 不要返回 true or false  返回一些状态吗
 
-//修改返回状态吗
+
 
 class Behavior
 {
@@ -25,7 +27,7 @@ public:
 class  CompositeNode:public Behavior
 {
 public:
-	CompositeNode(){m_vecChild.empty();}
+	CompositeNode(){m_vecChild.clear();}
 	~ CompositeNode(){
 		destory();
 	}
@@ -61,7 +63,7 @@ public:
 	virtual void removeAllChild()
 	{
 		destory();
-		m_vecChild.empty();
+		m_vecChild.clear();
 	}
 protected:
 	std::vector<Behavior *> m_vecChild;
@@ -226,12 +228,12 @@ public:
 
 typedef std::function<bool(Behavior *)>BehaviorNodeCallback;
 
-class DecoratorNode:public Behavior
+class DecoratorBeforeAndEndNode:public Behavior
 {
 
 public:
-	DecoratorNode():m_pChild(NULL){}
-	DecoratorNode(Behavior *m_pChild,const BehaviorNodeCallback &beforecallback,const BehaviorNodeCallback &endcallback)
+	DecoratorBeforeAndEndNode():m_pChild(NULL){}
+	DecoratorBeforeAndEndNode(Behavior *m_pChild,const BehaviorNodeCallback &beforecallback,const BehaviorNodeCallback &endcallback)
 	{
 		this->m_pChild = m_pChild;
 		this->m_pBeforeFunbehaviorCallback = beforecallback;
@@ -239,13 +241,17 @@ public:
 	}
 	virtual bool visit(){
 		bool ret = false;
-		m_pBeforeFunbehaviorCallback(this);
+		ret = m_pBeforeFunbehaviorCallback(this);
+		if(ret)
+		{
+			return true;
+		}
 		if(m_pChild)
 		{
 			ret = m_pChild->visit();
 		}
 		ret = m_pEndFunbehaviorCallback(this);
-		return false;
+		return ret;
 	}
 	void setBeforeBehaviorCallback(const BehaviorNodeCallback &callback)
 	{
@@ -255,13 +261,72 @@ public:
 	{
 		this->m_pEndFunbehaviorCallback = callback;
 	}
-	~DecoratorNode(){}
+	~DecoratorBeforeAndEndNode(){}
 protected:
 	Behavior *m_pChild;
 	BehaviorNodeCallback m_pBeforeFunbehaviorCallback;
 	BehaviorNodeCallback m_pEndFunbehaviorCallback;
 };
 
+class DecoratorEndNode:public Behavior
+{
+
+public:
+	DecoratorEndNode():m_pChild(NULL){}
+	DecoratorEndNode(Behavior *m_pChild,const BehaviorNodeCallback &endcallback)
+	{
+		this->m_pChild = m_pChild;
+		this->m_pEndFunbehaviorCallback = endcallback;
+	}
+	virtual bool visit(){
+		bool ret = false;
+		if(m_pChild)
+		{
+			ret = m_pChild->visit();
+		}
+		ret = m_pEndFunbehaviorCallback(this);
+		return ret;
+	}
+
+	void setEndBehaviorCallback(const BehaviorNodeCallback &callback)
+	{
+		this->m_pEndFunbehaviorCallback = callback;
+	}
+	~DecoratorEndNode(){}
+protected:
+	Behavior *m_pChild;
+	BehaviorNodeCallback m_pEndFunbehaviorCallback;
+};
+
+
+class DecoratorBeforeNode:public Behavior
+{
+
+public:
+	DecoratorBeforeNode():m_pChild(NULL){}
+	DecoratorBeforeNode(Behavior *m_pChild,const BehaviorNodeCallback &beforecallback)
+	{
+		this->m_pChild = m_pChild;
+		this->m_pBeforeFunbehaviorCallback = beforecallback;
+	}
+	virtual bool visit(){
+		bool ret = false;
+		m_pBeforeFunbehaviorCallback(this);
+		if(m_pChild)
+		{
+			ret = m_pChild->visit();
+		}
+		return ret;
+	}
+	void setBeforeBehaviorCallback(const BehaviorNodeCallback &callback)
+	{
+		this->m_pBeforeFunbehaviorCallback = callback;
+	}
+	~DecoratorBeforeNode(){}
+protected:
+	Behavior *m_pChild;
+	BehaviorNodeCallback m_pBeforeFunbehaviorCallback;
+};
 
 
 #endif

@@ -153,7 +153,7 @@ bool NSkeletonDataCache::RemoveAllSkeletonDataCache()
 		it->second->release();
 		it->second = NULL;
 	}
-	m_SkeletonDataMap.empty();
+	m_SkeletonDataMap.clear();
 	return true;
 }
 
@@ -179,7 +179,7 @@ UtilBaseData * NSkeletonDataCache::getData( int ID )
 
 NSkeletonDataCache::NSkeletonDataCache()
 {
-	m_SkeletonDataMap.empty();
+	m_SkeletonDataMap.clear();
 }
 
 NSkeletonDataCache::~NSkeletonDataCache()

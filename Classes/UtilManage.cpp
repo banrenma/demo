@@ -52,6 +52,7 @@ void UtilManage::init( Layer * lay )
 	ut->setAnimation(0,"stand",true);
 	ut->setPosition(950,450);
 	m_Layer = lay;
+	m_curChokeEvent = NULL;
 	m_curEvent = NULL;
 	m_ManageEvent.empty();
 	
@@ -120,9 +121,15 @@ void UtilManage::createTree()
 	ConditionNode * coud10 = new ConditionNode(std::bind(&UtilManage::isStoryTypeBoss,this));
 	ConditionNode * coud11 = new ConditionNode(std::bind(&UtilManage::isStoryTalk,this));
 
-	ConditionNode * coud12 = new ConditionNode(std::bind(&UtilManage::isCurEventTypeEqualFightEnd,this));
-	ConditionNode * coud13 = new ConditionNode(std::bind(&UtilManage::isCurEventTypeEqualFightEnd,this));
-	ConditionNode * coud14 = new ConditionNode(std::bind(&UtilManage::isCurEventTypeEqualFightEnd,this));
+	ConditionNode * coud12 = new ConditionNode([this](){
+		return !m_ManageEvent.empty();
+	});
+	ConditionNode * coud13 = new ConditionNode([this](){
+		return m_curEvent->m_name == NEventName::RegisterEvent;
+	});
+	ConditionNode * coud14 = new ConditionNode([this](){
+		return m_curEvent->m_name == NEventName::UserControlEvent;
+	});
 	ConditionNode * coud15 = new ConditionNode(std::bind(&UtilManage::isCurEventTypeEqualFightEnd,this));
 	ConditionNode * coud16 = new ConditionNode(std::bind(&UtilManage::isCurEventTypeEqualFightEnd,this));
 	ConditionNode * coud17 = new ConditionNode(std::bind(&UtilManage::isCurEventTypeEqualFightEnd,this));
@@ -141,6 +148,32 @@ void UtilManage::createTree()
 	ActionNode *act9 = new ActionNode(std::bind(&UtilManage::Action_Talk,this));
 	ActionNode *act10 = new ActionNode(std::bind(&UtilManage::Action_PauseUtilAllAction,this));
 	ActionNode *act11 = new ActionNode(std::bind(&UtilManage::Action_PostStoryEndOrNext,this));
+
+
+	ActionNode *act12 = new ActionNode([this](){
+
+		return true;
+	});
+
+
+	DecoratorBeforeAndEndNode * decNode = new DecoratorBeforeAndEndNode(sel3,[this](Behavior *p){
+		if(m_ManageEvent.empty())
+		{
+			return true;
+		}
+		if(m_curEvent)
+		{
+			delete m_curEvent;
+			m_curEvent = NULL;
+		}
+		m_curEvent = m_ManageEvent.front();
+		m_ManageEvent.pop();
+		return false;
+	},
+	[this](Behavior *p){
+		return p->visit();
+	});
+	//阻塞事件
 	rootNode->addChild(seq1);
 	seq1->addChild(coud1);
 	seq1->addChild(sel1);
@@ -212,7 +245,41 @@ void UtilManage::createTree()
 				seq14->addChild(coud8);
 				seq14->addChild(coud2_3);
 				seq14->addChild(act11);
-}
+//轮询事件
+				rootNode->addChild(parFall4);
+					parFall4->addChild(seq15);
+						seq15->addChild(coud12);
+						seq15->addChild(decNode);
+							sel3->addChild(seq16);
+								//注册的事件
+								seq16->addChild(coud13);
+								seq16->addChild(sel4);
+							//电脑ai事件 先处理
+
+
+
+
+								//添加用户事件
+							sel3->addChild(seq17);
+								seq17->addChild(coud14);
+								seq17->addChild(sel5);
+								//选择英雄事件
+									sel5->addChild(coud15)
+									sel5->addChild(act12)
+								//移动
+									sel5->addChild(coud15)
+									sel5->addChild(act12)
+								//释放技能
+									sel5->addChild(coud15)
+									sel5->addChild(act12)
+								//攻击对象
+									sel5->addChild(coud15)
+									sel5->addChild(act12)
+				//检测 是否有英雄处于空闲状态
+
+				//显示 受伤
+
+}		
 
 //判断 还有没有其他剧情  如果有 在发出一个剧情 否则 发出一个剧情结束事件
 bool UtilManage::Action_PostStoryEndOrNext()
@@ -256,10 +323,10 @@ bool UtilManage::Action_EnterNextScene()
 //入场结束事件 post 一个结束 到 队列
 bool UtilManage::Action_PostSceneBeginEndEvent()
 {
-	if(m_curEvent)
+	if(m_curChokeEvent)
 	{
-		delete m_curEvent;
-		m_curEvent = NULL;
+		delete m_curChokeEvent;
+		m_curChokeEvent = NULL;
 	}
 
 
@@ -279,12 +346,12 @@ bool UtilManage::Action_HeroEntrance()
 		(*it)->runAction(
 		Sequence::create(MoveBy::create(2,Vec2(300,0)),
 		CallFunc::create([this,it](){
-			m_curEvent->m_Eventstate = NEventstate::End;
+			m_curChokeEvent->m_Eventstate = NEventstate::End;
 			(*it)->setAnimation(0,"stand",true);
 		}),nullptr)
 		);
 	}
-	m_curEvent->m_Eventstate = NEventstate::InPorgress;
+	m_curChokeEvent->m_Eventstate = NEventstate::InPorgress;
 	return true;
 }
 //更具 config 注册事件 ： 比如 刷怪 剧情
@@ -298,21 +365,21 @@ bool UtilManage::Action_RegisterEvent()
 // 当前战斗场景开始
 bool UtilManage::isCurEventTypeEqualFightBegin()
 {
-	if(m_curEvent != NULL)
+	if(m_curChokeEvent != NULL)
 	{
-		return m_curEvent->m_type == NEventType::FightBegin;
+		return m_curChokeEvent->m_type == NEventType::FightBegin;
 	}
 	return false;
 }
 
 bool UtilManage::Action_PostSceneBeginEvent()
 {
-	if(m_curEvent)
+	if(m_curChokeEvent)
 	{
-		delete m_curEvent;
-		m_curEvent = NULL;
+		delete m_curChokeEvent;
+		m_curChokeEvent = NULL;
 	}
-	m_curEvent = new nEvent(0,0,NEventName::ManageChokeEvent,NEventType::SceneBegin,NEventstate::Begin,0,NULL);
+	m_curChokeEvent = new nEvent(0,0,NEventName::ManageChokeEvent,NEventType::SceneBegin,NEventstate::Begin,0,NULL);
 	return true;
 }
 
@@ -326,9 +393,9 @@ bool UtilManage::Action_PostFightBeginEvent()
 // 当前战斗结束
 bool UtilManage::isCurEventTypeEqualFightEnd()
 {
-	if(m_curEvent != NULL)
+	if(m_curChokeEvent != NULL)
 	{
-		return m_curEvent->m_type == NEventType::FightEnd;
+		return m_curChokeEvent->m_type == NEventType::FightEnd;
 	}
 	return false;
 }
@@ -351,14 +418,14 @@ bool UtilManage::Action_EndFight()
 
 bool UtilManage::isCurEventEmpty()
 {
-	return m_curEvent != NULL;
+	return m_curChokeEvent != NULL;
 }
 
 bool UtilManage::isCurEventNameEqualChokeEvent()
 {
-	if(m_curEvent != NULL)
+	if(m_curChokeEvent != NULL)
 	{
-		return m_curEvent->m_name == NEventName::ManageChokeEvent;
+		return m_curChokeEvent->m_name == NEventName::ManageChokeEvent;
 	}
 	return false;
 }
@@ -367,18 +434,18 @@ bool UtilManage::isCurEventNameEqualChokeEvent()
 
 bool UtilManage::isCurEventTypeEqualSceneBegin()
 {
-	if(m_curEvent != NULL)
+	if(m_curChokeEvent != NULL)
 	{
-		return m_curEvent->m_type == NEventType::SceneBegin;
+		return m_curChokeEvent->m_type == NEventType::SceneBegin;
 	}
 	return false;
 }
 
 bool UtilManage::isCurEventTypeEqualNextScene()
 {
-	if(m_curEvent != NULL)
+	if(m_curChokeEvent != NULL)
 	{
-		return m_curEvent->m_type == NEventType::NextScene;
+		return m_curChokeEvent->m_type == NEventType::NextScene;
 	}
 	return false;
 }
@@ -387,9 +454,9 @@ bool UtilManage::isCurEventTypeEqualNextScene()
 
 bool UtilManage::isCurEventTypeEqualStory()
 {
-	if(m_curEvent != NULL)
+	if(m_curChokeEvent != NULL)
 	{
-		return m_curEvent->m_type == NEventType::Story;
+		return m_curChokeEvent->m_type == NEventType::Story;
 	}
 	return false;
 }
@@ -400,25 +467,25 @@ bool UtilManage::isCurEventTypeEqualStory()
 
 bool UtilManage::isCurEventStateInProgress()
 {
-	if(m_curEvent != NULL)
+	if(m_curChokeEvent != NULL)
 	{
-		return m_curEvent->m_Eventstate == NEventstate::InPorgress;
+		return m_curChokeEvent->m_Eventstate == NEventstate::InPorgress;
 	}
 	return false;
 }
 bool UtilManage::isCurEventStateBegin()
 {
-	if(m_curEvent != NULL)
+	if(m_curChokeEvent != NULL)
 	{
-		return m_curEvent->m_Eventstate == NEventstate::Begin;
+		return m_curChokeEvent->m_Eventstate == NEventstate::Begin;
 	}
 	return false;
 }
 bool UtilManage::isCurEventStateEnd()
 {
-	if(m_curEvent != NULL)
+	if(m_curChokeEvent != NULL)
 	{
-		return m_curEvent->m_Eventstate == NEventstate::End;
+		return m_curChokeEvent->m_Eventstate == NEventstate::End;
 	}
 	return false;
 }
@@ -442,12 +509,12 @@ bool UtilManage::isStoryTalk()
 
 void UtilManage::setCurEvent(nEvent * ev)
 {
-	if(m_curEvent)
+	if(m_curChokeEvent)
 	{
-		delete m_curEvent;
-		m_curEvent = NULL;
+		delete m_curChokeEvent;
+		m_curChokeEvent = NULL;
 	}
-	m_curEvent = ev;
+	m_curChokeEvent = ev;
 }
 
 void UtilManage::postEvent(nEvent * ev)
