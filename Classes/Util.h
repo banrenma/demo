@@ -55,8 +55,9 @@ public:
 	CC_SYNTHESIZE(Controlstate,m_ControlState,ControlState)
 	CC_SYNTHESIZE(state,m_state,State)
 	CC_SYNTHESIZE(Util *,m_Target,Target)
-	CC_SYNTHESIZE(Rect,m_UtilRect,UtilRect)
-	CC_SYNTHESIZE(Rect,m_attackRect,attackRect)
+	virtual void setPosition(const Vec2 &position);
+	virtual void setPosition(float x, float y);
+	virtual void  setPositionY(float y);
 protected:
 	Node * m_Blood; 
 	Node * m_BeforeSkeletonNode;

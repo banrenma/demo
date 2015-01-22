@@ -50,12 +50,9 @@ bool Util::initUtil( )
 
 	m_Blood->setPosition(this->getBoneLocalPosition("blood"));
 
-	m_UtilRect = getSkeletonBoundingBox("UtilBoundingBox");
-	m_attackRect = getSkeletonBoundingBox("m_attackRect");
-	if(m_attackRect.equals(Rect::ZERO) )
-	{
-		m_attackRect = Rect(0,0,1280,720);
-	}
+	m_Target = NULL;
+
+
 	return true;
 }
 
@@ -72,6 +69,25 @@ Util::Util( UtilData * pData ):NSpineExt(pData->getSPSkeletonData())
 	m_data = pData;
 	initUtil();
 }
+
+void Util::setPosition( const Vec2 &position )
+{
+	Node::setPosition(position);
+	setZOrder(720 - position.y);
+}
+
+void Util::setPosition( float x, float y )
+{
+	Node::setPosition(x,y);
+	setZOrder(720 - y);
+}
+
+void Util::setPositionY( float y )
+{
+	Node::setPositionY(y);
+	setZOrder(720 - y);
+}
+
 
 
 

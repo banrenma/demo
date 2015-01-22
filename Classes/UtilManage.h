@@ -5,6 +5,7 @@
 #include "Util.h"
 #include "BehaveTree.h"
 
+#define  UTIL_SPEED  4
 USING_NS_CC;
 //
 enum class NEventType{

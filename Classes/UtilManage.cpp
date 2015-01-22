@@ -199,7 +199,8 @@ void UtilManage::createTree()
 
 
 	ConditionNode * coud19 = new ConditionNode([this](){
-		return m_curEvent->m_name == NEventName::AiEvent;
+		Util * ut = getAllUtilByID(m_curEvent->m_fromID);
+		return ut->getControlState() == Util::Controlstate::Util_AiControl;
 	});
 
 	ConditionNode * coud20 = new ConditionNode([this](){
@@ -212,18 +213,30 @@ void UtilManage::createTree()
 	});
 	ConditionNode * coud21 = new ConditionNode([this](){
 		Util * ut = getAllUtilByID(m_curEvent->m_fromID);
-		if(ut->getTarget() == NULL)
+		Rect rt = ut->getSkeletonBoundingBox("attackRect");
+		if(rt.equals(Rect::ZERO))
 		{
-			return true;
+			return false;
 		}
-		return false;
+		if(!m_Layer->getChildByTag(222))
+		{
+			DrawNode * draw = DrawNode::create();
+			draw->drawRect(rt.origin,Vec2(rt.getMaxX(),rt.getMaxY()),Color4F::RED);
+			m_Layer->addChild(draw,0,222);
+		}
+
+		if(rt.containsPoint(ut->getTarget()->getPosition()) )
+		{
+			return false;
+		}
+		return true;
 	});
 
 	ConditionNode * coud22 = new ConditionNode([this](){
-		return m_curEvent->m_type == NEventType::SelectTarget;
+		return true;
 	});
 	ConditionNode * coud23 = new ConditionNode([this](){
-		return m_curEvent->m_type == NEventType::HeroSkill;
+		return false;
 	});
 
 
@@ -242,7 +255,7 @@ void UtilManage::createTree()
 
 	ActionNode *act12 = new ActionNode([this](){
 		m_selGreenCircle->removeFromParentAndCleanup(true);
-		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		Util * hero = getAllUtilByID(m_curEvent->m_fromID);
 		hero->addChild(m_selGreenCircle);
 		m_curSelectHero = m_curEvent->m_fromID;
 		return true;
@@ -250,12 +263,18 @@ void UtilManage::createTree()
 
 
 	ActionNode *act13 = new ActionNode([this](){
-		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		Util * hero = getAllUtilByID(m_curEvent->m_fromID);
 		Vec2 * p = (Vec2 *)m_curEvent->m_args;
 		hero->stopAllActions();
 		hero->setAnimation(0,"walk",true);
 		hero->setControlState(Util::Controlstate::Util_useControl);
-		Sequence * seq = Sequence::create(MoveTo::create(1,*p),CallFunc::create([this,hero](){
+		Vec2 vec2 = hero->getPosition();
+		float dx2 = ((*p).x - vec2.x)*((*p).x - vec2.x);
+		float dy2 = ((*p).y - vec2.y)*((*p).y - vec2.y);
+		
+		float time = sqrt(dx2 + dy2)/(UTIL_SPEED*60);
+		
+		Sequence * seq = Sequence::create(MoveTo::create(time,(*p)),CallFunc::create([this,hero](){
 			hero->setControlState(Util::Controlstate::Util_AiControl);
 			hero->setAnimation(0,"stand",true);
 		}),nullptr);
@@ -266,15 +285,15 @@ void UtilManage::createTree()
 
 
 	ActionNode *act14 = new ActionNode([this](){
-		Util * hero = getHeroByID(m_curEvent->m_fromID);
-		Util * m_Monster = getMonsterByID(m_curEvent->m_toID);
+		Util * hero = getAllUtilByID(m_curEvent->m_fromID);
+		Util * m_Monster = getAllUtilByID(m_curEvent->m_toID);
 		hero->setTarget(m_Monster);
 		return true;
 	});
 
 
 	ActionNode *act15 = new ActionNode([this](){
-		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		Util * hero = getAllUtilByID(m_curEvent->m_fromID);
 	
 
 
@@ -282,32 +301,73 @@ void UtilManage::createTree()
 	});
 
 	ActionNode *act16 = new ActionNode([this](){
-		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		Util * hero = getAllUtilByID(m_curEvent->m_fromID);
 
 
-
+		
 		return true;
 	});
 	ActionNode *act17 = new ActionNode([this](){
-		Util * hero = getHeroByID(m_curEvent->m_fromID);
 		
-		hero->setTarget(*m_Monster.begin());
+		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		if(hero)
+		{
+			hero->setTarget(*m_Monster.begin());
+			return true;
+		}
+		hero = getMonsterByID(m_curEvent->m_fromID);
+		if(hero)
+		{
+			hero->setTarget(*m_Hero.begin());
+			return true;
+		}
 
-
-		return true;
+		return false;
 	});
 	ActionNode *act18 = new ActionNode([this](){
-		Util * hero = getHeroByID(m_curEvent->m_fromID);
-		hero->stopAllActions();
-		hero->setAnimation(0,"walk",true);
-		hero->runAction(Sequence::create(Follow::))
-
+		Util * ut1 = getAllUtilByID(m_curEvent->m_fromID);
+		Util * ut2 = ut1->getTarget();
+		Vec2 vec1 = ut1->getPosition();
+		Vec2 vec2 = ut2->getPosition();
+		Vec2 pt;
+		ut1->setAnimation(0,"walk",true);
+		if(vec1.equals(vec2))
+		{
+			return false;
+		}
+		else if(vec1.x == vec2.x)
+		{
+			vec1.y >vec2.y?pt.y = vec1.y - UTIL_SPEED:pt.y = vec2.y + UTIL_SPEED;
+			pt.x = vec1.x;
+		}
+		else if(vec1.y == vec2.y)
+		{
+			vec1.x >vec2.x?pt.x = vec1.x - UTIL_SPEED:pt.x = vec2.x + UTIL_SPEED;
+			pt.y = vec1.y;
+		}
+		else
+		{
+			float dx2 = (vec1.x - vec2.x)*(vec1.x - vec2.x);
+			float dy2 = (vec1.y - vec2.y)*(vec1.y - vec2.y);
+			float speed = UTIL_SPEED *UTIL_SPEED;
+			float dy = (speed * dy2)/(dx2 + dy2);
+			float dx = (speed * dx2)/(dx2 + dy2);
+			vec1.x >vec2.x?pt.x = vec1.x - dx:pt.x = vec2.x + dx;
+			vec1.y >vec2.y?pt.y = vec1.y - dy:pt.y = vec2.y + dy;
+		}
+		ut1->setPosition(pt);
 		return true;
 	});
 	ActionNode *act19 = new ActionNode([this](){
-		Util * hero = getHeroByID(m_curEvent->m_fromID);
+	
 
 
+		return true;
+	});
+
+	ActionNode *act20 = new ActionNode([this](){
+
+		postCheckState();
 
 		return true;
 	});
@@ -403,6 +463,7 @@ void UtilManage::createTree()
 				seq14->addChild(act11);
 //轮询事件
 				rootNode->addChild(parFall4);
+					parFall4->addChild(act20);
 					parFall4->addChild(seq15);
 						seq15->addChild(coud12);
 						seq15->addChild(decNode);
@@ -436,21 +497,24 @@ void UtilManage::createTree()
 									seq21->addChild(act14);
 				//检测 是否有英雄处于空闲状态
 				sel3->addChild(sel6);
-					sel6->addChild(coud19);
+				sel6->addChild(coud19);
+					
 					//逃跑
-					sel6->addChild(seq22)
+					sel6->addChild(seq22);
 						seq22->addChild(coud23);
 						seq22->addChild(act16);
 					//无目标
-					sel6->addChild(seq23)
+					sel6->addChild(seq23);
 						seq23->addChild(coud20);
 						seq23->addChild(act17);
+
 					//有目标不在攻击区域
-					sel6->addChild(seq24)
+					sel6->addChild(sel7);
+						sel7->addChild(seq24);
 						seq24->addChild(coud21);
 						seq24->addChild(act18);
 					//攻击
-					sel6->addChild(seq25)
+						sel7->addChild(seq25);
 						seq25->addChild(coud22);
 						seq25->addChild(act19);
 
@@ -711,7 +775,7 @@ bool UtilManage::isPointInSelectHero( Vec2 pt )
 	std::vector<Util *>::iterator it;
 	for (it = m_Hero.begin();it != m_Hero.end();it++)
 	{
-		if((*it)->getUtilRect().containsPoint(pt))
+		if((*it)->getSkeletonBoundingBox("UtilBoundingBox").containsPoint(pt))
 		{
 			nEvent* ev = new nEvent((*it)->getFightNum(),0,NEventName::UserControlEvent,NEventType::HeroSelect,NEventstate::Begin,0,NULL);
 			postEvent(ev);
@@ -737,6 +801,7 @@ void UtilManage::postCheckState()
 	std::vector<Util *>::iterator it;
 	for (it = m_Hero.begin();it != m_Hero.end();it++)
 	{
+		
 		nEvent* ev = new nEvent((*it)->getFightNum(),0,NEventName::AiEvent,NEventType::None,NEventstate::Begin,0,NULL);
 		postEvent(ev);
 
@@ -791,7 +856,7 @@ bool batterScene::init()
 	particle = ParticleSystemQuad::create("zidian.plist");
 	
 	this->addChild(particle);
-	line = MotionStreak::create(0.5f, 1.0f, 10.0f, Color3B(150, 60, 20),"line.png");
+	line = MotionStreak::create(0.3f, 1.0f, 10.0f, Color3B(248, 177, 221),"line.png");
 	line->setZOrder(1);
 	this->addChild(line);
 	return true;
@@ -800,7 +865,6 @@ bool batterScene::init()
 
 void batterScene::update( float dt )
 {
-	m_Manage->postCheckState();
 	m_Manage->visit();
 }
 
