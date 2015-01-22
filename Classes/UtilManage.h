@@ -4,10 +4,12 @@
 #include "NSkeletonDataCache.h"
 #include "Util.h"
 #include "BehaveTree.h"
+
 USING_NS_CC;
 //
 enum class NEventType{
 	//ManageChokeEvent 场景阻塞事件
+	None,
 	FightBegin,
 	SceneBegin,      //
 	NextScene,
@@ -153,6 +155,16 @@ public:
 
 	bool visit();
 	bool Action_PostFightBeginEvent();
+
+	Util * getHeroByID(int ID);
+	Util * getMonsterByID(int ID);
+
+	bool isPointInSelectHero(Vec2 pt);
+	bool isMoveHero( Vec2 pt );
+
+
+	void postCheckState();
+	Util * getAllUtilByID(int ID);
 protected:
 	std::vector<Util *> m_Hero;
 	std::vector<Util *> m_Monster;
@@ -161,6 +173,10 @@ protected:
 	nEvent * m_curChokeEvent;   //阻塞事件
 	Layer * m_Layer;
 	SelectorNode *rootNode;
+
+	Sprite * m_selCircle;
+	Sprite * m_selGreenCircle;
+	int m_curSelectHero;
 };
 
 
@@ -175,8 +191,13 @@ public:
 	CREATE_FUNC(batterScene);
 	
 	UtilManage * m_Manage;
+	ParticleSystemQuad * particle;
+	MotionStreak * line;
 	void update(float dt);
 	void addUtilChild();
+	virtual void onTouchEnded(Touch *touch, Event *unused_event); 
+	virtual bool onTouchBegan(Touch *touch, Event *unused_event); 
+	virtual void onTouchMoved(Touch *touch, Event *unused_event); 
 
 };
 

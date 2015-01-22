@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "aNT/cnqz1ZMKnEC0ffNo23H+Tn8", "spine": "2.1.08", "width": 324.47, "height": 166.93, "images": "" },
+"skeleton": { "hash": "OL4eNV7SF9pFmVbSHbh0oI7Q9CU", "spine": "2.1.08", "width": 324.47, "height": 166.93, "images": "" },
 "bones": [
 	{ "name": "root", "x": 0.55, "y": -0.61 },
 	{ "name": "skum_", "parent": "root", "x": 0.3, "y": 56.8 },
@@ -20,7 +20,7 @@
 	{ "name": "skum_l_calf2", "parent": "skum_l_thigh2", "length": 29.9, "x": 63, "y": -22.48, "rotation": 123.36 },
 	{ "name": "skum_r_calf1", "parent": "skum_r_thigh1", "length": 26.48, "x": 69.75, "y": -15.75, "rotation": 137.59 },
 	{ "name": "skum_r_calf2", "parent": "skum_r_thigh2", "length": 25.5, "x": 60.64, "y": -18.43, "rotation": 129.04 },
-	{ "name": "blood", "parent": "dummy_head", "x": -2.99, "y": 30.19 },
+	{ "name": "blood", "parent": "dummy_head", "x": -4.56, "y": 36.47 },
 	{ "name": "skum_tooth", "parent": "skum_chin", "length": 19.65, "x": 52.64, "y": 9.17, "rotation": -116.4 }
 ],
 "slots": [
@@ -38,14 +38,21 @@
 	{ "name": "skum_tooth4", "bone": "skum_tooth", "attachment": "skum_tooth4" },
 	{ "name": "skum_l_thigh1", "bone": "skum_l_thigh1", "attachment": "skum_l_thigh1" },
 	{ "name": "skum_l_calf1", "bone": "skum_l_calf1", "attachment": "skum_l_calf1" },
-	{ "name": "UtilBoundindBox", "bone": "root", "attachment": "UtilBoundindBox" }
+	{ "name": "UtilBoundingBox", "bone": "root", "attachment": "UtilBoundingBox" },
+	{ "name": "attackRect", "bone": "root", "attachment": "attackRect" }
 ],
 "skins": {
 	"default": {
-		"UtilBoundindBox": {
-			"UtilBoundindBox": {
+		"UtilBoundingBox": {
+			"UtilBoundingBox": {
 				"type": "boundingbox",
-				"vertices": [ -119.06795, 134.78116, -117.49794, -13.583797, 78.752, -21.433804, 77.18202, 128.50119 ]
+				"vertices": [ 114.862, 2.1161957, 107.01201, 153.62115, -124.56291, 147.34116, -121.42296, 0.5461998 ]
+			}
+		},
+		"attackRect": {
+			"attackRect": {
+				"type": "boundingbox",
+				"vertices": [ 185.11952, 3.2936935, 174.9145, 172.85364, -192.46544, 172.06863, -191.68044, 3.2936935 ]
 			}
 		},
 		"skum_body": {

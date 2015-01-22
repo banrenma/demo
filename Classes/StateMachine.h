@@ -29,11 +29,6 @@ class StateMachine
 	//void update();
 
 
-
-
-
-
-
 };
 
 

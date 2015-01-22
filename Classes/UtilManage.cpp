@@ -56,7 +56,51 @@ void UtilManage::init( Layer * lay )
 	m_curEvent = NULL;
 	m_ManageEvent.empty();
 	
+	m_selGreenCircle = Sprite::create("circle_green.png");
+	m_selCircle = Sprite::create("circle.png");
+	m_selGreenCircle->setZOrder(-1);
+	m_selCircle->setZOrder(-1);
+	m_selGreenCircle->retain();
+	m_selCircle->retain();
+	m_curSelectHero = -1;
 	createTree();
+}
+
+
+Util * UtilManage::getHeroByID(int ID)
+{
+	std::vector<Util *>::iterator it;
+	for (it = m_Hero.begin();it != m_Hero.end();it++)
+	{
+		if((*it)->getFightNum() == ID)
+			return (*it);
+	}
+	return NULL;
+}
+Util * UtilManage::getMonsterByID(int ID)
+{
+	std::vector<Util *>::iterator it;
+	for (it = m_Monster.begin();it != m_Monster.end();it++)
+	{
+		if((*it)->getFightNum() == ID)
+			return (*it);
+	}
+	return NULL;
+}
+Util * UtilManage::getAllUtilByID(int ID)
+{
+	std::vector<Util *>::iterator it;
+	for (it = m_Hero.begin();it != m_Hero.end();it++)
+	{
+		if((*it)->getFightNum() == ID)
+			return (*it);
+	}
+	for (it = m_Monster.begin();it != m_Monster.end();it++)
+	{
+		if((*it)->getFightNum() == ID)
+			return (*it);
+	}
+	return NULL;
 }
 
 
@@ -85,6 +129,16 @@ void UtilManage::createTree()
 	SequenceNode * seq16 = new SequenceNode();
 	SequenceNode * seq17 = new SequenceNode();
 	SequenceNode * seq18 = new SequenceNode();		
+	SequenceNode * seq19 = new SequenceNode();
+	SequenceNode * seq20 = new SequenceNode();	
+	SequenceNode * seq21 = new SequenceNode();	
+	SequenceNode * seq22 = new SequenceNode();	
+	SequenceNode * seq23 = new SequenceNode();	
+	SequenceNode * seq24 = new SequenceNode();	
+	SequenceNode * seq25 = new SequenceNode();	
+	SequenceNode * seq26 = new SequenceNode();	
+
+
 
 	SelectorNode * sel1 = new SelectorNode();
 	SelectorNode * sel2 = new SelectorNode();
@@ -130,11 +184,47 @@ void UtilManage::createTree()
 	ConditionNode * coud14 = new ConditionNode([this](){
 		return m_curEvent->m_name == NEventName::UserControlEvent;
 	});
-	ConditionNode * coud15 = new ConditionNode(std::bind(&UtilManage::isCurEventTypeEqualFightEnd,this));
-	ConditionNode * coud16 = new ConditionNode(std::bind(&UtilManage::isCurEventTypeEqualFightEnd,this));
-	ConditionNode * coud17 = new ConditionNode(std::bind(&UtilManage::isCurEventTypeEqualFightEnd,this));
+	ConditionNode * coud15 = new ConditionNode([this](){
+		return m_curEvent->m_type == NEventType::HeroSelect;
+	});
+	ConditionNode * coud16 = new ConditionNode([this](){
+		return m_curEvent->m_type == NEventType::MoveHero;
+	});
+	ConditionNode * coud17 = new ConditionNode([this](){
+		return m_curEvent->m_type == NEventType::SelectTarget;
+	});
+	ConditionNode * coud18 = new ConditionNode([this](){
+		return m_curEvent->m_type == NEventType::HeroSkill;
+	});
 
 
+	ConditionNode * coud19 = new ConditionNode([this](){
+		return m_curEvent->m_name == NEventName::AiEvent;
+	});
+
+	ConditionNode * coud20 = new ConditionNode([this](){
+		Util * ut = getAllUtilByID(m_curEvent->m_fromID);
+		if(ut->getTarget() == NULL)
+		{
+			return true;
+		}
+		return false;
+	});
+	ConditionNode * coud21 = new ConditionNode([this](){
+		Util * ut = getAllUtilByID(m_curEvent->m_fromID);
+		if(ut->getTarget() == NULL)
+		{
+			return true;
+		}
+		return false;
+	});
+
+	ConditionNode * coud22 = new ConditionNode([this](){
+		return m_curEvent->m_type == NEventType::SelectTarget;
+	});
+	ConditionNode * coud23 = new ConditionNode([this](){
+		return m_curEvent->m_type == NEventType::HeroSkill;
+	});
 
 
 
@@ -151,10 +241,76 @@ void UtilManage::createTree()
 
 
 	ActionNode *act12 = new ActionNode([this](){
+		m_selGreenCircle->removeFromParentAndCleanup(true);
+		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		hero->addChild(m_selGreenCircle);
+		m_curSelectHero = m_curEvent->m_fromID;
+		return true;
+	});
+
+
+	ActionNode *act13 = new ActionNode([this](){
+		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		Vec2 * p = (Vec2 *)m_curEvent->m_args;
+		hero->stopAllActions();
+		hero->setAnimation(0,"walk",true);
+		hero->setControlState(Util::Controlstate::Util_useControl);
+		Sequence * seq = Sequence::create(MoveTo::create(1,*p),CallFunc::create([this,hero](){
+			hero->setControlState(Util::Controlstate::Util_AiControl);
+			hero->setAnimation(0,"stand",true);
+		}),nullptr);
+		seq->setTag(101);
+		hero->runAction(seq);
+		return true;
+	});
+
+
+	ActionNode *act14 = new ActionNode([this](){
+		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		Util * m_Monster = getMonsterByID(m_curEvent->m_toID);
+		hero->setTarget(m_Monster);
+		return true;
+	});
+
+
+	ActionNode *act15 = new ActionNode([this](){
+		Util * hero = getHeroByID(m_curEvent->m_fromID);
+	
+
 
 		return true;
 	});
 
+	ActionNode *act16 = new ActionNode([this](){
+		Util * hero = getHeroByID(m_curEvent->m_fromID);
+
+
+
+		return true;
+	});
+	ActionNode *act17 = new ActionNode([this](){
+		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		
+		hero->setTarget(*m_Monster.begin());
+
+
+		return true;
+	});
+	ActionNode *act18 = new ActionNode([this](){
+		Util * hero = getHeroByID(m_curEvent->m_fromID);
+		hero->stopAllActions();
+		hero->setAnimation(0,"walk",true);
+		hero->runAction(Sequence::create(Follow::))
+
+		return true;
+	});
+	ActionNode *act19 = new ActionNode([this](){
+		Util * hero = getHeroByID(m_curEvent->m_fromID);
+
+
+
+		return true;
+	});
 
 	DecoratorBeforeAndEndNode * decNode = new DecoratorBeforeAndEndNode(sel3,[this](Behavior *p){
 		if(m_ManageEvent.empty())
@@ -256,26 +412,48 @@ void UtilManage::createTree()
 								seq16->addChild(sel4);
 							//电脑ai事件 先处理
 
-
-
-
 								//添加用户事件
 							sel3->addChild(seq17);
 								seq17->addChild(coud14);
+								
 								seq17->addChild(sel5);
+
 								//选择英雄事件
-									sel5->addChild(coud15)
-									sel5->addChild(act12)
+									sel5->addChild(seq18);
+									seq18->addChild(coud15);
+									seq18->addChild(act12);
 								//移动
-									sel5->addChild(coud15)
-									sel5->addChild(act12)
-								//释放技能
-									sel5->addChild(coud15)
-									sel5->addChild(act12)
+									sel5->addChild(seq19);
+									seq19->addChild(coud16);
+									seq19->addChild(act13);
+								//释放技能 --
+									sel5->addChild(seq20);
+									seq20->addChild(coud18);
+									seq20->addChild(act15);
 								//攻击对象
-									sel5->addChild(coud15)
-									sel5->addChild(act12)
+									sel5->addChild(seq21);
+									seq21->addChild(coud17);
+									seq21->addChild(act14);
 				//检测 是否有英雄处于空闲状态
+				sel3->addChild(sel6);
+					sel6->addChild(coud19);
+					//逃跑
+					sel6->addChild(seq22)
+						seq22->addChild(coud23);
+						seq22->addChild(act16);
+					//无目标
+					sel6->addChild(seq23)
+						seq23->addChild(coud20);
+						seq23->addChild(act17);
+					//有目标不在攻击区域
+					sel6->addChild(seq24)
+						seq24->addChild(coud21);
+						seq24->addChild(act18);
+					//攻击
+					sel6->addChild(seq25)
+						seq25->addChild(coud22);
+						seq25->addChild(act19);
+
 
 				//显示 受伤
 
@@ -519,7 +697,7 @@ void UtilManage::setCurEvent(nEvent * ev)
 
 void UtilManage::postEvent(nEvent * ev)
 {
-	m_ManageEvent.push_back(ev);
+	m_ManageEvent.push(ev);
 }
 
 bool UtilManage::visit()
@@ -528,6 +706,50 @@ bool UtilManage::visit()
 	return true;
 }
 
+bool UtilManage::isPointInSelectHero( Vec2 pt )
+{
+	std::vector<Util *>::iterator it;
+	for (it = m_Hero.begin();it != m_Hero.end();it++)
+	{
+		if((*it)->getUtilRect().containsPoint(pt))
+		{
+			nEvent* ev = new nEvent((*it)->getFightNum(),0,NEventName::UserControlEvent,NEventType::HeroSelect,NEventstate::Begin,0,NULL);
+			postEvent(ev);
+			return true;
+		}
+	}
+	return false;
+}
+
+bool UtilManage::isMoveHero( Vec2 pt )
+{
+	if(m_curSelectHero != -1)
+	{
+		nEvent* ev = new nEvent(m_curSelectHero,0,NEventName::UserControlEvent,NEventType::MoveHero,NEventstate::Begin,0,new Vec2(pt));
+		postEvent(ev);
+		return true;
+	}
+	return false;
+}
+
+void UtilManage::postCheckState()
+{
+	std::vector<Util *>::iterator it;
+	for (it = m_Hero.begin();it != m_Hero.end();it++)
+	{
+		nEvent* ev = new nEvent((*it)->getFightNum(),0,NEventName::AiEvent,NEventType::None,NEventstate::Begin,0,NULL);
+		postEvent(ev);
+
+	}
+	for (it = m_Monster.begin();it != m_Monster.end();it++)
+	{
+		nEvent* ev = new nEvent((*it)->getFightNum(),0,NEventName::AiEvent,NEventType::None,NEventstate::Begin,0,NULL);
+		postEvent(ev);
+
+	}
+
+
+}
 
 
 
@@ -563,11 +785,60 @@ bool batterScene::init()
 	m_Manage->Action_PostSceneBeginEvent();
 
 	this->scheduleUpdate();
+	this->setTouchEnabled(true);
+	this->setTouchMode(cocos2d::Touch::DispatchMode::ONE_BY_ONE);
+
+	particle = ParticleSystemQuad::create("zidian.plist");
+	
+	this->addChild(particle);
+	line = MotionStreak::create(0.5f, 1.0f, 10.0f, Color3B(150, 60, 20),"line.png");
+	line->setZOrder(1);
+	this->addChild(line);
 	return true;
 }
 
 
 void batterScene::update( float dt )
 {
+	m_Manage->postCheckState();
 	m_Manage->visit();
 }
+
+void batterScene::onTouchEnded( Touch *touch, Event *unused_event )
+{
+	particle->stopSystem();
+	line->reset();
+
+
+}
+
+bool batterScene::onTouchBegan( Touch *touch, Event *unused_event )
+{
+	
+	
+	particle->resetSystem();
+	particle->setPosition(touch->getLocation());
+
+	Vec2 pt = touch->getLocation();
+	if(m_Manage->isPointInSelectHero(pt))
+	{
+		return true;
+	}
+
+	if(m_Manage->isMoveHero(pt))
+	{
+		return true;
+	}
+	
+
+	return true;
+}
+
+void batterScene::onTouchMoved( Touch *touch, Event *unused_event )
+{
+	particle->setPosition(touch->getLocation());
+	line->setPosition(touch->getLocation());
+	
+}
+
+

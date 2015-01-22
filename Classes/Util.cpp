@@ -50,7 +50,12 @@ bool Util::initUtil( )
 
 	m_Blood->setPosition(this->getBoneLocalPosition("blood"));
 
-
+	m_UtilRect = getSkeletonBoundingBox("UtilBoundingBox");
+	m_attackRect = getSkeletonBoundingBox("m_attackRect");
+	if(m_attackRect.equals(Rect::ZERO) )
+	{
+		m_attackRect = Rect(0,0,1280,720);
+	}
 	return true;
 }
 

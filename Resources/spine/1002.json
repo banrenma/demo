@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "D0WQxU04rjEu5BQtSnllDHeFkKU", "spine": "2.1.08", "width": 218.98, "height": 171.44, "images": "" },
+"skeleton": { "hash": "0aw5KAeJN1gXGgdhFxCU2Omnmv0", "spine": "2.1.08", "width": 216.43, "height": 171.44, "images": "" },
 "bones": [
 	{ "name": "root", "y": -2 },
 	{ "name": "orc_warlord_", "parent": "root", "x": -2.05, "y": 58.26 },
@@ -44,7 +44,8 @@
 	{ "name": "warlord_hair2", "bone": "warlord_hair2", "attachment": "orc_warlord_hair2" },
 	{ "name": "warlord_l_shoudler", "bone": "warlord_l_shoudler", "attachment": "orc_warlord_l_shoulder" },
 	{ "name": "warlord_l_forearm", "bone": "warlord_l_forearm", "attachment": "orc_warlord_l_forearm" },
-	{ "name": "UtilBoundingBox", "bone": "root", "attachment": "UtilBoundingBox" }
+	{ "name": "UtilBoundingBox", "bone": "root", "attachment": "UtilBoundingBox" },
+	{ "name": "attackRect", "bone": "root", "attachment": "attackRect" }
 ],
 "skins": {
 	"default": {
@@ -52,6 +53,12 @@
 			"UtilBoundingBox": {
 				"type": "boundingbox",
 				"vertices": [ -66.77665, 135.43141, -71.68166, -5.178479, 71.10827, -4.0884867, 75.46825, 134.34142 ]
+			}
+		},
+		"attackRect": {
+			"attackRect": {
+				"type": "boundingbox",
+				"vertices": [ -167.60156, 135.70392, -167.60156, 2.179016, 157.76323, 2.179016, 157.21822, 141.1539 ]
 			}
 		},
 		"warlord_backer": {
@@ -95,7 +102,7 @@
 			"orc_warlord_pelvis": { "x": 8.23, "y": -2.24, "rotation": -100.87, "width": 48, "height": 24 }
 		},
 		"warlord_polearm": {
-			"orc_warlord_weapon": { "x": 39.76, "y": -0.36, "rotation": -91, "width": 48, "height": 120 },
+			"orc_warlord_weapon": { "x": 39.76, "y": -0.36, "rotation": -94.68, "width": 48, "height": 120 },
 			"orc_warlord_weapon2": { "x": 39.76, "y": -0.36, "rotation": -91, "width": 36, "height": 95 },
 			"orc_warlord_weapon3": { "x": 39.76, "y": -0.36, "rotation": -91, "width": 37, "height": 121 },
 			"orc_warlord_weapon4": { "x": 39.76, "y": -0.36, "rotation": -91, "width": 37, "height": 121 }
@@ -104,7 +111,7 @@
 			"orc_warlord_r_calf": { "x": 8.76, "y": -0.2, "rotation": -106.89, "width": 17, "height": 23 }
 		},
 		"warlord_r_forearm": {
-			"orc_warlord_r_forearm": { "x": 13.37, "y": 0.14, "rotation": 137, "width": 34, "height": 32 },
+			"orc_warlord_r_forearm": { "x": 13.37, "y": 0.14, "rotation": 141.31, "width": 34, "height": 32 },
 			"orc_warlord_r_forearm2": { "x": 13.37, "y": 0.14, "rotation": 137, "width": 31, "height": 34 }
 		},
 		"warlord_r_shoudler": {

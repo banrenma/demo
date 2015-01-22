@@ -24,6 +24,7 @@ public:
 
 class Util:public NSpineExt ,public baseUtil
 {
+public:
 	enum class Controlstate
 	{
 		Util_useControl,
@@ -32,9 +33,9 @@ class Util:public NSpineExt ,public baseUtil
 	enum class state
 	{
 		Util_empty,
-		Util_findTarget,
-		Util_attackTarget,
-		Util_escape
+		Util_followUp,
+		Util_attack,
+		Util_skill,
 	};
 public:
 
@@ -50,6 +51,12 @@ public:
 
 	Node * getBeforeSkeletonNode(){ return m_BeforeSkeletonNode; }
 	Node * getBehindSkeletonNode(){return m_BehindSkeletonNode; }
+
+	CC_SYNTHESIZE(Controlstate,m_ControlState,ControlState)
+	CC_SYNTHESIZE(state,m_state,State)
+	CC_SYNTHESIZE(Util *,m_Target,Target)
+	CC_SYNTHESIZE(Rect,m_UtilRect,UtilRect)
+	CC_SYNTHESIZE(Rect,m_attackRect,attackRect)
 protected:
 	Node * m_Blood; 
 	Node * m_BeforeSkeletonNode;
@@ -57,8 +64,7 @@ protected:
 	UtilData* m_data;
 
 
-	Controlstate m_ControlState;
-	state m_state;
+
 
 
 
