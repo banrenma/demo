@@ -1,10 +1,10 @@
 {
-"skeleton": { "hash": "pnbb+m3glFkHeUPjWrjY9rjqnM8", "spine": "2.1.08", "width": 196.2, "height": 197.02, "images": "" },
+"skeleton": { "hash": "UvPrxeiLfz8hLX4oQWyQdjzeFqo", "spine": "2.1.08", "width": 196.2, "height": 197.02, "images": "" },
 "bones": [
 	{ "name": "root" },
-	{ "name": "gargoyles_", "parent": "root", "x": -1.96, "y": 55.58 },
-	{ "name": "gargoyles_body", "parent": "gargoyles_", "length": 43.1, "x": 6.5, "y": -13.38, "rotation": 118.15 },
-	{ "name": "gargoyles_shadow", "parent": "gargoyles_", "x": 1.81, "y": -55.45 },
+	{ "name": "centerBone", "parent": "root", "x": -1.96, "y": 55.58 },
+	{ "name": "gargoyles_body", "parent": "centerBone", "length": 43.1, "x": 6.5, "y": -13.38, "rotation": 118.15 },
+	{ "name": "gargoyles_shadow", "parent": "centerBone", "x": 1.81, "y": -55.45 },
 	{ "name": "dummy_body", "parent": "gargoyles_body", "x": 22.5, "y": 5.89, "rotation": -118.15 },
 	{ "name": "dummy_foot", "parent": "gargoyles_shadow", "x": -0.03, "y": -0.4 },
 	{ "name": "gargoyles_head", "parent": "gargoyles_body", "length": 44.16, "x": 30.3, "y": 1.84, "rotation": 14.23 },
@@ -14,12 +14,12 @@
 	{ "name": "gargoyles_r_wing", "parent": "gargoyles_body", "length": 52.17, "x": 65.77, "y": 13.35, "rotation": -8.14 },
 	{ "name": "gargoyles_tail1", "parent": "gargoyles_body", "length": 14.02, "x": 11.19, "y": -13.78, "rotation": -157.19 },
 	{ "name": "dummy_head", "parent": "gargoyles_head", "x": 43.25, "y": -13.36, "rotation": -132.38 },
-	{ "name": "dummy_weapon", "parent": "gargoyles_head", "x": 24.9, "y": 30.6, "rotation": -132.38 },
 	{ "name": "gargoyles_l_calf", "parent": "gargoyles_l_thigh", "length": 13.48, "x": 14.94, "y": 1.65, "rotation": 35.91 },
 	{ "name": "gargoyles_l_ear", "parent": "gargoyles_head", "length": 49.66, "x": 18.91, "y": -13.73, "rotation": -86.84 },
 	{ "name": "gargoyles_r_calf", "parent": "gargoyles_r_thigh", "length": 12.61, "x": 10.33, "y": 2.27, "rotation": 34.67 },
 	{ "name": "gargoyles_r_ear", "parent": "gargoyles_head", "length": 39.09, "x": 40.01, "y": 4.26, "rotation": -17.66 },
 	{ "name": "gargoyles_tail2", "parent": "gargoyles_tail1", "length": 16.77, "x": 13.85, "y": -0.42, "rotation": 19.91 },
+	{ "name": "weapon", "parent": "gargoyles_head", "x": 24.9, "y": 30.6, "rotation": -132.38 },
 	{ "name": "blood", "parent": "dummy_head", "x": 4.05, "y": 31.79 },
 	{ "name": "gargoyles_tail3", "parent": "gargoyles_tail2", "length": 13.13, "x": 15.1, "y": 0.63, "rotation": 39.84 },
 	{ "name": "gargoyles_tail4", "parent": "gargoyles_tail3", "length": 15.33, "x": 11.82, "y": 0.56, "rotation": 38.76 }
@@ -106,6 +106,10 @@
 		}
 	}
 },
+"events": {
+	"attack": {},
+	"attakcend": {}
+},
 "animations": {
 	"attack01": {
 		"slots": {
@@ -161,7 +165,7 @@
 			}
 		},
 		"bones": {
-			"gargoyles_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2, "angle": 0, "curve": "stepped" },
@@ -568,6 +572,10 @@
 					{ "slot": "gargoyles_r_wing", "offset": -4 }
 				]
 			}
+		],
+		"events": [
+			{ "time": 0.1, "name": "attack" },
+			{ "time": 0.3666, "name": "attakcend" }
 		]
 	},
 	"attack02": {
@@ -627,7 +635,7 @@
 			}
 		},
 		"bones": {
-			"gargoyles_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
@@ -1088,6 +1096,10 @@
 					{ "slot": "gargoyles_r_wing", "offset": -4 }
 				]
 			}
+		],
+		"events": [
+			{ "time": 0.1666, "name": "attack" },
+			{ "time": 0.4333, "name": "attakcend" }
 		]
 	},
 	"dead": {
@@ -1127,7 +1139,7 @@
 			}
 		},
 		"bones": {
-			"gargoyles_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
@@ -1621,7 +1633,7 @@
 			}
 		},
 		"bones": {
-			"gargoyles_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2, "angle": 0, "curve": "stepped" },
@@ -2023,7 +2035,7 @@
 			}
 		},
 		"bones": {
-			"gargoyles_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
@@ -2611,7 +2623,7 @@
 					{ "time": 0.6666, "x": 1, "y": 1 }
 				]
 			},
-			"gargoyles_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
@@ -2753,7 +2765,7 @@
 			}
 		},
 		"bones": {
-			"gargoyles_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
@@ -3170,7 +3182,7 @@
 			}
 		},
 		"bones": {
-			"gargoyles_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
@@ -3685,7 +3697,7 @@
 			}
 		},
 		"bones": {
-			"gargoyles_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2666, "angle": 0, "curve": "stepped" },

@@ -1,11 +1,11 @@
 {
-"skeleton": { "hash": "R88esuFtu5uVo1dgI7JKKd7pHBo", "spine": "2.1.08", "width": 327.26, "height": 154.42, "images": "./ectoplasm/" },
+"skeleton": { "hash": "7KT0jdv3eVlY2NtyiOKZnCqXuk4", "spine": "2.1.08", "width": 327.26, "height": 154.42, "images": "./ectoplasm/" },
 "bones": [
 	{ "name": "root" },
-	{ "name": "ectoplasm", "parent": "root", "x": -1.54, "y": 50.28 },
+	{ "name": "centerBone", "parent": "root", "x": -1.54, "y": 50.28 },
 	{ "name": "ectoplasm_shadow", "parent": "root", "x": 8.35, "y": 7.98 },
 	{ "name": "dummy_foot", "parent": "ectoplasm_shadow", "x": -7.79, "y": -6.02 },
-	{ "name": "ectoplasm_body", "parent": "ectoplasm", "length": 37.86, "x": 1.35, "y": -24.74, "rotation": 3.15 },
+	{ "name": "ectoplasm_body", "parent": "centerBone", "length": 37.86, "x": 1.35, "y": -24.74, "rotation": 3.15 },
 	{ "name": "dummy_body", "parent": "ectoplasm_body", "x": 1.64, "y": 4.27, "rotation": -3.15 },
 	{ "name": "ectoplasm_foots", "parent": "ectoplasm_body", "length": 46.83, "x": -0.41, "y": -15.75, "rotation": -0.9 },
 	{ "name": "ectoplasm_head", "parent": "ectoplasm_body", "length": 43.14, "x": 5.64, "y": 45.2, "rotation": 94.46 },
@@ -28,7 +28,8 @@
 	{ "name": "ectoplasm_head7", "bone": "ectoplasm_chin", "attachment": "ectoplasm_head7" },
 	{ "name": "ectoplasm_head1", "bone": "ectoplasm_head", "attachment": "ectoplasm_head1" },
 	{ "name": "ectoplasm_l_upperarm", "bone": "ectoplasm_l_upperarm", "attachment": "ectoplasm_l_upperarm" },
-	{ "name": "UtilBoundingBox", "bone": "root", "attachment": "UtilBoundingBox" }
+	{ "name": "UtilBoundingBox", "bone": "root", "attachment": "UtilBoundingBox" },
+	{ "name": "attackRect", "bone": "root", "attachment": "attackRect" }
 ],
 "skins": {
 	"default": {
@@ -36,6 +37,12 @@
 			"UtilBoundingBox": {
 				"type": "boundingbox",
 				"vertices": [ -56.310593, 119.28858, -59.27559, -15.322403, 84.823395, -14.136406, 86.009384, 123.43957 ]
+			}
+		},
+		"attackRect": {
+			"attackRect": {
+				"type": "boundingbox",
+				"vertices": [ 169.32587, -15.915394, 172.29088, 132.9276, -147.92908, 128.18358, -147.92908, -9.985401 ]
 			}
 		},
 		"ectoplasm_body": {
@@ -73,6 +80,9 @@
 			"ectoplasm_shadow": { "x": 0.56, "y": 5.63, "scaleX": 5.95, "scaleY": 3.663, "width": 55, "height": 26 }
 		}
 	}
+},
+"events": {
+	"attack": {}
 },
 "animations": {
 	"animation": {},
@@ -150,7 +160,7 @@
 					{ "time": 1, "x": 1, "y": 1 }
 				]
 			},
-			"ectoplasm": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0 },
 					{ "time": 0.3, "angle": -0.34 },
@@ -343,7 +353,10 @@
 					{ "time": 0.5333, "x": -0.34, "y": 1.2 }
 				]
 			}
-		}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "attack" }
+		]
 	},
 	"attack02": {
 		"slots": {
@@ -527,7 +540,7 @@
 					{ "time": 0.9666, "x": 0.995, "y": 0.976 }
 				]
 			},
-			"ectoplasm": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0 },
 					{ "time": 0.3, "angle": -0.34 },
@@ -607,7 +620,10 @@
 					{ "time": 1, "x": 1, "y": 1 }
 				]
 			}
-		}
+		},
+		"events": [
+			{ "time": 0.3666, "name": "attack" }
+		]
 	},
 	"dead": {
 		"slots": {
@@ -673,7 +689,7 @@
 					{ "time": 0.7666, "x": 1.128, "y": 0.986 }
 				]
 			},
-			"ectoplasm": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2, "angle": 0, "curve": "stepped" },
@@ -851,7 +867,7 @@
 			}
 		},
 		"bones": {
-			"ectoplasm": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2, "angle": 0, "curve": "stepped" },
@@ -1072,7 +1088,7 @@
 					{ "time": 1.3666, "x": 0.972, "y": 1.068 }
 				]
 			},
-			"ectoplasm": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
@@ -1249,7 +1265,7 @@
 	},
 	"selected": {
 		"bones": {
-			"ectoplasm": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
@@ -1420,7 +1436,7 @@
 	},
 	"stand": {
 		"bones": {
-			"ectoplasm": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.9333, "angle": 0, "curve": "stepped" },
@@ -1588,7 +1604,7 @@
 			}
 		},
 		"bones": {
-			"ectoplasm": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1, "angle": 0, "curve": "stepped" },
@@ -1926,7 +1942,7 @@
 					{ "time": 1, "x": 0.957, "y": 1.098 }
 				]
 			},
-			"ectoplasm": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.3333, "angle": 0, "curve": "stepped" },

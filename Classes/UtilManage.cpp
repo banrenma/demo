@@ -24,29 +24,29 @@ void UtilManage::init()
 void UtilManage::init( Layer * lay )
 {
 	Util * ut;
-	ut=  Util::create(data1);
+	ut=  UtilMage::create(data1);
 	m_Hero.push_back(ut);
 	lay->addChild(ut);
 	ut->setPosition(30,60);
 	ut->setScaleX(-1);
 	ut->setAnimation(0,"stand",true);
-	ut= Util::create(data2);
+	ut= UtilWarrior::create(data2);
 	m_Hero.push_back(ut);
 	lay->addChild(ut);
 	ut->setAnimation(0,"stand",true);
 	ut->setPosition(30,300);
 	ut->setScaleX(-1);
-	ut= Util::create(data3);
+	ut= UtilWarrior::create(data3);
 	m_Monster.push_back(ut);
 	lay->addChild(ut);
 	ut->setAnimation(0,"stand",true);
 	ut->setPosition(900,300);
-	ut= Util::create(data4);
+	ut= UtilMage::create(data4);
 	m_Monster.push_back(ut);
 	lay->addChild(ut);
 	ut->setAnimation(0,"stand",true);
 	ut->setPosition(1000,150);
-	ut= Util::create(data5);
+	ut= UtilMage::create(data5);
 	m_Monster.push_back(ut);
 	lay->addChild(ut);
 	ut->setAnimation(0,"stand",true);
@@ -54,7 +54,7 @@ void UtilManage::init( Layer * lay )
 	m_Layer = lay;
 	m_curChokeEvent = NULL;
 	m_curEvent = NULL;
-	m_ManageEvent.empty();
+	m_ManageEvent = EventManage::getInstance();
 	
 	m_selGreenCircle = Sprite::create("circle_green.png");
 	m_selCircle = Sprite::create("circle.png");
@@ -176,7 +176,7 @@ void UtilManage::createTree()
 	ConditionNode * coud11 = new ConditionNode(std::bind(&UtilManage::isStoryTalk,this));
 
 	ConditionNode * coud12 = new ConditionNode([this](){
-		return !m_ManageEvent.empty();
+		return !m_ManageEvent->isEmpty();
 	});
 	ConditionNode * coud13 = new ConditionNode([this](){
 		return m_curEvent->m_name == NEventName::RegisterEvent;
@@ -200,7 +200,12 @@ void UtilManage::createTree()
 
 	ConditionNode * coud19 = new ConditionNode([this](){
 		Util * ut = getAllUtilByID(m_curEvent->m_fromID);
-		return ut->getControlState() == Util::Controlstate::Util_AiControl;
+		if(ut->getFightNum() == 1)
+		{
+			int aa;
+			aa = 1;
+		}
+		return ut->getControlState() == Util::Controlstate::Util_useControl;
 	});
 
 	ConditionNode * coud20 = new ConditionNode([this](){
@@ -225,7 +230,7 @@ void UtilManage::createTree()
 			m_Layer->addChild(draw,0,222);
 		}
 
-		if(rt.containsPoint(ut->getTarget()->getPosition()) )
+		if(rt.intersectsRect(ut->getTarget()->getSkeletonBoundingBox("UtilBoundingBox")) )
 		{
 			return false;
 		}
@@ -266,7 +271,7 @@ void UtilManage::createTree()
 		Util * hero = getAllUtilByID(m_curEvent->m_fromID);
 		Vec2 * p = (Vec2 *)m_curEvent->m_args;
 		hero->stopAllActions();
-		hero->setAnimation(0,"walk",true);
+		hero->addAnimation(1,"walk",true);
 		hero->setControlState(Util::Controlstate::Util_useControl);
 		Vec2 vec2 = hero->getPosition();
 		float dx2 = ((*p).x - vec2.x)*((*p).x - vec2.x);
@@ -276,7 +281,7 @@ void UtilManage::createTree()
 		
 		Sequence * seq = Sequence::create(MoveTo::create(time,(*p)),CallFunc::create([this,hero](){
 			hero->setControlState(Util::Controlstate::Util_AiControl);
-			hero->setAnimation(0,"stand",true);
+			hero->clearTrack(1);
 		}),nullptr);
 		seq->setTag(101);
 		hero->runAction(seq);
@@ -330,19 +335,24 @@ void UtilManage::createTree()
 		Vec2 vec1 = ut1->getPosition();
 		Vec2 vec2 = ut2->getPosition();
 		Vec2 pt;
-		ut1->setAnimation(0,"walk",true);
-		if(vec1.equals(vec2))
+		if(ut1->getFightNum() == 1)
+		{
+			int aa;
+			aa = 1;
+		}
+		ut1->addAnimation(1,"walk",true);
+		if(fabs(vec1.x - vec2.x) < 1 && fabs(vec1.y - vec2.y) < 1)
 		{
 			return false;
 		}
-		else if(vec1.x == vec2.x)
+		else if(fabs(vec1.x - vec2.x) < 1)
 		{
-			vec1.y >vec2.y?pt.y = vec1.y - UTIL_SPEED:pt.y = vec2.y + UTIL_SPEED;
+			vec1.y >vec2.y?pt.y = vec1.y - UTIL_SPEED:pt.y = vec1.y + UTIL_SPEED;
 			pt.x = vec1.x;
 		}
-		else if(vec1.y == vec2.y)
+		else if(fabs(vec1.y - vec2.y) < 1)
 		{
-			vec1.x >vec2.x?pt.x = vec1.x - UTIL_SPEED:pt.x = vec2.x + UTIL_SPEED;
+			vec1.x >vec2.x?pt.x = vec1.x - UTIL_SPEED:pt.x = vec1.x + UTIL_SPEED;
 			pt.y = vec1.y;
 		}
 		else
@@ -350,17 +360,20 @@ void UtilManage::createTree()
 			float dx2 = (vec1.x - vec2.x)*(vec1.x - vec2.x);
 			float dy2 = (vec1.y - vec2.y)*(vec1.y - vec2.y);
 			float speed = UTIL_SPEED *UTIL_SPEED;
-			float dy = (speed * dy2)/(dx2 + dy2);
-			float dx = (speed * dx2)/(dx2 + dy2);
-			vec1.x >vec2.x?pt.x = vec1.x - dx:pt.x = vec2.x + dx;
-			vec1.y >vec2.y?pt.y = vec1.y - dy:pt.y = vec2.y + dy;
+			float dy = sqrt((speed * dy2)/(dx2 + dy2));
+			float dx = sqrt((speed * dx2)/(dx2 + dy2));
+			vec1.x >vec2.x?pt.x = vec1.x - dx:pt.x = vec1.x + dx;
+			vec1.y >vec2.y?pt.y = vec1.y - dy:pt.y = vec1.y + dy;
 		}
+		
 		ut1->setPosition(pt);
 		return true;
 	});
 	ActionNode *act19 = new ActionNode([this](){
-	
+		Util * ut1 = getAllUtilByID(m_curEvent->m_fromID);
 
+		spTrackEntry * sp = ut1->addAnimation(1,"attack01",false);
+		ut1->setAnimationEvent(sp);
 
 		return true;
 	});
@@ -373,7 +386,7 @@ void UtilManage::createTree()
 	});
 
 	DecoratorBeforeAndEndNode * decNode = new DecoratorBeforeAndEndNode(sel3,[this](Behavior *p){
-		if(m_ManageEvent.empty())
+		if(m_ManageEvent->isEmpty())
 		{
 			return true;
 		}
@@ -382,8 +395,7 @@ void UtilManage::createTree()
 			delete m_curEvent;
 			m_curEvent = NULL;
 		}
-		m_curEvent = m_ManageEvent.front();
-		m_ManageEvent.pop();
+		m_curEvent = m_ManageEvent->getEvent();
 		return false;
 	},
 	[this](Behavior *p){
@@ -759,10 +771,7 @@ void UtilManage::setCurEvent(nEvent * ev)
 	m_curChokeEvent = ev;
 }
 
-void UtilManage::postEvent(nEvent * ev)
-{
-	m_ManageEvent.push(ev);
-}
+
 
 bool UtilManage::visit()
 {
@@ -778,7 +787,8 @@ bool UtilManage::isPointInSelectHero( Vec2 pt )
 		if((*it)->getSkeletonBoundingBox("UtilBoundingBox").containsPoint(pt))
 		{
 			nEvent* ev = new nEvent((*it)->getFightNum(),0,NEventName::UserControlEvent,NEventType::HeroSelect,NEventstate::Begin,0,NULL);
-			postEvent(ev);
+			EventManage::getInstance()->addEvent(ev);
+			
 			return true;
 		}
 	}
@@ -790,7 +800,7 @@ bool UtilManage::isMoveHero( Vec2 pt )
 	if(m_curSelectHero != -1)
 	{
 		nEvent* ev = new nEvent(m_curSelectHero,0,NEventName::UserControlEvent,NEventType::MoveHero,NEventstate::Begin,0,new Vec2(pt));
-		postEvent(ev);
+		EventManage::getInstance()->addEvent(ev);
 		return true;
 	}
 	return false;
@@ -803,13 +813,13 @@ void UtilManage::postCheckState()
 	{
 		
 		nEvent* ev = new nEvent((*it)->getFightNum(),0,NEventName::AiEvent,NEventType::None,NEventstate::Begin,0,NULL);
-		postEvent(ev);
+		EventManage::getInstance()->addEvent(ev);
 
 	}
 	for (it = m_Monster.begin();it != m_Monster.end();it++)
 	{
 		nEvent* ev = new nEvent((*it)->getFightNum(),0,NEventName::AiEvent,NEventType::None,NEventstate::Begin,0,NULL);
-		postEvent(ev);
+		EventManage::getInstance()->addEvent(ev);
 
 	}
 

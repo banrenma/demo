@@ -1,10 +1,10 @@
 {
-"skeleton": { "hash": "OL4eNV7SF9pFmVbSHbh0oI7Q9CU", "spine": "2.1.08", "width": 324.47, "height": 166.93, "images": "" },
+"skeleton": { "hash": "xdFQaQoxtI5JYgqHV9EMEAsFh8w", "spine": "2.1.08", "width": 324.47, "height": 166.93, "images": "" },
 "bones": [
 	{ "name": "root", "x": 0.55, "y": -0.61 },
-	{ "name": "skum_", "parent": "root", "x": 0.3, "y": 56.8 },
-	{ "name": "skum_body", "parent": "skum_", "length": 113.74, "x": 52.26, "y": -14.61, "rotation": 170.71 },
-	{ "name": "skum_shadow", "parent": "skum_", "x": -1.04, "y": -54.61 },
+	{ "name": "centerBone", "parent": "root", "x": 0.3, "y": 56.8 },
+	{ "name": "skum_body", "parent": "centerBone", "length": 113.74, "x": 52.26, "y": -14.61, "rotation": 170.71 },
+	{ "name": "skum_shadow", "parent": "centerBone", "x": -1.04, "y": -54.61 },
 	{ "name": "dummy_body", "parent": "skum_body", "x": 79.32, "y": -0.38, "rotation": -170.71 },
 	{ "name": "dummy_foot", "parent": "skum_shadow", "x": 0.19, "y": -1.68 },
 	{ "name": "skum_head", "parent": "skum_body", "length": 65.67, "x": 94.9, "y": -9.71, "rotation": 24.27 },
@@ -102,6 +102,9 @@
 			"skum_tooth4": { "x": 11.42, "y": 0.35, "rotation": -94.95, "width": 26, "height": 18 }
 		}
 	}
+},
+"events": {
+	"attack": {}
 },
 "animations": {
 	"attack01": {
@@ -732,7 +735,10 @@
 					{ "time": 1.2333, "x": 1, "y": 1 }
 				]
 			}
-		}
+		},
+		"events": [
+			{ "time": 0.4666, "name": "attack" }
+		]
 	},
 	"attack02": {
 		"slots": {
@@ -1194,7 +1200,10 @@
 					{ "time": 1.1666, "x": 1, "y": 1 }
 				]
 			}
-		}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "attack" }
+		]
 	},
 	"attack06": {
 		"slots": {

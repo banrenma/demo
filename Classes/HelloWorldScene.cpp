@@ -95,6 +95,8 @@ bool HelloWorld::init()
 	 ut = Util::create(data);
 	ut->setPosition(200,200);
 	ut->setScaleX(-1);
+
+	
 	this->addChild(ut);
 
 
@@ -119,6 +121,7 @@ bool HelloWorld::init()
 	  {
 		  log("1111111111111111111111111111111");
 		  ut->setAnimation(0,"walk",true);
+		  ut->addAnimation(0,"attack11",false);
 	  }
 	  else if(bt->getTag() == 2)
 	  {

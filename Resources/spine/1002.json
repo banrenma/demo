@@ -1,10 +1,10 @@
 {
-"skeleton": { "hash": "0aw5KAeJN1gXGgdhFxCU2Omnmv0", "spine": "2.1.08", "width": 216.43, "height": 171.44, "images": "" },
+"skeleton": { "hash": "D60c9vJtPxxladNEvkj3RGEXUWI", "spine": "2.1.08", "width": 216.43, "height": 171.44, "images": "" },
 "bones": [
 	{ "name": "root", "y": -2 },
-	{ "name": "orc_warlord_", "parent": "root", "x": -2.05, "y": 58.26 },
-	{ "name": "warlord_body", "parent": "orc_warlord_", "length": 37.48, "x": 4.06, "y": -13.04, "rotation": 97.72 },
-	{ "name": "warlord_shadow", "parent": "orc_warlord_", "x": 2.63, "y": -53.55, "scaleX": 2.163, "scaleY": 1.612 },
+	{ "name": "centerBone", "parent": "root", "x": -2.05, "y": 58.26 },
+	{ "name": "warlord_body", "parent": "centerBone", "length": 37.48, "x": 4.06, "y": -13.04, "rotation": 97.72 },
+	{ "name": "warlord_shadow", "parent": "centerBone", "x": 2.63, "y": -53.55, "scaleX": 2.163, "scaleY": 1.612 },
 	{ "name": "dummy_body", "parent": "warlord_body", "x": 3.31, "y": 5.97, "rotation": -97.72 },
 	{ "name": "dummy_foot", "parent": "warlord_shadow", "x": -0.33, "y": -1.65, "scaleX": 0.462, "scaleY": 0.62 },
 	{ "name": "warlord_acc", "parent": "warlord_body", "length": 91.99, "x": 0.71, "y": -9.59, "rotation": -5.69 },
@@ -125,6 +125,9 @@
 			"orc_warlord_shadow": { "x": -0.92, "y": 1.27, "scaleX": 1.818, "width": 55, "height": 26 }
 		}
 	}
+},
+"events": {
+	"attack": {}
 },
 "animations": {
 	"attack01": {
@@ -1022,7 +1025,7 @@
 					{ "time": 1.4666, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1, "angle": 0, "curve": "stepped" },
@@ -1187,6 +1190,9 @@
 					{ "slot": "warlord_polearm", "offset": 1 }
 				]
 			}
+		],
+		"events": [
+			{ "time": 0.5666, "name": "attack" }
 		]
 	},
 	"attack02": {
@@ -1712,7 +1718,7 @@
 					{ "time": 1.2666, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
@@ -1850,6 +1856,9 @@
 					{ "slot": "warlord_polearm", "offset": 1 }
 				]
 			}
+		],
+		"events": [
+			{ "time": 0.2333, "name": "attack" }
 		]
 	},
 	"attack03": {
@@ -2629,7 +2638,7 @@
 					{ "time": 1.6333, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2, "angle": 0, "curve": "stepped" },
@@ -3434,7 +3443,7 @@
 					{ "time": 0.1333, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.0333, "angle": 0, "curve": "stepped" },
@@ -4328,7 +4337,7 @@
 					{ "time": 1.4666, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1, "angle": 0, "curve": "stepped" },
@@ -4535,7 +4544,7 @@
 					{ "time": 0.8333, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0 },
 					{ "time": 0.1333, "angle": -26.03, "curve": "stepped" },
@@ -5327,7 +5336,7 @@
 					{ "time": 0.6333, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.6333, "angle": 0 }
@@ -5773,7 +5782,7 @@
 					{ "time": 0.9333, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.9333, "angle": 0 }
@@ -6158,7 +6167,7 @@
 					{ "time": 0.6666, "x": 1, "y": 1.076 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
@@ -6520,7 +6529,7 @@
 					{ "time": 0.8333, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
@@ -7194,7 +7203,7 @@
 					{ "time": 1.3333, "x": 1, "y": 1 }
 				]
 			},
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
@@ -7266,7 +7275,7 @@
 			}
 		},
 		"bones": {
-			"orc_warlord_": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1, "angle": 0, "curve": "stepped" },

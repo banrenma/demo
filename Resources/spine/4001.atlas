@@ -1,0 +1,41 @@
+
+4001.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frostbolt_3_01
+  rotate: false
+  xy: 2, 194
+  size: 260, 190
+  orig: 260, 190
+  offset: 0, 0
+  index: -1
+frostbolt_3_02
+  rotate: false
+  xy: 2, 2
+  size: 260, 190
+  orig: 260, 190
+  offset: 0, 0
+  index: -1
+frostbolt_3_03
+  rotate: false
+  xy: 264, 194
+  size: 260, 190
+  orig: 260, 190
+  offset: 0, 0
+  index: -1
+frostbolt_3_04
+  rotate: false
+  xy: 264, 2
+  size: 260, 190
+  orig: 260, 190
+  offset: 0, 0
+  index: -1
+frostbolt_3_05
+  rotate: false
+  xy: 526, 194
+  size: 260, 190
+  orig: 260, 190
+  offset: 0, 0
+  index: -1

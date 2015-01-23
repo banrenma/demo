@@ -1,10 +1,10 @@
 {
-"skeleton": { "hash": "9PcZiXAReFTVRhGD7p5Noolypdg", "spine": "2.1.08", "width": 199.45, "height": 170.95, "images": "" },
+"skeleton": { "hash": "kru8nr2+GxZWOojz0TYtuZw/sHU", "spine": "2.1.08", "width": 199.45, "height": 170.95, "images": "" },
 "bones": [
 	{ "name": "root" },
-	{ "name": "doan", "parent": "root", "x": -2.85, "y": 45.79 },
+	{ "name": "centerBone", "parent": "root", "x": -2.85, "y": 45.79 },
 	{ "name": "doan_shadow", "parent": "root", "x": -1.35, "y": 5.72 },
-	{ "name": "doan_body", "parent": "doan", "length": 33.42, "x": -1.13, "y": -9.54, "rotation": 91.36 },
+	{ "name": "doan_body", "parent": "centerBone", "length": 33.42, "x": -1.13, "y": -9.54, "rotation": 91.36 },
 	{ "name": "dummy_foot", "parent": "doan_shadow", "x": 1.75, "y": -10.82 },
 	{ "name": "doan_down3", "parent": "doan_body", "length": 39.32, "x": 0.47, "y": -0.19, "rotation": -175.94 },
 	{ "name": "doan_head", "parent": "doan_body", "length": 55.82, "x": 29.14, "y": 1.02, "rotation": -8.5 },
@@ -111,8 +111,7 @@
 	"attakcend": {}
 },
 "animations": {
-	"animation": {},
-	"attack11": {
+	"attack01": {
 		"slots": {
 			"doan_head1": {
 				"attachment": [
@@ -271,7 +270,7 @@
 					{ "time": 1, "x": 1, "y": 1 }
 				]
 			},
-			"doan": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1333, "angle": 0 },
@@ -467,6 +466,7 @@
 			{ "time": 0.7333, "name": "attakcend" }
 		]
 	},
+	"attack02": {},
 	"dead": {
 		"slots": {
 			"doan_head1": {
@@ -503,7 +503,7 @@
 					{ "time": 1, "x": 1, "y": 1 }
 				]
 			},
-			"doan": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0 },
 					{ "time": 0.0666, "angle": -24.29 },
@@ -890,7 +890,7 @@
 			}
 		},
 		"bones": {
-			"doan": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.2, "angle": 0, "curve": "stepped" },
@@ -1152,7 +1152,7 @@
 					{ "time": 0.6666, "x": 1, "y": 1 }
 				]
 			},
-			"doan": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": -4.31 },
 					{ "time": 0.1666, "angle": -6.3 },
@@ -1452,7 +1452,7 @@
 					{ "time": 0.3333, "x": 1, "y": 1 }
 				]
 			},
-			"doan": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
@@ -1697,7 +1697,7 @@
 	},
 	"stand": {
 		"bones": {
-			"doan": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.4666, "angle": 0, "curve": "stepped" },
@@ -1847,7 +1847,7 @@
 					{ "time": 0.6333, "x": 1, "y": 1 }
 				]
 			},
-			"doan": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 0.1, "angle": 0, "curve": "stepped" },
@@ -2090,7 +2090,7 @@
 					{ "time": 0.6666, "x": 1, "y": 1 }
 				]
 			},
-			"doan": {
+			"centerBone": {
 				"rotate": [
 					{ "time": 0, "angle": 7.21, "curve": "stepped" },
 					{ "time": 0.1666, "angle": 7.21, "curve": "stepped" },

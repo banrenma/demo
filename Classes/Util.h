@@ -6,7 +6,14 @@
 #include "cocos2d.h"
 #include "NSpineExt.h"
 #include "NBlood.h"
+#include "EventManage.h"
 USING_NS_CC;
+
+
+#define  UTIL_SPEED  4
+#define  MAGE_SPEED  10
+
+
 
 
 
@@ -58,34 +65,34 @@ public:
 	virtual void setPosition(const Vec2 &position);
 	virtual void setPosition(float x, float y);
 	virtual void  setPositionY(float y);
+	virtual void setAnimationEvent(spTrackEntry* entry){}
+
 protected:
 	Node * m_Blood; 
 	Node * m_BeforeSkeletonNode;
 	Node * m_BehindSkeletonNode;
 	UtilData* m_data;
 
-
-
-
-
-
-
-
-
-
 protected:
 	
 
-
-	
-
-
-
-
 };
 
+class UtilMage:public Util
+{
+public:
+	static UtilMage * create(UtilData & data);
+	UtilMage(UtilData * pData);
+	virtual void setAnimationEvent(spTrackEntry* entry);
+};
+class UtilWarrior:public Util
+{
+public:
+	static UtilWarrior * create(UtilData & data);
+	UtilWarrior(UtilData * pData);
+	virtual void setAnimationEvent(spTrackEntry* entry);
+};
 
-
-
+float GetMoveToTime(Vec2 vc1,Vec2 vc2, float speed);
 
 #endif
