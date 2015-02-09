@@ -32,6 +32,7 @@ bool HelloWorld::init()
         return false;
     }
 	Size gameSize = Director::getInstance()->getVisibleSize();
+	Vec2 origin = Director::getInstance()->getVisibleOrigin();
 	//ÓÎÏ·±³¾°
 	Sprite * bj= Sprite::create("1.png"); 
 	bj->setPosition(gameSize.width/2,gameSize.height/2);
@@ -39,7 +40,16 @@ bool HelloWorld::init()
 
 	//
 	DrawNode * drawNode = DrawNode::create();
-	drawNode->drawLine(Vec2(0,150),Vec2(1280,150),Color4F::GREEN);
+	for(int i =origin.x; i < gameSize.width; i+=(gameSize.width - i)>24?24:(gameSize.width - i))
+	{
+		drawNode->drawLine(Vec2(i,origin.y),Vec2(i,gameSize.height),Color4F(0.65f, 0.65f, 0.65f, 0.5));
+	}
+	for(int i =origin.y; i < gameSize.height; i+=(gameSize.height - i)>24?24:(gameSize.height - i))
+	{
+		drawNode->drawLine(Vec2(origin.x,i),Vec2(gameSize.width,i),Color4F(0.65f, 0.65f, 0.65f, 0.5));
+	}	
+	//drawNode->drawLine(Vec2(0,150),Vec2(1280,150),Color4F::GREEN);
+
 	this->addChild(drawNode);
 
 	//NSkeletonDataCache * pCache = NSkeletonDataCache::getInstance();

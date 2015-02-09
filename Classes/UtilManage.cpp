@@ -51,6 +51,7 @@ void UtilManage::init( Layer * lay )
 	lay->addChild(ut);
 	ut->setAnimation(0,"stand",true);
 	ut->setPosition(950,450);
+	ut->setColor(Color3B::RED);
 	m_Layer = lay;
 	m_curChokeEvent = NULL;
 	m_curEvent = NULL;
@@ -222,12 +223,6 @@ void UtilManage::createTree()
 		if(rt.equals(Rect::ZERO))
 		{
 			return false;
-		}
-		if(!m_Layer->getChildByTag(222))
-		{
-			DrawNode * draw = DrawNode::create();
-			draw->drawRect(rt.origin,Vec2(rt.getMaxX(),rt.getMaxY()),Color4F::RED);
-			m_Layer->addChild(draw,0,222);
 		}
 
 		if(rt.intersectsRect(ut->getTarget()->getSkeletonBoundingBox("UtilBoundingBox")) )

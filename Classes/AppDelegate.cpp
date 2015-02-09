@@ -42,7 +42,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	FileUtils::getInstance()->addSearchPath("map/");
 	FileUtils::getInstance()->addSearchPath("fonts/");
     // create a scene. it's an autorelease object
-    auto scene = batterScene::createScene();
+    auto scene = HelloWorld::createScene();
 
     // run
     director->runWithScene(scene);

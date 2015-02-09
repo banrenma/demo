@@ -60,6 +60,9 @@
     <ClCompile Include="..\Classes\BehaveTree.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\aStar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -105,6 +108,9 @@
       <Filter>src\sqlite</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\BehaveTree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\aStar.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
