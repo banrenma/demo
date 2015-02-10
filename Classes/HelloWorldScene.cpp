@@ -40,18 +40,32 @@ bool HelloWorld::init()
 
 	//
 	DrawNode * drawNode = DrawNode::create();
-	for(int i =origin.x; i < gameSize.width; i+=(gameSize.width - i)>24?24:(gameSize.width - i))
+	int width = gameSize.width,height = gameSize.height;
+	int maxx = width % 24 == 0 ? width/24:width/24 +1;
+	int maxy = height % 24 == 0 ? height/24:height/24 +1;
+	for(int i =0; i < maxx; i++)
 	{
-		drawNode->drawLine(Vec2(i,origin.y),Vec2(i,gameSize.height),Color4F(0.65f, 0.65f, 0.65f, 0.5));
+		drawNode->drawLine(Vec2(i*24,0),Vec2(i*24,height),Color4F(0.65f, 0.65f, 0.65f, 0.5));
 	}
-	for(int i =origin.y; i < gameSize.height; i+=(gameSize.height - i)>24?24:(gameSize.height - i))
+	for(int i =0; i <maxy; i++)
 	{
-		drawNode->drawLine(Vec2(origin.x,i),Vec2(gameSize.width,i),Color4F(0.65f, 0.65f, 0.65f, 0.5));
+		drawNode->drawLine(Vec2(origin.x,i*24),Vec2(gameSize.width,i*24),Color4F(0.65f, 0.65f, 0.65f, 0.5));
 	}	
+
+	m_pMap = new MapData(maxx,maxy);
+	m_star = new aStar(m_pMap);
+
+
 	//drawNode->drawLine(Vec2(0,150),Vec2(1280,150),Color4F::GREEN);
 
 	this->addChild(drawNode);
 
+	DrawNode * drawNode1 = DrawNode::create();
+	DrawNode * drawNode2 = DrawNode::create();
+	DrawNode * drawNode3 = DrawNode::create();
+	this->addChild(drawNode1,0,331);
+	this->addChild(drawNode2,0,332);
+	this->addChild(drawNode3,0,333);
 	//NSkeletonDataCache * pCache = NSkeletonDataCache::getInstance();
 
 	//pCache->AddSkeletonDataCache("1001.json","1001.atlas",1001);
@@ -117,8 +131,8 @@ bool HelloWorld::init()
 	//db test
 
 
-	
-	
+	setTouchEnabled(true);
+	setTouchMode(cocos2d::Touch::DispatchMode::ONE_BY_ONE);
 
     return true;
 }
@@ -129,40 +143,120 @@ bool HelloWorld::init()
 	  Button * bt = dynamic_cast<Button *>(btn);
 	  if(bt->getTag() == 1)
 	  {
-		  log("1111111111111111111111111111111");
-		  ut->setAnimation(0,"walk",true);
-		  ut->addAnimation(0,"attack11",false);
+		    log("1111111111111111111111111111111");
+		 /* ut->setAnimation(0,"walk",true);
+		  ut->addAnimation(0,"attack11",false);*/
+		  m_mode = 1;
+		   DrawNode * draw1 = (DrawNode *)this->getChildByTag(331);
+		   draw1->clear();
+		   m_pMap->resetGridWeight();
+
 	  }
 	  else if(bt->getTag() == 2)
 	  {
-		  log("1111111111111111111111111111111");
+
+
+
+		  /*	  log("1111111111111111111111111111111");
 		  spTrackEntry* entry = ut->setAnimation(0,"attack11",false);
 		  ut->setTrackEventListener(entry,[=](int trackIndex, spEvent* event){
-			  if(strcmp(event->data->name,"attack") == 0)
-			  {
-				  log("attack event");
-				 
+		  if(strcmp(event->data->name,"attack") == 0)
+		  {
+		  log("attack event");
 
-				  NSpineExt* node = NSpineExt::create(2001);
-				  node->setAnimation(0,"animation",false);
-				 ut->getBeforeSkeletonNode()->addChild(node);
 
-				  ClippingNode * nd = ClippingNode::create(node);
-				  LayerColor * color = LayerColor::create(Color4B(0,0,0,128),1280,720);
-				  nd->addChild(color);
-					nd->setInverted(true);
-					nd->setAlphaThreshold(0.5);
-				  this->addChild(nd,0,10);
-			  }
-			  if(strcmp(event->data->name,"attakcend") == 0)
-			  {
-				  log("attakcend event");
-				  ut->getBeforeSkeletonNode()->removeAllChildrenWithCleanup(true);
-				  this->removeChildByTag(10,true);
-			  }
-		  });
-	
+		  NSpineExt* node = NSpineExt::create(2001);
+		  node->setAnimation(0,"animation",false);
+		  ut->getBeforeSkeletonNode()->addChild(node);
+
+		  ClippingNode * nd = ClippingNode::create(node);
+		  LayerColor * color = LayerColor::create(Color4B(0,0,0,128),1280,720);
+		  nd->addChild(color);
+		  nd->setInverted(true);
+		  nd->setAlphaThreshold(0.5);
+		  this->addChild(nd,0,10);
+		  }
+		  if(strcmp(event->data->name,"attakcend") == 0)
+		  {
+		  log("attakcend event");
+		  ut->getBeforeSkeletonNode()->removeAllChildrenWithCleanup(true);
+		  this->removeChildByTag(10,true);
+		  }
+		  });*/
+		m_mode = 2;
+		m_starPt.clear();
+		DrawNode * draw2 = (DrawNode *)this->getChildByTag(332);
+		draw2->clear();
+		DrawNode * draw3 = (DrawNode *)this->getChildByTag(333);
+		draw3->clear();
 
 	  }
+
+  }
+
+  bool HelloWorld::onTouchBegan( Touch *touch, Event *unused_event )
+  {
+	  return true;
+  }
+
+  void HelloWorld::onTouchMoved( Touch *touch, Event *unused_event )
+  {
+	  Vec2 pt = touch->getLocation();
+	  Vec2 grid;
+	  grid.x = (int)(pt.x/24);
+	  grid.y = (int)(pt.y/24);
+	  DrawNode * draw1 = (DrawNode *)this->getChildByTag(331);
+	  if(m_mode == 1)
+	  {
+		  if(m_pMap->getGridWeight(grid) != 200)
+		  {
+			  m_pMap->setGridWeight(grid,200);
+			  draw1->drawSolidRect(Vec2(grid.x*24,grid.y*24),Vec2((grid.x+1)*24,(grid.y+1)*24),Color4F(0,0,0,1));
+		  }
+
+	  }
+
+	  
+  }
+
+  void HelloWorld::onTouchEnded( Touch *touch, Event *unused_event )
+  {
+	  if(m_mode == 2)
+	  {
+		  Vec2 pt = touch->getLocation();
+		  Vec2 grid;
+		  grid.x = (int)(pt.x/24);
+		  grid.y = (int)(pt.y/24);
+		  DrawNode * draw2 = (DrawNode *)this->getChildByTag(332);
+		  DrawNode * draw3 = (DrawNode *)this->getChildByTag(333);
+		  if(m_starPt.size()<2)
+		  {
+			  draw2->drawSolidRect(Vec2(grid.x*24,grid.y*24),Vec2((grid.x+1)*24,(grid.y+1)*24),Color4F::GREEN);
+
+			  m_starPt.push_back(grid);
+			  if(m_starPt.size() == 2)
+			  {
+				  struct timeval now;
+				  gettimeofday(&now, nullptr);  
+					printf("begin time sec %ld %ld",now.tv_sec,now.tv_usec);
+					std::vector<Vec2> path;
+					/*	for(int j=0;j<100;j++)
+					{*/
+					  path = m_star->BeginSearchPath(m_starPt[0],m_starPt[1]);
+				/*  }*/
+				  gettimeofday(&now, nullptr);  
+				  printf("begin time sec %ld %ld",now.tv_sec,now.tv_usec);
+				  path.erase(path.begin());
+				  path.erase(path.end()-1);
+				  for(int k = 0; k < path.size();k++)
+				  {
+					  Vec2 temppt = path[k];
+					  draw2->drawSolidRect(Vec2(temppt.x*24,temppt.y*24),Vec2((temppt.x+1)*24,(temppt.y+1)*24),Color4F::RED);
+
+				  }
+			  }
+		  }
+	  }
+
 
   }
