@@ -71,7 +71,6 @@ bool HelloWorld::init()
 	//pCache->AddSkeletonDataCache("1001.json","1001.atlas",1001);
 	NSkeletonDataCache * pCache = NSkeletonDataCache::getInstance();
 	UtilBaseData data1(2001,"2001.json","2001.atlas");
-
 	pCache->AddSkeletonDataCache(data1);
 	//NSpineExt* node = NSpineExt::create(1001);
 	//this->addChild(node);
@@ -114,7 +113,7 @@ bool HelloWorld::init()
 	const char * aa[MAX_SKILL_NUM] = {{"walk"},{"aaa"}};
 
 
-	UtilData data(1001,2000,100,10,0,"1001.json", "1001.atlas",aa);
+	UtilData data(1002,2000,100,10,0,"1002.json", "1002.atlas",aa);
 
 	 ut = Util::create(data);
 	ut->setPosition(200,200);
@@ -144,18 +143,19 @@ bool HelloWorld::init()
 	  if(bt->getTag() == 1)
 	  {
 		    log("1111111111111111111111111111111");
-		 /* ut->setAnimation(0,"walk",true);
-		  ut->addAnimation(0,"attack11",false);*/
-		  m_mode = 1;
-		   DrawNode * draw1 = (DrawNode *)this->getChildByTag(331);
-		   draw1->clear();
-		   m_pMap->resetGridWeight();
+		  ut->setAnimation(0,"attack01",true);
+		  ut->setMix("attack01","hit",0.8);
+		  //ut->addAnimation(0,"attack11",false);
+		  //m_mode = 1;
+		  // DrawNode * draw1 = (DrawNode *)this->getChildByTag(331);
+		  // draw1->clear();
+		  // m_pMap->resetGridWeight();
 
 	  }
 	  else if(bt->getTag() == 2)
 	  {
 
-
+		  ut->addAnimation(1,"hit",false);
 
 		  /*	  log("1111111111111111111111111111111");
 		  spTrackEntry* entry = ut->setAnimation(0,"attack11",false);
@@ -183,12 +183,12 @@ bool HelloWorld::init()
 		  this->removeChildByTag(10,true);
 		  }
 		  });*/
-		m_mode = 2;
-		m_starPt.clear();
-		DrawNode * draw2 = (DrawNode *)this->getChildByTag(332);
-		draw2->clear();
-		DrawNode * draw3 = (DrawNode *)this->getChildByTag(333);
-		draw3->clear();
+		  /*	m_mode = 2;
+		  m_starPt.clear();
+		  DrawNode * draw2 = (DrawNode *)this->getChildByTag(332);
+		  draw2->clear();
+		  DrawNode * draw3 = (DrawNode *)this->getChildByTag(333);
+		  draw3->clear();*/
 
 	  }
 

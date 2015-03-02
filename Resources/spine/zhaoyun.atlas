@@ -1,5 +1,5 @@
 
-1002.png
+zhaoyun.png
 size: 341,139
 format: RGBA8888
 filter: Linear,Linear
@@ -277,7 +277,7 @@ right_upper_leg
   orig: 31, 26
   offset: 0, 0
   index: -1
-right_upper_leg 02
+right_upper_leg 02 
   rotate: false
   xy: 252, 60
   size: 27, 25
